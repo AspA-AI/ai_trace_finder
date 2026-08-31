@@ -1,0 +1,409 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_08d91cbe03ec",
+  "run_id": "run_a10d63541fce",
+  "started_at": "2026-08-31T11:40:20.579341+00:00",
+  "completed_at": "2026-08-31T11:41:28.470155+00:00",
+  "clues": {
+    "name": "Olivia Dean",
+    "usernames": [],
+    "occupation": "Teacher",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T11:40:20.579595+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Olivia Dean\"",
+          "\"Olivia Dean\" Teacher"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T11:40:21.044958+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_08d91cbe03ec",
+        "run_id": "run_a10d63541fce"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T11:40:21.045019+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T11:40:21.045028+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Olivia Dean\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T11:40:22.992904+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Olivia Dean\"",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T11:40:22.992925+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Olivia Dean\" Teacher"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T11:40:24.288535+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Olivia Dean\" Teacher",
+        "result_count": 4,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T11:40:24.288724+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 10
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T11:40:26.364130+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Olivia_Dean",
+        "source_id": "src_60707094736b864c",
+        "cache_hit": true,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T11:40:31.713506+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_60707094736b864c",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T11:40:33.951068+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T11:40:39.783700+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_82a6c5cb0ff40b95",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T11:40:42.563133+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.oliviadeano.com/",
+        "source_id": "src_72fbd75961f48673",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T11:40:46.504679+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_72fbd75961f48673",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T11:40:50.207960+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.nylon.com/entertainment/olivia-dean-tour-man-i-need-the-art-of-loving-interview",
+        "source_id": "src_795ca2025606b419",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T11:40:57.926513+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_795ca2025606b419",
+        "candidate_observation_count": 12,
+        "accepted_observation_count": 12
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T11:41:01.444062+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/oliviadeanmusic",
+        "source_id": "src_3c7a1b35d4695ac2",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T11:41:02.695394+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3c7a1b35d4695ac2",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T11:41:04.051606+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "source_id": "src_1ddbf970a1414cb8",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T11:41:08.158081+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1ddbf970a1414cb8",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T11:41:11.129507+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/channel/UCT3cEUoL1X0_BxN6q7LVH1w",
+        "source_id": "src_be94ebd2df7013ad",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T11:41:12.377063+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_be94ebd2df7013ad",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T11:41:15.082666+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.hellomagazine.com/celebrities/886563/grounded-olivia-dean-destined-great-success",
+        "source_id": "src_999368005dad3385",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T11:41:20.805265+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_999368005dad3385",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T11:41:21.954885+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://uk.linkedin.com/in/olivia-dean-469b68299",
+        "error": "Invalid status code '999 <none>' for url 'https://uk.linkedin.com/in/olivia-dean-469b68299'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T11:41:25.804427+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/reel/DTlbaqCjfvl",
+        "source_id": "src_ea48357f1a034a66",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T11:41:26.435271+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ea48357f1a034a66",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T11:41:28.470221+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 39,
+        "retrieved_source_count": 6,
+        "error_count": 1,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 10,
+    "retrieved_source_count": 6,
+    "observation_count": 39,
+    "error_count": 1
+  }
+}

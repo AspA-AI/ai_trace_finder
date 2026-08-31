@@ -1,0 +1,1585 @@
+{
+  "report_type": "baseline_agent_comparison",
+  "generated_at": "2026-08-30T12:41:54.639708+00:00",
+  "baseline_report_path": "backend/artifacts/evaluation/baseline.json",
+  "hybrid_cases": [
+    {
+      "case_id": "clear_public_professional_identity",
+      "description": "Simon Willison with public GitHub handle, website, and professional profiles.",
+      "expected_behavior": [
+        "explicit cross-links may be VERIFIED",
+        "weak claim-only links remain UNKNOWN"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_58b23805b6e4",
+      "verification_run_id": "verify_b260719c5ff5",
+      "artifact_generated_at": "2026-08-29T19:17:11.637945+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 67,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 3,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 1,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 4,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "resolved",
+          "expected": [
+            "resolved"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 54,
+        "candidates": 67,
+        "comparisons": 67,
+        "identity_links": 66,
+        "positive_identity_links": 4,
+        "verified": 3,
+        "probable": 1,
+        "unknown": 63,
+        "contradicted": 0,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "resolved",
+        "source_count": 12,
+        "candidate_profile_count": 9
+      },
+      "ground_truth": {
+        "expected_verdict": "resolved",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 1,
+        "minimum_verified": 1,
+        "maximum_probable": 1,
+        "profile_statuses": [
+          "resolved"
+        ]
+      },
+      "verdict": "resolved"
+    },
+    {
+      "case_id": "common_name_identity_collision",
+      "description": "John Smith with no disambiguating clues; multiple unrelated public profiles are expected.",
+      "expected_behavior": [
+        "multiple candidates",
+        "no forced identity merge",
+        "contradictions or UNKNOWN are acceptable"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_ccbafc817943",
+      "verification_run_id": "verify_b41ffb69ec05",
+      "artifact_generated_at": "2026-08-29T19:17:19.524201+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 10,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 4,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 43,
+        "candidates": 10,
+        "comparisons": 10,
+        "identity_links": 10,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 6,
+        "contradicted": 4,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 5,
+        "candidate_profile_count": 5
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 1,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_chris_lee_austin",
+      "description": "Chris Lee query constrained to software engineering and Austin; retrieval returns unrelated entertainment and engineering profiles with no cross-source identity anchor.",
+      "expected_behavior": [
+        "do not merge entertainment and engineering sources without an anchor",
+        "preserve unresolved sources",
+        "record contradictions"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_99f062580a2a",
+      "verification_run_id": "verify_e9c36e329e2a",
+      "artifact_generated_at": "2026-08-29T19:59:21.429244+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 12,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 4,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 20,
+        "candidates": 12,
+        "comparisons": 12,
+        "identity_links": 10,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 8,
+        "contradicted": 4,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 5,
+        "candidate_profile_count": 5
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 1,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_michael_smith_austin",
+      "description": "Michael Smith query constrained to software engineering and Austin; retrieval returns unrelated public figures and multiple engineering profiles with no identity anchor across sources.",
+      "expected_behavior": [
+        "do not merge unrelated same-name sources",
+        "preserve unresolved sources",
+        "record contradictions"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_3825cf76a8e9",
+      "verification_run_id": "verify_d9d213e2bf2a",
+      "artifact_generated_at": "2026-08-29T20:01:21.597021+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 35,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 6,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 37,
+        "candidates": 35,
+        "comparisons": 35,
+        "identity_links": 15,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 29,
+        "contradicted": 6,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 6,
+        "candidate_profile_count": 6
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 1,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_jordan_lee_seattle",
+      "description": "Jordan Lee software-engineer search constrained to Seattle; multiple unrelated profiles were retrieved without an identity anchor.",
+      "expected_behavior": [
+        "do not merge same-name profiles without an anchor",
+        "preserve unresolved sources"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_bfb516c6839c",
+      "verification_run_id": "verify_0b4179966d4f",
+      "artifact_generated_at": "2026-08-29T20:10:40.928752+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 104,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 5,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 81,
+        "candidates": 104,
+        "comparisons": 104,
+        "identity_links": 28,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 99,
+        "contradicted": 5,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 8,
+        "candidate_profile_count": 8
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_taylor_brown_austin",
+      "description": "Taylor Brown software-engineer search constrained to Austin; similar-name sources have no verified cross-link.",
+      "expected_behavior": [
+        "do not merge same-name profiles without an anchor",
+        "preserve unresolved sources"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_157e64f483f2",
+      "verification_run_id": "verify_55db1483323d",
+      "artifact_generated_at": "2026-08-29T20:10:51.882906+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 45,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 10,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 44,
+        "candidates": 45,
+        "comparisons": 45,
+        "identity_links": 21,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 35,
+        "contradicted": 10,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 7,
+        "candidate_profile_count": 7
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_david_kim_seattle",
+      "description": "David Kim software-engineer search constrained to Seattle; sources remain separate without identity evidence.",
+      "expected_behavior": [
+        "do not merge same-name profiles without an anchor",
+        "preserve unresolved sources"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_ae10237e95a4",
+      "verification_run_id": "verify_5db8513f88fa",
+      "artifact_generated_at": "2026-08-29T20:11:03.055857+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 38,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 8,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 39,
+        "candidates": 38,
+        "comparisons": 38,
+        "identity_links": 28,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 30,
+        "contradicted": 8,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 8,
+        "candidate_profile_count": 8
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_jamie_chen_toronto",
+      "description": "Jamie Chen software-developer search constrained to Toronto; retrieved sources provide insufficient identity linkage.",
+      "expected_behavior": [
+        "do not merge same-name profiles without an anchor",
+        "preserve unresolved sources"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_f1c15baa8502",
+      "verification_run_id": "verify_001eb4a1e6c3",
+      "artifact_generated_at": "2026-08-29T20:11:14.858537+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 11,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 5,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 15,
+        "candidates": 11,
+        "comparisons": 11,
+        "identity_links": 10,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 6,
+        "contradicted": 5,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 5,
+        "candidate_profile_count": 5
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_alex_johnson_austin",
+      "description": "Alex Johnson software-engineer search constrained to Austin; multiple sources lack a shared identity anchor.",
+      "expected_behavior": [
+        "do not merge same-name profiles without an anchor",
+        "preserve unresolved sources"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_1e4695465fc6",
+      "verification_run_id": "verify_c32b4ecf59ff",
+      "artifact_generated_at": "2026-08-29T20:11:25.513884+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 37,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 8,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 45,
+        "candidates": 37,
+        "comparisons": 37,
+        "identity_links": 36,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 29,
+        "contradicted": 8,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 9,
+        "candidate_profile_count": 9
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ambiguous_sam_lee_new_york",
+      "description": "Sam Lee software-engineer search constrained to New York; sources remain unlinked and unresolved.",
+      "expected_behavior": [
+        "do not merge same-name profiles without an anchor",
+        "preserve unresolved sources"
+      ],
+      "reviewer_rationale": null,
+      "investigation_id": "inv_9ffbc558dfe7",
+      "verification_run_id": "verify_7af943c624c0",
+      "artifact_generated_at": "2026-08-29T20:11:30.948629+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 3,
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 17,
+        "candidates": 3,
+        "comparisons": 3,
+        "identity_links": 3,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 3,
+        "contradicted": 0,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 3,
+        "candidate_profile_count": 3
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 2,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "ekram_yeshanew_software_developer",
+      "description": "Ekram Yeshanew software-developer search; retrieved public results did not produce accepted source-grounded observations.",
+      "expected_behavior": [
+        "do not infer identity from name and occupation alone",
+        "abstain when observations are unavailable",
+        "preserve retrieval errors"
+      ],
+      "reviewer_rationale": "The run returned public search results but no accepted observations, so the correct evaluation outcome is uncertainty rather than an identity merge.",
+      "investigation_id": "inv_4699fe9b8ce5",
+      "verification_run_id": "verify_93be34c02b25",
+      "artifact_generated_at": "2026-08-30T12:25:51.817673+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 0,
+        "candidates": 0,
+        "comparisons": 0,
+        "identity_links": 0,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 0,
+        "contradicted": 0,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 0,
+        "candidate_profile_count": 0
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 0,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "olivia_dean_singer",
+      "description": "Olivia Dean singer search; retrieved observations were not sufficient to establish a verified identity link.",
+      "expected_behavior": [
+        "retain source observations",
+        "do not convert name and occupation into a verified identity",
+        "abstain without an identity anchor"
+      ],
+      "reviewer_rationale": "The sources describe a singer with this name, but the saved verification result contains no verified or probable identity link; the measured verdict remains uncertain.",
+      "investigation_id": "inv_3a1b57a84c5a",
+      "verification_run_id": "verify_be77567293b4",
+      "artifact_generated_at": "2026-08-30T12:28:34.280572+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 27,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 27,
+        "candidates": 27,
+        "comparisons": 27,
+        "identity_links": 15,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 27,
+        "contradicted": 0,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 6,
+        "candidate_profile_count": 6
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 1,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "michael_tamire_salesman",
+      "description": "Michael Tamire salesman search; multiple observations were retrieved but no identity anchor verified the target profile.",
+      "expected_behavior": [
+        "keep candidate sources separate",
+        "do not treat name and occupation as identity proof",
+        "abstain without a verified link"
+      ],
+      "reviewer_rationale": "The run generated candidates and observations, but all verification links remained UNKNOWN; uncertainty is the appropriate ground-truth outcome.",
+      "investigation_id": "inv_3661b2b4d217",
+      "verification_run_id": "verify_82c0e07e553a",
+      "artifact_generated_at": "2026-08-30T12:31:53.883468+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 65,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 20,
+        "candidates": 65,
+        "comparisons": 65,
+        "identity_links": 10,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 65,
+        "contradicted": 0,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 5,
+        "candidate_profile_count": 5
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 1,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 0,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "steve_jobs_developer",
+      "description": "Steve Jobs developer search; public name familiarity must not replace source-grounded identity verification.",
+      "expected_behavior": [
+        "do not use fame or outside knowledge as evidence",
+        "retain contradictory comparisons",
+        "abstain without a verified identity link"
+      ],
+      "reviewer_rationale": "This is a positive-control stress case: the name is famous, but the evaluation uses only retrieved source evidence and the saved run produced no verified identity link.",
+      "investigation_id": "inv_3c5ab26b23d8",
+      "verification_run_id": "verify_271405c7958b",
+      "artifact_generated_at": "2026-08-30T12:36:34.995924+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 4,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 1,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 16,
+        "candidates": 4,
+        "comparisons": 4,
+        "identity_links": 3,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 3,
+        "contradicted": 1,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 3,
+        "candidate_profile_count": 3
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 1,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 1,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    },
+    {
+      "case_id": "katie_james_ai_consultant",
+      "description": "Katie James AI-consultant search; retrieved observations contained unresolved and contradictory comparisons without a verified anchor.",
+      "expected_behavior": [
+        "preserve contradictory evidence",
+        "do not merge same-name profiles",
+        "abstain without a verified identity link"
+      ],
+      "reviewer_rationale": "The run produced observations and contradictions but no verified or probable identity link, so the safe ground-truth outcome is uncertainty.",
+      "investigation_id": "inv_bb20786c7e78",
+      "verification_run_id": "verify_b9a87e3d5eb1",
+      "artifact_generated_at": "2026-08-30T12:39:25.328438+00:00",
+      "status": "passed",
+      "passed": true,
+      "checks": [
+        {
+          "name": "minimum_candidates",
+          "actual": 19,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "minimum_verified",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "maximum_probable",
+          "actual": 0,
+          "expected": null,
+          "passed": true
+        },
+        {
+          "name": "maximum_positive_links",
+          "actual": 0,
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "name": "minimum_contradictions",
+          "actual": 2,
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "name": "profile_status",
+          "actual": "unresolved",
+          "expected": [
+            "unresolved",
+            "ambiguous"
+          ],
+          "passed": true
+        }
+      ],
+      "counts": {
+        "observations": 25,
+        "candidates": 19,
+        "comparisons": 19,
+        "identity_links": 6,
+        "positive_identity_links": 0,
+        "verified": 0,
+        "probable": 0,
+        "unknown": 17,
+        "contradicted": 2,
+        "rejected": 0
+      },
+      "profile": {
+        "status": "unresolved",
+        "source_count": 4,
+        "candidate_profile_count": 4
+      },
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      },
+      "expected": {
+        "minimum_candidates": 1,
+        "minimum_verified": 0,
+        "maximum_probable": null,
+        "maximum_positive_links": 0,
+        "minimum_contradictions": 1,
+        "profile_statuses": [
+          "unresolved",
+          "ambiguous"
+        ]
+      },
+      "verdict": "uncertain"
+    }
+  ],
+  "metrics": {
+    "simple_baseline": {
+      "correct_identity_resolution_rate": 0.6667,
+      "false_merge_rate": 0.3571,
+      "abstention_rate": 0.6,
+      "case_count": 15,
+      "false_merge_count": 5,
+      "abstention_count": 9,
+      "positive_case_count": 1,
+      "negative_case_count": 14
+    },
+    "agent_solution": {
+      "correct_identity_resolution_rate": 1.0,
+      "false_merge_rate": 0.0,
+      "abstention_rate": 0.9333,
+      "case_count": 15,
+      "false_merge_count": 0,
+      "abstention_count": 14,
+      "positive_case_count": 1,
+      "negative_case_count": 14
+    }
+  },
+  "supporting_metrics": {
+    "simple_baseline": {
+      "abstention_accuracy": {
+        "value": 0.6429,
+        "status": "measured",
+        "definition": "Correct abstentions divided by unresolved/uncertain ground-truth cases."
+      },
+      "contradiction_detection": {
+        "value": null,
+        "status": "unavailable",
+        "cases_with_expected_contradictions": 0
+      },
+      "field_accuracy": {
+        "value": null,
+        "status": "unavailable",
+        "reason": "The saved benchmark does not contain field-level ground truth, timing instrumentation, or provider billing metadata."
+      },
+      "latency": {
+        "value": null,
+        "status": "unavailable",
+        "reason": "The saved benchmark does not contain field-level ground truth, timing instrumentation, or provider billing metadata."
+      },
+      "cost_per_investigation": {
+        "value": null,
+        "status": "unavailable",
+        "reason": "The saved benchmark does not contain field-level ground truth, timing instrumentation, or provider billing metadata."
+      }
+    },
+    "agent_solution": {
+      "abstention_accuracy": {
+        "value": 1.0,
+        "status": "measured",
+        "definition": "Correct abstentions divided by unresolved/uncertain ground-truth cases."
+      },
+      "contradiction_detection": {
+        "value": 1.0,
+        "status": "measured",
+        "cases_with_expected_contradictions": 5
+      },
+      "field_accuracy": {
+        "value": null,
+        "status": "unavailable",
+        "reason": "The saved benchmark does not contain field-level ground truth, timing instrumentation, or provider billing metadata."
+      },
+      "latency": {
+        "value": null,
+        "status": "unavailable",
+        "reason": "The saved benchmark does not contain field-level ground truth, timing instrumentation, or provider billing metadata."
+      },
+      "cost_per_investigation": {
+        "value": null,
+        "status": "unavailable",
+        "reason": "The saved benchmark does not contain field-level ground truth, timing instrumentation, or provider billing metadata."
+      }
+    }
+  },
+  "comparison_table": [
+    {
+      "metric": "False identity merge rate",
+      "simple_baseline": 0.3571,
+      "agent_solution": 0.0,
+      "change_points": -35.71,
+      "change_direction": "lower_is_better"
+    },
+    {
+      "metric": "Correct identity resolution",
+      "simple_baseline": 0.6667,
+      "agent_solution": 1.0,
+      "change_points": 33.33,
+      "change_direction": "higher_is_better"
+    },
+    {
+      "metric": "Abstention rate",
+      "simple_baseline": 0.6,
+      "agent_solution": 0.9333,
+      "change_points": 33.33,
+      "change_direction": "higher_is_better"
+    }
+  ],
+  "hard_cases": [
+    {
+      "case_id": "common_name_identity_collision",
+      "description": "John Smith with no disambiguating clues; multiple unrelated public profiles are expected.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 4
+    },
+    {
+      "case_id": "ambiguous_chris_lee_austin",
+      "description": "Chris Lee query constrained to software engineering and Austin; retrieval returns unrelated entertainment and engineering profiles with no cross-source identity anchor.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 4
+    },
+    {
+      "case_id": "ambiguous_michael_smith_austin",
+      "description": "Michael Smith query constrained to software engineering and Austin; retrieval returns unrelated public figures and multiple engineering profiles with no identity anchor across sources.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 6
+    },
+    {
+      "case_id": "ambiguous_jordan_lee_seattle",
+      "description": "Jordan Lee software-engineer search constrained to Seattle; multiple unrelated profiles were retrieved without an identity anchor.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "resolved",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": true,
+      "trace_false_merge": false,
+      "trace_contradictions": 5
+    },
+    {
+      "case_id": "ambiguous_taylor_brown_austin",
+      "description": "Taylor Brown software-engineer search constrained to Austin; similar-name sources have no verified cross-link.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 10
+    },
+    {
+      "case_id": "ambiguous_david_kim_seattle",
+      "description": "David Kim software-engineer search constrained to Seattle; sources remain separate without identity evidence.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 8
+    },
+    {
+      "case_id": "ambiguous_jamie_chen_toronto",
+      "description": "Jamie Chen software-developer search constrained to Toronto; retrieved sources provide insufficient identity linkage.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 5
+    },
+    {
+      "case_id": "ambiguous_alex_johnson_austin",
+      "description": "Alex Johnson software-engineer search constrained to Austin; multiple sources lack a shared identity anchor.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 8
+    },
+    {
+      "case_id": "ambiguous_sam_lee_new_york",
+      "description": "Sam Lee software-engineer search constrained to New York; sources remain unlinked and unresolved.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 0
+    },
+    {
+      "case_id": "ekram_yeshanew_software_developer",
+      "description": "Ekram Yeshanew software-developer search; retrieved public results did not produce accepted source-grounded observations.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "uncertain",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": false,
+      "trace_false_merge": false,
+      "trace_contradictions": 0
+    },
+    {
+      "case_id": "olivia_dean_singer",
+      "description": "Olivia Dean singer search; retrieved observations were not sufficient to establish a verified identity link.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "resolved",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": true,
+      "trace_false_merge": false,
+      "trace_contradictions": 0
+    },
+    {
+      "case_id": "michael_tamire_salesman",
+      "description": "Michael Tamire salesman search; multiple observations were retrieved but no identity anchor verified the target profile.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "resolved",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": true,
+      "trace_false_merge": false,
+      "trace_contradictions": 0
+    },
+    {
+      "case_id": "steve_jobs_developer",
+      "description": "Steve Jobs developer search; public name familiarity must not replace source-grounded identity verification.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "resolved",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": true,
+      "trace_false_merge": false,
+      "trace_contradictions": 1
+    },
+    {
+      "case_id": "katie_james_ai_consultant",
+      "description": "Katie James AI-consultant search; retrieved observations contained unresolved and contradictory comparisons without a verified anchor.",
+      "expected_verdict": "uncertain",
+      "simple_baseline_verdict": "resolved",
+      "trace_verdict": "uncertain",
+      "baseline_false_merge": true,
+      "trace_false_merge": false,
+      "trace_contradictions": 2
+    }
+  ],
+  "challenging_case": {
+    "case_id": "ambiguous_jordan_lee_seattle",
+    "what_it_revealed": "A common name plus overlapping location and software-engineering signals tempted the baseline to merge sources despite conflicting role and employer evidence. TRACE abstained, preserving separate unresolved profiles; this is safer than a confident false identity merge."
+  },
+  "notes": [
+    "The baseline is intentionally one direct LLM call over all saved observations and has no candidate, authority, confidence, or deterministic verification logic.",
+    "False identity merge rate is the primary safety metric.",
+    "Field accuracy, latency, and cost require field-level labels, timing instrumentation, and provider usage metadata; they are explicitly unavailable in this saved benchmark.",
+    "Fifteen labeled cases meet the hackathon target; further cases would strengthen production-calibrated metrics."
+  ],
+  "report_path": "backend/artifacts/evaluation/comparison.json"
+}

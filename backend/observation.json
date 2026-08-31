@@ -1,0 +1,1813 @@
+{
+  "investigation_id": "inv_1c1280ee087a",
+  "candidate_count": 86,
+  "verification_count": 86,
+  "results": [
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_b6a7d8aabeb3a3d2"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_733300a9e43b0192",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_733300a9e43b0192"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_e99164c1d1e5a39f",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_e99164c1d1e5a39f"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_6eaa99112d440d93",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_6eaa99112d440d93"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_82d5b758d58952d9",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_82d5b758d58952d9"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_e0ce4cdc5d09e149",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_e0ce4cdc5d09e149"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_61432caf10e25b70",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_61432caf10e25b70"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_9acf2280f2066d47",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_9acf2280f2066d47"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c72c95b842248c26",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c72c95b842248c26",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_b6a7d8aabeb3a3d2"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_733300a9e43b0192",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_733300a9e43b0192"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_e99164c1d1e5a39f",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_e99164c1d1e5a39f"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_6eaa99112d440d93",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_6eaa99112d440d93"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_82d5b758d58952d9",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_82d5b758d58952d9"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_e0ce4cdc5d09e149",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_e0ce4cdc5d09e149"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_61432caf10e25b70",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_61432caf10e25b70"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_9acf2280f2066d47",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_9acf2280f2066d47"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_c8a4a3d1b1e5cb3a",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_e99164c1d1e5a39f",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_e99164c1d1e5a39f"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_6eaa99112d440d93",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_6eaa99112d440d93"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_82d5b758d58952d9",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_82d5b758d58952d9"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_e0ce4cdc5d09e149",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_e0ce4cdc5d09e149"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_61432caf10e25b70",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_61432caf10e25b70"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_9acf2280f2066d47",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_9acf2280f2066d47"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_b6a7d8aabeb3a3d2",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_e99164c1d1e5a39f",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_e99164c1d1e5a39f"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_6eaa99112d440d93",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_6eaa99112d440d93"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_82d5b758d58952d9",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_82d5b758d58952d9"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_e0ce4cdc5d09e149",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_e0ce4cdc5d09e149"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_61432caf10e25b70",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_61432caf10e25b70"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_9acf2280f2066d47",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_9acf2280f2066d47"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_733300a9e43b0192",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_733300a9e43b0192",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e99164c1d1e5a39f",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e99164c1d1e5a39f",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e99164c1d1e5a39f",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e99164c1d1e5a39f",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e99164c1d1e5a39f",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e99164c1d1e5a39f",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e99164c1d1e5a39f",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e99164c1d1e5a39f",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e99164c1d1e5a39f",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e99164c1d1e5a39f",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_6eaa99112d440d93",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_6eaa99112d440d93",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_6eaa99112d440d93",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_6eaa99112d440d93",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_6eaa99112d440d93",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_6eaa99112d440d93",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_6eaa99112d440d93",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_6eaa99112d440d93",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_6eaa99112d440d93",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_6eaa99112d440d93",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_82d5b758d58952d9",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_82d5b758d58952d9",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_82d5b758d58952d9",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_82d5b758d58952d9",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_82d5b758d58952d9",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_82d5b758d58952d9",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_82d5b758d58952d9",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_82d5b758d58952d9",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_82d5b758d58952d9",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_82d5b758d58952d9",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e0ce4cdc5d09e149",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e0ce4cdc5d09e149",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e0ce4cdc5d09e149",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e0ce4cdc5d09e149",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e0ce4cdc5d09e149",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e0ce4cdc5d09e149",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e0ce4cdc5d09e149",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e0ce4cdc5d09e149",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_e0ce4cdc5d09e149",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_e0ce4cdc5d09e149",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_61432caf10e25b70",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_61432caf10e25b70",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_61432caf10e25b70",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_61432caf10e25b70",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_61432caf10e25b70",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_61432caf10e25b70",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_61432caf10e25b70",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_61432caf10e25b70",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_61432caf10e25b70",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_61432caf10e25b70",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_9acf2280f2066d47",
+      "right_observation_id": "obs_62a36dbe93f421d0",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_9acf2280f2066d47",
+        "obs_62a36dbe93f421d0"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_9acf2280f2066d47",
+      "right_observation_id": "obs_d87ad6adc7fdbdfc",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_9acf2280f2066d47",
+        "obs_d87ad6adc7fdbdfc"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_9acf2280f2066d47",
+      "right_observation_id": "obs_cb2d98a7d0999d85",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_9acf2280f2066d47",
+        "obs_cb2d98a7d0999d85"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_9acf2280f2066d47",
+      "right_observation_id": "obs_a62315be08105d9b",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_9acf2280f2066d47",
+        "obs_a62315be08105d9b"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_9acf2280f2066d47",
+      "right_observation_id": "obs_90d9c327bf11a461",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_9acf2280f2066d47",
+        "obs_90d9c327bf11a461"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_62a36dbe93f421d0",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_62a36dbe93f421d0",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_62a36dbe93f421d0",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_62a36dbe93f421d0",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_d87ad6adc7fdbdfc",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_d87ad6adc7fdbdfc",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_d87ad6adc7fdbdfc",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_d87ad6adc7fdbdfc",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_cb2d98a7d0999d85",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_cb2d98a7d0999d85",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_cb2d98a7d0999d85",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_cb2d98a7d0999d85",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_a62315be08105d9b",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_a62315be08105d9b",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_a62315be08105d9b",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_a62315be08105d9b",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_90d9c327bf11a461",
+      "right_observation_id": "obs_f7579bc599d81862",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_90d9c327bf11a461",
+        "obs_f7579bc599d81862"
+      ],
+      "verifier_version": "deterministic-1.0"
+    },
+    {
+      "left_observation_id": "obs_90d9c327bf11a461",
+      "right_observation_id": "obs_38796f51f7eeeeb8",
+      "state": "PROBABLE",
+      "deterministic_decision": "MATCH",
+      "feature_values": {
+        "same_normalized_subject": true,
+        "same_predicate": false,
+        "same_normalized_object": false,
+        "conflicting_object": false,
+        "different_source": true
+      },
+      "reason_codes": [
+        "SAME_NORMALIZED_SUBJECT"
+      ],
+      "supporting_observation_ids": [
+        "obs_90d9c327bf11a461",
+        "obs_38796f51f7eeeeb8"
+      ],
+      "verifier_version": "deterministic-1.0"
+    }
+  ]
+}

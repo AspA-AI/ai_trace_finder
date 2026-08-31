@@ -1,0 +1,468 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_3661b2b4d217",
+  "run_id": "run_f19be6fa4bfe",
+  "started_at": "2026-08-30T12:28:36.949695+00:00",
+  "completed_at": "2026-08-30T12:31:36.100282+00:00",
+  "clues": {
+    "name": "Michael Tamire",
+    "usernames": [],
+    "occupation": "salesman",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-30T12:28:36.949739+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Michael Tamire\"",
+          "\"Michael Tamire\" salesman"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-30T12:28:39.436568+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_3661b2b4d217",
+        "run_id": "run_f19be6fa4bfe"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-30T12:28:39.436638+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-30T12:28:39.436644+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Michael Tamire\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-30T12:28:41.069282+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Michael Tamire\"",
+        "result_count": 9,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-30T12:28:41.069307+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Michael Tamire\" salesman"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-30T12:28:42.589847+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Michael Tamire\" salesman",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-30T12:28:42.590004+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 14
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-30T12:28:56.666262+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=g15ahVy44kw",
+        "source_id": "src_2b569d13b2b2d3be",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-30T12:28:58.157135+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_2b569d13b2b2d3be",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-30T12:29:11.200871+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/michael.tamire.9",
+        "source_id": "src_4cc090fc9c764ad5",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-30T12:29:12.255314+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4cc090fc9c764ad5",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-30T12:29:24.100604+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://borkena.com/actor-michael-tamire-talks-about-his-acting-career-yegir-esat-drama",
+        "source_id": "src_69bff964ff6a8be2",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-30T12:29:27.928718+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_69bff964ff6a8be2",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-30T12:29:41.568552+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=WDaQS0QCjFc",
+        "source_id": "src_99314f4bdda1fb50",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-30T12:29:42.649095+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_99314f4bdda1fb50",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-30T12:29:56.599135+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://ethiopiansmovies.com/category/actors/michael-tamire",
+        "source_id": "src_9bac128f67cbf650",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-30T12:30:06.256326+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9bac128f67cbf650",
+        "candidate_observation_count": 12,
+        "accepted_observation_count": 12
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-30T12:30:10.121561+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://et.linkedin.com/in/michael-tamire-347023189",
+        "error": "Invalid status code '999 <none>' for url 'https://et.linkedin.com/in/michael-tamire-347023189'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-30T12:30:22.754175+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/michael.tamire",
+        "source_id": "src_2131e8b1577f936b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-30T12:30:24.271099+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_2131e8b1577f936b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-30T12:30:27.983012+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=FOxmWkoVc8I",
+        "error": "Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DFOxmWkoVc8I&q=EgRU_HE9GOPE0NQGIjD6VR3-wCS0aItcAWM5WAr9X6gcXiDjirsRFiZprZHT921jUpjNXYqgNGJ8r7RkcTMyAnJSWgFD'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-30T12:30:31.338220+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=5gq8QY5zqCI",
+        "error": "Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D5gq8QY5zqCI&q=EgRU_HE9GObE0NQGIjAuUX-tKbqDDJz_lZ8sfxazINWiH9SJ9h3vG8K03nVFSLrizoa8rERuPcPjSjmgcOAyAnJSWgFD'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-30T12:30:41.757540+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.matthews.com/agents/michael-tamir",
+        "source_id": "src_f2caaec69ac2b82e",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-30T12:30:41.757568+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f2caaec69ac2b82e",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-30T12:30:54.657645+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/prestigeaddis/posts/beyond-the-screen-with-michael-tamire-an-unforgettable-evening-with-the-legendar/853789940265969",
+        "source_id": "src_f278ad60b846d120",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-30T12:30:56.109295+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f278ad60b846d120",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-30T12:31:00.708776+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://ju.edu.et/ju-hosted-a-classic-american-play-death-of-a-salesman",
+        "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-30T12:31:12.425905+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://ethiopianmonitor.com/2023/03/07/death-of-a-salesman-american-classic-play-gets-amharic-premier",
+        "source_id": "src_479771c7b81182ca",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-30T12:31:14.232003+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_479771c7b81182ca",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-30T12:31:25.235698+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://ethiopanorama.com/?p=189756",
+        "source_id": "src_23b6843b6ff7f0e4",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-30T12:31:26.993882+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_23b6843b6ff7f0e4",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-30T12:31:36.100319+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 20,
+        "retrieved_source_count": 10,
+        "error_count": 4,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 14,
+    "retrieved_source_count": 10,
+    "observation_count": 20,
+    "error_count": 4
+  }
+}

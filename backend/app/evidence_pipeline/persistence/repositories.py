@@ -1,0 +1,13 @@
+from typing import Protocol
+
+from app.evidence_pipeline.contracts.evidence import Observation, RawSource
+
+
+class RawSourceRepository(Protocol):
+    async def save(self, source: RawSource) -> RawSource: ...
+    async def get_cached(self, canonical_url: str, max_age_hours: int): ...
+    async def link_source(self, investigation_id: str, source: RawSource, relevance_score: float, relevant: bool, reasons: list[str]) -> None: ...
+
+
+class ObservationRepository(Protocol):
+    async def save_many(self, observations: list[Observation]) -> list[Observation]: ...

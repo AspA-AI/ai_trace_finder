@@ -1,0 +1,2361 @@
+{
+  "investigation_id": "inv_a4fa5989de67",
+  "run_id": "verify_a54391262c3d",
+  "generated_at": "2026-08-31T17:00:40.438181+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_0b929e0631f36953",
+        "source_id": "src_8981c163292301f6",
+        "subject_text": "Michael Scott",
+        "predicate": "was",
+        "object_text": "a great salesman",
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309Z",
+        "source_published_at": null,
+        "quote": "Michael might not be the best at managing people but he’s always been one heck of a good salesman.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_14ac3420debaacc5",
+        "source_id": "src_8981c163292301f6",
+        "subject_text": "Michael Scott",
+        "predicate": "left",
+        "object_text": "The Office",
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309Z",
+        "source_published_at": null,
+        "quote": "Michael Scott left The Office in Season 7.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_44d2acd617f8cec4",
+        "source_id": "src_85de9512ba8003c9",
+        "subject_text": "Michael Scott",
+        "predicate": "has taught",
+        "object_text": "you",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:35.198878Z",
+        "source_published_at": null,
+        "quote": "Has Michael Scott ever taught you anything",
+        "source_url": "https://www.facebook.com/groups/theofficesuperfanss/posts/1631930890997267",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_52c5a42eb0381c48",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "subject_text": "Michael Scott",
+        "predicate": "occupation",
+        "object_text": "Teacher",
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949Z",
+        "source_published_at": null,
+        "quote": "Michael Scott for Common Sense",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_5fec0be4231913c5",
+        "source_id": "src_80c8749eefc310a1",
+        "subject_text": "Michael Scott",
+        "predicate": "is",
+        "object_text": "the engine of the show’s chaos",
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547Z",
+        "source_published_at": null,
+        "quote": "He’s the engine of the show’s chaos, but also the character most likely to surprise you with genuine emotion.",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_60e7d3fdb2f0dbee",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "subject_text": "Michael Scott",
+        "predicate": "has developed",
+        "object_text": "One to One Classroom™ pedagogy",
+        "object_type": "Educational Method",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949Z",
+        "source_published_at": null,
+        "quote": "Created the One to One Classroom™ pedagogy.",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6e5f24dbc1ae6f40",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "subject_text": "Michael Scott",
+        "predicate": "has experience as",
+        "object_text": "Elementary, Spanish Dual Immersion, and Middle School Teacher for 17 years",
+        "object_type": "Job Title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949Z",
+        "source_published_at": null,
+        "quote": "San Bernardino City Unified School District (SBCUSD), San Bernardino, CA – Elementary, Spanish Dual Immersion, and Middle School Teacher for 17 years",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_83e5bc0213ea14ff",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "subject_text": "Michael Scott",
+        "predicate": "has experience as",
+        "object_text": "Adjunct Professor of Education",
+        "object_type": "Job Title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949Z",
+        "source_published_at": null,
+        "quote": "National University, Costa Mesa, CA – Adjunct Professor of Education",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_889a08735b99bf22",
+        "source_id": "src_80c8749eefc310a1",
+        "subject_text": "Michael Scott",
+        "predicate": "is",
+        "object_text": "a teacher",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547Z",
+        "source_published_at": null,
+        "quote": "Michael Scott is the well-meaning, often misguided regional manager of Dunder Mifflin’s Scranton branch on NBC’s The Office.",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_9894de538ce5233c",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "subject_text": "Michael Scott",
+        "predicate": "has experience as",
+        "object_text": "Adjunct Professor of Education and Religion",
+        "object_type": "Job Title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949Z",
+        "source_published_at": null,
+        "quote": "California Baptist University, Riverside, CA – Adjunct Professor of Education and Religion",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_98ebdbe1d7948668",
+        "source_id": "src_80c8749eefc310a1",
+        "subject_text": "Michael Scott",
+        "predicate": "is",
+        "object_text": "desperate to be liked",
+        "object_type": "character trait",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547Z",
+        "source_published_at": null,
+        "quote": "What makes him such a memorable character is the contradiction: Michael can be painfully awkward and selfish one moment, then unexpectedly kind and sincere the next.",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c3a24928b8a8a9d2",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "subject_text": "Michael Scott",
+        "predicate": "has improved",
+        "object_text": "LA state test scores 235% for fourth graders",
+        "object_type": "Achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949Z",
+        "source_published_at": null,
+        "quote": "Succeeded in improving LA state test scores 235% for fourth graders (from 22% to 52% of the class becoming proficient or advanced).",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c4cddf2139734c96",
+        "source_id": "src_8981c163292301f6",
+        "subject_text": "Michael Scott",
+        "predicate": "made",
+        "object_text": "a surprise return for The Office series finale",
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309Z",
+        "source_published_at": null,
+        "quote": "Michael Scott made a surprise return for The Office series finale.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e5842be5bcf25767",
+        "source_id": "src_8981c163292301f6",
+        "subject_text": "Michael Scott",
+        "predicate": "had",
+        "object_text": "bad luck with love interests",
+        "object_type": "relationship",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309Z",
+        "source_published_at": null,
+        "quote": "Michael Scott had bad luck with love interests.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_ffd53f3d6625f8e1",
+        "source_id": "src_80c8749eefc310a1",
+        "subject_text": "Michael Scott",
+        "predicate": "is",
+        "object_text": "the world's best boss",
+        "object_type": "title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547Z",
+        "source_published_at": null,
+        "quote": "With so many new fans, The Office has provoked a new conversation among its cult following: what are the best Michael Scott quotes?",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_0b929e0631f36953",
+        "source_id": "src_8981c163292301f6",
+        "predicate": "was",
+        "original_subject": "Michael Scott",
+        "original_object": "a great salesman",
+        "normalized_subject": "michael scott",
+        "normalized_object": "a great salesman",
+        "quote": "Michael might not be the best at managing people but he’s always been one heck of a good salesman.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "source_domain": "nbc.com",
+        "source_platform": "nbc.com",
+        "source_identifiers": [
+          "nbc-insider",
+          "what-happened-to-steve-carells-michael-scott-on-the-office"
+        ],
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_14ac3420debaacc5",
+        "source_id": "src_8981c163292301f6",
+        "predicate": "left",
+        "original_subject": "Michael Scott",
+        "original_object": "The Office",
+        "normalized_subject": "michael scott",
+        "normalized_object": "the office",
+        "quote": "Michael Scott left The Office in Season 7.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "source_domain": "nbc.com",
+        "source_platform": "nbc.com",
+        "source_identifiers": [
+          "nbc-insider",
+          "what-happened-to-steve-carells-michael-scott-on-the-office"
+        ],
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_44d2acd617f8cec4",
+        "source_id": "src_85de9512ba8003c9",
+        "predicate": "has taught",
+        "original_subject": "Michael Scott",
+        "original_object": "you",
+        "normalized_subject": "michael scott",
+        "normalized_object": "you",
+        "quote": "Has Michael Scott ever taught you anything",
+        "source_url": "https://www.facebook.com/groups/theofficesuperfanss/posts/1631930890997267",
+        "source_domain": "facebook.com",
+        "source_platform": "facebook.com",
+        "source_identifiers": [
+          "groups",
+          "theofficesuperfanss",
+          "1631930890997267"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:35.198878+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_52c5a42eb0381c48",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "predicate": "occupation",
+        "original_subject": "Michael Scott",
+        "original_object": "Teacher",
+        "normalized_subject": "michael scott",
+        "normalized_object": "teacher",
+        "quote": "Michael Scott for Common Sense",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "source_domain": "michaelscottforcommonsense.com",
+        "source_platform": "michaelscottforcommonsense.com",
+        "source_identifiers": [
+          "resume"
+        ],
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_5fec0be4231913c5",
+        "source_id": "src_80c8749eefc310a1",
+        "predicate": "is",
+        "original_subject": "Michael Scott",
+        "original_object": "the engine of the show’s chaos",
+        "normalized_subject": "michael scott",
+        "normalized_object": "the engine of the show’s chaos",
+        "quote": "He’s the engine of the show’s chaos, but also the character most likely to surprise you with genuine emotion.",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "source_domain": "studiobinder.com",
+        "source_platform": "studiobinder.com",
+        "source_identifiers": [
+          "blog",
+          "best-michael-scott-quotes-the-office"
+        ],
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_60e7d3fdb2f0dbee",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "predicate": "has developed",
+        "original_subject": "Michael Scott",
+        "original_object": "One to One Classroom™ pedagogy",
+        "normalized_subject": "michael scott",
+        "normalized_object": "one to one classroomtm pedagogy",
+        "quote": "Created the One to One Classroom™ pedagogy.",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "source_domain": "michaelscottforcommonsense.com",
+        "source_platform": "michaelscottforcommonsense.com",
+        "source_identifiers": [
+          "resume"
+        ],
+        "object_type": "Educational Method",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6e5f24dbc1ae6f40",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "predicate": "has experience as",
+        "original_subject": "Michael Scott",
+        "original_object": "Elementary, Spanish Dual Immersion, and Middle School Teacher for 17 years",
+        "normalized_subject": "michael scott",
+        "normalized_object": "elementary, spanish dual immersion, and middle school teacher for 17 years",
+        "quote": "San Bernardino City Unified School District (SBCUSD), San Bernardino, CA – Elementary, Spanish Dual Immersion, and Middle School Teacher for 17 years",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "source_domain": "michaelscottforcommonsense.com",
+        "source_platform": "michaelscottforcommonsense.com",
+        "source_identifiers": [
+          "resume"
+        ],
+        "object_type": "Job Title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_83e5bc0213ea14ff",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "predicate": "has experience as",
+        "original_subject": "Michael Scott",
+        "original_object": "Adjunct Professor of Education",
+        "normalized_subject": "michael scott",
+        "normalized_object": "adjunct professor of education",
+        "quote": "National University, Costa Mesa, CA – Adjunct Professor of Education",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "source_domain": "michaelscottforcommonsense.com",
+        "source_platform": "michaelscottforcommonsense.com",
+        "source_identifiers": [
+          "resume"
+        ],
+        "object_type": "Job Title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_889a08735b99bf22",
+        "source_id": "src_80c8749eefc310a1",
+        "predicate": "is",
+        "original_subject": "Michael Scott",
+        "original_object": "a teacher",
+        "normalized_subject": "michael scott",
+        "normalized_object": "a teacher",
+        "quote": "Michael Scott is the well-meaning, often misguided regional manager of Dunder Mifflin’s Scranton branch on NBC’s The Office.",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "source_domain": "studiobinder.com",
+        "source_platform": "studiobinder.com",
+        "source_identifiers": [
+          "blog",
+          "best-michael-scott-quotes-the-office"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_9894de538ce5233c",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "predicate": "has experience as",
+        "original_subject": "Michael Scott",
+        "original_object": "Adjunct Professor of Education and Religion",
+        "normalized_subject": "michael scott",
+        "normalized_object": "adjunct professor of education and religion",
+        "quote": "California Baptist University, Riverside, CA – Adjunct Professor of Education and Religion",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "source_domain": "michaelscottforcommonsense.com",
+        "source_platform": "michaelscottforcommonsense.com",
+        "source_identifiers": [
+          "resume"
+        ],
+        "object_type": "Job Title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_98ebdbe1d7948668",
+        "source_id": "src_80c8749eefc310a1",
+        "predicate": "is",
+        "original_subject": "Michael Scott",
+        "original_object": "desperate to be liked",
+        "normalized_subject": "michael scott",
+        "normalized_object": "desperate to be liked",
+        "quote": "What makes him such a memorable character is the contradiction: Michael can be painfully awkward and selfish one moment, then unexpectedly kind and sincere the next.",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "source_domain": "studiobinder.com",
+        "source_platform": "studiobinder.com",
+        "source_identifiers": [
+          "blog",
+          "best-michael-scott-quotes-the-office"
+        ],
+        "object_type": "character trait",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c3a24928b8a8a9d2",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "predicate": "has improved",
+        "original_subject": "Michael Scott",
+        "original_object": "LA state test scores 235% for fourth graders",
+        "normalized_subject": "michael scott",
+        "normalized_object": "la state test scores 235% for fourth graders",
+        "quote": "Succeeded in improving LA state test scores 235% for fourth graders (from 22% to 52% of the class becoming proficient or advanced).",
+        "source_url": "https://michaelscottforcommonsense.com/resume",
+        "source_domain": "michaelscottforcommonsense.com",
+        "source_platform": "michaelscottforcommonsense.com",
+        "source_identifiers": [
+          "resume"
+        ],
+        "object_type": "Achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:59:27.645949+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c4cddf2139734c96",
+        "source_id": "src_8981c163292301f6",
+        "predicate": "made",
+        "original_subject": "Michael Scott",
+        "original_object": "a surprise return for The Office series finale",
+        "normalized_subject": "michael scott",
+        "normalized_object": "a surprise return for the office series finale",
+        "quote": "Michael Scott made a surprise return for The Office series finale.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "source_domain": "nbc.com",
+        "source_platform": "nbc.com",
+        "source_identifiers": [
+          "nbc-insider",
+          "what-happened-to-steve-carells-michael-scott-on-the-office"
+        ],
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e5842be5bcf25767",
+        "source_id": "src_8981c163292301f6",
+        "predicate": "had",
+        "original_subject": "Michael Scott",
+        "original_object": "bad luck with love interests",
+        "normalized_subject": "michael scott",
+        "normalized_object": "bad luck with love interests",
+        "quote": "Michael Scott had bad luck with love interests.",
+        "source_url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "source_domain": "nbc.com",
+        "source_platform": "nbc.com",
+        "source_identifiers": [
+          "nbc-insider",
+          "what-happened-to-steve-carells-michael-scott-on-the-office"
+        ],
+        "object_type": "relationship",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:31.693309+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_ffd53f3d6625f8e1",
+        "source_id": "src_80c8749eefc310a1",
+        "predicate": "is",
+        "original_subject": "Michael Scott",
+        "original_object": "the world's best boss",
+        "normalized_subject": "michael scott",
+        "normalized_object": "the world's best boss",
+        "quote": "With so many new fans, The Office has provoked a new conversation among its cult following: what are the best Michael Scott quotes?",
+        "source_url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "source_domain": "studiobinder.com",
+        "source_platform": "studiobinder.com",
+        "source_identifiers": [
+          "blog",
+          "best-michael-scott-quotes-the-office"
+        ],
+        "object_type": "title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T16:58:07.399547+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_6e5f24dbc1ae6f40",
+        "right_observation_id": "obs_83e5bc0213ea14ff",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_ee6c088fab6b8bfe",
+        "right_source_id": "src_ee6c088fab6b8bfe",
+        "left_evidence_ids": [
+          "obs_6e5f24dbc1ae6f40"
+        ],
+        "right_evidence_ids": [
+          "obs_83e5bc0213ea14ff"
+        ]
+      },
+      {
+        "left_observation_id": "obs_6e5f24dbc1ae6f40",
+        "right_observation_id": "obs_9894de538ce5233c",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_ee6c088fab6b8bfe",
+        "right_source_id": "src_ee6c088fab6b8bfe",
+        "left_evidence_ids": [
+          "obs_6e5f24dbc1ae6f40"
+        ],
+        "right_evidence_ids": [
+          "obs_9894de538ce5233c"
+        ]
+      },
+      {
+        "left_observation_id": "obs_83e5bc0213ea14ff",
+        "right_observation_id": "obs_9894de538ce5233c",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_ee6c088fab6b8bfe",
+        "right_source_id": "src_ee6c088fab6b8bfe",
+        "left_evidence_ids": [
+          "obs_83e5bc0213ea14ff"
+        ],
+        "right_evidence_ids": [
+          "obs_9894de538ce5233c"
+        ]
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_889a08735b99bf22",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_80c8749eefc310a1",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ]
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_98ebdbe1d7948668",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_80c8749eefc310a1",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ]
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_80c8749eefc310a1",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_889a08735b99bf22",
+        "right_observation_id": "obs_98ebdbe1d7948668",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_80c8749eefc310a1",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "right_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ]
+      },
+      {
+        "left_observation_id": "obs_889a08735b99bf22",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_80c8749eefc310a1",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_98ebdbe1d7948668",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_80c8749eefc310a1",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_44d2acd617f8cec4",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_8981c163292301f6",
+        "right_source_id": "src_85de9512ba8003c9",
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_52c5a42eb0381c48",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_8981c163292301f6",
+        "right_source_id": "src_ee6c088fab6b8bfe",
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_8981c163292301f6",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_44d2acd617f8cec4",
+        "right_observation_id": "obs_52c5a42eb0381c48",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_85de9512ba8003c9",
+        "right_source_id": "src_ee6c088fab6b8bfe",
+        "left_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "right_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ]
+      },
+      {
+        "left_observation_id": "obs_44d2acd617f8cec4",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_85de9512ba8003c9",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_52c5a42eb0381c48",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_ee6c088fab6b8bfe",
+        "right_source_id": "src_80c8749eefc310a1",
+        "left_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_6e5f24dbc1ae6f40",
+        "right_observation_id": "obs_83e5bc0213ea14ff",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.09,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff"
+        ],
+        "left_evidence_ids": [
+          "obs_6e5f24dbc1ae6f40"
+        ],
+        "right_evidence_ids": [
+          "obs_83e5bc0213ea14ff"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_6e5f24dbc1ae6f40",
+        "right_observation_id": "obs_9894de538ce5233c",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.09,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_6e5f24dbc1ae6f40",
+          "obs_9894de538ce5233c"
+        ],
+        "left_evidence_ids": [
+          "obs_6e5f24dbc1ae6f40"
+        ],
+        "right_evidence_ids": [
+          "obs_9894de538ce5233c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_83e5bc0213ea14ff",
+        "right_observation_id": "obs_9894de538ce5233c",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.09,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c"
+        ],
+        "left_evidence_ids": [
+          "obs_83e5bc0213ea14ff"
+        ],
+        "right_evidence_ids": [
+          "obs_9894de538ce5233c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_889a08735b99bf22",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.34,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22"
+        ],
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_98ebdbe1d7948668",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_98ebdbe1d7948668"
+        ],
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_889a08735b99bf22",
+        "right_observation_id": "obs_98ebdbe1d7948668",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668"
+        ],
+        "left_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "right_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_889a08735b99bf22",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_889a08735b99bf22",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_98ebdbe1d7948668",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_44d2acd617f8cec4",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_44d2acd617f8cec4"
+        ],
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_52c5a42eb0381c48",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44d2acd617f8cec4",
+        "right_observation_id": "obs_52c5a42eb0381c48",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44d2acd617f8cec4",
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "left_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "right_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44d2acd617f8cec4",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44d2acd617f8cec4",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_52c5a42eb0381c48",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_6e5f24dbc1ae6f40",
+        "right_observation_id": "obs_83e5bc0213ea14ff",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.09,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff"
+        ],
+        "left_evidence_ids": [
+          "obs_6e5f24dbc1ae6f40"
+        ],
+        "right_evidence_ids": [
+          "obs_83e5bc0213ea14ff"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_6e5f24dbc1ae6f40",
+        "right_observation_id": "obs_9894de538ce5233c",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.09,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_6e5f24dbc1ae6f40",
+          "obs_9894de538ce5233c"
+        ],
+        "left_evidence_ids": [
+          "obs_6e5f24dbc1ae6f40"
+        ],
+        "right_evidence_ids": [
+          "obs_9894de538ce5233c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_83e5bc0213ea14ff",
+        "right_observation_id": "obs_9894de538ce5233c",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.09,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c"
+        ],
+        "left_evidence_ids": [
+          "obs_83e5bc0213ea14ff"
+        ],
+        "right_evidence_ids": [
+          "obs_9894de538ce5233c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_889a08735b99bf22",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.34,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22"
+        ],
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_98ebdbe1d7948668",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_98ebdbe1d7948668"
+        ],
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_5fec0be4231913c5",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_5fec0be4231913c5"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_889a08735b99bf22",
+        "right_observation_id": "obs_98ebdbe1d7948668",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668"
+        ],
+        "left_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "right_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_889a08735b99bf22",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_889a08735b99bf22",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_889a08735b99bf22"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_98ebdbe1d7948668",
+        "right_observation_id": "obs_ffd53f3d6625f8e1",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_98ebdbe1d7948668"
+        ],
+        "right_evidence_ids": [
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_44d2acd617f8cec4",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_44d2acd617f8cec4"
+        ],
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_52c5a42eb0381c48",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b929e0631f36953",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44d2acd617f8cec4",
+        "right_observation_id": "obs_52c5a42eb0381c48",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44d2acd617f8cec4",
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "left_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "right_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44d2acd617f8cec4",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44d2acd617f8cec4",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_44d2acd617f8cec4"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_52c5a42eb0381c48",
+        "right_observation_id": "obs_5fec0be4231913c5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "left_evidence_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c",
+          "obs_c3a24928b8a8a9d2"
+        ],
+        "right_evidence_ids": [
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "inv_a4fa5989de67",
+      "deterministic_verdict": "CONTRADICTED",
+      "deterministic_confidence": 0.05,
+      "deterministic_reasoning": [
+        "SEMANTIC_CONFLICT",
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "likely_multiple_people",
+      "semantic_confidence": "high",
+      "semantic_reasoning": "The observations related to the teacher Michael Scott provide a consistent profile of an educator with specific teaching experience and methods. However, there are numerous observations that pertain to a fictional character named Michael Scott from 'The Office', which do not align with the user's clues about a teacher. This indicates that the evidence likely describes multiple individuals sharing the same name.",
+      "semantic_caveats": [
+        "The evidence for the teacher is limited to a few sources, and there may be other individuals with the same name."
+      ],
+      "semantic_profile": {
+        "verdict": "likely_multiple_people",
+        "confidence_label": "high",
+        "likely_name": "Michael Scott",
+        "headline": "Teacher",
+        "profile_summary": "The evidence suggests that there are multiple individuals named Michael Scott, with one being a teacher who has developed educational methods and has experience in various teaching roles, while another is a fictional character known for being a regional manager in a television series. The observations related to the teacher indicate a professional background in education, while the other observations pertain to the character from 'The Office'.",
+        "attributes": [
+          {
+            "field": "occupation",
+            "value": "Teacher",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_52c5a42eb0381c48",
+              "obs_6e5f24dbc1ae6f40",
+              "obs_83e5bc0213ea14ff",
+              "obs_9894de538ce5233c"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "experience",
+            "value": "Elementary, Spanish Dual Immersion, and Middle School Teacher for 17 years",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_6e5f24dbc1ae6f40"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "educational_method",
+            "value": "One to One Classroom™ pedagogy",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_60e7d3fdb2f0dbee"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "adjunct_professor",
+            "value": "Adjunct Professor of Education and Religion",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_9894de538ce5233c"
+            ],
+            "caveat": null
+          }
+        ],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The observations related to the teacher Michael Scott provide a consistent profile of an educator with specific teaching experience and methods. However, there are numerous observations that pertain to a fictional character named Michael Scott from 'The Office', which do not align with the user's clues about a teacher. This indicates that the evidence likely describes multiple individuals sharing the same name.",
+        "supporting_observation_ids": [
+          "obs_52c5a42eb0381c48",
+          "obs_6e5f24dbc1ae6f40",
+          "obs_60e7d3fdb2f0dbee",
+          "obs_83e5bc0213ea14ff",
+          "obs_9894de538ce5233c"
+        ],
+        "conflicting_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_c3a24928b8a8a9d2",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "out_of_scope_observation_ids": [
+          "obs_0b929e0631f36953",
+          "obs_14ac3420debaacc5",
+          "obs_5fec0be4231913c5",
+          "obs_889a08735b99bf22",
+          "obs_98ebdbe1d7948668",
+          "obs_c3a24928b8a8a9d2",
+          "obs_c4cddf2139734c96",
+          "obs_e5842be5bcf25767",
+          "obs_ffd53f3d6625f8e1"
+        ],
+        "excluded_evidence_summary": "Many observations pertain to a fictional character named Michael Scott from 'The Office', which do not match the user's clues about a teacher.",
+        "caveats": [
+          "The evidence for the teacher is limited to a few sources, and there may be other individuals with the same name."
+        ]
+      },
+      "image_candidates": [],
+      "agreement": "aligned",
+      "suggested_action": null,
+      "generated_at": "2026-08-31T17:00:40.435722+00:00"
+    }
+  }
+}

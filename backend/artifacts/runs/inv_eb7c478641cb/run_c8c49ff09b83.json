@@ -1,0 +1,395 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_eb7c478641cb",
+  "run_id": "run_c8c49ff09b83",
+  "started_at": "2026-08-31T11:08:37.735547+00:00",
+  "completed_at": "2026-08-31T11:10:40.261222+00:00",
+  "clues": {
+    "name": "Olivia Dean",
+    "usernames": [],
+    "occupation": "Teacher",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T11:08:37.735771+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Olivia Dean\"",
+          "\"Olivia Dean\" Teacher"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T11:08:39.145960+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_eb7c478641cb",
+        "run_id": "run_c8c49ff09b83"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T11:08:39.146030+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T11:08:39.146045+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Olivia Dean\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T11:08:41.645514+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Olivia Dean\"",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T11:08:41.645525+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Olivia Dean\" Teacher"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T11:08:43.539486+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Olivia Dean\" Teacher",
+        "result_count": 3,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T11:08:43.539754+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 9
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T11:08:45.569381+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Olivia_Dean",
+        "source_id": "src_60707094736b864c",
+        "cache_hit": true,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T11:08:47.628603+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_60707094736b864c",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T11:08:52.710557+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T11:08:58.576170+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_82a6c5cb0ff40b95",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T11:09:02.117627+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.oliviadeano.com/",
+        "source_id": "src_72fbd75961f48673",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T11:09:07.113791+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_72fbd75961f48673",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T11:09:15.572468+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/oliviadeanmusic",
+        "source_id": "src_3c7a1b35d4695ac2",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T11:09:16.877048+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3c7a1b35d4695ac2",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T11:09:24.165423+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "source_id": "src_1ddbf970a1414cb8",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T11:09:26.900239+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1ddbf970a1414cb8",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T11:09:34.644324+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/channel/UCT3cEUoL1X0_BxN6q7LVH1w",
+        "source_id": "src_3b546b063359631b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T11:09:35.568152+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3b546b063359631b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T11:09:36.886577+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/oliviadeano",
+        "source_id": "src_63587b66e87500bd",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T11:09:37.549907+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_63587b66e87500bd",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T11:10:03.682048+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.tiktok.com/discover/singing-primary-teacher-olivia-dean",
+        "source_id": "src_8bce3053a1decc8f",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T11:10:05.992347+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8bce3053a1decc8f",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T11:10:38.366298+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/reel/DTlbaqCjfvl",
+        "source_id": "src_ea48357f1a034a66",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T11:10:38.366355+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ea48357f1a034a66",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T11:10:40.261286+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 9,
+        "retrieved_source_count": 5,
+        "error_count": 0,
+        "decision": "completed"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "query_count": 2,
+    "discovered_source_count": 9,
+    "retrieved_source_count": 5,
+    "observation_count": 9,
+    "error_count": 0
+  }
+}

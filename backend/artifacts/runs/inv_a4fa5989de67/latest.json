@@ -1,0 +1,532 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_a4fa5989de67",
+  "run_id": "run_7c7129089f7d",
+  "started_at": "2026-08-31T16:57:27.426340+00:00",
+  "completed_at": "2026-08-31T17:00:09.892685+00:00",
+  "clues": {
+    "name": "Michael Scott",
+    "usernames": [],
+    "occupation": "Teacher",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T16:57:27.426634+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Michael Scott\"",
+          "\"Michael Scott\" Teacher"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T16:57:28.091565+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_a4fa5989de67",
+        "run_id": "run_7c7129089f7d"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T16:57:28.091603+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T16:57:28.091725+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Michael Scott\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T16:57:30.345808+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Michael Scott\"",
+        "result_count": 8,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T16:57:30.345814+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Michael Scott\" Teacher"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T16:57:43.854534+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Michael Scott\" Teacher",
+        "result_count": 9,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T16:57:43.854733+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 16
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T16:57:44.839140+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://theoffice.fandom.com/wiki/Michael_Scott",
+        "error": "Client error '403 Forbidden' for url 'https://theoffice.fandom.com/wiki/Michael_Scott'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T16:57:48.325707+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.imdb.com/name/nm5301609",
+        "source_id": "src_a5f74a93d2e0a65b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T16:57:49.216897+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a5f74a93d2e0a65b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T16:58:03.455031+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.studiobinder.com/blog/best-michael-scott-quotes-the-office",
+        "source_id": "src_80c8749eefc310a1",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T16:58:07.399635+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_80c8749eefc310a1",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T16:58:16.015851+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Michael_Scott_(The_Office)",
+        "source_id": "src_c15a6d85d6e9370b",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T16:58:17.137773+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c15a6d85d6e9370b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T16:58:22.378749+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/mscottaction",
+        "source_id": "src_81ff43d5d94e198c",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T16:58:23.093557+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_81ff43d5d94e198c",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T16:58:28.495822+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.nbc.com/nbc-insider/what-happened-to-steve-carells-michael-scott-on-the-office",
+        "source_id": "src_8981c163292301f6",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T16:58:31.693397+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8981c163292301f6",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T16:58:38.048570+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/michaelll.scotttt?hl=en",
+        "source_id": "src_acfac1ffeb157818",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T16:58:38.809177+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_acfac1ffeb157818",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T16:58:44.438918+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.reddit.com/r/DunderMifflin/comments/1ra784k/the_genius_of_michael_scott",
+        "source_id": "src_a615ede451d5ba1e",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T16:58:45.586610+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a615ede451d5ba1e",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T16:58:47.059759+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.american.edu/baker/faculty/mscott.cfm",
+        "error": "Client error '403 Forbidden' for url 'https://www.american.edu/baker/faculty/mscott.cfm'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T16:58:48.550898+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/michael-scott-0a874336",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/michael-scott-0a874336'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T16:59:11.975634+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://writeonwithmissg.com/2017/09/14/20-times-michael-scott-understood-teaching",
+        "error": ""
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T16:59:14.935101+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.reddit.com/r/DunderMifflin/comments/1ryhklx/youre_a_third_grade_teacher_and_a_man_named",
+        "source_id": "src_0ad24aec25d7187a",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T16:59:16.039808+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_0ad24aec25d7187a",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T16:59:22.078112+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://michaelscottforcommonsense.com/resume",
+        "source_id": "src_ee6c088fab6b8bfe",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T16:59:27.646020+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ee6c088fab6b8bfe",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T16:59:33.698367+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/groups/theofficesuperfanss/posts/1631930890997267",
+        "source_id": "src_85de9512ba8003c9",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T16:59:35.198925+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_85de9512ba8003c9",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T16:59:48.294905+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/reel/DWwjSZTK3NP",
+        "source_id": "src_8081178a53573e2c",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T16:59:49.526605+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8081178a53573e2c",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T17:00:07.417439+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=eTkw9WOzhDs",
+        "source_id": "src_4b958a80c34e3171",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T17:00:08.410091+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4b958a80c34e3171",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T17:00:09.892907+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 15,
+        "retrieved_source_count": 12,
+        "error_count": 4,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 16,
+    "retrieved_source_count": 12,
+    "observation_count": 15,
+    "error_count": 4
+  }
+}

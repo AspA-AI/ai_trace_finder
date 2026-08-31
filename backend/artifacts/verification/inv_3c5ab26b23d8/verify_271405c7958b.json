@@ -1,0 +1,1144 @@
+{
+  "investigation_id": "inv_3c5ab26b23d8",
+  "run_id": "verify_271405c7958b",
+  "generated_at": "2026-08-30T12:36:34.995924+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_16960b4d2f6eb669",
+        "source_id": "src_72c80b98b009942e",
+        "subject_text": "Steve Jobs",
+        "predicate": "noted as not being",
+        "object_text": "a programmer",
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357Z",
+        "source_published_at": null,
+        "quote": "Steve Jobs became the face of Apple, but we all know he wasn’t really a programmer.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_16a9ab9f0eeccb13",
+        "source_id": "src_a5cd275c8c4375f4",
+        "subject_text": "Steve Jobs",
+        "predicate": "was",
+        "object_text": "one of the first video game developers",
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646Z",
+        "source_published_at": null,
+        "quote": "The stubborn fact is that Steve Jobs was one of the first video game developers.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_39a9974fc0ed5186",
+        "source_id": "src_a5cd275c8c4375f4",
+        "subject_text": "Steve Jobs",
+        "predicate": "worked for",
+        "object_text": "Atari",
+        "object_type": "company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646Z",
+        "source_published_at": null,
+        "quote": "Atari hired Steve Jobs in 1976.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3f39753a4fdf0416",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "patents held",
+        "object_text": "over 450 patents",
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "Since his death, he has been granted 141 patents; Jobs holds over 450 patents in total.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4a8de266f4ad5420",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "born",
+        "object_text": "February 24, 1955",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American businessman, inventor, and investor.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_5b0fff1f922c4337",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "founded",
+        "object_text": "NeXT",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "After the company's board of directors fired him in 1985, he founded NeXT the same year.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_69fe1942c8d45bc8",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "returned to",
+        "object_text": "Apple Inc.",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "Jobs returned to Apple in 1997 as CEO.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_71f2506944d1fcc2",
+        "source_id": "src_72c80b98b009942e",
+        "subject_text": "Steve Jobs",
+        "predicate": "criticized",
+        "object_text": "the myth of the '100x developer'",
+        "object_type": "concept",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357Z",
+        "source_published_at": null,
+        "quote": "One of his more infamous opinions is the myth of the '100x developer' and it’s damaging the industry.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7d08d032060eaa9d",
+        "source_id": "src_72c80b98b009942e",
+        "subject_text": "Steve Jobs",
+        "predicate": "associated with",
+        "object_text": "the iPhone",
+        "object_type": "product",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357Z",
+        "source_published_at": null,
+        "quote": "In tech, we know that the iPhone wasn’t a Steve Jobs solo project, but the phone is typically attributed to Jobs’ genius.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_8cc96c8f26709728",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "occupation",
+        "object_text": "businessman, inventor, and investor",
+        "object_type": "string",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "Jobs was an American businessman, inventor, and investor.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_92ea28de746e4c3a",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "co-founded",
+        "object_text": "Apple Inc.",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "Jobs co-founded Apple Inc. with his early business partner Steve Wozniak as Apple Computer Company in 1976.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_9384dce669a0226c",
+        "source_id": "src_a5cd275c8c4375f4",
+        "subject_text": "Steve Jobs",
+        "predicate": "helped develop",
+        "object_text": "Break-Out",
+        "object_type": "video game",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646Z",
+        "source_published_at": null,
+        "quote": "The most famous example we have is the game of Break-Out which Steve Jobs helped developed.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_991102ba1c582e89",
+        "source_id": "src_72c80b98b009942e",
+        "subject_text": "Steve Jobs",
+        "predicate": "promoted",
+        "object_text": "the brand and personified the company",
+        "object_type": "concept",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357Z",
+        "source_published_at": null,
+        "quote": "Yet it’s Jobs that gets much of the credit because he promoted the brand and personified the company to much of the wider public.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a0803756ea0bcd6e",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "awarded",
+        "object_text": "Presidential Medal of Freedom",
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "In 2022, he was posthumously awarded the Presidential Medal of Freedom.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e4743781b777412d",
+        "source_id": "src_3348f135aee72277",
+        "subject_text": "Steve Jobs",
+        "predicate": "died",
+        "object_text": "October 5, 2011",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021Z",
+        "source_published_at": null,
+        "quote": "He died of tumor-related respiratory arrest in 2011.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_edc72b94fcbde674",
+        "source_id": "src_a5cd275c8c4375f4",
+        "subject_text": "Steve Jobs",
+        "predicate": "was",
+        "object_text": "a video game developer",
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646Z",
+        "source_published_at": null,
+        "quote": "Yet, he worked for years at a video game company and was an actual video game developer.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_16960b4d2f6eb669",
+        "source_id": "src_72c80b98b009942e",
+        "predicate": "noted as not being",
+        "original_subject": "Steve Jobs",
+        "original_object": "a programmer",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "a programmer",
+        "quote": "Steve Jobs became the face of Apple, but we all know he wasn’t really a programmer.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "source_domain": "thesecretdeveloper.com",
+        "source_platform": "thesecretdeveloper.com",
+        "source_identifiers": [
+          "blog",
+          "steve-jobs-missed-thenbsppoint"
+        ],
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_16a9ab9f0eeccb13",
+        "source_id": "src_a5cd275c8c4375f4",
+        "predicate": "was",
+        "original_subject": "Steve Jobs",
+        "original_object": "one of the first video game developers",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "one of the first video game developers",
+        "quote": "The stubborn fact is that Steve Jobs was one of the first video game developers.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "source_domain": "seanmalstrom.wordpress.com",
+        "source_platform": "seanmalstrom.wordpress.com",
+        "source_identifiers": [
+          "2011",
+          "steve-jobs-was-one-of-the-first-video-game-developers"
+        ],
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_39a9974fc0ed5186",
+        "source_id": "src_a5cd275c8c4375f4",
+        "predicate": "worked for",
+        "original_subject": "Steve Jobs",
+        "original_object": "Atari",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "atari",
+        "quote": "Atari hired Steve Jobs in 1976.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "source_domain": "seanmalstrom.wordpress.com",
+        "source_platform": "seanmalstrom.wordpress.com",
+        "source_identifiers": [
+          "2011",
+          "steve-jobs-was-one-of-the-first-video-game-developers"
+        ],
+        "object_type": "company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3f39753a4fdf0416",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "patents held",
+        "original_subject": "Steve Jobs",
+        "original_object": "over 450 patents",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "over 450 patents",
+        "quote": "Since his death, he has been granted 141 patents; Jobs holds over 450 patents in total.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4a8de266f4ad5420",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "born",
+        "original_subject": "Steve Jobs",
+        "original_object": "February 24, 1955",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "february 24, 1955",
+        "quote": "Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American businessman, inventor, and investor.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_5b0fff1f922c4337",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "founded",
+        "original_subject": "Steve Jobs",
+        "original_object": "NeXT",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "NeXT",
+        "quote": "After the company's board of directors fired him in 1985, he founded NeXT the same year.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_69fe1942c8d45bc8",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "returned to",
+        "original_subject": "Steve Jobs",
+        "original_object": "Apple Inc.",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "apple inc.",
+        "quote": "Jobs returned to Apple in 1997 as CEO.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_71f2506944d1fcc2",
+        "source_id": "src_72c80b98b009942e",
+        "predicate": "criticized",
+        "original_subject": "Steve Jobs",
+        "original_object": "the myth of the '100x developer'",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "the myth of the '100x developer'",
+        "quote": "One of his more infamous opinions is the myth of the '100x developer' and it’s damaging the industry.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "source_domain": "thesecretdeveloper.com",
+        "source_platform": "thesecretdeveloper.com",
+        "source_identifiers": [
+          "blog",
+          "steve-jobs-missed-thenbsppoint"
+        ],
+        "object_type": "concept",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7d08d032060eaa9d",
+        "source_id": "src_72c80b98b009942e",
+        "predicate": "associated with",
+        "original_subject": "Steve Jobs",
+        "original_object": "the iPhone",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "the iphone",
+        "quote": "In tech, we know that the iPhone wasn’t a Steve Jobs solo project, but the phone is typically attributed to Jobs’ genius.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "source_domain": "thesecretdeveloper.com",
+        "source_platform": "thesecretdeveloper.com",
+        "source_identifiers": [
+          "blog",
+          "steve-jobs-missed-thenbsppoint"
+        ],
+        "object_type": "product",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_8cc96c8f26709728",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "occupation",
+        "original_subject": "Steve Jobs",
+        "original_object": "businessman, inventor, and investor",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "businessman, inventor, and investor",
+        "quote": "Jobs was an American businessman, inventor, and investor.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "string",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_92ea28de746e4c3a",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "co-founded",
+        "original_subject": "Steve Jobs",
+        "original_object": "Apple Inc.",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "Apple Inc.",
+        "quote": "Jobs co-founded Apple Inc. with his early business partner Steve Wozniak as Apple Computer Company in 1976.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_9384dce669a0226c",
+        "source_id": "src_a5cd275c8c4375f4",
+        "predicate": "helped develop",
+        "original_subject": "Steve Jobs",
+        "original_object": "Break-Out",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "break-out",
+        "quote": "The most famous example we have is the game of Break-Out which Steve Jobs helped developed.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "source_domain": "seanmalstrom.wordpress.com",
+        "source_platform": "seanmalstrom.wordpress.com",
+        "source_identifiers": [
+          "2011",
+          "steve-jobs-was-one-of-the-first-video-game-developers"
+        ],
+        "object_type": "video game",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_991102ba1c582e89",
+        "source_id": "src_72c80b98b009942e",
+        "predicate": "promoted",
+        "original_subject": "Steve Jobs",
+        "original_object": "the brand and personified the company",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "the brand and personified the company",
+        "quote": "Yet it’s Jobs that gets much of the credit because he promoted the brand and personified the company to much of the wider public.",
+        "source_url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "source_domain": "thesecretdeveloper.com",
+        "source_platform": "thesecretdeveloper.com",
+        "source_identifiers": [
+          "blog",
+          "steve-jobs-missed-thenbsppoint"
+        ],
+        "object_type": "concept",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:36:13.974357+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a0803756ea0bcd6e",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "awarded",
+        "original_subject": "Steve Jobs",
+        "original_object": "Presidential Medal of Freedom",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "presidential medal of freedom",
+        "quote": "In 2022, he was posthumously awarded the Presidential Medal of Freedom.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e4743781b777412d",
+        "source_id": "src_3348f135aee72277",
+        "predicate": "died",
+        "original_subject": "Steve Jobs",
+        "original_object": "October 5, 2011",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "october 5, 2011",
+        "quote": "He died of tumor-related respiratory arrest in 2011.",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_domain": "en.wikipedia.org",
+        "source_platform": "en.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "steve_jobs"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:05.587021+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_edc72b94fcbde674",
+        "source_id": "src_a5cd275c8c4375f4",
+        "predicate": "was",
+        "original_subject": "Steve Jobs",
+        "original_object": "a video game developer",
+        "normalized_subject": "steve jobs",
+        "normalized_object": "a video game developer",
+        "quote": "Yet, he worked for years at a video game company and was an actual video game developer.",
+        "source_url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "source_domain": "seanmalstrom.wordpress.com",
+        "source_platform": "seanmalstrom.wordpress.com",
+        "source_identifiers": [
+          "2011",
+          "steve-jobs-was-one-of-the-first-video-game-developers"
+        ],
+        "object_type": "role",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:35:46.194646+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_16a9ab9f0eeccb13",
+        "right_observation_id": "obs_edc72b94fcbde674",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_a5cd275c8c4375f4",
+        "right_source_id": "src_a5cd275c8c4375f4",
+        "left_evidence_ids": [
+          "obs_16a9ab9f0eeccb13"
+        ],
+        "right_evidence_ids": [
+          "obs_edc72b94fcbde674"
+        ]
+      },
+      {
+        "left_observation_id": "obs_16960b4d2f6eb669",
+        "right_observation_id": "obs_16a9ab9f0eeccb13",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_72c80b98b009942e",
+        "right_source_id": "src_a5cd275c8c4375f4",
+        "left_evidence_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89"
+        ],
+        "right_evidence_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ]
+      },
+      {
+        "left_observation_id": "obs_16960b4d2f6eb669",
+        "right_observation_id": "obs_3f39753a4fdf0416",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_72c80b98b009942e",
+        "right_source_id": "src_3348f135aee72277",
+        "left_evidence_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89"
+        ],
+        "right_evidence_ids": [
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ]
+      },
+      {
+        "left_observation_id": "obs_16a9ab9f0eeccb13",
+        "right_observation_id": "obs_3f39753a4fdf0416",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_a5cd275c8c4375f4",
+        "right_source_id": "src_3348f135aee72277",
+        "left_evidence_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "right_evidence_ids": [
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_16a9ab9f0eeccb13",
+        "right_observation_id": "obs_edc72b94fcbde674",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_edc72b94fcbde674"
+        ],
+        "left_evidence_ids": [
+          "obs_16a9ab9f0eeccb13"
+        ],
+        "right_evidence_ids": [
+          "obs_edc72b94fcbde674"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_16960b4d2f6eb669",
+        "right_observation_id": "obs_16a9ab9f0eeccb13",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89",
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "left_evidence_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89"
+        ],
+        "right_evidence_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_16960b4d2f6eb669",
+        "right_observation_id": "obs_3f39753a4fdf0416",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89",
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "left_evidence_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89"
+        ],
+        "right_evidence_ids": [
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_16a9ab9f0eeccb13",
+        "right_observation_id": "obs_3f39753a4fdf0416",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674",
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "left_evidence_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "right_evidence_ids": [
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_16a9ab9f0eeccb13",
+        "right_observation_id": "obs_edc72b94fcbde674",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.34,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_edc72b94fcbde674"
+        ],
+        "left_evidence_ids": [
+          "obs_16a9ab9f0eeccb13"
+        ],
+        "right_evidence_ids": [
+          "obs_edc72b94fcbde674"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_16960b4d2f6eb669",
+        "right_observation_id": "obs_16a9ab9f0eeccb13",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89",
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "left_evidence_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89"
+        ],
+        "right_evidence_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_16960b4d2f6eb669",
+        "right_observation_id": "obs_3f39753a4fdf0416",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89",
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "left_evidence_ids": [
+          "obs_16960b4d2f6eb669",
+          "obs_71f2506944d1fcc2",
+          "obs_7d08d032060eaa9d",
+          "obs_991102ba1c582e89"
+        ],
+        "right_evidence_ids": [
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_16a9ab9f0eeccb13",
+        "right_observation_id": "obs_3f39753a4fdf0416",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674",
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "left_evidence_ids": [
+          "obs_16a9ab9f0eeccb13",
+          "obs_39a9974fc0ed5186",
+          "obs_9384dce669a0226c",
+          "obs_edc72b94fcbde674"
+        ],
+        "right_evidence_ids": [
+          "obs_3f39753a4fdf0416",
+          "obs_4a8de266f4ad5420",
+          "obs_5b0fff1f922c4337",
+          "obs_69fe1942c8d45bc8",
+          "obs_8cc96c8f26709728",
+          "obs_92ea28de746e4c3a",
+          "obs_a0803756ea0bcd6e",
+          "obs_e4743781b777412d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

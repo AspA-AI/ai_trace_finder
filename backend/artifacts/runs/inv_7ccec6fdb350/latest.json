@@ -1,0 +1,328 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_7ccec6fdb350",
+  "run_id": "run_ecae56d1a808",
+  "started_at": "2026-08-31T10:46:14.460018+00:00",
+  "completed_at": "2026-08-31T10:46:58.715960+00:00",
+  "clues": {
+    "name": "Rehmet Yeshanew",
+    "usernames": [],
+    "occupation": "AI Engineer",
+    "employers": [],
+    "locations": [
+      "Austria, graz"
+    ],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T10:46:14.460388+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Rehmet Yeshanew\"",
+          "\"Rehmet Yeshanew\" AI Engineer Austria, graz"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T10:46:14.889372+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_7ccec6fdb350",
+        "run_id": "run_ecae56d1a808"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T10:46:14.889404+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T10:46:14.889410+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Rehmet Yeshanew\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T10:46:16.586868+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Rehmet Yeshanew\"",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T10:46:16.586896+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Rehmet Yeshanew\" AI Engineer Austria, graz"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T10:46:17.702769+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Rehmet Yeshanew\" AI Engineer Austria, graz",
+        "result_count": 1,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T10:46:17.702981+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 10
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T10:46:18.737508+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/pub/dir/+/Yeshanew",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/pub/dir/+/Yeshanew'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T10:46:20.390113+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://et.linkedin.com/in/rehmet-yeshanew-915aa918a",
+        "error": "Invalid status code '999 <none>' for url 'https://et.linkedin.com/in/rehmet-yeshanew-915aa918a'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T10:46:21.276311+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/RYees",
+        "source_id": "src_86cdea5c7b4e576f",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T10:46:24.078355+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_86cdea5c7b4e576f",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T10:46:34.447304+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/shakhnazar-zhumabekov_generativeai-machinelearning-deeplearning-activity-7486126154211344384-kW2u",
+        "source_id": "src_965c790195c1a7cd",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T10:46:34.447506+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_965c790195c1a7cd",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T10:46:41.787367+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_id": "src_1456d83b8de71316",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T10:46:47.488937+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1456d83b8de71316",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T10:46:48.287538+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://levelup.gitconnected.com/the-smarter-the-model-gets-the-less-my-custom-pipeline-matters-686021106526",
+        "error": "Client error '403 Forbidden' for url 'https://levelup.gitconnected.com/the-smarter-the-model-gets-the-less-my-custom-pipeline-matters-686021106526'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T10:46:48.824675+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://coderonfleek.medium.com/harness-engineering-part-4-the-tool-layer-434f2d813239",
+        "error": "Client error '403 Forbidden' for url 'https://coderonfleek.medium.com/harness-engineering-part-4-the-tool-layer-434f2d813239'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T10:46:50.665599+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://coderonfleek.medium.com/harness-engineering-part-3-the-control-loop-ceadc0730b0a",
+        "source_id": "src_4a05055da3209272",
+        "cache_hit": true,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T10:46:50.665658+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4a05055da3209272",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T10:46:56.845560+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.scribd.com/document/936307075/%E1%8C%A5%E1%89%85%E1%88%9D%E1%89%B5-08-%E1%89%A3%E1%88%85%E1%88%AD-%E1%8B%B3%E1%88%AD",
+        "source_id": "src_931920f2de94c870",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T10:46:56.846205+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_931920f2de94c870",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T10:46:57.484253+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://engg.glance.com/how-we-trace-every-decision-our-ai-coding-agent-makes-d687a451ea34",
+        "error": "Client error '403 Forbidden' for url 'https://engg.glance.com/how-we-trace-every-decision-our-ai-coding-agent-makes-d687a451ea34'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T10:46:58.716021+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 10,
+        "retrieved_source_count": 3,
+        "error_count": 5,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 10,
+    "retrieved_source_count": 3,
+    "observation_count": 10,
+    "error_count": 5
+  }
+}

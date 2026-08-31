@@ -1,0 +1,188 @@
+{
+  "report_type": "baseline_evaluation",
+  "generated_at": "2026-08-30T12:40:48.679977+00:00",
+  "strategy": "one direct LLM call over all saved observations; no deterministic or structured verification",
+  "cases": [
+    {
+      "case_id": "clear_public_professional_identity",
+      "investigation_id": "inv_58b23805b6e4",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "resolved",
+      "raw_response": "SAME PERSON\n\nConfident about:\n- The name \"Simon Willison\" is consistently mentioned.\n- The GitHub handle \"simonw\" is associated with Simon Willison.\n- He is known for creating Datasette and co-creating the Django web framework.\n- His occupation includes being a software developer and writer.\n- He is located in California.\n- He has a personal website at \"https://simonwillison.net/\".\n\nUnclear:\n- There are multiple mentions of his interests and projects, but they all align with the same individual, so no contradictions are present.",
+      "ground_truth": {
+        "expected_verdict": "resolved",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "common_name_identity_collision",
+      "investigation_id": "inv_ccbafc817943",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- Both observations refer to individuals named John Smith.\n- One John Smith is a historical figure known for his role in the establishment of the Jamestown colony in the early 1600s.\n- The other John Smith is a contemporary musician known for his work in folk and roots music.\n\nUnclear:\n- There is no indication that these two individuals are the same person, as they belong to different time periods and professions.\n- The name \"John Smith\" is common, and without additional context, it is impossible to definitively link the two observations to a single individual.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_chris_lee_austin",
+      "investigation_id": "inv_99f062580a2a",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- The name \"Chris Lee\" is consistently mentioned.\n- Chris Lee is involved in both music and software engineering.\n- There are references to Chris Lee's work in entertainment, including roles in \"Legacies,\" \"Empire,\" and \"Hamilton.\"\n\nUnclear:\n- There are conflicting occupations listed: one observation states Chris Lee is a software engineer, while another states he is a poker player.\n- The observations do not clarify if these roles belong to the same individual or if there are multiple people named Chris Lee involved in different fields.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_michael_smith_austin",
+      "investigation_id": "inv_3825cf76a8e9",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- The name \"Michael Smith\" is common, and multiple individuals with this name are likely.\n- There are different occupations mentioned (software engineer, data science leader, basketball player) which suggest different individuals.\n- Locations and ages vary, indicating that these observations likely refer to different people.\n\nUnclear:\n- The specific connections between the various observations and whether they might refer to the same individual in different contexts.\n- The exact number of distinct individuals named Michael Smith involved in the observations.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_jordan_lee_seattle",
+      "investigation_id": "inv_bfb516c6839c",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "resolved",
+      "raw_response": "SAME PERSON\n\nConfident about:\n- The name \"Jordan Lee\" is consistent across all observations.\n- The location is consistently mentioned as Seattle, Washington.\n- The occupation is primarily related to software engineering, with various roles mentioned (e.g., Senior Software Engineer, Developer, etc.).\n- There are references to achievements in basketball, indicating a connection to sports.\n\nUnclear:\n- There are multiple conflicting roles and employers listed, suggesting that this person may have held various positions or that there may be multiple individuals with the same name.\n- The observations include both athletic and software engineering achievements, which could imply a dual career or a mix-up with another individual.\n- The educational background and specific details about their major are inconsistent, with mentions of both software engineering and biology.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_taylor_brown_austin",
+      "investigation_id": "inv_157e64f483f2",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- The name \"Taylor Brown\" is consistently used across all observations.\n- There are multiple references to Taylor Brown being involved in various professions, including being a public speaker, author, software engineer, professor, and attorney.\n- The location of Austin, Texas is mentioned multiple times.\n\nUnclear:\n- There are conflicting occupations and roles (e.g., software engineer, public speaker, author, professor, attorney) that suggest the possibility of multiple individuals sharing the same name.\n- The observations include references to different achievements and experiences that may not align with a single person's biography.\n- The gender identity and racial background are mentioned, but it is unclear if they refer to the same individual across all contexts.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_david_kim_seattle",
+      "investigation_id": "inv_ae10237e95a4",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- The name \"David Kim\" is consistent across all observations.\n- There are multiple references to \"David Kim\" being a software engineer or related roles.\n- Several locations mentioned are consistent with Seattle, Washington.\n\nUnclear:\n- There are multiple conflicting occupations and educational backgrounds, suggesting that there may be multiple individuals named David Kim.\n- Some observations indicate different levels of experience and roles that do not seem to align with a single career trajectory.\n- The presence of a concertmaster and a brilliant performer suggests a different individual, as this role typically does not overlap with software engineering.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_jamie_chen_toronto",
+      "investigation_id": "inv_f1c15baa8502",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- There are multiple individuals named Jamie Chen with different occupations and locations.\n- One Jamie Chen is a software engineer based in Toronto, while another is a brand designer and illustrator based in the Bay Area.\n- There are references to a Jamie Chen with a PhD in Electrical & Computer Engineering and another Jamie Chen who is a PhD student in English Literature.\n\nUnclear:\n- Whether any of these individuals share the same educational background or personal history.\n- The specific connections between the different occupations and locations attributed to each Jamie Chen.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_alex_johnson_austin",
+      "investigation_id": "inv_1e4695465fc6",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- The name \"Alex Johnson\" is consistent across all observations.\n- There are multiple references to different occupations (software engineer, professional baseball player, climber, etc.) associated with the name.\n- The location \"Austin, Texas\" is mentioned multiple times.\n\nUnclear:\n- The observations suggest multiple individuals with the same name, as they reference different careers, life events, and timelines (e.g., one Alex Johnson died in 2015, while others are active).\n- The age and birthdate of some individuals do not align, indicating they may not be the same person.\n- The presence of various sports and professional backgrounds suggests that there are likely multiple people named Alex Johnson.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ambiguous_sam_lee_new_york",
+      "investigation_id": "inv_9ffbc558dfe7",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about:\n- The observations describe a person named Sam Lee who is a musician and involved in various artistic and environmental activities.\n- Sam Lee is recognized for his contributions to music, including awards and involvement in live events.\n\nUnclear:\n- The initial input states that Sam Lee is a software engineer, but the observations indicate that he is primarily a musician and not a software engineer.\n- There is no clear indication that the Sam Lee in the observations is the same individual as the one described in the input, as they appear to have different occupations.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "ekram_yeshanew_software_developer",
+      "investigation_id": "inv_4699fe9b8ce5",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "uncertain",
+      "raw_response": "DIFFERENT/UNRESOLVED\n\nConfident about: The name \"Ekram Yeshanew\" and the occupation \"software developer\" are specific to one individual.\n\nUnclear: There are no additional observations provided to compare or confirm if there are multiple individuals or if this is the only person being described.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "olivia_dean_singer",
+      "investigation_id": "inv_3a1b57a84c5a",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "resolved",
+      "raw_response": "SAME PERSON\n\nConfident about:\n- All observations refer to an individual named Olivia Dean.\n- She is a singer and songwriter, with multiple albums and singles released.\n- She has received various awards, including a Grammy and Brit Awards.\n- She has a significant number of monthly listeners and is active in the music industry since 2017.\n\nUnclear:\n- There are no conflicting details, but the timeline of her album releases and achievements could be more explicitly connected to specific years.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "michael_tamire_salesman",
+      "investigation_id": "inv_3661b2b4d217",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "resolved",
+      "raw_response": "SAME PERSON\n\nConfident about:\n- The name \"Michael Tamire\" is consistently used across all observations.\n- He is identified as an actor in multiple contexts, including discussions about his acting career and specific performances in various Ethiopian movies and plays.\n\nUnclear:\n- The initial input states that he is a \"salesman,\" which contrasts with the observations that primarily describe him as an actor. It is unclear if he is also a salesman or if this is a different individual with the same name.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "steve_jobs_developer",
+      "investigation_id": "inv_3c5ab26b23d8",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "resolved",
+      "raw_response": "SAME PERSON\n\nConfident about:\n- All observations refer to the same individual, Steve Jobs, who is known for his role in founding and leading Apple Inc. and NeXT, as well as his contributions to the tech industry.\n\nUnclear:\n- There are conflicting statements regarding his role as a programmer versus a video game developer, which may lead to confusion about his specific skills and contributions in those areas.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    },
+    {
+      "case_id": "katie_james_ai_consultant",
+      "investigation_id": "inv_bb20786c7e78",
+      "status": "completed",
+      "model": "gpt-4o-mini",
+      "verdict": "resolved",
+      "raw_response": "SAME PERSON\n\nConfident about:\n- All observations refer to a person named Katie James.\n- She is involved in both music (as a singer and songwriter) and technology (as an AI consultant).\n- She has a diverse background, being Anglo-Irish and having lived in Colombia.\n\nUnclear:\n- The specific timeline of her career in music versus her work as an AI consultant, as both seem to be active simultaneously.\n- The potential for multiple individuals with the same name, but the context suggests they are all describing the same person.",
+      "ground_truth": {
+        "expected_verdict": "uncertain",
+        "false_merge": false
+      }
+    }
+  ],
+  "report_path": "backend/artifacts/evaluation/baseline.json"
+}

@@ -1,0 +1,648 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_9f1b4c692b95",
+  "run_id": "run_3791075cb71f",
+  "started_at": "2026-08-31T12:38:18.671542+00:00",
+  "completed_at": "2026-08-31T12:40:09.193357+00:00",
+  "clues": {
+    "name": "John Williams",
+    "usernames": [],
+    "occupation": "guitar player",
+    "employers": [],
+    "locations": [
+      "Australia"
+    ],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T12:38:18.672172+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"John Williams\"",
+          "\"John Williams\" guitar player Australia"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T12:38:19.098602+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_9f1b4c692b95",
+        "run_id": "run_3791075cb71f"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T12:38:19.098655+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T12:38:19.098942+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"John Williams\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T12:38:19.612265+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"John Williams\"",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T12:38:19.612287+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"John Williams\" guitar player Australia"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T12:38:23.022162+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"John Williams\" guitar player Australia",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T12:38:23.022278+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 18
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T12:38:24.833395+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://music.youtube.com/channel/UCfv8TEQ44ej9uPGF-SNsDBA",
+        "source_id": "src_d7019d68fe06db3a",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T12:38:25.866140+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d7019d68fe06db3a",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T12:38:26.376816+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.britannica.com/biography/John-Williams-American-composer-and-conductor",
+        "error": "Client error '403 Forbidden' for url 'https://www.britannica.com/biography/John-Williams-American-composer-and-conductor'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T12:38:28.646010+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.bso.org/profiles/john-williams",
+        "source_id": "src_f55cb2dc6403210a",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T12:38:30.634847+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f55cb2dc6403210a",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T12:38:32.620117+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://m.imdb.com/name/nm0002354",
+        "source_id": "src_f742cf5f14439a0b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T12:38:33.476802+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f742cf5f14439a0b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T12:38:36.367923+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/John_Williams",
+        "source_id": "src_85b03405938c69ba",
+        "cache_hit": true,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T12:38:39.545785+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_85b03405938c69ba",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T12:38:41.689698+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.johnwilliams.org/",
+        "source_id": "src_297a819a5043f118",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T12:38:43.215250+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_297a819a5043f118",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T12:38:46.657138+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/johnwilliams.music?hl=en",
+        "source_id": "src_ff084a989b45ef1b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T12:38:47.288444+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ff084a989b45ef1b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T12:38:48.955960+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://open.spotify.com/artist/3dRfiJ2650SZu6GbydcHNb",
+        "source_id": "src_43fc80fffac52904",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T12:38:52.065744+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_43fc80fffac52904",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T12:38:53.514101+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.imdb.com/name/nm0002354",
+        "source_id": "src_f742cf5f14439a0b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T12:38:54.590555+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f742cf5f14439a0b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T12:38:56.996266+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.sfcv.org/learn/composer-gallery/john-williams",
+        "source_id": "src_8f01f5bca5c15755",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T12:39:03.190771+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8f01f5bca5c15755",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T12:39:05.873453+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "http://www.bach-cantatas.com/Bio/Williams-John-Guitar.htm",
+        "source_id": "src_e37c4bebee8501ef",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T12:39:10.568309+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e37c4bebee8501ef",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T12:39:12.893075+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://bach-cantatas.com/Bio/Williams-John-Guitar.htm",
+        "source_id": "src_fb2459888204252f",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T12:39:18.505448+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_fb2459888204252f",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T12:39:21.271000+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.last.fm/music/John+Williams/+wiki",
+        "source_id": "src_eed5e2b4b33dedd0",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T12:39:28.030653+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_eed5e2b4b33dedd0",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T12:39:29.982435+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "http://plum.cream.org/williams/biog-4.htm",
+        "source_id": "src_8a1c25673f3ce534",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T12:39:38.607238+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8a1c25673f3ce534",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T12:39:40.437337+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.guitar-list.com/guitar-players/john-williams",
+        "source_id": "src_9ef34def2a9eb9b3",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T12:39:49.478018+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9ef34def2a9eb9b3",
+        "candidate_observation_count": 12,
+        "accepted_observation_count": 12
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-31T12:39:52.429282+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://classicalguitarmagazine.com/john-williams/feed",
+        "source_id": "src_fcf4185e2bdf12ea",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-31T12:39:54.868595+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_fcf4185e2bdf12ea",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-08-31T12:39:58.541298+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "http://classicalguitarmagazine.com/tag/john-williams",
+        "source_id": "src_763165803c80d6d8",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-08-31T12:40:00.758802+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_763165803c80d6d8",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-08-31T12:40:04.023634+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://classicalguitarmagazine.com/john-williams",
+        "source_id": "src_763165803c80d6d8",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-08-31T12:40:05.867570+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_763165803c80d6d8",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 44,
+      "timestamp": "2026-08-31T12:40:09.193474+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 54,
+        "retrieved_source_count": 13,
+        "error_count": 1,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 18,
+    "retrieved_source_count": 13,
+    "observation_count": 54,
+    "error_count": 1
+  }
+}

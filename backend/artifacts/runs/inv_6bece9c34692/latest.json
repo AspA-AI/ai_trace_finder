@@ -1,0 +1,649 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_6bece9c34692",
+  "run_id": "run_a9d95bf88324",
+  "started_at": "2026-08-30T22:32:02.570848+00:00",
+  "completed_at": "2026-08-30T22:38:08.550660+00:00",
+  "clues": {
+    "name": "Rehmet Yeshanew",
+    "usernames": [
+      "ryees"
+    ],
+    "occupation": "AI Engineer",
+    "employers": [],
+    "locations": [
+      "Austria"
+    ],
+    "websites": [],
+    "github_handle": "ryees",
+    "additional_clues": [
+      "she is a female, ethiopian nationality"
+    ]
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-30T22:32:02.571390+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 4,
+        "queries": [
+          "\"Rehmet Yeshanew\"",
+          "\"Rehmet Yeshanew\" AI Engineer Austria",
+          "ryees",
+          "ryees"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-30T22:32:07.082150+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_6bece9c34692",
+        "run_id": "run_a9d95bf88324"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-30T22:32:07.082174+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 4
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-30T22:32:07.082177+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Rehmet Yeshanew\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-30T22:32:09.600464+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Rehmet Yeshanew\"",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-30T22:32:09.600489+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Rehmet Yeshanew\" AI Engineer Austria"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-30T22:32:12.012085+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Rehmet Yeshanew\" AI Engineer Austria",
+        "result_count": 5,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-30T22:32:12.012108+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "ryees"
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-30T22:32:16.489704+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "ryees",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-30T22:32:16.489844+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "ryees"
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-30T22:32:17.531866+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "ryees",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-30T22:32:17.532227+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 23
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-30T22:32:24.653501+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/pub/dir/+/Yeshanew",
+        "error": "Client error '429 Too Many Requests' for url 'https://www.linkedin.com/pub/dir/+/Yeshanew'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-30T22:32:28.954924+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://et.linkedin.com/in/rehmet-yeshanew-915aa918a",
+        "error": "Invalid status code '999 <none>' for url 'https://et.linkedin.com/in/rehmet-yeshanew-915aa918a'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-30T22:32:40.248010+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/RYees",
+        "source_id": "src_86cdea5c7b4e576f",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-30T22:32:47.045492+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_86cdea5c7b4e576f",
+        "candidate_observation_count": 9,
+        "accepted_observation_count": 9
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-30T22:32:55.078684+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://levelup.gitconnected.com/the-smarter-the-model-gets-the-less-my-custom-pipeline-matters-686021106526",
+        "error": "Client error '403 Forbidden' for url 'https://levelup.gitconnected.com/the-smarter-the-model-gets-the-less-my-custom-pipeline-matters-686021106526'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-30T22:33:27.532925+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/shakhnazar-zhumabekov_generativeai-machinelearning-deeplearning-activity-7486126154211344384-kW2u",
+        "source_id": "src_965c790195c1a7cd",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-30T22:33:27.532977+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_965c790195c1a7cd",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-30T22:33:32.094529+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://coderonfleek.medium.com/harness-engineering-part-3-the-control-loop-ceadc0730b0a",
+        "error": "Client error '403 Forbidden' for url 'https://coderonfleek.medium.com/harness-engineering-part-3-the-control-loop-ceadc0730b0a'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-30T22:33:36.894473+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://coderonfleek.medium.com/harness-engineering-part-4-the-tool-layer-434f2d813239",
+        "error": "Client error '403 Forbidden' for url 'https://coderonfleek.medium.com/harness-engineering-part-4-the-tool-layer-434f2d813239'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-30T22:33:40.599646+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://engg.glance.com/how-we-trace-every-decision-our-ai-coding-agent-makes-d687a451ea34",
+        "error": "Client error '403 Forbidden' for url 'https://engg.glance.com/how-we-trace-every-decision-our-ai-coding-agent-makes-d687a451ea34'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-30T22:33:58.398192+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_id": "src_1456d83b8de71316",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-30T22:34:05.337175+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1456d83b8de71316",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-30T22:34:11.273680+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://devopstronaut.com/stateless-mcp-how-mcp-2026-07-28-made-mcp-stateless-38b673cdeb14",
+        "error": "Client error '403 Forbidden' for url 'https://devopstronaut.com/stateless-mcp-how-mcp-2026-07-28-made-mcp-stateless-38b673cdeb14'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-30T22:34:16.210920+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://github.com/orgs/notifi-network/followers",
+        "error": "Client error '404 Not Found' for url 'https://api.github.com/users/orgs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-30T22:34:39.308626+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://scholar.google.com/citations?user=BoLEIDsAAAAJ&hl=en",
+        "source_id": "src_be54bdaa9d70e5d5",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-30T22:34:39.308758+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_be54bdaa9d70e5d5",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-30T22:35:03.399087+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.science.gov/topicpages/c/continuous+fluidized-bed+reactor.html",
+        "source_id": "src_7d83874047102da0",
+        "cache_hit": false,
+        "relevance_score": 0.05,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-30T22:35:03.399143+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_7d83874047102da0",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-30T22:35:17.317711+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.reddit.com/user/Ryees",
+        "source_id": "src_3dce9bab707f94a0",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-30T22:35:23.476864+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3dce9bab707f94a0",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-30T22:35:28.525558+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://ryees.deviantart.com/",
+        "error": "Client error '403 Forbidden' for url 'https://ryees.deviantart.com/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-30T22:35:49.674609+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Reyes",
+        "source_id": "src_799a7926c891e6a9",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-30T22:35:49.674646+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_799a7926c891e6a9",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-30T22:36:03.552898+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.kitco.com/markets/stocks/OTC-RYEES",
+        "source_id": "src_ef7add60dc3d6973",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-30T22:36:04.649132+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ef7add60dc3d6973",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-30T22:36:14.476184+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.otcmarkets.com/stock/RYEES/overview",
+        "source_id": "src_3c33e73988fe7539",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-30T22:36:15.613777+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3c33e73988fe7539",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-08-30T22:36:35.631389+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.bloomberg.com/quote/RYEES:US",
+        "source_id": "src_9e6573a49fc79a84",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-08-30T22:36:37.025679+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9e6573a49fc79a84",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-08-30T22:37:24.002194+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.instagram.com/ryees._",
+        "error": ""
+      }
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-08-30T22:37:38.304788+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://ryesthebar.com/",
+        "error": "Client error '403 Forbidden' for url 'https://ryesthebar.com/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 44,
+      "timestamp": "2026-08-30T22:37:49.594925+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://bradleybraves.com/sports/mens-soccer/roster/ivan-reyes/14066",
+        "source_id": "src_42c63b919c049fd7",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 45,
+      "timestamp": "2026-08-30T22:37:49.594993+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_42c63b919c049fd7",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 46,
+      "timestamp": "2026-08-30T22:38:00.377063+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://open.spotify.com/artist/1cxx3blWps3N86tFei5Yji",
+        "source_id": "src_95b00a9360f80b21",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 47,
+      "timestamp": "2026-08-30T22:38:00.377180+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_95b00a9360f80b21",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 48,
+      "timestamp": "2026-08-30T22:38:08.550906+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 24,
+        "retrieved_source_count": 12,
+        "error_count": 11,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 3,
+    "discovered_source_count": 23,
+    "retrieved_source_count": 12,
+    "observation_count": 24,
+    "error_count": 11
+  }
+}

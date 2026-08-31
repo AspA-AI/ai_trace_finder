@@ -1,0 +1,30 @@
+{
+  "artifact_type": "investigation_trajectory_manifest",
+  "schema_version": "1.0",
+  "purpose": "Representative, reviewable records of TRACE investigation workflow decisions.",
+  "artifact_directory": "backend/artifacts/runs",
+  "inspection_paths": [
+    "GET /investigations/{investigation_id}/run",
+    "/runs/{investigation_id}",
+    "backend/artifacts/runs/{investigation_id}/latest.json"
+  ],
+  "representative_runs": [
+    {
+      "investigation_id": "inv_04e9758830f4",
+      "run_id": "run_375fb947be07",
+      "scenario": "real_investigation_rehmet_yeshanew",
+      "file": "backend/artifacts/runs/inv_04e9758830f4/run_375fb947be07.json",
+      "shows": [
+        "query planning",
+        "bounded discovery",
+        "source retrieval and relevance evaluation",
+        "extraction skipped after relevance rejection",
+        "completed run summary",
+        "real saved investigation trajectory"
+      ]
+    }
+  ],
+  "notes": [
+    "Artifacts are append-only by run_id; latest.json is a convenience pointer for the newest run."
+  ]
+}

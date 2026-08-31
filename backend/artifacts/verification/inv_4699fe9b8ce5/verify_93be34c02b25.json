@@ -1,0 +1,12 @@
+{
+  "investigation_id": "inv_4699fe9b8ce5",
+  "run_id": "verify_93be34c02b25",
+  "generated_at": "2026-08-30T12:25:51.817673+00:00",
+  "stages": {
+    "observations": [],
+    "normalized_observations": [],
+    "candidates": [],
+    "deterministic_results": [],
+    "final_results": []
+  }
+}

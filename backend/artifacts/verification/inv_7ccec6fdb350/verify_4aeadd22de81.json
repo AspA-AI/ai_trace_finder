@@ -1,0 +1,616 @@
+{
+  "investigation_id": "inv_7ccec6fdb350",
+  "run_id": "verify_4aeadd22de81",
+  "generated_at": "2026-08-31T10:47:07.323376+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_47f5dc278d34bcac",
+        "source_id": "src_86cdea5c7b4e576f",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "is an",
+        "object_text": "AI/ML Engineer and Researcher",
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:24.077981Z",
+        "source_published_at": null,
+        "quote": "\"bio\":\"AI/ML Engineer and Researcher\"",
+        "source_url": "https://github.com/RYees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_61432caf10e25b70",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "compiled",
+        "object_text": "unified boundaries",
+        "object_type": "data",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "Compiled the unified boundaries straight into standardized YOLO segmentation syntax.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6eaa99112d440d93",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "engineered",
+        "object_text": "automated pseudo-labeling bootstrapping pipeline",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "I engineered an automated pseudo-labeling bootstrapping pipeline.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_807075c32c1372c5",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "ensures",
+        "object_text": "smooth, lightning-fast inference",
+        "object_type": "result",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "For production-scale environments, pairing this highly lightweight, high-precision architecture with dedicated edge-GPU hardware ensures incredibly smooth, lightning-fast inference.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_82d5b758d58952d9",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "used",
+        "object_text": "SAM 3 (Segment Anything Model)",
+        "object_type": "technology",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "Used SAM 3 (Segment Anything Model) in a zero-shot mode, leveraging its Decoupled Presence Head to perfectly isolate individual, tightly packed metal pieces from each other and the belt texture.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_9acf2280f2066d47",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "benchmarked",
+        "object_text": "several next-gen architectures",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "I benchmarked several next-gen architectures under identical conditions.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e0ce4cdc5d09e149",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "passed",
+        "object_text": "crisp geometric segments",
+        "object_type": "data",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "Passed those crisp geometric segments through a custom pre-trained YOLO classifier to instantly stamp them as 'Copper' or 'Steel'.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e4461f604e07e80d",
+        "source_id": "src_86cdea5c7b4e576f",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "location",
+        "object_text": "Austria",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:24.077981Z",
+        "source_published_at": null,
+        "quote": "\"location\":\"Austria\"",
+        "source_url": "https://github.com/RYees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e99164c1d1e5a39f",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "project",
+        "object_text": "end-to-end instance segmentation pipeline",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "I'm excited to share the results of an end-to-end instance segmentation pipeline I built to automate industrial material sorting.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f7579bc599d81862",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "achieved",
+        "object_text": "0.9019 Box mAP50 and 0.8808 Seg mAP50",
+        "object_type": "performance metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642Z",
+        "source_published_at": null,
+        "quote": "Ultimately, the optimized YOLOv8n-seg model emerged as the clear winner—achieving a massive 0.9019 Box mAP50 and 0.8808 Seg mAP50 on highly complex, multi-object production scenes.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_47f5dc278d34bcac",
+        "source_id": "src_86cdea5c7b4e576f",
+        "predicate": "is an",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "AI/ML Engineer and Researcher",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "ai/ml engineer and researcher",
+        "quote": "\"bio\":\"AI/ML Engineer and Researcher\"",
+        "source_url": "https://github.com/RYees",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:24.077981+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_61432caf10e25b70",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "compiled",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "unified boundaries",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "unified boundaries",
+        "quote": "Compiled the unified boundaries straight into standardized YOLO segmentation syntax.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "data",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6eaa99112d440d93",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "engineered",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "automated pseudo-labeling bootstrapping pipeline",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "automated pseudo-labeling bootstrapping pipeline",
+        "quote": "I engineered an automated pseudo-labeling bootstrapping pipeline.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_807075c32c1372c5",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "ensures",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "smooth, lightning-fast inference",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "smooth, lightning-fast inference",
+        "quote": "For production-scale environments, pairing this highly lightweight, high-precision architecture with dedicated edge-GPU hardware ensures incredibly smooth, lightning-fast inference.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "result",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_82d5b758d58952d9",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "used",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "SAM 3 (Segment Anything Model)",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "sam 3 (segment anything model)",
+        "quote": "Used SAM 3 (Segment Anything Model) in a zero-shot mode, leveraging its Decoupled Presence Head to perfectly isolate individual, tightly packed metal pieces from each other and the belt texture.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "technology",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_9acf2280f2066d47",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "benchmarked",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "several next-gen architectures",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "several next-gen architectures",
+        "quote": "I benchmarked several next-gen architectures under identical conditions.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e0ce4cdc5d09e149",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "passed",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "crisp geometric segments",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "crisp geometric segments",
+        "quote": "Passed those crisp geometric segments through a custom pre-trained YOLO classifier to instantly stamp them as 'Copper' or 'Steel'.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "data",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e4461f604e07e80d",
+        "source_id": "src_86cdea5c7b4e576f",
+        "predicate": "location",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "Austria",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "austria",
+        "quote": "\"location\":\"Austria\"",
+        "source_url": "https://github.com/RYees",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:24.077981+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e99164c1d1e5a39f",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "project",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "end-to-end instance segmentation pipeline",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "end-to-end instance segmentation pipeline",
+        "quote": "I'm excited to share the results of an end-to-end instance segmentation pipeline I built to automate industrial material sorting.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f7579bc599d81862",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "achieved",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "0.9019 Box mAP50 and 0.8808 Seg mAP50",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "0.9019 box map50 and 0.8808 seg map50",
+        "quote": "Ultimately, the optimized YOLOv8n-seg model emerged as the clear winner—achieving a massive 0.9019 Box mAP50 and 0.8808 Seg mAP50 on highly complex, multi-object production scenes.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "performance metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T10:46:47.488642+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_47f5dc278d34bcac",
+        "right_observation_id": "obs_61432caf10e25b70",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_86cdea5c7b4e576f",
+        "right_source_id": "src_1456d83b8de71316",
+        "left_evidence_ids": [
+          "obs_47f5dc278d34bcac",
+          "obs_e4461f604e07e80d"
+        ],
+        "right_evidence_ids": [
+          "obs_61432caf10e25b70",
+          "obs_6eaa99112d440d93",
+          "obs_807075c32c1372c5",
+          "obs_82d5b758d58952d9",
+          "obs_9acf2280f2066d47",
+          "obs_e0ce4cdc5d09e149",
+          "obs_e99164c1d1e5a39f",
+          "obs_f7579bc599d81862"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_47f5dc278d34bcac",
+        "right_observation_id": "obs_61432caf10e25b70",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.185,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_47f5dc278d34bcac",
+          "obs_e4461f604e07e80d",
+          "obs_61432caf10e25b70",
+          "obs_6eaa99112d440d93",
+          "obs_807075c32c1372c5",
+          "obs_82d5b758d58952d9",
+          "obs_9acf2280f2066d47",
+          "obs_e0ce4cdc5d09e149",
+          "obs_e99164c1d1e5a39f",
+          "obs_f7579bc599d81862"
+        ],
+        "left_evidence_ids": [
+          "obs_47f5dc278d34bcac",
+          "obs_e4461f604e07e80d"
+        ],
+        "right_evidence_ids": [
+          "obs_61432caf10e25b70",
+          "obs_6eaa99112d440d93",
+          "obs_807075c32c1372c5",
+          "obs_82d5b758d58952d9",
+          "obs_9acf2280f2066d47",
+          "obs_e0ce4cdc5d09e149",
+          "obs_e99164c1d1e5a39f",
+          "obs_f7579bc599d81862"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_47f5dc278d34bcac",
+        "right_observation_id": "obs_61432caf10e25b70",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.185,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_47f5dc278d34bcac",
+          "obs_e4461f604e07e80d",
+          "obs_61432caf10e25b70",
+          "obs_6eaa99112d440d93",
+          "obs_807075c32c1372c5",
+          "obs_82d5b758d58952d9",
+          "obs_9acf2280f2066d47",
+          "obs_e0ce4cdc5d09e149",
+          "obs_e99164c1d1e5a39f",
+          "obs_f7579bc599d81862"
+        ],
+        "left_evidence_ids": [
+          "obs_47f5dc278d34bcac",
+          "obs_e4461f604e07e80d"
+        ],
+        "right_evidence_ids": [
+          "obs_61432caf10e25b70",
+          "obs_6eaa99112d440d93",
+          "obs_807075c32c1372c5",
+          "obs_82d5b758d58952d9",
+          "obs_9acf2280f2066d47",
+          "obs_e0ce4cdc5d09e149",
+          "obs_e99164c1d1e5a39f",
+          "obs_f7579bc599d81862"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "inv_7ccec6fdb350",
+      "deterministic_verdict": "UNKNOWN",
+      "deterministic_confidence": 0.185,
+      "deterministic_reasoning": [
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "likely_same_person",
+      "semantic_confidence": "high",
+      "semantic_reasoning": "The observations consistently identify Rehmet Yeshanew as an AI/ML Engineer and Researcher based in Austria, with multiple independent sources corroborating their involvement in specific projects and technologies. The details about their work on segmentation pipelines and performance metrics are specific and unlikely to belong to another individual, supporting the conclusion that these observations describe a single person.",
+      "semantic_caveats": [],
+      "semantic_profile": {
+        "verdict": "likely_same_person",
+        "confidence_label": "high",
+        "likely_name": "Rehmet Yeshanew",
+        "headline": "AI/ML Engineer and Researcher",
+        "profile_summary": "The evidence strongly supports that Rehmet Yeshanew is an AI/ML Engineer and Researcher based in Austria. They have worked on various projects related to artificial intelligence, including developing an end-to-end instance segmentation pipeline and engineering an automated pseudo-labeling bootstrapping pipeline. Their work involves using advanced technologies such as YOLO segmentation and SAM 3 for industrial applications, showcasing a high level of expertise in the field.",
+        "attributes": [
+          {
+            "field": "occupation",
+            "value": "AI/ML Engineer and Researcher",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_47f5dc278d34bcac"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "location",
+            "value": "Austria",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_e4461f604e07e80d"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "projects",
+            "value": "end-to-end instance segmentation pipeline",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_e99164c1d1e5a39f"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "projects",
+            "value": "automated pseudo-labeling bootstrapping pipeline",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_6eaa99112d440d93"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "performance metrics",
+            "value": "0.9019 Box mAP50 and 0.8808 Seg mAP50",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_f7579bc599d81862"
+            ],
+            "caveat": null
+          }
+        ],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The observations consistently identify Rehmet Yeshanew as an AI/ML Engineer and Researcher based in Austria, with multiple independent sources corroborating their involvement in specific projects and technologies. The details about their work on segmentation pipelines and performance metrics are specific and unlikely to belong to another individual, supporting the conclusion that these observations describe a single person.",
+        "supporting_observation_ids": [
+          "obs_47f5dc278d34bcac",
+          "obs_e4461f604e07e80d",
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_f7579bc599d81862"
+        ],
+        "conflicting_observation_ids": [],
+        "caveats": []
+      },
+      "image_candidates": [
+        {
+          "source_id": "src_1456d83b8de71316",
+          "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+          "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQFeQDhdvcGMeQ/feedshare-shrink_800/B4DZ8qW3nUJsAc-/0/1783122067226?e=2147483647&v=beta&t=wLQBa95vmPegTKe8dm8m9uNoGXbTE0QLgKVTq5JxH_0",
+          "observation_ids": "['obs_61432caf10e25b70', 'obs_6eaa99112d440d93', 'obs_807075c32c1372c5', 'obs_82d5b758d58952d9', 'obs_9acf2280f2066d47', 'obs_e0ce4cdc5d09e149', 'obs_e99164c1d1e5a39f', 'obs_f7579bc599d81862']"
+        },
+        {
+          "source_id": "src_86cdea5c7b4e576f",
+          "source_url": "https://github.com/RYees",
+          "image_url": "https://avatars.githubusercontent.com/u/61593994?v=4",
+          "observation_ids": "['obs_47f5dc278d34bcac', 'obs_e4461f604e07e80d']"
+        }
+      ],
+      "agreement": "one_abstained",
+      "suggested_action": "No hard identity anchor (matching identifier, explicit cross-link) was found, even though the independent analysis leans toward one person. Adding a known GitHub handle, LinkedIn URL, or email to your search clues would let the deterministic check confirm this directly.",
+      "generated_at": "2026-08-31T10:47:07.322571+00:00"
+    }
+  }
+}

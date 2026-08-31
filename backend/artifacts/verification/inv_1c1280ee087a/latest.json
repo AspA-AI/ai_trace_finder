@@ -1,0 +1,1492 @@
+{
+  "investigation_id": "inv_1c1280ee087a",
+  "run_id": "verify_0fbb5f9f3090",
+  "generated_at": "2026-08-28T23:48:57.804606+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_c72c95b842248c26",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "experience",
+        "object_text": "React Developer at Kosmo Club",
+        "object_type": "employment",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "Developed a comprehensive health-tracking application with medication reminders, integrated external health APIs, and a conversational AI assistant.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "experience",
+        "object_text": "Software Developer at ZOWITECH",
+        "object_type": "employment",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "Developed an e-commerce movie subscription website with WordPress; managed relational database with Laravel and SQL.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_b6a7d8aabeb3a3d2",
+        "source_id": "src_cd9c671396f65892",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "has created",
+        "object_text": "Sample dataset with 8 aerial images from DOTA for testing YOLO oriented bounding box (OBB) models",
+        "object_type": "dataset",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:55.033348Z",
+        "source_published_at": null,
+        "quote": "Sample dataset with 8 aerial images from DOTA for testing YOLO oriented bounding box (OBB) models.",
+        "source_url": "https://platform.ultralytics.com/rehmet-yeshanew",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_733300a9e43b0192",
+        "source_id": "src_cd9c671396f65892",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "is involved in",
+        "object_text": "Computer Vision YOLO Models",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:55.033348Z",
+        "source_published_at": null,
+        "quote": "Rehmet Yeshanew - Computer Vision YOLO Models, Projects & Datasets.",
+        "source_url": "https://platform.ultralytics.com/rehmet-yeshanew",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e99164c1d1e5a39f",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "project",
+        "object_text": "end-to-end instance segmentation pipeline",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "I'm excited to share the results of an end-to-end instance segmentation pipeline I built to automate industrial material sorting.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6eaa99112d440d93",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "engineered",
+        "object_text": "automated pseudo-labeling bootstrapping pipeline",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "I engineered an automated pseudo-labeling bootstrapping pipeline.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_82d5b758d58952d9",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "used",
+        "object_text": "SAM 3 (Segment Anything Model)",
+        "object_type": "technology",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "Used SAM 3 (Segment Anything Model) in a zero-shot mode, leveraging its Decoupled Presence Head to perfectly isolate individual, tightly packed metal pieces from each other and the belt texture.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e0ce4cdc5d09e149",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "passed",
+        "object_text": "crisp geometric segments through a custom pre-trained YOLO classifier",
+        "object_type": "process",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "Passed those crisp geometric segments through a custom pre-trained YOLO classifier to instantly stamp them as 'Copper' or 'Steel'.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_61432caf10e25b70",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "compiled",
+        "object_text": "unified boundaries into standardized YOLO segmentation syntax",
+        "object_type": "process",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "Compiled the unified boundaries straight into standardized YOLO segmentation syntax.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_9acf2280f2066d47",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "benchmarked",
+        "object_text": "several next-gen architectures",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "I benchmarked several next-gen architectures under identical conditions.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_62a36dbe93f421d0",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "occupation",
+        "object_text": "AI Developer",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "Hello! I am a software developer with a passion for building AI-powered web applications and data-driven tools.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_d87ad6adc7fdbdfc",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "location",
+        "object_text": "Graz, Austria",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "Available to hire in Graz, Austria.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_cb2d98a7d0999d85",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "developedTool",
+        "object_text": "AI-powered personalized interview coach",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "In my freelance and project work, I've developed tools like an AI-powered personalized interview coach.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a62315be08105d9b",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "developedTool",
+        "object_text": "assistant chatbot for Redash",
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "I contributed to an AI-powered chatbot for Redash data visualization.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_90d9c327bf11a461",
+        "source_id": "src_675558d85b3d641e",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "experience",
+        "object_text": "AI Engineer / Tutor at 10acamdemy",
+        "object_type": "employment",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606Z",
+        "source_published_at": null,
+        "quote": "Provided expert tutoring in cutting-edge domains, including data science, web3, machine learning, and generative AI.",
+        "source_url": "https://www.twine.net/ryees",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f7579bc599d81862",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "achieved",
+        "object_text": "0.9019 Box mAP50 and 0.8808 Seg mAP50",
+        "object_type": "performance metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "Ultimately, the optimized YOLOv8n-seg model emerged as the clear winner—achieving a massive 0.9019 Box mAP50 and 0.8808 Seg mAP50 on highly complex, multi-object production scenes.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_38796f51f7eeeeb8",
+        "source_id": "src_1456d83b8de71316",
+        "subject_text": "Rehmet Yeshanew",
+        "predicate": "ensures",
+        "object_text": "incredibly smooth, lightning-fast inference",
+        "object_type": "result",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292Z",
+        "source_published_at": null,
+        "quote": "pairing this highly lightweight, high-precision architecture with dedicated edge-GPU hardware ensures incredibly smooth, lightning-fast inference.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_c72c95b842248c26",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "experience",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "React Developer at Kosmo Club",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "react developer at kosmo club",
+        "quote": "Developed a comprehensive health-tracking application with medication reminders, integrated external health APIs, and a conversational AI assistant.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "employment",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "experience",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "Software Developer at ZOWITECH",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "software developer at zowitech",
+        "quote": "Developed an e-commerce movie subscription website with WordPress; managed relational database with Laravel and SQL.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "employment",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_b6a7d8aabeb3a3d2",
+        "source_id": "src_cd9c671396f65892",
+        "predicate": "has created",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "Sample dataset with 8 aerial images from DOTA for testing YOLO oriented bounding box (OBB) models",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "sample dataset with 8 aerial images from dota for testing yolo oriented bounding box (obb) models",
+        "quote": "Sample dataset with 8 aerial images from DOTA for testing YOLO oriented bounding box (OBB) models.",
+        "source_url": "https://platform.ultralytics.com/rehmet-yeshanew",
+        "source_domain": "platform.ultralytics.com",
+        "source_platform": "ultralytics",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "dataset",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:55.033348+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_733300a9e43b0192",
+        "source_id": "src_cd9c671396f65892",
+        "predicate": "is involved in",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "Computer Vision YOLO Models",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "computer vision yolo models",
+        "quote": "Rehmet Yeshanew - Computer Vision YOLO Models, Projects & Datasets.",
+        "source_url": "https://platform.ultralytics.com/rehmet-yeshanew",
+        "source_domain": "platform.ultralytics.com",
+        "source_platform": "ultralytics",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:55.033348+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e99164c1d1e5a39f",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "project",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "end-to-end instance segmentation pipeline",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "end-to-end instance segmentation pipeline",
+        "quote": "I'm excited to share the results of an end-to-end instance segmentation pipeline I built to automate industrial material sorting.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6eaa99112d440d93",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "engineered",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "automated pseudo-labeling bootstrapping pipeline",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "automated pseudo-labeling bootstrapping pipeline",
+        "quote": "I engineered an automated pseudo-labeling bootstrapping pipeline.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_82d5b758d58952d9",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "used",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "SAM 3 (Segment Anything Model)",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "sam 3 (segment anything model)",
+        "quote": "Used SAM 3 (Segment Anything Model) in a zero-shot mode, leveraging its Decoupled Presence Head to perfectly isolate individual, tightly packed metal pieces from each other and the belt texture.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "technology",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e0ce4cdc5d09e149",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "passed",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "crisp geometric segments through a custom pre-trained YOLO classifier",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "crisp geometric segments through a custom pre-trained yolo classifier",
+        "quote": "Passed those crisp geometric segments through a custom pre-trained YOLO classifier to instantly stamp them as 'Copper' or 'Steel'.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "process",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_61432caf10e25b70",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "compiled",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "unified boundaries into standardized YOLO segmentation syntax",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "unified boundaries into standardized yolo segmentation syntax",
+        "quote": "Compiled the unified boundaries straight into standardized YOLO segmentation syntax.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "process",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_9acf2280f2066d47",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "benchmarked",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "several next-gen architectures",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "several next-gen architectures",
+        "quote": "I benchmarked several next-gen architectures under identical conditions.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_62a36dbe93f421d0",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "occupation",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "AI Developer",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "ai developer",
+        "quote": "Hello! I am a software developer with a passion for building AI-powered web applications and data-driven tools.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_d87ad6adc7fdbdfc",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "location",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "Graz, Austria",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "graz, austria",
+        "quote": "Available to hire in Graz, Austria.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_cb2d98a7d0999d85",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "developedTool",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "AI-powered personalized interview coach",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "ai-powered personalized interview coach",
+        "quote": "In my freelance and project work, I've developed tools like an AI-powered personalized interview coach.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a62315be08105d9b",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "developedTool",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "assistant chatbot for Redash",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "assistant chatbot for redash",
+        "quote": "I contributed to an AI-powered chatbot for Redash data visualization.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "project",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_90d9c327bf11a461",
+        "source_id": "src_675558d85b3d641e",
+        "predicate": "experience",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "AI Engineer / Tutor at 10acamdemy",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "ai engineer / tutor at 10acamdemy",
+        "quote": "Provided expert tutoring in cutting-edge domains, including data science, web3, machine learning, and generative AI.",
+        "source_url": "https://www.twine.net/ryees",
+        "source_domain": "twine.net",
+        "source_platform": "twine",
+        "source_identifiers": [
+          "ryees"
+        ],
+        "object_type": "employment",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:17:52.948606+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f7579bc599d81862",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "achieved",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "0.9019 Box mAP50 and 0.8808 Seg mAP50",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "0.9019 box map50 and 0.8808 seg map50",
+        "quote": "Ultimately, the optimized YOLOv8n-seg model emerged as the clear winner—achieving a massive 0.9019 Box mAP50 and 0.8808 Seg mAP50 on highly complex, multi-object production scenes.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "performance metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_38796f51f7eeeeb8",
+        "source_id": "src_1456d83b8de71316",
+        "predicate": "ensures",
+        "original_subject": "Rehmet Yeshanew",
+        "original_object": "incredibly smooth, lightning-fast inference",
+        "normalized_subject": "rehmet yeshanew",
+        "normalized_object": "incredibly smooth, lightning-fast inference",
+        "quote": "pairing this highly lightweight, high-precision architecture with dedicated edge-GPU hardware ensures incredibly smooth, lightning-fast inference.",
+        "source_url": "https://www.linkedin.com/posts/rehmet-yeshanew-915aa918a_artificialintelligence-deeplearning-yolo-activity-7478956022900948992-4j_D",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "rehmet-yeshanew"
+        ],
+        "object_type": "result",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T11:18:01.312292+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_675558d85b3d641e",
+        "right_source_id": "src_675558d85b3d641e",
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26"
+        ],
+        "right_evidence_ids": [
+          "obs_c8a4a3d1b1e5cb3a"
+        ]
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_90d9c327bf11a461",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_675558d85b3d641e",
+        "right_source_id": "src_675558d85b3d641e",
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26"
+        ],
+        "right_evidence_ids": [
+          "obs_90d9c327bf11a461"
+        ]
+      },
+      {
+        "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "right_observation_id": "obs_90d9c327bf11a461",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_675558d85b3d641e",
+        "right_source_id": "src_675558d85b3d641e",
+        "left_evidence_ids": [
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "right_evidence_ids": [
+          "obs_90d9c327bf11a461"
+        ]
+      },
+      {
+        "left_observation_id": "obs_cb2d98a7d0999d85",
+        "right_observation_id": "obs_a62315be08105d9b",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_675558d85b3d641e",
+        "right_source_id": "src_675558d85b3d641e",
+        "left_evidence_ids": [
+          "obs_cb2d98a7d0999d85"
+        ],
+        "right_evidence_ids": [
+          "obs_a62315be08105d9b"
+        ]
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_b6a7d8aabeb3a3d2",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_675558d85b3d641e",
+        "right_source_id": "src_cd9c671396f65892",
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461"
+        ],
+        "right_evidence_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ]
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_e99164c1d1e5a39f",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_675558d85b3d641e",
+        "right_source_id": "src_1456d83b8de71316",
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461"
+        ],
+        "right_evidence_ids": [
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ]
+      },
+      {
+        "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+        "right_observation_id": "obs_e99164c1d1e5a39f",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_cd9c671396f65892",
+        "right_source_id": "src_1456d83b8de71316",
+        "left_evidence_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "right_evidence_ids": [
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.28,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26"
+        ],
+        "right_evidence_ids": [
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_90d9c327bf11a461",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.28,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_90d9c327bf11a461"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26"
+        ],
+        "right_evidence_ids": [
+          "obs_90d9c327bf11a461"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "right_observation_id": "obs_90d9c327bf11a461",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.28,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_90d9c327bf11a461"
+        ],
+        "left_evidence_ids": [
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "right_evidence_ids": [
+          "obs_90d9c327bf11a461"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_cb2d98a7d0999d85",
+        "right_observation_id": "obs_a62315be08105d9b",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.28,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b"
+        ],
+        "left_evidence_ids": [
+          "obs_cb2d98a7d0999d85"
+        ],
+        "right_evidence_ids": [
+          "obs_a62315be08105d9b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_b6a7d8aabeb3a3d2",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.115,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461",
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461"
+        ],
+        "right_evidence_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_e99164c1d1e5a39f",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.135,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461",
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461"
+        ],
+        "right_evidence_ids": [
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+        "right_observation_id": "obs_e99164c1d1e5a39f",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192",
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "left_evidence_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "right_evidence_ids": [
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.23,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26"
+        ],
+        "right_evidence_ids": [
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_90d9c327bf11a461",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.23,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_90d9c327bf11a461"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26"
+        ],
+        "right_evidence_ids": [
+          "obs_90d9c327bf11a461"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c8a4a3d1b1e5cb3a",
+        "right_observation_id": "obs_90d9c327bf11a461",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.23,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_90d9c327bf11a461"
+        ],
+        "left_evidence_ids": [
+          "obs_c8a4a3d1b1e5cb3a"
+        ],
+        "right_evidence_ids": [
+          "obs_90d9c327bf11a461"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_cb2d98a7d0999d85",
+        "right_observation_id": "obs_a62315be08105d9b",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.23,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "MULTIPLE_VALUES_SAME_PREDICATE",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b"
+        ],
+        "left_evidence_ids": [
+          "obs_cb2d98a7d0999d85"
+        ],
+        "right_evidence_ids": [
+          "obs_a62315be08105d9b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_b6a7d8aabeb3a3d2",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.115,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461",
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461"
+        ],
+        "right_evidence_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_c72c95b842248c26",
+        "right_observation_id": "obs_e99164c1d1e5a39f",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_TEMPORAL",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461",
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "left_evidence_ids": [
+          "obs_c72c95b842248c26",
+          "obs_c8a4a3d1b1e5cb3a",
+          "obs_62a36dbe93f421d0",
+          "obs_d87ad6adc7fdbdfc",
+          "obs_cb2d98a7d0999d85",
+          "obs_a62315be08105d9b",
+          "obs_90d9c327bf11a461"
+        ],
+        "right_evidence_ids": [
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_b6a7d8aabeb3a3d2",
+        "right_observation_id": "obs_e99164c1d1e5a39f",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.42,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "SEMANTIC_MATCH",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192",
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "left_evidence_ids": [
+          "obs_b6a7d8aabeb3a3d2",
+          "obs_733300a9e43b0192"
+        ],
+        "right_evidence_ids": [
+          "obs_e99164c1d1e5a39f",
+          "obs_6eaa99112d440d93",
+          "obs_82d5b758d58952d9",
+          "obs_e0ce4cdc5d09e149",
+          "obs_61432caf10e25b70",
+          "obs_9acf2280f2066d47",
+          "obs_f7579bc599d81862",
+          "obs_38796f51f7eeeeb8"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

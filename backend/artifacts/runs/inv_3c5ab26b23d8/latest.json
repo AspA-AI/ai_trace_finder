@@ -1,0 +1,374 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_3c5ab26b23d8",
+  "run_id": "run_7ef454ed4e1a",
+  "started_at": "2026-08-30T12:34:39.253478+00:00",
+  "completed_at": "2026-08-30T12:36:23.302269+00:00",
+  "clues": {
+    "name": "Steve Jobs",
+    "usernames": [],
+    "occupation": "developer",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-30T12:34:39.253621+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Steve Jobs\"",
+          "\"Steve Jobs\" developer"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-30T12:34:41.656032+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_3c5ab26b23d8",
+        "run_id": "run_7ef454ed4e1a"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-30T12:34:41.656093+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-30T12:34:41.656102+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Steve Jobs\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-30T12:34:42.296528+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Steve Jobs\"",
+        "result_count": 5,
+        "retry_limit": 1
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-30T12:34:42.296543+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Steve Jobs\" developer"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-30T12:34:42.777117+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Steve Jobs\" developer",
+        "result_count": 5,
+        "retry_limit": 1
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-30T12:34:42.777345+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 10
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-30T12:34:45.798934+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.britannica.com/money/Steve-Jobs",
+        "error": "Client error '403 Forbidden' for url 'https://www.britannica.com/money/Steve-Jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-30T12:35:00.040659+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "source_id": "src_3348f135aee72277",
+        "cache_hit": true,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-30T12:35:05.587129+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3348f135aee72277",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-30T12:35:14.243167+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.imdb.com/title/tt2080374",
+        "source_id": "src_fa150b24b349ec15",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-30T12:35:15.208282+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_fa150b24b349ec15",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-30T12:35:20.652225+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://allaboutstevejobs.com/",
+        "source_id": "src_9dae3eb6069a666a",
+        "cache_hit": true,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-30T12:35:21.679041+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9dae3eb6069a666a",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-30T12:35:32.001793+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.apple.com/stevejobs",
+        "source_id": "src_86619cf7c683568b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-30T12:35:33.800154+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_86619cf7c683568b",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-30T12:35:43.313181+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://seanmalstrom.wordpress.com/2011/08/29/steve-jobs-was-one-of-the-first-video-game-developers",
+        "source_id": "src_a5cd275c8c4375f4",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-30T12:35:46.194802+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a5cd275c8c4375f4",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-30T12:35:55.330531+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.reddit.com/r/apple/comments/cedbi/what_does_steve_jobs_actually_do_is_he_a_coder",
+        "source_id": "src_93a6dbcdb9ecb6be",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-30T12:35:56.128626+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_93a6dbcdb9ecb6be",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-30T12:35:59.831554+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=XcG6CpxKFnU",
+        "error": "Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DXcG6CpxKFnU&q=EgRU_HE9GK_H0NQGIjDgsiB_gh0AhM1f92Q7HDkXqnu5iqeZrVRfVAyVoRWVaEmmgemfrKtb6tQS_FVq_FIyAnJSWgFD'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-30T12:36:10.647898+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.thesecretdeveloper.com/blog/steve-jobs-missed-thenbsppoint",
+        "source_id": "src_72c80b98b009942e",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-30T12:36:13.974570+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_72c80b98b009942e",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-30T12:36:16.776710+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://medium.com/@tsecretdeveloper/steve-jobs-youre-wrong-about-superstar-coders-09b2ca29cb31",
+        "error": "Client error '403 Forbidden' for url 'https://medium.com/@tsecretdeveloper/steve-jobs-youre-wrong-about-superstar-coders-09b2ca29cb31'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-30T12:36:23.302303+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 16,
+        "retrieved_source_count": 5,
+        "error_count": 3,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 10,
+    "retrieved_source_count": 5,
+    "observation_count": 16,
+    "error_count": 3
+  }
+}

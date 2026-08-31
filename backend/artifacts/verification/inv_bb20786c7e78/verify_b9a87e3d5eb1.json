@@ -1,0 +1,3162 @@
+{
+  "investigation_id": "inv_bb20786c7e78",
+  "run_id": "verify_b9a87e3d5eb1",
+  "generated_at": "2026-08-30T12:39:25.328438+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_00a0ec80897fae86",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "location",
+        "object_text": "Los Angeles, California, United States",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "Los Angeles, California, United States",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_072d8e134aeeb6e9",
+        "source_id": "src_60cf65866d99a5b7",
+        "subject_text": "Katie James",
+        "predicate": "is",
+        "object_text": "preparando una gira de conciertos",
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205Z",
+        "source_published_at": null,
+        "quote": "Actualmente Katie prepara una gira de conciertos presentando su álbum más reciente, Bajo mi Corteza, lanzado en marzo del 2026.",
+        "source_url": "https://katiejamesmusic.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_0b554b97b2116916",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "moved to",
+        "object_text": "Colombia",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "llegó a Colombia a la edad de 2 años junto con su familia.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_12cb3edcd18ec5ce",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "certified_in",
+        "object_text": "Data Analytics",
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "Data Analytics",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_356738f3973ffd4d",
+        "source_id": "src_478417e0e04b59af",
+        "subject_text": "Katie James",
+        "predicate": "won",
+        "object_text": "the prize for Best Folk Song in Colombia",
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329Z",
+        "source_published_at": null,
+        "quote": "Last year Katie won the prize for Best Folk Song in Colombia at the Premios Nuestra Tierra awards with the song En la Selva",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_36f6d7e032cad2ef",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "is",
+        "object_text": "singer and songwriter",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "Katie James es una cantante y compositora anglo-irlandesa, nacionalizada colombiana.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_463a017343ede676",
+        "source_id": "src_60cf65866d99a5b7",
+        "subject_text": "Katie James",
+        "predicate": "has",
+        "object_text": "5 álbumes publicados",
+        "object_type": "quantity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205Z",
+        "source_published_at": null,
+        "quote": "Cuenta con 5 álbumes publicados.",
+        "source_url": "https://katiejamesmusic.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4ad4b6e59444c4d8",
+        "source_id": "src_478417e0e04b59af",
+        "subject_text": "Katie James",
+        "predicate": "has toured",
+        "object_text": "the Americas and Europe",
+        "object_type": "locations",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329Z",
+        "source_published_at": null,
+        "quote": "and toured the Americas and Europe performing in Colombia, Mexico, Costa Rica, The United States, Argentina, Uruguay, Ecuador, Peru, Chile, Italy, Spain, Swizterland, The Netherlands and the UK.",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4edd09365d675351",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "was born in",
+        "object_text": "Inishfree, Ireland",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "Katie James nació en una pequeña isla de Irlanda llamada Inishfree.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_53059d15f20dc6bf",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "presented",
+        "object_text": "album 'Versos Para No Olvidar'",
+        "object_type": "music album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "Katie presentó su álbum 'Versos Para No Olvidar', una selección de canciones que le hacen homenaje a la música de su tierra adoptiva, Colombia.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_57747730e89132fe",
+        "source_id": "src_478417e0e04b59af",
+        "subject_text": "Katie James",
+        "predicate": "is preparing",
+        "object_text": "the material for her next album",
+        "object_type": "music album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329Z",
+        "source_published_at": null,
+        "quote": "She is currently on tour while simultaneously preparing the material for her next album.",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_5e63647bbee476b7",
+        "source_id": "src_478417e0e04b59af",
+        "subject_text": "Katie James",
+        "predicate": "has recorded",
+        "object_text": "5 albums",
+        "object_type": "music albums",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329Z",
+        "source_published_at": null,
+        "quote": "Over the last 20 years Katie has recorded 5 albums",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_97084b0b3e9ccfe6",
+        "source_id": "src_60cf65866d99a5b7",
+        "subject_text": "Katie James",
+        "predicate": "has",
+        "object_text": "nuevo álbum 'Bajo mi Corteza'",
+        "object_type": "album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205Z",
+        "source_published_at": null,
+        "quote": "En el 2026, Katie James presenta su más reciente álbum, Bajo mi corteza.",
+        "source_url": "https://katiejamesmusic.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a89d4e701d1c6541",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "has released",
+        "object_text": "5 albums",
+        "object_type": "music albums",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "En su carrera artística de más de 15 años cuenta con 5 álbumes.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_aadb8197083ed839",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "certified_in",
+        "object_text": "Artificial Intelligence: Implications for Business Strategy",
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "Artificial Intelligence: Implications for Business Strategy",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_af8730dc38a6f795",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "certified_in",
+        "object_text": "Storytelling",
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "Storytelling",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_b6e6854d1272042e",
+        "source_id": "src_60cf65866d99a5b7",
+        "subject_text": "Katie James",
+        "predicate": "has",
+        "object_text": "premio 'Artista del año' en los Premios Instafest 2021",
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205Z",
+        "source_published_at": null,
+        "quote": "En Colombia, obtuvo el premio 'Artista del año' en los Premios Instafest 2021.",
+        "source_url": "https://katiejamesmusic.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_bbd2eaec9a8201e8",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "is known for",
+        "object_text": "Toitico Bien Empacado",
+        "object_type": "song",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "James es conocida por su canción Toitico Bien Empacado.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_bc925c2415a34a64",
+        "source_id": "src_478417e0e04b59af",
+        "subject_text": "Katie James",
+        "predicate": "is",
+        "object_text": "Anglo/Irish singer, songwriter and guitar player",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329Z",
+        "source_published_at": null,
+        "quote": "KATIE JAMES is an Anglo/Irish singer, songwriter and guitar player who was raised in Colombia, South America.",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c83295e43678f6ae",
+        "source_id": "src_b271c669196b1ad6",
+        "subject_text": "Katie James",
+        "predicate": "was invited by",
+        "object_text": "Carlos Vives",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212Z",
+        "source_published_at": null,
+        "quote": "Fue invitada por Carlos Vives a componer e interpretar junto a él la canción ‘En La Selva’.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_ce9471687aac33b1",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "works_at",
+        "object_text": "Humma.AI, Inc.",
+        "object_type": "Organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "Katie James can introduce you to 10+ people at Humma.AI, Inc.",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_deb420a4d4029806",
+        "source_id": "src_60cf65866d99a5b7",
+        "subject_text": "Katie James",
+        "predicate": "is",
+        "object_text": "cantautora colombo-irlandesa",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205Z",
+        "source_published_at": null,
+        "quote": "Katie James es una cantautora colombo-irlandesa con más de 20 años de carrera artística.",
+        "source_url": "https://katiejamesmusic.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e968fdaea280fcfb",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "certified_in",
+        "object_text": "Agile Certified Product Manager Product Owner (ACPMPO®)",
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "Agile Certified Product Manager Product Owner (ACPMPO®)",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_ebf02cb8a5f21dd9",
+        "source_id": "src_b6c79847c83cee84",
+        "subject_text": "Katie James",
+        "predicate": "occupation",
+        "object_text": "AI consultant",
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578Z",
+        "source_published_at": null,
+        "quote": "A builder and operator at the intersection of technology, human rights, and community",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f208e776b5d1a7d3",
+        "source_id": "src_60cf65866d99a5b7",
+        "subject_text": "Katie James",
+        "predicate": "has",
+        "object_text": "premio 'Mejor Canción Folclórica del Año' en los Premios Nuestra Tierra 2023",
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205Z",
+        "source_published_at": null,
+        "quote": "Así mismo, en los Premios Nuestra Tierra 2023, ganó en la categoría 'Mejor Canción Folclórica del Año', con 'En la selva' escrita en colaboración con Carlos Vives para su álbum Cumbiana II.",
+        "source_url": "https://katiejamesmusic.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_00a0ec80897fae86",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "location",
+        "original_subject": "Katie James",
+        "original_object": "Los Angeles, California, United States",
+        "normalized_subject": "katie james",
+        "normalized_object": "los angeles, california, united states",
+        "quote": "Los Angeles, California, United States",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_072d8e134aeeb6e9",
+        "source_id": "src_60cf65866d99a5b7",
+        "predicate": "is",
+        "original_subject": "Katie James",
+        "original_object": "preparando una gira de conciertos",
+        "normalized_subject": "katie james",
+        "normalized_object": "preparando una gira de conciertos",
+        "quote": "Actualmente Katie prepara una gira de conciertos presentando su álbum más reciente, Bajo mi Corteza, lanzado en marzo del 2026.",
+        "source_url": "https://katiejamesmusic.com/",
+        "source_domain": "katiejamesmusic.com",
+        "source_platform": "katiejamesmusic.com",
+        "source_identifiers": [],
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_0b554b97b2116916",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "moved to",
+        "original_subject": "Katie James",
+        "original_object": "Colombia",
+        "normalized_subject": "katie james",
+        "normalized_object": "colombia",
+        "quote": "llegó a Colombia a la edad de 2 años junto con su familia.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_12cb3edcd18ec5ce",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "certified_in",
+        "original_subject": "Katie James",
+        "original_object": "Data Analytics",
+        "normalized_subject": "katie james",
+        "normalized_object": "data analytics",
+        "quote": "Data Analytics",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_356738f3973ffd4d",
+        "source_id": "src_478417e0e04b59af",
+        "predicate": "won",
+        "original_subject": "Katie James",
+        "original_object": "the prize for Best Folk Song in Colombia",
+        "normalized_subject": "katie james",
+        "normalized_object": "the prize for best folk song in colombia",
+        "quote": "Last year Katie won the prize for Best Folk Song in Colombia at the Premios Nuestra Tierra awards with the song En la Selva",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "source_domain": "greennote.co.uk",
+        "source_platform": "greennote.co.uk",
+        "source_identifiers": [
+          "production",
+          "katie-james"
+        ],
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_36f6d7e032cad2ef",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "is",
+        "original_subject": "Katie James",
+        "original_object": "singer and songwriter",
+        "normalized_subject": "katie james",
+        "normalized_object": "singer and songwriter",
+        "quote": "Katie James es una cantante y compositora anglo-irlandesa, nacionalizada colombiana.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_463a017343ede676",
+        "source_id": "src_60cf65866d99a5b7",
+        "predicate": "has",
+        "original_subject": "Katie James",
+        "original_object": "5 álbumes publicados",
+        "normalized_subject": "katie james",
+        "normalized_object": "5 álbumes publicados",
+        "quote": "Cuenta con 5 álbumes publicados.",
+        "source_url": "https://katiejamesmusic.com/",
+        "source_domain": "katiejamesmusic.com",
+        "source_platform": "katiejamesmusic.com",
+        "source_identifiers": [],
+        "object_type": "quantity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4ad4b6e59444c4d8",
+        "source_id": "src_478417e0e04b59af",
+        "predicate": "has toured",
+        "original_subject": "Katie James",
+        "original_object": "the Americas and Europe",
+        "normalized_subject": "katie james",
+        "normalized_object": "the americas and europe",
+        "quote": "and toured the Americas and Europe performing in Colombia, Mexico, Costa Rica, The United States, Argentina, Uruguay, Ecuador, Peru, Chile, Italy, Spain, Swizterland, The Netherlands and the UK.",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "source_domain": "greennote.co.uk",
+        "source_platform": "greennote.co.uk",
+        "source_identifiers": [
+          "production",
+          "katie-james"
+        ],
+        "object_type": "locations",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4edd09365d675351",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "was born in",
+        "original_subject": "Katie James",
+        "original_object": "Inishfree, Ireland",
+        "normalized_subject": "katie james",
+        "normalized_object": "inishfree, ireland",
+        "quote": "Katie James nació en una pequeña isla de Irlanda llamada Inishfree.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_53059d15f20dc6bf",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "presented",
+        "original_subject": "Katie James",
+        "original_object": "album 'Versos Para No Olvidar'",
+        "normalized_subject": "katie james",
+        "normalized_object": "album 'versos para no olvidar'",
+        "quote": "Katie presentó su álbum 'Versos Para No Olvidar', una selección de canciones que le hacen homenaje a la música de su tierra adoptiva, Colombia.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "music album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_57747730e89132fe",
+        "source_id": "src_478417e0e04b59af",
+        "predicate": "is preparing",
+        "original_subject": "Katie James",
+        "original_object": "the material for her next album",
+        "normalized_subject": "katie james",
+        "normalized_object": "the material for her next album",
+        "quote": "She is currently on tour while simultaneously preparing the material for her next album.",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "source_domain": "greennote.co.uk",
+        "source_platform": "greennote.co.uk",
+        "source_identifiers": [
+          "production",
+          "katie-james"
+        ],
+        "object_type": "music album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_5e63647bbee476b7",
+        "source_id": "src_478417e0e04b59af",
+        "predicate": "has recorded",
+        "original_subject": "Katie James",
+        "original_object": "5 albums",
+        "normalized_subject": "katie james",
+        "normalized_object": "5 albums",
+        "quote": "Over the last 20 years Katie has recorded 5 albums",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "source_domain": "greennote.co.uk",
+        "source_platform": "greennote.co.uk",
+        "source_identifiers": [
+          "production",
+          "katie-james"
+        ],
+        "object_type": "music albums",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_97084b0b3e9ccfe6",
+        "source_id": "src_60cf65866d99a5b7",
+        "predicate": "has",
+        "original_subject": "Katie James",
+        "original_object": "nuevo álbum 'Bajo mi Corteza'",
+        "normalized_subject": "katie james",
+        "normalized_object": "nuevo álbum 'bajo mi corteza'",
+        "quote": "En el 2026, Katie James presenta su más reciente álbum, Bajo mi corteza.",
+        "source_url": "https://katiejamesmusic.com/",
+        "source_domain": "katiejamesmusic.com",
+        "source_platform": "katiejamesmusic.com",
+        "source_identifiers": [],
+        "object_type": "album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a89d4e701d1c6541",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "has released",
+        "original_subject": "Katie James",
+        "original_object": "5 albums",
+        "normalized_subject": "katie james",
+        "normalized_object": "5 albums",
+        "quote": "En su carrera artística de más de 15 años cuenta con 5 álbumes.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "music albums",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_aadb8197083ed839",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "certified_in",
+        "original_subject": "Katie James",
+        "original_object": "Artificial Intelligence: Implications for Business Strategy",
+        "normalized_subject": "katie james",
+        "normalized_object": "artificial intelligence: implications for business strategy",
+        "quote": "Artificial Intelligence: Implications for Business Strategy",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_af8730dc38a6f795",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "certified_in",
+        "original_subject": "Katie James",
+        "original_object": "Storytelling",
+        "normalized_subject": "katie james",
+        "normalized_object": "storytelling",
+        "quote": "Storytelling",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_b6e6854d1272042e",
+        "source_id": "src_60cf65866d99a5b7",
+        "predicate": "has",
+        "original_subject": "Katie James",
+        "original_object": "premio 'Artista del año' en los Premios Instafest 2021",
+        "normalized_subject": "katie james",
+        "normalized_object": "premio 'artista del año' en los premios instafest 2021",
+        "quote": "En Colombia, obtuvo el premio 'Artista del año' en los Premios Instafest 2021.",
+        "source_url": "https://katiejamesmusic.com/",
+        "source_domain": "katiejamesmusic.com",
+        "source_platform": "katiejamesmusic.com",
+        "source_identifiers": [],
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_bbd2eaec9a8201e8",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "is known for",
+        "original_subject": "Katie James",
+        "original_object": "Toitico Bien Empacado",
+        "normalized_subject": "katie james",
+        "normalized_object": "toitico bien empacado",
+        "quote": "James es conocida por su canción Toitico Bien Empacado.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "song",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_bc925c2415a34a64",
+        "source_id": "src_478417e0e04b59af",
+        "predicate": "is",
+        "original_subject": "Katie James",
+        "original_object": "Anglo/Irish singer, songwriter and guitar player",
+        "normalized_subject": "katie james",
+        "normalized_object": "anglo/irish singer, songwriter and guitar player",
+        "quote": "KATIE JAMES is an Anglo/Irish singer, songwriter and guitar player who was raised in Colombia, South America.",
+        "source_url": "https://www.greennote.co.uk/production/katie-james",
+        "source_domain": "greennote.co.uk",
+        "source_platform": "greennote.co.uk",
+        "source_identifiers": [
+          "production",
+          "katie-james"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:18.106329+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c83295e43678f6ae",
+        "source_id": "src_b271c669196b1ad6",
+        "predicate": "was invited by",
+        "original_subject": "Katie James",
+        "original_object": "Carlos Vives",
+        "normalized_subject": "katie james",
+        "normalized_object": "carlos vives",
+        "quote": "Fue invitada por Carlos Vives a componer e interpretar junto a él la canción ‘En La Selva’.",
+        "source_url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_domain": "es.wikipedia.org",
+        "source_platform": "es.wikipedia.org",
+        "source_identifiers": [
+          "wiki",
+          "katie_james"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:01.410212+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_ce9471687aac33b1",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "works_at",
+        "original_subject": "Katie James",
+        "original_object": "Humma.AI, Inc.",
+        "normalized_subject": "katie james",
+        "normalized_object": "humma.ai, inc.",
+        "quote": "Katie James can introduce you to 10+ people at Humma.AI, Inc.",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_deb420a4d4029806",
+        "source_id": "src_60cf65866d99a5b7",
+        "predicate": "is",
+        "original_subject": "Katie James",
+        "original_object": "cantautora colombo-irlandesa",
+        "normalized_subject": "katie james",
+        "normalized_object": "cantautora colombo-irlandesa",
+        "quote": "Katie James es una cantautora colombo-irlandesa con más de 20 años de carrera artística.",
+        "source_url": "https://katiejamesmusic.com/",
+        "source_domain": "katiejamesmusic.com",
+        "source_platform": "katiejamesmusic.com",
+        "source_identifiers": [],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e968fdaea280fcfb",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "certified_in",
+        "original_subject": "Katie James",
+        "original_object": "Agile Certified Product Manager Product Owner (ACPMPO®)",
+        "normalized_subject": "katie james",
+        "normalized_object": "agile certified product manager product owner (acpmpo®)",
+        "quote": "Agile Certified Product Manager Product Owner (ACPMPO®)",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Certification",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_ebf02cb8a5f21dd9",
+        "source_id": "src_b6c79847c83cee84",
+        "predicate": "occupation",
+        "original_subject": "Katie James",
+        "original_object": "AI consultant",
+        "normalized_subject": "katie james",
+        "normalized_object": "ai consultant",
+        "quote": "A builder and operator at the intersection of technology, human rights, and community",
+        "source_url": "https://www.linkedin.com/in/katiesmith",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "katiesmith"
+        ],
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:38:16.684578+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f208e776b5d1a7d3",
+        "source_id": "src_60cf65866d99a5b7",
+        "predicate": "has",
+        "original_subject": "Katie James",
+        "original_object": "premio 'Mejor Canción Folclórica del Año' en los Premios Nuestra Tierra 2023",
+        "normalized_subject": "katie james",
+        "normalized_object": "premio 'mejor canción folclórica del año' en los premios nuestra tierra 2023",
+        "quote": "Así mismo, en los Premios Nuestra Tierra 2023, ganó en la categoría 'Mejor Canción Folclórica del Año', con 'En la selva' escrita en colaboración con Carlos Vives para su álbum Cumbiana II.",
+        "source_url": "https://katiejamesmusic.com/",
+        "source_domain": "katiejamesmusic.com",
+        "source_platform": "katiejamesmusic.com",
+        "source_identifiers": [],
+        "object_type": "award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-30T12:37:34.553205+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_aadb8197083ed839",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b6c79847c83cee84",
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ]
+      },
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_af8730dc38a6f795",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b6c79847c83cee84",
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ]
+      },
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b6c79847c83cee84",
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ]
+      },
+      {
+        "left_observation_id": "obs_aadb8197083ed839",
+        "right_observation_id": "obs_af8730dc38a6f795",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b6c79847c83cee84",
+        "left_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "right_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ]
+      },
+      {
+        "left_observation_id": "obs_aadb8197083ed839",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b6c79847c83cee84",
+        "left_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ]
+      },
+      {
+        "left_observation_id": "obs_af8730dc38a6f795",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b6c79847c83cee84",
+        "left_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ]
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_deb420a4d4029806",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9"
+        ],
+        "right_evidence_ids": [
+          "obs_deb420a4d4029806"
+        ]
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_97084b0b3e9ccfe6",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ]
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_b6e6854d1272042e",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ]
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ]
+      },
+      {
+        "left_observation_id": "obs_97084b0b3e9ccfe6",
+        "right_observation_id": "obs_b6e6854d1272042e",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "right_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ]
+      },
+      {
+        "left_observation_id": "obs_97084b0b3e9ccfe6",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ]
+      },
+      {
+        "left_observation_id": "obs_b6e6854d1272042e",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ]
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_072d8e134aeeb6e9",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_60cf65866d99a5b7",
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ]
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_0b554b97b2116916",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_b271c669196b1ad6",
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ]
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b6c79847c83cee84",
+        "right_source_id": "src_478417e0e04b59af",
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ]
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_0b554b97b2116916",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_b271c669196b1ad6",
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "right_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ]
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_60cf65866d99a5b7",
+        "right_source_id": "src_478417e0e04b59af",
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0b554b97b2116916",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b271c669196b1ad6",
+        "right_source_id": "src_478417e0e04b59af",
+        "left_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_aadb8197083ed839",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839"
+        ],
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_af8730dc38a6f795",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_12cb3edcd18ec5ce",
+          "obs_af8730dc38a6f795"
+        ],
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_12cb3edcd18ec5ce",
+          "obs_e968fdaea280fcfb"
+        ],
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_aadb8197083ed839",
+        "right_observation_id": "obs_af8730dc38a6f795",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795"
+        ],
+        "left_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "right_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_aadb8197083ed839",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_aadb8197083ed839",
+          "obs_e968fdaea280fcfb"
+        ],
+        "left_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_af8730dc38a6f795",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_af8730dc38a6f795",
+          "obs_e968fdaea280fcfb"
+        ],
+        "left_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_deb420a4d4029806",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_deb420a4d4029806"
+        ],
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9"
+        ],
+        "right_evidence_ids": [
+          "obs_deb420a4d4029806"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_97084b0b3e9ccfe6",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_b6e6854d1272042e",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_463a017343ede676",
+          "obs_b6e6854d1272042e"
+        ],
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_463a017343ede676",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_97084b0b3e9ccfe6",
+        "right_observation_id": "obs_b6e6854d1272042e",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e"
+        ],
+        "left_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "right_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_97084b0b3e9ccfe6",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_97084b0b3e9ccfe6",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_b6e6854d1272042e",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_b6e6854d1272042e",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_072d8e134aeeb6e9",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9",
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_0b554b97b2116916",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9",
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9",
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_0b554b97b2116916",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3",
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "right_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3",
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b554b97b2116916",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.015,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae",
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "left_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_aadb8197083ed839",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.17,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839"
+        ],
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_af8730dc38a6f795",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.17,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_12cb3edcd18ec5ce",
+          "obs_af8730dc38a6f795"
+        ],
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_12cb3edcd18ec5ce",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.17,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_12cb3edcd18ec5ce",
+          "obs_e968fdaea280fcfb"
+        ],
+        "left_evidence_ids": [
+          "obs_12cb3edcd18ec5ce"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_aadb8197083ed839",
+        "right_observation_id": "obs_af8730dc38a6f795",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "TEMPORAL",
+        "confidence_score": 0.17,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_TEMPORAL",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795"
+        ],
+        "left_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "right_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_aadb8197083ed839",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_aadb8197083ed839",
+          "obs_e968fdaea280fcfb"
+        ],
+        "left_evidence_ids": [
+          "obs_aadb8197083ed839"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_af8730dc38a6f795",
+        "right_observation_id": "obs_e968fdaea280fcfb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.22,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_af8730dc38a6f795",
+          "obs_e968fdaea280fcfb"
+        ],
+        "left_evidence_ids": [
+          "obs_af8730dc38a6f795"
+        ],
+        "right_evidence_ids": [
+          "obs_e968fdaea280fcfb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_deb420a4d4029806",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_deb420a4d4029806"
+        ],
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9"
+        ],
+        "right_evidence_ids": [
+          "obs_deb420a4d4029806"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_97084b0b3e9ccfe6",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_b6e6854d1272042e",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_463a017343ede676",
+          "obs_b6e6854d1272042e"
+        ],
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_463a017343ede676",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_463a017343ede676",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_463a017343ede676"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_97084b0b3e9ccfe6",
+        "right_observation_id": "obs_b6e6854d1272042e",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e"
+        ],
+        "left_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "right_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_97084b0b3e9ccfe6",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_97084b0b3e9ccfe6",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_97084b0b3e9ccfe6"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_b6e6854d1272042e",
+        "right_observation_id": "obs_f208e776b5d1a7d3",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_b6e6854d1272042e",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_b6e6854d1272042e"
+        ],
+        "right_evidence_ids": [
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_072d8e134aeeb6e9",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9",
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_0b554b97b2116916",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9",
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_00a0ec80897fae86",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9",
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "left_evidence_ids": [
+          "obs_00a0ec80897fae86",
+          "obs_12cb3edcd18ec5ce",
+          "obs_aadb8197083ed839",
+          "obs_af8730dc38a6f795",
+          "obs_ce9471687aac33b1",
+          "obs_e968fdaea280fcfb",
+          "obs_ebf02cb8a5f21dd9"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_0b554b97b2116916",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.2,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3",
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "right_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_072d8e134aeeb6e9",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.2,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3",
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "left_evidence_ids": [
+          "obs_072d8e134aeeb6e9",
+          "obs_463a017343ede676",
+          "obs_97084b0b3e9ccfe6",
+          "obs_b6e6854d1272042e",
+          "obs_deb420a4d4029806",
+          "obs_f208e776b5d1a7d3"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0b554b97b2116916",
+        "right_observation_id": "obs_356738f3973ffd4d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.215,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae",
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "left_evidence_ids": [
+          "obs_0b554b97b2116916",
+          "obs_36f6d7e032cad2ef",
+          "obs_4edd09365d675351",
+          "obs_53059d15f20dc6bf",
+          "obs_a89d4e701d1c6541",
+          "obs_bbd2eaec9a8201e8",
+          "obs_c83295e43678f6ae"
+        ],
+        "right_evidence_ids": [
+          "obs_356738f3973ffd4d",
+          "obs_4ad4b6e59444c4d8",
+          "obs_57747730e89132fe",
+          "obs_5e63647bbee476b7",
+          "obs_bc925c2415a34a64"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

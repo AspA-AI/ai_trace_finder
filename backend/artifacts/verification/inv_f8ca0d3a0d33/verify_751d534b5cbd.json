@@ -1,0 +1,2806 @@
+{
+  "investigation_id": "inv_f8ca0d3a0d33",
+  "run_id": "verify_751d534b5cbd",
+  "generated_at": "2026-08-31T11:34:21.548921+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_110a91bfa6490581",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "subject_text": "Olivia Dean",
+        "predicate": "was raised in",
+        "object_text": "Highams Park",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814Z",
+        "source_published_at": null,
+        "quote": "raised in Highams Park",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_19fccbf26cf17b35",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "won award",
+        "object_text": "best new artist at the 2026 Grammys",
+        "object_type": "Award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "She won best new artist at the 2026 Grammys.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_32d0ea93e60504f6",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "subject_text": "Olivia Dean",
+        "predicate": "is a",
+        "object_text": "singer-songwriter",
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814Z",
+        "source_published_at": null,
+        "quote": "the singer-songwriter’s warm, wise musings on love",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3cce00801eecaf20",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "subject_text": "Olivia Dean",
+        "predicate": "studied at",
+        "object_text": "BRIT School",
+        "object_type": "Educational Institution",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814Z",
+        "source_published_at": null,
+        "quote": "studying music theater and songwriting at the prestigious BRIT School",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_435f4fee0e1b7919",
+        "source_id": "src_72fbd75961f48673",
+        "subject_text": "Olivia Dean",
+        "predicate": "released",
+        "object_text": "the track 'Man I Need'",
+        "object_type": "single",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728Z",
+        "source_published_at": null,
+        "quote": "Her latest track 'Man I Need' quickly became the highest charting song from a UK act on Spotify's Global Charts this year",
+        "source_url": "https://www.oliviadeano.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_439506b5c86d24d6",
+        "source_id": "src_72fbd75961f48673",
+        "subject_text": "Olivia Dean",
+        "predicate": "released",
+        "object_text": "sophomore album The Art Of Loving",
+        "object_type": "album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728Z",
+        "source_published_at": null,
+        "quote": "Olivia Dean unveils her long-awaited sophomore album; The Art Of Loving",
+        "source_url": "https://www.oliviadeano.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4837d9edf5de2adf",
+        "source_id": "src_1ddbf970a1414cb8",
+        "subject_text": "Olivia Dean",
+        "predicate": "has_followers",
+        "object_text": "5,070,234",
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:57.226960Z",
+        "source_published_at": null,
+        "quote": "5,070,234 Followers",
+        "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4d436441affd06ef",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "had top 10 hits",
+        "object_text": "Man I Need and So Easy (To Fall In Love)",
+        "object_type": "Songs",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "largely thanks to Billboard Hot 100 singles such as top 10 hits 'Man I Need' and 'So Easy (To Fall In Love).'",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_530361fe8f40bd7c",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "released album",
+        "object_text": "The Art of Loving",
+        "object_type": "Album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "Her sophomore album, ‘The Art of Loving,’ took off.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_53087aeea75f1df0",
+        "source_id": "src_1ddbf970a1414cb8",
+        "subject_text": "Olivia Dean",
+        "predicate": "has_monthly_listeners",
+        "object_text": "51,628,738",
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:57.226960Z",
+        "source_published_at": null,
+        "quote": "51,628,738 monthly listeners",
+        "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_632ae3ee7adb5c6e",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "is from",
+        "object_text": "London",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "She is from London.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6885b3f3ea336556",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "subject_text": "Olivia Dean",
+        "predicate": "was born in",
+        "object_text": "London Borough of Haringey",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814Z",
+        "source_published_at": null,
+        "quote": "Born in 1999 in the London Borough of Haringey",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6eecf6eb878ab400",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "has height",
+        "object_text": "5’9”",
+        "object_type": "Height",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "Her estimated height is 5’9.”",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7ebe4cad343af991",
+        "source_id": "src_3c7a1b35d4695ac2",
+        "subject_text": "Olivia Dean",
+        "predicate": "is",
+        "object_text": "Teacher",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:52.611891Z",
+        "source_published_at": null,
+        "quote": "Olivia Dean",
+        "source_url": "https://www.facebook.com/oliviadeanmusic",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_895679e6ce5ffe24",
+        "source_id": "src_72fbd75961f48673",
+        "subject_text": "Olivia Dean",
+        "predicate": "is",
+        "object_text": "one of the UK's most mesmerising artists",
+        "object_type": "title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728Z",
+        "source_published_at": null,
+        "quote": "Poised as a tender, intentional deep dive into the many dimensions of love - romantic, platonic, self, and everything in between - The Art of Loving begins an exciting new chapter from one of the UK's most mesmerising artists",
+        "source_url": "https://www.oliviadeano.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_8a5efcff03a64638",
+        "source_id": "src_1ddbf970a1414cb8",
+        "subject_text": "Olivia Dean",
+        "predicate": "is_on_tour",
+        "object_text": "Rod Laver Arena, Melbourne",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:57.226960Z",
+        "source_published_at": null,
+        "quote": "Olivia Dean",
+        "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_8cb61bbe3e6e0bf6",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "was born",
+        "object_text": "March 14, 1999",
+        "object_type": "Date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "Olivia Dean was born March 14, 1999.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_924211241636e68e",
+        "source_id": "src_72fbd75961f48673",
+        "subject_text": "Olivia Dean",
+        "predicate": "received",
+        "object_text": "widespread critical acclaim for her debut album Messy",
+        "object_type": "album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728Z",
+        "source_published_at": null,
+        "quote": "Her debut album Messy received widespread critical acclaim on release",
+        "source_url": "https://www.oliviadeano.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a17f82fb24b7d8bb",
+        "source_id": "src_72fbd75961f48673",
+        "subject_text": "Olivia Dean",
+        "predicate": "is",
+        "object_text": "the first British female to have 3 UK top 10 singles since Adele",
+        "object_type": "achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728Z",
+        "source_published_at": null,
+        "quote": "More recently, Olivia became the first British female to have 3 UK top 10 singles since Adele",
+        "source_url": "https://www.oliviadeano.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a608deb8872871cd",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "subject_text": "Olivia Dean",
+        "predicate": "released an album",
+        "object_text": "The Art of Loving",
+        "object_type": "Album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814Z",
+        "source_published_at": null,
+        "quote": "Both tracks appeared on her second album, The Art of Loving",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c9c13e8697cf8393",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "subject_text": "Olivia Dean",
+        "predicate": "released an album",
+        "object_text": "Messy",
+        "object_type": "Album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814Z",
+        "source_published_at": null,
+        "quote": "her 2023 debut album Messy",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_d5df936b27c69df3",
+        "source_id": "src_99af8dc5266af10a",
+        "subject_text": "Olivia Dean",
+        "predicate": "career exploded in",
+        "object_text": "2026",
+        "object_type": "Year",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861Z",
+        "source_published_at": null,
+        "quote": "Her career exploded in 2026 as her sophomore album, ‘The Art of Loving,’ took off.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_dbcec702a91eda74",
+        "source_id": "src_72fbd75961f48673",
+        "subject_text": "Olivia Dean",
+        "predicate": "is",
+        "object_text": "GRAMMY winner and multi-BRIT award / Mercury Prize nominee",
+        "object_type": "title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728Z",
+        "source_published_at": null,
+        "quote": "GRAMMY winner and multi-BRIT award / Mercury Prize nominee Olivia Dean unveils her long-awaited sophomore album",
+        "source_url": "https://www.oliviadeano.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_110a91bfa6490581",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "predicate": "was raised in",
+        "original_subject": "Olivia Dean",
+        "original_object": "Highams Park",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "highams park",
+        "quote": "raised in Highams Park",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_domain": "music.apple.com",
+        "source_platform": "music.apple.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean",
+          "1487253329"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_19fccbf26cf17b35",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "won award",
+        "original_subject": "Olivia Dean",
+        "original_object": "best new artist at the 2026 Grammys",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "best new artist at the 2026 grammys",
+        "quote": "She won best new artist at the 2026 Grammys.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_32d0ea93e60504f6",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "predicate": "is a",
+        "original_subject": "Olivia Dean",
+        "original_object": "singer-songwriter",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "singer-songwriter",
+        "quote": "the singer-songwriter’s warm, wise musings on love",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_domain": "music.apple.com",
+        "source_platform": "music.apple.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean",
+          "1487253329"
+        ],
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3cce00801eecaf20",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "predicate": "studied at",
+        "original_subject": "Olivia Dean",
+        "original_object": "BRIT School",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "brit school",
+        "quote": "studying music theater and songwriting at the prestigious BRIT School",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_domain": "music.apple.com",
+        "source_platform": "music.apple.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean",
+          "1487253329"
+        ],
+        "object_type": "Educational Institution",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_435f4fee0e1b7919",
+        "source_id": "src_72fbd75961f48673",
+        "predicate": "released",
+        "original_subject": "Olivia Dean",
+        "original_object": "the track 'Man I Need'",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "the track 'man i need'",
+        "quote": "Her latest track 'Man I Need' quickly became the highest charting song from a UK act on Spotify's Global Charts this year",
+        "source_url": "https://www.oliviadeano.com/",
+        "source_domain": "oliviadeano.com",
+        "source_platform": "oliviadeano.com",
+        "source_identifiers": [],
+        "object_type": "single",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_439506b5c86d24d6",
+        "source_id": "src_72fbd75961f48673",
+        "predicate": "released",
+        "original_subject": "Olivia Dean",
+        "original_object": "sophomore album The Art Of Loving",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "sophomore album the art of loving",
+        "quote": "Olivia Dean unveils her long-awaited sophomore album; The Art Of Loving",
+        "source_url": "https://www.oliviadeano.com/",
+        "source_domain": "oliviadeano.com",
+        "source_platform": "oliviadeano.com",
+        "source_identifiers": [],
+        "object_type": "album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4837d9edf5de2adf",
+        "source_id": "src_1ddbf970a1414cb8",
+        "predicate": "has_followers",
+        "original_subject": "Olivia Dean",
+        "original_object": "5,070,234",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "5,070,234",
+        "quote": "5,070,234 Followers",
+        "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "00x1fysghdqscxbrpsj3dw"
+        ],
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:57.226960+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4d436441affd06ef",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "had top 10 hits",
+        "original_subject": "Olivia Dean",
+        "original_object": "Man I Need and So Easy (To Fall In Love)",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "man i need and so easy (to fall in love)",
+        "quote": "largely thanks to Billboard Hot 100 singles such as top 10 hits 'Man I Need' and 'So Easy (To Fall In Love).'",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Songs",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_530361fe8f40bd7c",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "released album",
+        "original_subject": "Olivia Dean",
+        "original_object": "The Art of Loving",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "the art of loving",
+        "quote": "Her sophomore album, ‘The Art of Loving,’ took off.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_53087aeea75f1df0",
+        "source_id": "src_1ddbf970a1414cb8",
+        "predicate": "has_monthly_listeners",
+        "original_subject": "Olivia Dean",
+        "original_object": "51,628,738",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "51,628,738",
+        "quote": "51,628,738 monthly listeners",
+        "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "00x1fysghdqscxbrpsj3dw"
+        ],
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:57.226960+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_632ae3ee7adb5c6e",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "is from",
+        "original_subject": "Olivia Dean",
+        "original_object": "London",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "london",
+        "quote": "She is from London.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6885b3f3ea336556",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "predicate": "was born in",
+        "original_subject": "Olivia Dean",
+        "original_object": "London Borough of Haringey",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "london borough of haringey",
+        "quote": "Born in 1999 in the London Borough of Haringey",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_domain": "music.apple.com",
+        "source_platform": "music.apple.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean",
+          "1487253329"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6eecf6eb878ab400",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "has height",
+        "original_subject": "Olivia Dean",
+        "original_object": "5’9”",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "5’9”",
+        "quote": "Her estimated height is 5’9.”",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Height",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7ebe4cad343af991",
+        "source_id": "src_3c7a1b35d4695ac2",
+        "predicate": "is",
+        "original_subject": "Olivia Dean",
+        "original_object": "Teacher",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "teacher",
+        "quote": "Olivia Dean",
+        "source_url": "https://www.facebook.com/oliviadeanmusic",
+        "source_domain": "facebook.com",
+        "source_platform": "facebook.com",
+        "source_identifiers": [
+          "oliviadeanmusic"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:52.611891+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_895679e6ce5ffe24",
+        "source_id": "src_72fbd75961f48673",
+        "predicate": "is",
+        "original_subject": "Olivia Dean",
+        "original_object": "one of the UK's most mesmerising artists",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "one of the uk's most mesmerising artists",
+        "quote": "Poised as a tender, intentional deep dive into the many dimensions of love - romantic, platonic, self, and everything in between - The Art of Loving begins an exciting new chapter from one of the UK's most mesmerising artists",
+        "source_url": "https://www.oliviadeano.com/",
+        "source_domain": "oliviadeano.com",
+        "source_platform": "oliviadeano.com",
+        "source_identifiers": [],
+        "object_type": "title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_8a5efcff03a64638",
+        "source_id": "src_1ddbf970a1414cb8",
+        "predicate": "is_on_tour",
+        "original_subject": "Olivia Dean",
+        "original_object": "Rod Laver Arena, Melbourne",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "rod laver arena, melbourne",
+        "quote": "Olivia Dean",
+        "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "00x1fysghdqscxbrpsj3dw"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:57.226960+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_8cb61bbe3e6e0bf6",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "was born",
+        "original_subject": "Olivia Dean",
+        "original_object": "March 14, 1999",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "march 14, 1999",
+        "quote": "Olivia Dean was born March 14, 1999.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_924211241636e68e",
+        "source_id": "src_72fbd75961f48673",
+        "predicate": "received",
+        "original_subject": "Olivia Dean",
+        "original_object": "widespread critical acclaim for her debut album Messy",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "widespread critical acclaim for her debut album messy",
+        "quote": "Her debut album Messy received widespread critical acclaim on release",
+        "source_url": "https://www.oliviadeano.com/",
+        "source_domain": "oliviadeano.com",
+        "source_platform": "oliviadeano.com",
+        "source_identifiers": [],
+        "object_type": "album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a17f82fb24b7d8bb",
+        "source_id": "src_72fbd75961f48673",
+        "predicate": "is",
+        "original_subject": "Olivia Dean",
+        "original_object": "the first British female to have 3 UK top 10 singles since Adele",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "the first british female to have 3 uk top 10 singles since adele",
+        "quote": "More recently, Olivia became the first British female to have 3 UK top 10 singles since Adele",
+        "source_url": "https://www.oliviadeano.com/",
+        "source_domain": "oliviadeano.com",
+        "source_platform": "oliviadeano.com",
+        "source_identifiers": [],
+        "object_type": "achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a608deb8872871cd",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "predicate": "released an album",
+        "original_subject": "Olivia Dean",
+        "original_object": "The Art of Loving",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "the art of loving",
+        "quote": "Both tracks appeared on her second album, The Art of Loving",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_domain": "music.apple.com",
+        "source_platform": "music.apple.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean",
+          "1487253329"
+        ],
+        "object_type": "Album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c9c13e8697cf8393",
+        "source_id": "src_82a6c5cb0ff40b95",
+        "predicate": "released an album",
+        "original_subject": "Olivia Dean",
+        "original_object": "Messy",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "messy",
+        "quote": "her 2023 debut album Messy",
+        "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+        "source_domain": "music.apple.com",
+        "source_platform": "music.apple.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean",
+          "1487253329"
+        ],
+        "object_type": "Album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:36.661814+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_d5df936b27c69df3",
+        "source_id": "src_99af8dc5266af10a",
+        "predicate": "career exploded in",
+        "original_subject": "Olivia Dean",
+        "original_object": "2026",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "2026",
+        "quote": "Her career exploded in 2026 as her sophomore album, ‘The Art of Loving,’ took off.",
+        "source_url": "https://www.billboard.com/artist/olivia-dean",
+        "source_domain": "billboard.com",
+        "source_platform": "billboard.com",
+        "source_identifiers": [
+          "artist",
+          "olivia-dean"
+        ],
+        "object_type": "Year",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:27.354861+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_dbcec702a91eda74",
+        "source_id": "src_72fbd75961f48673",
+        "predicate": "is",
+        "original_subject": "Olivia Dean",
+        "original_object": "GRAMMY winner and multi-BRIT award / Mercury Prize nominee",
+        "normalized_subject": "olivia dean",
+        "normalized_object": "grammy winner and multi-brit award / mercury prize nominee",
+        "quote": "GRAMMY winner and multi-BRIT award / Mercury Prize nominee Olivia Dean unveils her long-awaited sophomore album",
+        "source_url": "https://www.oliviadeano.com/",
+        "source_domain": "oliviadeano.com",
+        "source_platform": "oliviadeano.com",
+        "source_identifiers": [],
+        "object_type": "title",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T11:33:45.900728+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_a608deb8872871cd",
+        "right_observation_id": "obs_c9c13e8697cf8393",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_82a6c5cb0ff40b95",
+        "right_source_id": "src_82a6c5cb0ff40b95",
+        "left_evidence_ids": [
+          "obs_a608deb8872871cd"
+        ],
+        "right_evidence_ids": [
+          "obs_c9c13e8697cf8393"
+        ]
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_439506b5c86d24d6",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_72fbd75961f48673",
+        "right_source_id": "src_72fbd75961f48673",
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919"
+        ],
+        "right_evidence_ids": [
+          "obs_439506b5c86d24d6"
+        ]
+      },
+      {
+        "left_observation_id": "obs_895679e6ce5ffe24",
+        "right_observation_id": "obs_a17f82fb24b7d8bb",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_72fbd75961f48673",
+        "right_source_id": "src_72fbd75961f48673",
+        "left_evidence_ids": [
+          "obs_895679e6ce5ffe24"
+        ],
+        "right_evidence_ids": [
+          "obs_a17f82fb24b7d8bb"
+        ]
+      },
+      {
+        "left_observation_id": "obs_895679e6ce5ffe24",
+        "right_observation_id": "obs_dbcec702a91eda74",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_72fbd75961f48673",
+        "right_source_id": "src_72fbd75961f48673",
+        "left_evidence_ids": [
+          "obs_895679e6ce5ffe24"
+        ],
+        "right_evidence_ids": [
+          "obs_dbcec702a91eda74"
+        ]
+      },
+      {
+        "left_observation_id": "obs_a17f82fb24b7d8bb",
+        "right_observation_id": "obs_dbcec702a91eda74",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_72fbd75961f48673",
+        "right_source_id": "src_72fbd75961f48673",
+        "left_evidence_ids": [
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "right_evidence_ids": [
+          "obs_dbcec702a91eda74"
+        ]
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_19fccbf26cf17b35",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_82a6c5cb0ff40b95",
+        "right_source_id": "src_99af8dc5266af10a",
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ]
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_435f4fee0e1b7919",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_82a6c5cb0ff40b95",
+        "right_source_id": "src_72fbd75961f48673",
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ]
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_82a6c5cb0ff40b95",
+        "right_source_id": "src_1ddbf970a1414cb8",
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ]
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_82a6c5cb0ff40b95",
+        "right_source_id": "src_3c7a1b35d4695ac2",
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ]
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_435f4fee0e1b7919",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_99af8dc5266af10a",
+        "right_source_id": "src_72fbd75961f48673",
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ]
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_99af8dc5266af10a",
+        "right_source_id": "src_1ddbf970a1414cb8",
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ]
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_99af8dc5266af10a",
+        "right_source_id": "src_3c7a1b35d4695ac2",
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ]
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_72fbd75961f48673",
+        "right_source_id": "src_1ddbf970a1414cb8",
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ]
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_72fbd75961f48673",
+        "right_source_id": "src_3c7a1b35d4695ac2",
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ]
+      },
+      {
+        "left_observation_id": "obs_4837d9edf5de2adf",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_1ddbf970a1414cb8",
+        "right_source_id": "src_3c7a1b35d4695ac2",
+        "left_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_a608deb8872871cd",
+        "right_observation_id": "obs_c9c13e8697cf8393",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "left_evidence_ids": [
+          "obs_a608deb8872871cd"
+        ],
+        "right_evidence_ids": [
+          "obs_c9c13e8697cf8393"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_439506b5c86d24d6",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6"
+        ],
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919"
+        ],
+        "right_evidence_ids": [
+          "obs_439506b5c86d24d6"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_895679e6ce5ffe24",
+        "right_observation_id": "obs_a17f82fb24b7d8bb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_895679e6ce5ffe24",
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "left_evidence_ids": [
+          "obs_895679e6ce5ffe24"
+        ],
+        "right_evidence_ids": [
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_895679e6ce5ffe24",
+        "right_observation_id": "obs_dbcec702a91eda74",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_895679e6ce5ffe24",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_895679e6ce5ffe24"
+        ],
+        "right_evidence_ids": [
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_a17f82fb24b7d8bb",
+        "right_observation_id": "obs_dbcec702a91eda74",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "right_evidence_ids": [
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_19fccbf26cf17b35",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.21,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": true,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_435f4fee0e1b7919",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.16,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_435f4fee0e1b7919",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3",
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.16,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3",
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74",
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4837d9edf5de2adf",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_a608deb8872871cd",
+        "right_observation_id": "obs_c9c13e8697cf8393",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "left_evidence_ids": [
+          "obs_a608deb8872871cd"
+        ],
+        "right_evidence_ids": [
+          "obs_c9c13e8697cf8393"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_439506b5c86d24d6",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6"
+        ],
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919"
+        ],
+        "right_evidence_ids": [
+          "obs_439506b5c86d24d6"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_895679e6ce5ffe24",
+        "right_observation_id": "obs_a17f82fb24b7d8bb",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_895679e6ce5ffe24",
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "left_evidence_ids": [
+          "obs_895679e6ce5ffe24"
+        ],
+        "right_evidence_ids": [
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_895679e6ce5ffe24",
+        "right_observation_id": "obs_dbcec702a91eda74",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_895679e6ce5ffe24",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_895679e6ce5ffe24"
+        ],
+        "right_evidence_ids": [
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_a17f82fb24b7d8bb",
+        "right_observation_id": "obs_dbcec702a91eda74",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_a17f82fb24b7d8bb"
+        ],
+        "right_evidence_ids": [
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_19fccbf26cf17b35",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.21,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": true,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_435f4fee0e1b7919",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.16,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_110a91bfa6490581",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_110a91bfa6490581",
+          "obs_32d0ea93e60504f6",
+          "obs_3cce00801eecaf20",
+          "obs_6885b3f3ea336556",
+          "obs_a608deb8872871cd",
+          "obs_c9c13e8697cf8393"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_435f4fee0e1b7919",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3",
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.16,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3",
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_19fccbf26cf17b35",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_530361fe8f40bd7c",
+          "obs_632ae3ee7adb5c6e",
+          "obs_6eecf6eb878ab400",
+          "obs_8cb61bbe3e6e0bf6",
+          "obs_d5df936b27c69df3"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_4837d9edf5de2adf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74",
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "right_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_435f4fee0e1b7919",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_435f4fee0e1b7919",
+          "obs_439506b5c86d24d6",
+          "obs_895679e6ce5ffe24",
+          "obs_924211241636e68e",
+          "obs_a17f82fb24b7d8bb",
+          "obs_dbcec702a91eda74"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4837d9edf5de2adf",
+        "right_observation_id": "obs_7ebe4cad343af991",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638",
+          "obs_7ebe4cad343af991"
+        ],
+        "left_evidence_ids": [
+          "obs_4837d9edf5de2adf",
+          "obs_53087aeea75f1df0",
+          "obs_8a5efcff03a64638"
+        ],
+        "right_evidence_ids": [
+          "obs_7ebe4cad343af991"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "inv_f8ca0d3a0d33",
+      "deterministic_verdict": "UNKNOWN",
+      "deterministic_confidence": 0.21,
+      "deterministic_reasoning": [
+        "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+        "UNKNOWN_PREDICATE_CARDINALITY",
+        "cross_platform_identifier_similarity",
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "likely_multiple_people",
+      "semantic_confidence": "medium",
+      "semantic_reasoning": "The evidence indicates two distinct individuals named Olivia Dean. One is identified as a teacher, while the other is a successful singer-songwriter with multiple accolades and a significant following. The observations about the teacher do not overlap with the achievements and career details of the artist, suggesting they are likely different people.",
+      "semantic_caveats": [
+        "The observations about the teacher and the artist do not overlap, indicating they are likely different individuals."
+      ],
+      "semantic_profile": {
+        "verdict": "likely_multiple_people",
+        "confidence_label": "medium",
+        "likely_name": "Olivia Dean",
+        "headline": "Teacher and Artist",
+        "profile_summary": "The observations suggest that there are at least two individuals named Olivia Dean. One is a teacher, while the other is a singer-songwriter who has gained significant recognition in the music industry, including winning awards and releasing multiple albums. The evidence does not sufficiently corroborate that these observations refer to the same person, as they describe distinctly different occupations and achievements.",
+        "attributes": [
+          {
+            "field": "occupation",
+            "value": "Teacher",
+            "confidence_label": "medium",
+            "supporting_observation_ids": [
+              "obs_7ebe4cad343af991"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "occupation",
+            "value": "Singer-songwriter",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_32d0ea93e60504f6",
+              "obs_19fccbf26cf17b35",
+              "obs_4d436441affd06ef",
+              "obs_dbcec702a91eda74"
+            ],
+            "caveat": null
+          }
+        ],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The evidence indicates two distinct individuals named Olivia Dean. One is identified as a teacher, while the other is a successful singer-songwriter with multiple accolades and a significant following. The observations about the teacher do not overlap with the achievements and career details of the artist, suggesting they are likely different people.",
+        "supporting_observation_ids": [
+          "obs_7ebe4cad343af991",
+          "obs_32d0ea93e60504f6",
+          "obs_19fccbf26cf17b35",
+          "obs_4d436441affd06ef",
+          "obs_dbcec702a91eda74"
+        ],
+        "conflicting_observation_ids": [],
+        "out_of_scope_observation_ids": [],
+        "excluded_evidence_summary": null,
+        "caveats": [
+          "The observations about the teacher and the artist do not overlap, indicating they are likely different individuals."
+        ]
+      },
+      "image_candidates": [
+        {
+          "source_id": "src_1ddbf970a1414cb8",
+          "source_url": "https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW",
+          "image_url": "https://i.scdn.co/image/ab6761610000e5eb5c7577ad44daeb7ce4b941a1",
+          "observation_ids": "['obs_4837d9edf5de2adf', 'obs_53087aeea75f1df0', 'obs_8a5efcff03a64638']"
+        },
+        {
+          "source_id": "src_3c7a1b35d4695ac2",
+          "source_url": "https://www.facebook.com/oliviadeanmusic",
+          "image_url": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/503475950_1095041739113771_4044494293307907535_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cElh71t8s24Q7kNvwG2UQjF&_nc_oc=AdpQh83LsvxMElJYkJqbS2ia5uQNjUhJlPVfceISS5-6RTNlUQ8lmJJMPJcpUffntfc&_nc_zt=24&_nc_ht=scontent-vie1-1.xx&_nc_gid=BNybEv2HOr8GUePVBArOrA&_nc_ss=7b20f&oh=00_AQKGZ7fA3mVsuE8nKvB0RdOzC6-An-UetoCKF6D94vYAmQ&oe=6A9B34CC",
+          "observation_ids": "['obs_7ebe4cad343af991']"
+        },
+        {
+          "source_id": "src_60707094736b864c",
+          "source_url": "https://en.wikipedia.org/wiki/Olivia_Dean",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Olivia_Dean_-_Sabrina_Carpenter_at_BST_Hyde_Park_-_20250706_-_115_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+          "observation_ids": "[]"
+        },
+        {
+          "source_id": "src_72fbd75961f48673",
+          "source_url": "https://www.oliviadeano.com/",
+          "image_url": "https://www.oliviadeano.com/wp-content/themes/umggr-oliviadeano/pg-assets/IMG/seo-preview.jpg",
+          "observation_ids": "['obs_435f4fee0e1b7919', 'obs_439506b5c86d24d6', 'obs_895679e6ce5ffe24', 'obs_924211241636e68e', 'obs_a17f82fb24b7d8bb', 'obs_dbcec702a91eda74']"
+        },
+        {
+          "source_id": "src_82a6c5cb0ff40b95",
+          "source_url": "https://music.apple.com/us/artist/olivia-dean/1487253329",
+          "image_url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/20/f8/cd/20f8cdfe-17fb-d2e2-95eb-a792e04dc3a9/ami-identity-f52e0b359bd0b631eed306be613c82a2-2025-09-26T05-41-56.283Z_cropped.png/1200x630cw.png",
+          "observation_ids": "['obs_110a91bfa6490581', 'obs_32d0ea93e60504f6', 'obs_3cce00801eecaf20', 'obs_6885b3f3ea336556', 'obs_a608deb8872871cd', 'obs_c9c13e8697cf8393']"
+        },
+        {
+          "source_id": "src_99af8dc5266af10a",
+          "source_url": "https://www.billboard.com/artist/olivia-dean",
+          "image_url": "https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/app/icons/icon-512x512.png",
+          "observation_ids": "['obs_19fccbf26cf17b35', 'obs_4d436441affd06ef', 'obs_530361fe8f40bd7c', 'obs_632ae3ee7adb5c6e', 'obs_6eecf6eb878ab400', 'obs_8cb61bbe3e6e0bf6', 'obs_d5df936b27c69df3']"
+        }
+      ],
+      "agreement": "one_abstained",
+      "suggested_action": null,
+      "generated_at": "2026-08-31T11:34:21.538667+00:00"
+    }
+  }
+}

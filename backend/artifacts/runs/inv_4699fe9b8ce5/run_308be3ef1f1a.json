@@ -1,0 +1,498 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_4699fe9b8ce5",
+  "run_id": "run_308be3ef1f1a",
+  "started_at": "2026-08-30T12:22:06.257731+00:00",
+  "completed_at": "2026-08-30T12:25:43.871098+00:00",
+  "clues": {
+    "name": "Ekram Yeshanew",
+    "usernames": [],
+    "occupation": "software developer",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-30T12:22:06.257903+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Ekram Yeshanew\"",
+          "\"Ekram Yeshanew\" software developer"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-30T12:22:08.925874+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_4699fe9b8ce5",
+        "run_id": "run_308be3ef1f1a"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-30T12:22:08.926288+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-30T12:22:08.926308+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Ekram Yeshanew\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-30T12:22:10.607264+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Ekram Yeshanew\"",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-30T12:22:10.607280+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Ekram Yeshanew\" software developer"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-30T12:22:11.961565+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Ekram Yeshanew\" software developer",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-30T12:22:11.961784+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 18
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-30T12:22:35.479895+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://coopbankoromia.com.et/wp-content/uploads/2025/09/Agent-list-as-of-August-2025.xlsx",
+        "source_id": "src_c43ca12c8aa3cb03",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-30T12:22:35.479918+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c43ca12c8aa3cb03",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-30T12:22:38.988553+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.bankofabyssinia.com/wp-content/uploads/2024/05/External-Portal-1.xlsx",
+        "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-30T12:22:47.026720+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.scribd.com/document/811706599/ListOfManufacturers",
+        "source_id": "src_de0abad07e964563",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-30T12:22:47.026883+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_de0abad07e964563",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-30T12:22:59.377968+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/bezawork.yeshanew/photos/d41d8cd9/2816652222002170",
+        "source_id": "src_672029d38ddc2071",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-30T12:22:59.377989+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_672029d38ddc2071",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-30T12:23:12.956461+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/masalu.kondale.2025/posts/ricafelowr-yeshanew-yane-konjo-i-miss-you/1044186091893916",
+        "source_id": "src_e22fa5f7cfdba001",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-30T12:23:12.956491+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e22fa5f7cfdba001",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-30T12:23:31.687984+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://corporate.ethiopianairlines.com/AboutEthiopian/careers/results",
+        "source_id": "src_62817b730959bf32",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-30T12:23:31.688024+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_62817b730959bf32",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-30T12:23:35.442540+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/sitra-nuredin",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/sitra-nuredin'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-30T12:23:38.538323+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.researchgate.net/publication/331541991_Effects_of_supplemental_irrigation_on_yield_and_yield_attributes_of_chickpea_Cicer_arietinum_L_in_western_Ethiopia",
+        "error": "Client error '403 Forbidden' for url 'https://www.researchgate.net/publication/331541991_Effects_of_supplemental_irrigation_on_yield_and_yield_attributes_of_chickpea_Cicer_arietinum_L_in_western_Ethiopia'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-30T12:23:42.312934+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://online.guc.edu.et/",
+        "error": "Client error '403 Forbidden' for url 'https://online.guc.edu.et/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-30T12:23:45.505698+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.scielo.br/j/rsbmt/a/k4sbn8NnLJJmTzrLv4PwZQv",
+        "error": "Client error '403 Forbidden' for url 'https://www.scielo.br/j/rsbmt/a/k4sbn8NnLJJmTzrLv4PwZQv'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-30T12:23:48.396667+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://et.linkedin.com/in/mikiyas-sisay",
+        "error": "Client error '429 Too Many Requests' for url 'https://et.linkedin.com/in/mikiyas-sisay'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-30T12:24:15.231327+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://iris.who.int/server/api/core/bitstreams/115e898f-f7c8-4577-9463-b3dd80951ffa/content",
+        "source_id": "src_83e02e3e70851d2b",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-30T12:24:15.231365+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_83e02e3e70851d2b",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-30T12:24:49.984894+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://wwww.dirzon.com/Zon/DownloadFile?target=telegram%3AList+of+WKU+student+5m+certified+UPDATE+26_01_2026.pdf&converted=False",
+        "source_id": "src_d66ba606eed60dd4",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-30T12:24:49.984919+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d66ba606eed60dd4",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-30T12:25:01.953465+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/DR.ASMHThinadhoo/posts/we-are-honored-to-introduce-mr-hassan-reehan-rasheed-as-the-deputy-chief-executi/1064866688760272",
+        "source_id": "src_7977d6cd7aef1060",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-30T12:25:01.953515+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_7977d6cd7aef1060",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-30T12:25:14.321301+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9957126",
+        "source_id": "src_a1772bc653541ea8",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-30T12:25:14.321333+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a1772bc653541ea8",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-30T12:25:28.837773+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://ijemr.vandanapublications.com/index.php/j/article/download/368/362/737",
+        "source_id": "src_c38e44127ee75af6",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-30T12:25:28.837794+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c38e44127ee75af6",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-30T12:25:40.728924+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.geospatialhealth.net/gh/article/view/27",
+        "source_id": "src_3273a2cba79f23c1",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-30T12:25:40.728950+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3273a2cba79f23c1",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-30T12:25:43.871050+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202500676",
+        "error": "Client error '403 Forbidden' for url 'https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202500676'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-30T12:25:43.871126+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 0,
+        "retrieved_source_count": 11,
+        "error_count": 7,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 18,
+    "retrieved_source_count": 11,
+    "observation_count": 0,
+    "error_count": 7
+  }
+}

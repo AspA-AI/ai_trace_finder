@@ -1,0 +1,2229 @@
+{
+  "investigation_id": "inv_99f062580a2a",
+  "run_id": "verify_e9c36e329e2a",
+  "generated_at": "2026-08-29T19:59:21.429244+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_010a9eb09443f58a",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "collaborates with producer/writer Jess Grommet",
+        "object_text": "Jess Grommet",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "a collaboration with producer/writer Jess Grommet",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_09ef25c355df641a",
+        "source_id": "src_7eac957e826e64ca",
+        "subject_text": "Chris Lee",
+        "predicate": "has a single titled",
+        "object_text": "NOWHERE",
+        "object_type": "Music",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:35.972129Z",
+        "source_published_at": null,
+        "quote": "My new single NOWHERE dropping Oct. 18th!!",
+        "source_url": "https://x.com/theofficialclee",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_0e051906b44599f2",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "reflects influences from multiple decades",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "embodies the true R&B experience, reflecting influences from multiple decades.",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_2898b01fc7796d09",
+        "source_id": "src_ec92ec9a7c03b080",
+        "subject_text": "Chris Lee",
+        "predicate": "occupation",
+        "object_text": "musical artist",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:50.826104Z",
+        "source_published_at": null,
+        "quote": "Chris is also a musical artist, whose music can be streamed on all media platforms.",
+        "source_url": "https://www.broadway.com/buzz/stars/chris-lee/profile",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_28aabe59a1458039",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "is the son of a worship leader",
+        "object_text": "his mother",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "the son of a worship leader (his mother)",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_297f01563dcf8fb7",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "is a series regular on CW’s Legacies",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "a series regular role on CW’s Legacies",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_507d5fa8e4011ae8",
+        "source_id": "src_f82fa91179f31b62",
+        "subject_text": "Chris Lee",
+        "predicate": "is a",
+        "object_text": "Senior Software Engineer",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863Z",
+        "source_published_at": null,
+        "quote": "Senior Software Engineer and AI-first engineer focused on enterprise platform modernization, front-end architecture, and scalable financial systems.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_55a9a1d261a8340b",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "produces and performs music on Legacies and Empire",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "he’s gotten to produce and perform music on Legacies and Empire",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_5e41ed60eb1bd8b8",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "joined the Chicago cast of Hamilton",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "cutting his time short to join the Chicago cast of the immensely popular show Hamilton",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_72192cb9b347a093",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "has recurring roles on Empire and The Chi",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "This opportunity led to recurring roles on Empire, The Chi",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_82e3f39c76e83a44",
+        "source_id": "src_f82fa91179f31b62",
+        "subject_text": "Chris Lee",
+        "predicate": "has skill in",
+        "object_text": "Prompt Engineering",
+        "object_type": "skill",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863Z",
+        "source_published_at": null,
+        "quote": "Specializes in prompt engineering and test-driven AI development (TDAI), applying structured evaluation and validation practices to LLM-powered workflows.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_887657fda017dd51",
+        "source_id": "src_f82fa91179f31b62",
+        "subject_text": "Chris Lee",
+        "predicate": "has skill in",
+        "object_text": "AI-Assisted Development",
+        "object_type": "skill",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863Z",
+        "source_published_at": null,
+        "quote": "Introduced AI-assisted engineering workflows and structured prompt engineering practices for development acceleration.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_8ef0f0fe35cf760c",
+        "source_id": "src_f82fa91179f31b62",
+        "subject_text": "Chris Lee",
+        "predicate": "works at",
+        "object_text": "USAA",
+        "object_type": "employer",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863Z",
+        "source_published_at": null,
+        "quote": "Lead engineer across large-scale financial modernization initiatives focused on payment systems, teller workflows, and funds transfer platforms.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_974147197bca0f44",
+        "source_id": "src_880e72cd4dfc449d",
+        "subject_text": "Chris Lee",
+        "predicate": "has_username",
+        "object_text": "theofficialchrislee",
+        "object_type": "Instagram username",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:31.291167Z",
+        "source_published_at": null,
+        "quote": "Chris Lee 🎶🎬🎭🖊️ (@theofficialchrislee) • Instagram photos and videos",
+        "source_url": "https://www.instagram.com/theofficialchrislee?hl=en",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a0468d8199ff9bfe",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "studied musical theatre",
+        "object_text": "Belmont University",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "move to Nashville to study musical theatre at Belmont University",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a1907f0aea19b1d7",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "is a holistic, expressive artist and creator",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "Chris Lee isn’t a singer who acts or an actor who sings. He’s both, always: a holistic, expressive artist and creator.",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a3c978cf5e9d94b6",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "released the single 'Willing'",
+        "object_text": "'Willing'",
+        "object_type": "music",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "particularly captured in his most recent release 'Willing'",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_aae913ac35dcbc31",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "has monthly listeners",
+        "object_text": "12,969",
+        "object_type": "count",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "12,969 monthly listeners",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_ec0f5faa8601c597",
+        "source_id": "src_e68e4626567b6861",
+        "subject_text": "Chris Lee",
+        "predicate": "grew up in a house of music",
+        "object_text": "true",
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692Z",
+        "source_published_at": null,
+        "quote": "growing up in a house of music, Chris was singing before he was speaking.",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_ef511c8efd0e8479",
+        "source_id": "src_ec92ec9a7c03b080",
+        "subject_text": "Chris Lee",
+        "predicate": "occupation",
+        "object_text": "poker player",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:50.826104Z",
+        "source_published_at": null,
+        "quote": "the kid is crazy.",
+        "source_url": "https://www.broadway.com/buzz/stars/chris-lee/profile",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_010a9eb09443f58a",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "collaborates with producer/writer Jess Grommet",
+        "original_subject": "Chris Lee",
+        "original_object": "Jess Grommet",
+        "normalized_subject": "chris lee",
+        "normalized_object": "jess grommet",
+        "quote": "a collaboration with producer/writer Jess Grommet",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_09ef25c355df641a",
+        "source_id": "src_7eac957e826e64ca",
+        "predicate": "has a single titled",
+        "original_subject": "Chris Lee",
+        "original_object": "NOWHERE",
+        "normalized_subject": "chris lee",
+        "normalized_object": "nowhere",
+        "quote": "My new single NOWHERE dropping Oct. 18th!!",
+        "source_url": "https://x.com/theofficialclee",
+        "source_domain": "x.com",
+        "source_platform": "x.com",
+        "source_identifiers": [
+          "theofficialclee"
+        ],
+        "object_type": "Music",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:35.972129+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_0e051906b44599f2",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "reflects influences from multiple decades",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "embodies the true R&B experience, reflecting influences from multiple decades.",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_2898b01fc7796d09",
+        "source_id": "src_ec92ec9a7c03b080",
+        "predicate": "occupation",
+        "original_subject": "Chris Lee",
+        "original_object": "musical artist",
+        "normalized_subject": "chris lee",
+        "normalized_object": "musical artist",
+        "quote": "Chris is also a musical artist, whose music can be streamed on all media platforms.",
+        "source_url": "https://www.broadway.com/buzz/stars/chris-lee/profile",
+        "source_domain": "broadway.com",
+        "source_platform": "broadway.com",
+        "source_identifiers": [
+          "buzz",
+          "stars",
+          "chris-lee"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:50.826104+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_28aabe59a1458039",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "is the son of a worship leader",
+        "original_subject": "Chris Lee",
+        "original_object": "his mother",
+        "normalized_subject": "chris lee",
+        "normalized_object": "his mother",
+        "quote": "the son of a worship leader (his mother)",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_297f01563dcf8fb7",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "is a series regular on CW’s Legacies",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "a series regular role on CW’s Legacies",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_507d5fa8e4011ae8",
+        "source_id": "src_f82fa91179f31b62",
+        "predicate": "is a",
+        "original_subject": "Chris Lee",
+        "original_object": "Senior Software Engineer",
+        "normalized_subject": "chris lee",
+        "normalized_object": "senior software engineer",
+        "quote": "Senior Software Engineer and AI-first engineer focused on enterprise platform modernization, front-end architecture, and scalable financial systems.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "source_domain": "registry.jsonresume.org",
+        "source_platform": "registry.jsonresume.org",
+        "source_identifiers": [
+          "chrisl8888"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_55a9a1d261a8340b",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "produces and performs music on Legacies and Empire",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "he’s gotten to produce and perform music on Legacies and Empire",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_5e41ed60eb1bd8b8",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "joined the Chicago cast of Hamilton",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "cutting his time short to join the Chicago cast of the immensely popular show Hamilton",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_72192cb9b347a093",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "has recurring roles on Empire and The Chi",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "This opportunity led to recurring roles on Empire, The Chi",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_82e3f39c76e83a44",
+        "source_id": "src_f82fa91179f31b62",
+        "predicate": "has skill in",
+        "original_subject": "Chris Lee",
+        "original_object": "Prompt Engineering",
+        "normalized_subject": "chris lee",
+        "normalized_object": "prompt engineering",
+        "quote": "Specializes in prompt engineering and test-driven AI development (TDAI), applying structured evaluation and validation practices to LLM-powered workflows.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "source_domain": "registry.jsonresume.org",
+        "source_platform": "registry.jsonresume.org",
+        "source_identifiers": [
+          "chrisl8888"
+        ],
+        "object_type": "skill",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_887657fda017dd51",
+        "source_id": "src_f82fa91179f31b62",
+        "predicate": "has skill in",
+        "original_subject": "Chris Lee",
+        "original_object": "AI-Assisted Development",
+        "normalized_subject": "chris lee",
+        "normalized_object": "ai-assisted development",
+        "quote": "Introduced AI-assisted engineering workflows and structured prompt engineering practices for development acceleration.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "source_domain": "registry.jsonresume.org",
+        "source_platform": "registry.jsonresume.org",
+        "source_identifiers": [
+          "chrisl8888"
+        ],
+        "object_type": "skill",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_8ef0f0fe35cf760c",
+        "source_id": "src_f82fa91179f31b62",
+        "predicate": "works at",
+        "original_subject": "Chris Lee",
+        "original_object": "USAA",
+        "normalized_subject": "chris lee",
+        "normalized_object": "usaa",
+        "quote": "Lead engineer across large-scale financial modernization initiatives focused on payment systems, teller workflows, and funds transfer platforms.",
+        "source_url": "https://registry.jsonresume.org/chrisl8888",
+        "source_domain": "registry.jsonresume.org",
+        "source_platform": "registry.jsonresume.org",
+        "source_identifiers": [
+          "chrisl8888"
+        ],
+        "object_type": "employer",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:58.240863+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_974147197bca0f44",
+        "source_id": "src_880e72cd4dfc449d",
+        "predicate": "has_username",
+        "original_subject": "Chris Lee",
+        "original_object": "theofficialchrislee",
+        "normalized_subject": "chris lee",
+        "normalized_object": "theofficialchrislee",
+        "quote": "Chris Lee 🎶🎬🎭🖊️ (@theofficialchrislee) • Instagram photos and videos",
+        "source_url": "https://www.instagram.com/theofficialchrislee?hl=en",
+        "source_domain": "instagram.com",
+        "source_platform": "instagram.com",
+        "source_identifiers": [
+          "theofficialchrislee"
+        ],
+        "object_type": "Instagram username",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:31.291167+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a0468d8199ff9bfe",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "studied musical theatre",
+        "original_subject": "Chris Lee",
+        "original_object": "Belmont University",
+        "normalized_subject": "chris lee",
+        "normalized_object": "belmont university",
+        "quote": "move to Nashville to study musical theatre at Belmont University",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a1907f0aea19b1d7",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "is a holistic, expressive artist and creator",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "Chris Lee isn’t a singer who acts or an actor who sings. He’s both, always: a holistic, expressive artist and creator.",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a3c978cf5e9d94b6",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "released the single 'Willing'",
+        "original_subject": "Chris Lee",
+        "original_object": "'Willing'",
+        "normalized_subject": "chris lee",
+        "normalized_object": "'willing'",
+        "quote": "particularly captured in his most recent release 'Willing'",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "music",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_aae913ac35dcbc31",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "has monthly listeners",
+        "original_subject": "Chris Lee",
+        "original_object": "12,969",
+        "normalized_subject": "chris lee",
+        "normalized_object": "12,969",
+        "quote": "12,969 monthly listeners",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "count",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_ec0f5faa8601c597",
+        "source_id": "src_e68e4626567b6861",
+        "predicate": "grew up in a house of music",
+        "original_subject": "Chris Lee",
+        "original_object": "true",
+        "normalized_subject": "chris lee",
+        "normalized_object": "true",
+        "quote": "growing up in a house of music, Chris was singing before he was speaking.",
+        "source_url": "https://open.spotify.com/artist/4Cvyb2Lo75CNW59MViL2o0",
+        "source_domain": "open.spotify.com",
+        "source_platform": "open.spotify.com",
+        "source_identifiers": [
+          "artist",
+          "4cvyb2lo75cnw59mvil2o0"
+        ],
+        "object_type": "boolean",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:43.824692+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_ef511c8efd0e8479",
+        "source_id": "src_ec92ec9a7c03b080",
+        "predicate": "occupation",
+        "original_subject": "Chris Lee",
+        "original_object": "poker player",
+        "normalized_subject": "chris lee",
+        "normalized_object": "poker player",
+        "quote": "the kid is crazy.",
+        "source_url": "https://www.broadway.com/buzz/stars/chris-lee/profile",
+        "source_domain": "broadway.com",
+        "source_platform": "broadway.com",
+        "source_identifiers": [
+          "buzz",
+          "stars",
+          "chris-lee"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T19:58:50.826104+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_ef511c8efd0e8479",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_ec92ec9a7c03b080",
+        "right_source_id": "src_ec92ec9a7c03b080",
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09"
+        ],
+        "right_evidence_ids": [
+          "obs_ef511c8efd0e8479"
+        ]
+      },
+      {
+        "left_observation_id": "obs_82e3f39c76e83a44",
+        "right_observation_id": "obs_887657fda017dd51",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_f82fa91179f31b62",
+        "right_source_id": "src_f82fa91179f31b62",
+        "left_evidence_ids": [
+          "obs_82e3f39c76e83a44"
+        ],
+        "right_evidence_ids": [
+          "obs_887657fda017dd51"
+        ]
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_09ef25c355df641a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e68e4626567b6861",
+        "right_source_id": "src_7eac957e826e64ca",
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ]
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_2898b01fc7796d09",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e68e4626567b6861",
+        "right_source_id": "src_ec92ec9a7c03b080",
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ]
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e68e4626567b6861",
+        "right_source_id": "src_f82fa91179f31b62",
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ]
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e68e4626567b6861",
+        "right_source_id": "src_880e72cd4dfc449d",
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ]
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_2898b01fc7796d09",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7eac957e826e64ca",
+        "right_source_id": "src_ec92ec9a7c03b080",
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ]
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7eac957e826e64ca",
+        "right_source_id": "src_f82fa91179f31b62",
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ]
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7eac957e826e64ca",
+        "right_source_id": "src_880e72cd4dfc449d",
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_ec92ec9a7c03b080",
+        "right_source_id": "src_f82fa91179f31b62",
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_ec92ec9a7c03b080",
+        "right_source_id": "src_880e72cd4dfc449d",
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ]
+      },
+      {
+        "left_observation_id": "obs_507d5fa8e4011ae8",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_f82fa91179f31b62",
+        "right_source_id": "src_880e72cd4dfc449d",
+        "left_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_ef511c8efd0e8479",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09"
+        ],
+        "right_evidence_ids": [
+          "obs_ef511c8efd0e8479"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_82e3f39c76e83a44",
+        "right_observation_id": "obs_887657fda017dd51",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51"
+        ],
+        "left_evidence_ids": [
+          "obs_82e3f39c76e83a44"
+        ],
+        "right_evidence_ids": [
+          "obs_887657fda017dd51"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_09ef25c355df641a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_09ef25c355df641a"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_2898b01fc7796d09",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_2898b01fc7796d09",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_09ef25c355df641a",
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_09ef25c355df641a",
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_09ef25c355df641a",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479",
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_507d5fa8e4011ae8",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_ef511c8efd0e8479",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09"
+        ],
+        "right_evidence_ids": [
+          "obs_ef511c8efd0e8479"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_82e3f39c76e83a44",
+        "right_observation_id": "obs_887657fda017dd51",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51"
+        ],
+        "left_evidence_ids": [
+          "obs_82e3f39c76e83a44"
+        ],
+        "right_evidence_ids": [
+          "obs_887657fda017dd51"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_09ef25c355df641a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_09ef25c355df641a"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_2898b01fc7796d09",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_010a9eb09443f58a",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_010a9eb09443f58a",
+          "obs_0e051906b44599f2",
+          "obs_28aabe59a1458039",
+          "obs_297f01563dcf8fb7",
+          "obs_55a9a1d261a8340b",
+          "obs_5e41ed60eb1bd8b8",
+          "obs_72192cb9b347a093",
+          "obs_a0468d8199ff9bfe",
+          "obs_a1907f0aea19b1d7",
+          "obs_a3c978cf5e9d94b6",
+          "obs_aae913ac35dcbc31",
+          "obs_ec0f5faa8601c597"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_2898b01fc7796d09",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_09ef25c355df641a",
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_09ef25c355df641a",
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_09ef25c355df641a",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_09ef25c355df641a",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_09ef25c355df641a"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_507d5fa8e4011ae8",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479",
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "right_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2898b01fc7796d09",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_2898b01fc7796d09",
+          "obs_ef511c8efd0e8479"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_507d5fa8e4011ae8",
+        "right_observation_id": "obs_974147197bca0f44",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c",
+          "obs_974147197bca0f44"
+        ],
+        "left_evidence_ids": [
+          "obs_507d5fa8e4011ae8",
+          "obs_82e3f39c76e83a44",
+          "obs_887657fda017dd51",
+          "obs_8ef0f0fe35cf760c"
+        ],
+        "right_evidence_ids": [
+          "obs_974147197bca0f44"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

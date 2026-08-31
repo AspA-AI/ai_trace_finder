@@ -1,0 +1,150 @@
+[
+  {
+    "case_id": "clear_public_professional_identity",
+    "description": "Simon Willison with public GitHub handle, website, and professional profiles.",
+    "clues": {
+      "name": "Simon Willison",
+      "usernames": ["simonw"],
+      "occupation": "software developer, writer",
+      "locations": ["California"],
+      "websites": ["https://simonwillison.net/"],
+      "github_handle": "simonw",
+      "additional_clues": ["Datasette"]
+    },
+    "investigation_id": "inv_58b23805b6e4",
+    "expected_behavior": ["explicit cross-links may be VERIFIED", "weak claim-only links remain UNKNOWN"],
+    "ground_truth": {"expected_verdict": "resolved", "false_merge": false},
+    "expected": {"minimum_candidates": 1, "minimum_verified": 1, "maximum_probable": 1, "profile_statuses": ["resolved"]}
+  },
+  {
+    "case_id": "common_name_identity_collision",
+    "description": "John Smith with no disambiguating clues; multiple unrelated public profiles are expected.",
+    "clues": {"name": "John Smith"},
+    "investigation_id": "inv_ccbafc817943",
+    "expected_behavior": ["multiple candidates", "no forced identity merge", "contradictions or UNKNOWN are acceptable"],
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 1, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_chris_lee_austin",
+    "description": "Chris Lee query constrained to software engineering and Austin; retrieval returns unrelated entertainment and engineering profiles with no cross-source identity anchor.",
+    "clues": {"name": "Chris Lee", "occupation": "software engineer", "locations": ["Austin, Texas"]},
+    "investigation_id": "inv_99f062580a2a",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge entertainment and engineering sources without an anchor", "preserve unresolved sources", "record contradictions"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 1, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_michael_smith_austin",
+    "description": "Michael Smith query constrained to software engineering and Austin; retrieval returns unrelated public figures and multiple engineering profiles with no identity anchor across sources.",
+    "clues": {"name": "Michael Smith", "occupation": "software engineer", "locations": ["Austin, Texas"]},
+    "investigation_id": "inv_3825cf76a8e9",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge unrelated same-name sources", "preserve unresolved sources", "record contradictions"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 1, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_jordan_lee_seattle",
+    "description": "Jordan Lee software-engineer search constrained to Seattle; multiple unrelated profiles were retrieved without an identity anchor.",
+    "clues": {"name": "Jordan Lee", "occupation": "software engineer", "locations": ["Seattle, Washington"]},
+    "investigation_id": "inv_bfb516c6839c",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge same-name profiles without an anchor", "preserve unresolved sources"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_taylor_brown_austin",
+    "description": "Taylor Brown software-engineer search constrained to Austin; similar-name sources have no verified cross-link.",
+    "clues": {"name": "Taylor Brown", "occupation": "software engineer", "locations": ["Austin, Texas"]},
+    "investigation_id": "inv_157e64f483f2",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge same-name profiles without an anchor", "preserve unresolved sources"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_david_kim_seattle",
+    "description": "David Kim software-engineer search constrained to Seattle; sources remain separate without identity evidence.",
+    "clues": {"name": "David Kim", "occupation": "software engineer", "locations": ["Seattle, Washington"]},
+    "investigation_id": "inv_ae10237e95a4",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge same-name profiles without an anchor", "preserve unresolved sources"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_jamie_chen_toronto",
+    "description": "Jamie Chen software-developer search constrained to Toronto; retrieved sources provide insufficient identity linkage.",
+    "clues": {"name": "Jamie Chen", "occupation": "software engineer", "locations": ["Toronto, Ontario"]},
+    "investigation_id": "inv_f1c15baa8502",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge same-name profiles without an anchor", "preserve unresolved sources"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_alex_johnson_austin",
+    "description": "Alex Johnson software-engineer search constrained to Austin; multiple sources lack a shared identity anchor.",
+    "clues": {"name": "Alex Johnson", "occupation": "software engineer", "locations": ["Austin, Texas"]},
+    "investigation_id": "inv_1e4695465fc6",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge same-name profiles without an anchor", "preserve unresolved sources"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ambiguous_sam_lee_new_york",
+    "description": "Sam Lee software-engineer search constrained to New York; sources remain unlinked and unresolved.",
+    "clues": {"name": "Sam Lee", "occupation": "software engineer", "locations": ["New York, New York"]},
+    "investigation_id": "inv_9ffbc558dfe7",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not merge same-name profiles without an anchor", "preserve unresolved sources"],
+    "expected": {"minimum_candidates": 2, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "ekram_yeshanew_software_developer",
+    "description": "Ekram Yeshanew software-developer search; retrieved public results did not produce accepted source-grounded observations.",
+    "clues": {"name": "Ekram Yeshanew", "occupation": "software developer"},
+    "investigation_id": "inv_4699fe9b8ce5",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not infer identity from name and occupation alone", "abstain when observations are unavailable", "preserve retrieval errors"],
+    "reviewer_rationale": "The run returned public search results but no accepted observations, so the correct evaluation outcome is uncertainty rather than an identity merge.",
+    "expected": {"minimum_candidates": 0, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "olivia_dean_singer",
+    "description": "Olivia Dean singer search; retrieved observations were not sufficient to establish a verified identity link.",
+    "clues": {"name": "Olivia Dean", "occupation": "singer"},
+    "investigation_id": "inv_3a1b57a84c5a",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["retain source observations", "do not convert name and occupation into a verified identity", "abstain without an identity anchor"],
+    "reviewer_rationale": "The sources describe a singer with this name, but the saved verification result contains no verified or probable identity link; the measured verdict remains uncertain.",
+    "expected": {"minimum_candidates": 1, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "michael_tamire_salesman",
+    "description": "Michael Tamire salesman search; multiple observations were retrieved but no identity anchor verified the target profile.",
+    "clues": {"name": "Michael Tamire", "occupation": "salesman"},
+    "investigation_id": "inv_3661b2b4d217",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["keep candidate sources separate", "do not treat name and occupation as identity proof", "abstain without a verified link"],
+    "reviewer_rationale": "The run generated candidates and observations, but all verification links remained UNKNOWN; uncertainty is the appropriate ground-truth outcome.",
+    "expected": {"minimum_candidates": 1, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 0, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "steve_jobs_developer",
+    "description": "Steve Jobs developer search; public name familiarity must not replace source-grounded identity verification.",
+    "clues": {"name": "Steve Jobs", "occupation": "developer"},
+    "investigation_id": "inv_3c5ab26b23d8",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["do not use fame or outside knowledge as evidence", "retain contradictory comparisons", "abstain without a verified identity link"],
+    "reviewer_rationale": "This is a positive-control stress case: the name is famous, but the evaluation uses only retrieved source evidence and the saved run produced no verified identity link.",
+    "expected": {"minimum_candidates": 1, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 1, "profile_statuses": ["unresolved", "ambiguous"]}
+  },
+  {
+    "case_id": "katie_james_ai_consultant",
+    "description": "Katie James AI-consultant search; retrieved observations contained unresolved and contradictory comparisons without a verified anchor.",
+    "clues": {"name": "Katie James", "occupation": "AI consultant"},
+    "investigation_id": "inv_bb20786c7e78",
+    "ground_truth": {"expected_verdict": "uncertain", "false_merge": false},
+    "expected_behavior": ["preserve contradictory evidence", "do not merge same-name profiles", "abstain without a verified identity link"],
+    "reviewer_rationale": "The run produced observations and contradictions but no verified or probable identity link, so the safe ground-truth outcome is uncertainty.",
+    "expected": {"minimum_candidates": 1, "minimum_verified": 0, "maximum_probable": null, "maximum_positive_links": 0, "minimum_contradictions": 1, "profile_statuses": ["unresolved", "ambiguous"]}
+  }
+]

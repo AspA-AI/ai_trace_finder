@@ -1,0 +1,7 @@
+{
+  "/api/investigations/route": "app/api/investigations/route.js",
+  "/api/investigations/[...path]/route": "app/api/investigations/[...path]/route.js",
+  "/page": "app/page.js",
+  "/investigations/new/page": "app/investigations/new/page.js",
+  "/graph/page": "app/graph/page.js"
+}

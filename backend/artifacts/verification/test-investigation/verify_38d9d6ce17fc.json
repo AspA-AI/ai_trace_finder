@@ -1,0 +1,228 @@
+{
+  "investigation_id": "test-investigation",
+  "run_id": "verify_38d9d6ce17fc",
+  "generated_at": "2026-08-31T16:35:30.017083+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "a",
+        "source_id": "source-a",
+        "subject_text": "Jane Doe",
+        "predicate": "website",
+        "object_text": "https://profile.example/jane-doe",
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00Z",
+        "source_published_at": null,
+        "quote": null,
+        "source_url": "https://one.example/jane",
+        "extraction_model": "test",
+        "extraction_version": "test-1"
+      },
+      {
+        "observation_id": "b",
+        "source_id": "source-b",
+        "subject_text": "Jane Doe",
+        "predicate": "occupation",
+        "object_text": "Engineer",
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00Z",
+        "source_published_at": null,
+        "quote": null,
+        "source_url": "https://profile.example/jane-doe",
+        "extraction_model": "test",
+        "extraction_version": "test-1"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "a",
+        "source_id": "source-a",
+        "predicate": "website",
+        "original_subject": "Jane Doe",
+        "original_object": "https://profile.example/jane-doe",
+        "normalized_subject": "jane doe",
+        "normalized_object": "https://profile.example/jane-doe",
+        "quote": null,
+        "source_url": "https://one.example/jane",
+        "source_domain": "one.example",
+        "source_platform": "one.example",
+        "source_identifiers": [
+          "jane"
+        ],
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "b",
+        "source_id": "source-b",
+        "predicate": "occupation",
+        "original_subject": "Jane Doe",
+        "original_object": "Engineer",
+        "normalized_subject": "jane doe",
+        "normalized_object": "engineer",
+        "quote": null,
+        "source_url": "https://profile.example/jane-doe",
+        "source_domain": "profile.example",
+        "source_platform": "profile.example",
+        "source_identifiers": [
+          "jane-doe"
+        ],
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "explicit_crosslink",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "source-a",
+        "right_source_id": "source-b",
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "identity_link",
+        "state": "VERIFIED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": true,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "EXPLICIT_CROSSLINK",
+          "explicit_crosslink",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "a",
+          "b"
+        ],
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "identity_link",
+        "state": "VERIFIED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": true,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "EXPLICIT_CROSSLINK",
+          "explicit_crosslink",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "a",
+          "b"
+        ],
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "test-investigation",
+      "deterministic_verdict": "VERIFIED",
+      "deterministic_confidence": 0.285,
+      "deterministic_reasoning": [
+        "EXPLICIT_CROSSLINK",
+        "explicit_crosslink",
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "insufficient_evidence",
+      "semantic_confidence": "low",
+      "semantic_reasoning": "The deterministic analysis is available, but an independent full-evidence semantic analysis requires OPENAI_API_KEY.",
+      "semantic_caveats": [
+        "Run with the semantic model enabled before using this track for adjudication."
+      ],
+      "semantic_profile": {
+        "verdict": "insufficient_evidence",
+        "confidence_label": "low",
+        "likely_name": null,
+        "headline": null,
+        "profile_summary": "No independent semantic profile was generated because the semantic model is unavailable.",
+        "attributes": [],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The deterministic analysis is available, but an independent full-evidence semantic analysis requires OPENAI_API_KEY.",
+        "supporting_observation_ids": [],
+        "conflicting_observation_ids": [],
+        "out_of_scope_observation_ids": [],
+        "excluded_evidence_summary": null,
+        "caveats": [
+          "Run with the semantic model enabled before using this track for adjudication."
+        ]
+      },
+      "image_candidates": [],
+      "agreement": "one_abstained",
+      "suggested_action": "Enable the semantic model to obtain the independent full-evidence analysis.",
+      "generated_at": "2026-08-31T16:35:30.016773+00:00"
+    }
+  }
+}

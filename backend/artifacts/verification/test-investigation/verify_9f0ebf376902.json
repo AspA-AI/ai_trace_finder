@@ -1,0 +1,194 @@
+{
+  "investigation_id": "test-investigation",
+  "run_id": "verify_9f0ebf376902",
+  "generated_at": "2026-08-29T19:17:04.075935+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "a",
+        "source_id": "source-a",
+        "subject_text": "Jane Doe",
+        "predicate": "location",
+        "object_text": "Vienna",
+        "object_type": null,
+        "valid_from": "2020-01-01T00:00:00",
+        "valid_until": "2024-12-31T00:00:00",
+        "observed_at": "2026-08-23T00:00:00Z",
+        "source_published_at": null,
+        "quote": null,
+        "source_url": "https://one.example/jane",
+        "extraction_model": "test",
+        "extraction_version": "test-1"
+      },
+      {
+        "observation_id": "b",
+        "source_id": "source-a",
+        "subject_text": "Jane Doe",
+        "predicate": "location",
+        "object_text": "Berlin",
+        "object_type": null,
+        "valid_from": "2023-01-01T00:00:00",
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00Z",
+        "source_published_at": null,
+        "quote": null,
+        "source_url": "https://one.example/jane",
+        "extraction_model": "test",
+        "extraction_version": "test-1"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "a",
+        "source_id": "source-a",
+        "predicate": "location",
+        "original_subject": "Jane Doe",
+        "original_object": "Vienna",
+        "normalized_subject": "jane doe",
+        "normalized_object": "vienna",
+        "quote": null,
+        "source_url": "https://one.example/jane",
+        "source_domain": "one.example",
+        "source_platform": "one.example",
+        "source_identifiers": [
+          "jane"
+        ],
+        "object_type": null,
+        "valid_from": "2020-01-01T00:00:00",
+        "valid_until": "2024-12-31T00:00:00",
+        "observed_at": "2026-08-23T00:00:00+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "b",
+        "source_id": "source-a",
+        "predicate": "location",
+        "original_subject": "Jane Doe",
+        "original_object": "Berlin",
+        "normalized_subject": "jane doe",
+        "normalized_object": "berlin",
+        "quote": null,
+        "source_url": "https://one.example/jane",
+        "source_domain": "one.example",
+        "source_platform": "one.example",
+        "source_identifiers": [
+          "jane"
+        ],
+        "object_type": null,
+        "valid_from": "2023-01-01T00:00:00",
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "source-a",
+        "right_source_id": "source-a",
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "fact_consistency",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "CONFLICT",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": true,
+          "conflicting_claim": true,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "CONFLICTING_SINGLE_VALUED_CLAIM",
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "a",
+          "b"
+        ],
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "fact_consistency",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "CONFLICT",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": true,
+          "conflicting_claim": true,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "CONFLICTING_SINGLE_VALUED_CLAIM",
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "a",
+          "b"
+        ],
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

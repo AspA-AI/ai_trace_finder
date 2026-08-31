@@ -1,0 +1,1 @@
+"""People Investigation backend application."""

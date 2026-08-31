@@ -1,0 +1,10 @@
+{
+  "purpose": "Run IDs and saved artifacts for the five additional benchmark investigations.",
+  "cases": [
+    {"case_id": "ekram_yeshanew_software_developer", "investigation_id": "inv_4699fe9b8ce5", "run_id": "run_308be3ef1f1a", "verification_run_id": "verify_93be34c02b25", "status": "completed_with_errors", "observation_count": 0, "verification_count": 0},
+    {"case_id": "olivia_dean_singer", "investigation_id": "inv_3a1b57a84c5a", "run_id": "run_3288a98025f8", "verification_run_id": "verify_be77567293b4", "status": "completed", "observation_count": 27, "verification_count": 27},
+    {"case_id": "michael_tamire_salesman", "investigation_id": "inv_3661b2b4d217", "run_id": "run_f19be6fa4bfe", "verification_run_id": "verify_82c0e07e553a", "status": "completed_with_errors", "observation_count": 20, "verification_count": 65},
+    {"case_id": "steve_jobs_developer", "investigation_id": "inv_3c5ab26b23d8", "run_id": "run_7ef454ed4e1a", "verification_run_id": "verify_271405c7958b", "status": "completed_with_errors", "observation_count": 16, "verification_count": 4},
+    {"case_id": "katie_james_ai_consultant", "investigation_id": "inv_bb20786c7e78", "run_id": "run_0ba244148931", "verification_run_id": "verify_b9a87e3d5eb1", "status": "completed_with_errors", "observation_count": 25, "verification_count": 19}
+  ]
+}

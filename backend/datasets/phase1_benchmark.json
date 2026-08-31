@@ -1,0 +1,12 @@
+[
+  {
+    "case_id": "person_profile_with_location",
+    "clues": {"name": "Rehmet Yeshanew", "occupation": "AI Developer", "locations": ["Austria"]},
+    "expected_observations": ["occupation", "location", "experience"]
+  },
+  {
+    "case_id": "unknown_person_should_abstain",
+    "clues": {"name": "Example Person With No Public Evidence", "occupation": "Researcher"},
+    "expected_observations": []
+  }
+]

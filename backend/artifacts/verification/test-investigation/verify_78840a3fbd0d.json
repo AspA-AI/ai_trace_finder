@@ -1,0 +1,196 @@
+{
+  "investigation_id": "test-investigation",
+  "run_id": "verify_78840a3fbd0d",
+  "generated_at": "2026-08-29T18:59:11.193465+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "a",
+        "source_id": "source-a",
+        "subject_text": "Jane Doe",
+        "predicate": "project",
+        "object_text": "Vision model",
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00Z",
+        "source_published_at": null,
+        "quote": null,
+        "source_url": "https://platform.ultralytics.com/jane-doe",
+        "extraction_model": "test",
+        "extraction_version": "test-1"
+      },
+      {
+        "observation_id": "b",
+        "source_id": "source-b",
+        "subject_text": "Jane Doe",
+        "predicate": "project",
+        "object_text": "Vision model",
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00Z",
+        "source_published_at": null,
+        "quote": null,
+        "source_url": "https://www.linkedin.com/posts/jane-doe-123abc_project-activity",
+        "extraction_model": "test",
+        "extraction_version": "test-1"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "a",
+        "source_id": "source-a",
+        "predicate": "project",
+        "original_subject": "Jane Doe",
+        "original_object": "Vision model",
+        "normalized_subject": "jane doe",
+        "normalized_object": "vision model",
+        "quote": null,
+        "source_url": "https://platform.ultralytics.com/jane-doe",
+        "source_domain": "platform.ultralytics.com",
+        "source_platform": "ultralytics",
+        "source_identifiers": [
+          "jane-doe"
+        ],
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "b",
+        "source_id": "source-b",
+        "predicate": "project",
+        "original_subject": "Jane Doe",
+        "original_object": "Vision model",
+        "normalized_subject": "jane doe",
+        "normalized_object": "vision model",
+        "quote": null,
+        "source_url": "https://www.linkedin.com/posts/jane-doe-123abc_project-activity",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "jane-doe"
+        ],
+        "object_type": null,
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-23T00:00:00+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "left_source_id": "source-a",
+        "right_source_id": "source-b",
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.395,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "a",
+          "b"
+        ],
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "a",
+        "right_observation_id": "b",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.395,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "multi",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "a",
+          "b"
+        ],
+        "left_evidence_ids": [
+          "a"
+        ],
+        "right_evidence_ids": [
+          "b"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

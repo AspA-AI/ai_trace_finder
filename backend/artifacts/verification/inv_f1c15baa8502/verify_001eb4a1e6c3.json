@@ -1,0 +1,1830 @@
+{
+  "investigation_id": "inv_f1c15baa8502",
+  "run_id": "verify_001eb4a1e6c3",
+  "generated_at": "2026-08-29T20:11:14.858537+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_2b4d46110616176f",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "subject_text": "Jamie Chen",
+        "predicate": "has",
+        "object_text": "PhD in Electrical & Computer Engineering",
+        "object_type": "degree",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345Z",
+        "source_published_at": null,
+        "quote": "Jamie Chen holds a 2008 - 2011 PhD in Electrical & Computer Engineering @ University of Florida.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_2e13506bcb352971",
+        "source_id": "src_a921dc978501b932",
+        "subject_text": "Jamie Chen",
+        "predicate": "location",
+        "object_text": "Bay Area",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070Z",
+        "source_published_at": null,
+        "quote": "I’m a brand designer & illustrator based in the Bay Area",
+        "source_url": "https://www.jamie-chen.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_433a151986abe431",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "subject_text": "Jamie Chen",
+        "predicate": "location",
+        "object_text": "California, United States",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345Z",
+        "source_published_at": null,
+        "quote": "Jamie Chen, based in California, United States.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_44b3e28c2fce4f5a",
+        "source_id": "src_1f4d681ad39deba0",
+        "subject_text": "Jamie Chen",
+        "predicate": "grew_up_in",
+        "object_text": "Toronto",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:29.514301Z",
+        "source_published_at": null,
+        "quote": "Jamie grew up in Toronto",
+        "source_url": "https://www.tcv.com/team/jamie-chen",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6695f019a2e1e330",
+        "source_id": "src_ffcd35dfdac286a2",
+        "subject_text": "Jamie Chen",
+        "predicate": "is a",
+        "object_text": "PhD student in English Literature",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305Z",
+        "source_published_at": null,
+        "quote": "I am a PhD student in English Literature, currently working on a dissertation about archives and diasporic novels.",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6a0717e9d0c6929b",
+        "source_id": "src_ffcd35dfdac286a2",
+        "subject_text": "Jamie Chen",
+        "predicate": "has taught",
+        "object_text": "Rhetoric and General Education Literature courses",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305Z",
+        "source_published_at": null,
+        "quote": "I have taught Rhetoric and General Education Literature courses as a graduate instructor.",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6c00dd15ba5c9e89",
+        "source_id": "src_a921dc978501b932",
+        "subject_text": "Jamie Chen",
+        "predicate": "is employed at",
+        "object_text": "Blend",
+        "object_type": "employer",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070Z",
+        "source_published_at": null,
+        "quote": "currently at Blend",
+        "source_url": "https://www.jamie-chen.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6dba98bc3b0395e2",
+        "source_id": "src_a921dc978501b932",
+        "subject_text": "Jamie Chen",
+        "predicate": "has previous experience at",
+        "object_text": "Chronicle Books",
+        "object_type": "employer",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070Z",
+        "source_published_at": null,
+        "quote": "with previous experience at Chronicle Books",
+        "source_url": "https://www.jamie-chen.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_703b8f4d800225ef",
+        "source_id": "src_ffcd35dfdac286a2",
+        "subject_text": "Jamie Chen",
+        "predicate": "location",
+        "object_text": "Iowa City, Iowa",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305Z",
+        "source_published_at": null,
+        "quote": "The University of Iowa Writing Center... Iowa City, IA 52242",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_871b0c3e2c1d2619",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "subject_text": "Jamie Chen",
+        "predicate": "has",
+        "object_text": "experience from previous roles at TikTok, Meta, Amazon and Dolby Laboratories",
+        "object_type": "experience",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345Z",
+        "source_published_at": null,
+        "quote": "Jamie Chen brings experience from previous roles at TikTok, Meta, Amazon and Dolby Laboratories.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_88f49556f23ef0b1",
+        "source_id": "src_1f4d681ad39deba0",
+        "subject_text": "Jamie Chen",
+        "predicate": "occupation",
+        "object_text": "software engineer",
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:29.514301Z",
+        "source_published_at": null,
+        "quote": "Jamie focuses on investments in consumer internet and SME software.",
+        "source_url": "https://www.tcv.com/team/jamie-chen",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a04e9f4104c0e6c4",
+        "source_id": "src_ffcd35dfdac286a2",
+        "subject_text": "Jamie Chen",
+        "predicate": "started tutoring",
+        "object_text": "students in English as a Second Language (ESL)",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305Z",
+        "source_published_at": null,
+        "quote": "I started tutoring students in English as a Second Language (ESL) when I was a college student.",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f2534b4888df2be1",
+        "source_id": "src_61296932c8c1abaf",
+        "subject_text": "Jamie Chen",
+        "predicate": "has_username",
+        "object_text": "@jamiechenn",
+        "object_type": "username",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:26.490711Z",
+        "source_published_at": null,
+        "quote": "Jamie Chen (@jamiechenn) • Facebook, Connect with friends",
+        "source_url": "https://www.facebook.com/jamiechenn",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f5e3b423b41a4e7f",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "subject_text": "Jamie Chen",
+        "predicate": "is",
+        "object_text": "Engineering Manager",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345Z",
+        "source_published_at": null,
+        "quote": "Jamie Chen, based in California, United States, is currently a Engineering Manager at Meta.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_fe5cb152b9cb2498",
+        "source_id": "src_a921dc978501b932",
+        "subject_text": "Jamie Chen",
+        "predicate": "is a",
+        "object_text": "brand designer & illustrator",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070Z",
+        "source_published_at": null,
+        "quote": "Hi!My name is Jamie✨I’m a brand designer & illustrator based in the Bay Area",
+        "source_url": "https://www.jamie-chen.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_2b4d46110616176f",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "predicate": "has",
+        "original_subject": "Jamie Chen",
+        "original_object": "PhD in Electrical & Computer Engineering",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "phd in electrical & computer engineering",
+        "quote": "Jamie Chen holds a 2008 - 2011 PhD in Electrical & Computer Engineering @ University of Florida.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "source_domain": "rocketreach.co",
+        "source_platform": "rocketreach.co",
+        "source_identifiers": [
+          "jamie-chen-email_10660009"
+        ],
+        "object_type": "degree",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_2e13506bcb352971",
+        "source_id": "src_a921dc978501b932",
+        "predicate": "location",
+        "original_subject": "Jamie Chen",
+        "original_object": "Bay Area",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "bay area",
+        "quote": "I’m a brand designer & illustrator based in the Bay Area",
+        "source_url": "https://www.jamie-chen.com/",
+        "source_domain": "jamie-chen.com",
+        "source_platform": "jamie-chen.com",
+        "source_identifiers": [],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_433a151986abe431",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "predicate": "location",
+        "original_subject": "Jamie Chen",
+        "original_object": "California, United States",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "california, united states",
+        "quote": "Jamie Chen, based in California, United States.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "source_domain": "rocketreach.co",
+        "source_platform": "rocketreach.co",
+        "source_identifiers": [
+          "jamie-chen-email_10660009"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_44b3e28c2fce4f5a",
+        "source_id": "src_1f4d681ad39deba0",
+        "predicate": "grew_up_in",
+        "original_subject": "Jamie Chen",
+        "original_object": "Toronto",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "toronto",
+        "quote": "Jamie grew up in Toronto",
+        "source_url": "https://www.tcv.com/team/jamie-chen",
+        "source_domain": "tcv.com",
+        "source_platform": "tcv.com",
+        "source_identifiers": [
+          "team",
+          "jamie-chen"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:29.514301+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6695f019a2e1e330",
+        "source_id": "src_ffcd35dfdac286a2",
+        "predicate": "is a",
+        "original_subject": "Jamie Chen",
+        "original_object": "PhD student in English Literature",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "phd student in english literature",
+        "quote": "I am a PhD student in English Literature, currently working on a dissertation about archives and diasporic novels.",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "source_domain": "writingcenter.uiowa.edu",
+        "source_platform": "writingcenter.uiowa.edu",
+        "source_identifiers": [
+          "jamie-chen"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6a0717e9d0c6929b",
+        "source_id": "src_ffcd35dfdac286a2",
+        "predicate": "has taught",
+        "original_subject": "Jamie Chen",
+        "original_object": "Rhetoric and General Education Literature courses",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "rhetoric and general education literature courses",
+        "quote": "I have taught Rhetoric and General Education Literature courses as a graduate instructor.",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "source_domain": "writingcenter.uiowa.edu",
+        "source_platform": "writingcenter.uiowa.edu",
+        "source_identifiers": [
+          "jamie-chen"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6c00dd15ba5c9e89",
+        "source_id": "src_a921dc978501b932",
+        "predicate": "is employed at",
+        "original_subject": "Jamie Chen",
+        "original_object": "Blend",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "blend",
+        "quote": "currently at Blend",
+        "source_url": "https://www.jamie-chen.com/",
+        "source_domain": "jamie-chen.com",
+        "source_platform": "jamie-chen.com",
+        "source_identifiers": [],
+        "object_type": "employer",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6dba98bc3b0395e2",
+        "source_id": "src_a921dc978501b932",
+        "predicate": "has previous experience at",
+        "original_subject": "Jamie Chen",
+        "original_object": "Chronicle Books",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "chronicle books",
+        "quote": "with previous experience at Chronicle Books",
+        "source_url": "https://www.jamie-chen.com/",
+        "source_domain": "jamie-chen.com",
+        "source_platform": "jamie-chen.com",
+        "source_identifiers": [],
+        "object_type": "employer",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_703b8f4d800225ef",
+        "source_id": "src_ffcd35dfdac286a2",
+        "predicate": "location",
+        "original_subject": "Jamie Chen",
+        "original_object": "Iowa City, Iowa",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "iowa city, iowa",
+        "quote": "The University of Iowa Writing Center... Iowa City, IA 52242",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "source_domain": "writingcenter.uiowa.edu",
+        "source_platform": "writingcenter.uiowa.edu",
+        "source_identifiers": [
+          "jamie-chen"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_871b0c3e2c1d2619",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "predicate": "has",
+        "original_subject": "Jamie Chen",
+        "original_object": "experience from previous roles at TikTok, Meta, Amazon and Dolby Laboratories",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "experience from previous roles at tiktok, meta, amazon and dolby laboratories",
+        "quote": "Jamie Chen brings experience from previous roles at TikTok, Meta, Amazon and Dolby Laboratories.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "source_domain": "rocketreach.co",
+        "source_platform": "rocketreach.co",
+        "source_identifiers": [
+          "jamie-chen-email_10660009"
+        ],
+        "object_type": "experience",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_88f49556f23ef0b1",
+        "source_id": "src_1f4d681ad39deba0",
+        "predicate": "occupation",
+        "original_subject": "Jamie Chen",
+        "original_object": "software engineer",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "software engineer",
+        "quote": "Jamie focuses on investments in consumer internet and SME software.",
+        "source_url": "https://www.tcv.com/team/jamie-chen",
+        "source_domain": "tcv.com",
+        "source_platform": "tcv.com",
+        "source_identifiers": [
+          "team",
+          "jamie-chen"
+        ],
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:29.514301+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a04e9f4104c0e6c4",
+        "source_id": "src_ffcd35dfdac286a2",
+        "predicate": "started tutoring",
+        "original_subject": "Jamie Chen",
+        "original_object": "students in English as a Second Language (ESL)",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "students in english as a second language (esl)",
+        "quote": "I started tutoring students in English as a Second Language (ESL) when I was a college student.",
+        "source_url": "https://writingcenter.uiowa.edu/people/jamie-chen",
+        "source_domain": "writingcenter.uiowa.edu",
+        "source_platform": "writingcenter.uiowa.edu",
+        "source_identifiers": [
+          "jamie-chen"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:34.356305+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f2534b4888df2be1",
+        "source_id": "src_61296932c8c1abaf",
+        "predicate": "has_username",
+        "original_subject": "Jamie Chen",
+        "original_object": "@jamiechenn",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "jamiechenn",
+        "quote": "Jamie Chen (@jamiechenn) • Facebook, Connect with friends",
+        "source_url": "https://www.facebook.com/jamiechenn",
+        "source_domain": "facebook.com",
+        "source_platform": "facebook.com",
+        "source_identifiers": [
+          "jamiechenn"
+        ],
+        "object_type": "username",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:26.490711+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f5e3b423b41a4e7f",
+        "source_id": "src_e58f6b10cc7f5cb8",
+        "predicate": "is",
+        "original_subject": "Jamie Chen",
+        "original_object": "Engineering Manager",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "engineering manager",
+        "quote": "Jamie Chen, based in California, United States, is currently a Engineering Manager at Meta.",
+        "source_url": "https://rocketreach.co/jamie-chen-email_10660009",
+        "source_domain": "rocketreach.co",
+        "source_platform": "rocketreach.co",
+        "source_identifiers": [
+          "jamie-chen-email_10660009"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:55.963345+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_fe5cb152b9cb2498",
+        "source_id": "src_a921dc978501b932",
+        "predicate": "is a",
+        "original_subject": "Jamie Chen",
+        "original_object": "brand designer & illustrator",
+        "normalized_subject": "jamie chen",
+        "normalized_object": "brand designer & illustrator",
+        "quote": "Hi!My name is Jamie✨I’m a brand designer & illustrator based in the Bay Area",
+        "source_url": "https://www.jamie-chen.com/",
+        "source_domain": "jamie-chen.com",
+        "source_platform": "jamie-chen.com",
+        "source_identifiers": [],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-29T20:07:22.724070+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_871b0c3e2c1d2619",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_e58f6b10cc7f5cb8",
+        "right_source_id": "src_e58f6b10cc7f5cb8",
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f"
+        ],
+        "right_evidence_ids": [
+          "obs_871b0c3e2c1d2619"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_2e13506bcb352971",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e58f6b10cc7f5cb8",
+        "right_source_id": "src_a921dc978501b932",
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_44b3e28c2fce4f5a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e58f6b10cc7f5cb8",
+        "right_source_id": "src_1f4d681ad39deba0",
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e58f6b10cc7f5cb8",
+        "right_source_id": "src_ffcd35dfdac286a2",
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e58f6b10cc7f5cb8",
+        "right_source_id": "src_61296932c8c1abaf",
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_44b3e28c2fce4f5a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_a921dc978501b932",
+        "right_source_id": "src_1f4d681ad39deba0",
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_a921dc978501b932",
+        "right_source_id": "src_ffcd35dfdac286a2",
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_a921dc978501b932",
+        "right_source_id": "src_61296932c8c1abaf",
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_44b3e28c2fce4f5a",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_1f4d681ad39deba0",
+        "right_source_id": "src_ffcd35dfdac286a2",
+        "left_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_44b3e28c2fce4f5a",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_1f4d681ad39deba0",
+        "right_source_id": "src_61296932c8c1abaf",
+        "left_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ]
+      },
+      {
+        "left_observation_id": "obs_6695f019a2e1e330",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_ffcd35dfdac286a2",
+        "right_source_id": "src_61296932c8c1abaf",
+        "left_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_871b0c3e2c1d2619",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_871b0c3e2c1d2619"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f"
+        ],
+        "right_evidence_ids": [
+          "obs_871b0c3e2c1d2619"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_2e13506bcb352971",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_44b3e28c2fce4f5a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_44b3e28c2fce4f5a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498",
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498",
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44b3e28c2fce4f5a",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.16,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1",
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "left_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44b3e28c2fce4f5a",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_6695f019a2e1e330",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_871b0c3e2c1d2619",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_871b0c3e2c1d2619"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f"
+        ],
+        "right_evidence_ids": [
+          "obs_871b0c3e2c1d2619"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_2e13506bcb352971",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_44b3e28c2fce4f5a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b4d46110616176f",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_2b4d46110616176f",
+          "obs_433a151986abe431",
+          "obs_871b0c3e2c1d2619",
+          "obs_f5e3b423b41a4e7f"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_44b3e28c2fce4f5a",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498",
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.0,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "single",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "UNVERIFIED_TEMPORAL_ORDER",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498",
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2e13506bcb352971",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_2e13506bcb352971",
+          "obs_6c00dd15ba5c9e89",
+          "obs_6dba98bc3b0395e2",
+          "obs_fe5cb152b9cb2498"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44b3e28c2fce4f5a",
+        "right_observation_id": "obs_6695f019a2e1e330",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "SEMANTIC_CONFLICT",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1",
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "left_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "right_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_44b3e28c2fce4f5a",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_44b3e28c2fce4f5a",
+          "obs_88f49556f23ef0b1"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_6695f019a2e1e330",
+        "right_observation_id": "obs_f2534b4888df2be1",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4",
+          "obs_f2534b4888df2be1"
+        ],
+        "left_evidence_ids": [
+          "obs_6695f019a2e1e330",
+          "obs_6a0717e9d0c6929b",
+          "obs_703b8f4d800225ef",
+          "obs_a04e9f4104c0e6c4"
+        ],
+        "right_evidence_ids": [
+          "obs_f2534b4888df2be1"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ]
+  }
+}

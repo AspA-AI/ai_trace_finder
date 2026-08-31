@@ -1,0 +1,401 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_bb20786c7e78",
+  "run_id": "run_0ba244148931",
+  "started_at": "2026-08-30T12:36:40.428952+00:00",
+  "completed_at": "2026-08-30T12:39:07.796715+00:00",
+  "clues": {
+    "name": "Katie James",
+    "usernames": [],
+    "occupation": "AI consultant",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-30T12:36:40.429046+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Katie James\"",
+          "\"Katie James\" AI consultant"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-30T12:36:42.699578+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_bb20786c7e78",
+        "run_id": "run_0ba244148931"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-30T12:36:42.699662+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-30T12:36:42.699678+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Katie James\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-30T12:36:44.576776+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Katie James\"",
+        "result_count": 5,
+        "retry_limit": 1
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-30T12:36:44.576787+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Katie James\" AI consultant"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-30T12:36:45.838862+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Katie James\" AI consultant",
+        "result_count": 5,
+        "retry_limit": 1
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-30T12:36:45.839013+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 10
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-30T12:36:56.280337+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://es.wikipedia.org/wiki/Katie_James",
+        "source_id": "src_b271c669196b1ad6",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-30T12:37:01.410306+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b271c669196b1ad6",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-30T12:37:14.462207+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.greennote.co.uk/production/katie-james",
+        "source_id": "src_478417e0e04b59af",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-30T12:37:18.106564+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_478417e0e04b59af",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-30T12:37:29.920218+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://katiejamesmusic.com/",
+        "source_id": "src_60cf65866d99a5b7",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-30T12:37:34.553423+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_60cf65866d99a5b7",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-30T12:37:47.811450+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/katie_james_music?hl=en",
+        "source_id": "src_70e9c3ab84aaea8b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-30T12:37:48.749835+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_70e9c3ab84aaea8b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-30T12:37:58.591359+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/channel/UCVFLDHTi2QO8N_UFnVssCwQ",
+        "source_id": "src_13c4047871f3ea5d",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-30T12:37:59.586902+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_13c4047871f3ea5d",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-30T12:38:12.013606+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/katiesmith",
+        "source_id": "src_b6c79847c83cee84",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-30T12:38:16.684665+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b6c79847c83cee84",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-30T12:38:27.834003+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://katiejamesinc.com/team",
+        "source_id": "src_dd38fd674e8db442",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-30T12:38:28.953821+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_dd38fd674e8db442",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-30T12:38:40.622853+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.a-speakers.com/speakers/katie-king",
+        "source_id": "src_0af69dcf4e8ddb47",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-30T12:38:40.622870+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_0af69dcf4e8ddb47",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-30T12:38:44.448568+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=8mj-fqWNDkU",
+        "error": "Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D8mj-fqWNDkU&q=EgRU_HE9GNPI0NQGIjBjTcjVi6GmfoJlh26Yj3PRLJEi20TDWW5vO2fOaGLAkd97R1mdUVFipVNk2VTfK88yAnJSWgFD'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-30T12:38:58.749513+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://uk.linkedin.com/in/katieeking",
+        "source_id": "src_971538baf0c37afe",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-30T12:38:58.749534+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_971538baf0c37afe",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-30T12:39:07.796758+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 25,
+        "retrieved_source_count": 9,
+        "error_count": 1,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 10,
+    "retrieved_source_count": 9,
+    "observation_count": 25,
+    "error_count": 1
+  }
+}

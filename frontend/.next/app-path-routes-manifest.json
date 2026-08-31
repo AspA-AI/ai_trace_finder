@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/investigations/route": "/api/investigations",
+  "/api/investigations/[...path]/route": "/api/investigations/[...path]",
+  "/api/evaluations/[...path]/route": "/api/evaluations/[...path]",
+  "/graph/page": "/graph",
+  "/investigations/new/page": "/investigations/new",
+  "/evaluation/page": "/evaluation",
+  "/page": "/",
+  "/runs/[investigation_id]/page": "/runs/[investigation_id]"
+}
