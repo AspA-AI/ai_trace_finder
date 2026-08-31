@@ -1,4 +1,4 @@
-// File: /Users/rzapp/Documents/A{sp}A/ai_trace/frontend/app/layout.jsx
+// File: /vercel/share/v0-project/frontend/app/layout.jsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

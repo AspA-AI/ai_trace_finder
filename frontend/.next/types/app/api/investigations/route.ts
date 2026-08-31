@@ -1,4 +1,4 @@
-// File: /Users/rzapp/Documents/A{sp}A/ai_trace/frontend/app/api/investigations/route.js
+// File: /vercel/share/v0-project/frontend/app/api/investigations/route.js
 import * as entry from '../../../../../app/api/investigations/route.js'
 import type { NextRequest } from 'next/server.js'
 
