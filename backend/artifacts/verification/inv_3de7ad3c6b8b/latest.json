@@ -1,0 +1,1031 @@
+{
+  "investigation_id": "inv_3de7ad3c6b8b",
+  "run_id": "verify_c43503da0838",
+  "generated_at": "2026-08-31T17:20:06.625420+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_0c96edb5dd42649c",
+        "source_id": "src_640214534a51ca9a",
+        "subject_text": "Emily Brown",
+        "predicate": "uses her collection to translate",
+        "object_text": "pieces into new tales of romance, longing and love told with humor",
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751Z",
+        "source_published_at": null,
+        "quote": "She uses her collection to translate pieces into new tales of romance, longing and love told with humor and with just the right amount of steam to make you want to keep reading.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_2a41c0534eb4fd1b",
+        "source_id": "src_640214534a51ca9a",
+        "subject_text": "Emily Brown",
+        "predicate": "loves sharing",
+        "object_text": "strange dating moments from men and women",
+        "object_type": "interest",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751Z",
+        "source_published_at": null,
+        "quote": "She loves sharing and hearing strange dating moments from men and women.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_2b66ae15ad607f73",
+        "source_id": "src_11bfcffab1519de1",
+        "subject_text": "Emily Brown",
+        "predicate": "has_degree",
+        "object_text": "Bachelor's and Master's degrees in Computer Science",
+        "object_type": "Degrees",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195Z",
+        "source_published_at": null,
+        "quote": "I graduated from my master’s degree in the winter.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_455d291583743593",
+        "source_id": "src_11bfcffab1519de1",
+        "subject_text": "Emily Brown",
+        "predicate": "is_awarded",
+        "object_text": "2025 UMBC Outstanding Alumna Award",
+        "object_type": "Award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195Z",
+        "source_published_at": null,
+        "quote": "This October, Brown will receive the 2025 UMBC Outstanding Alumna Award.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_45ad54a157aa7cb8",
+        "source_id": "src_b79baa123da9f38a",
+        "subject_text": "Emily Brown",
+        "predicate": "is",
+        "object_text": "a part-time soccer player",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165Z",
+        "source_published_at": null,
+        "quote": "Entertainment Tonight confirmed that Brown is a copywriter and soccer player but its source did not share much more about her career.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4ca97fdf8331a151",
+        "source_id": "src_b79baa123da9f38a",
+        "subject_text": "Emily Brown",
+        "predicate": "is linked to",
+        "object_text": "Football Beyond Borders",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165Z",
+        "source_published_at": null,
+        "quote": "The Daily Mail reports that Brown plays part-time for FBB, a charity organization that uses soccer to educate and enrich the lives of young people.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_50eb6d0657174da5",
+        "source_id": "src_640214534a51ca9a",
+        "subject_text": "Emily Brown",
+        "predicate": "is a",
+        "object_text": "writer",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751Z",
+        "source_published_at": null,
+        "quote": "Emily Brown is a writer living in Northern California.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_5127bf268e3edf49",
+        "source_id": "src_b79baa123da9f38a",
+        "subject_text": "Emily Brown",
+        "predicate": "attended",
+        "object_text": "Manchester University",
+        "object_type": "educational institution",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165Z",
+        "source_published_at": null,
+        "quote": "Brown was interviewed by student newspaper The Tab while studying at Manchester University between 2009 and 2012.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_58d5066c43e2e7ea",
+        "source_id": "src_11bfcffab1519de1",
+        "subject_text": "Emily Brown",
+        "predicate": "has_experience_with",
+        "object_text": "Cybersecurity and AI work",
+        "object_type": "Field of Work",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195Z",
+        "source_published_at": null,
+        "quote": "I started my career thinking I wanted to focus on cybersecurity and now I do more AI work.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7547cca6052c8113",
+        "source_id": "src_640214534a51ca9a",
+        "subject_text": "Emily Brown",
+        "predicate": "wrote",
+        "object_text": "Stories from the Sisterwives: How I Survived Dating a Sociopath",
+        "object_type": "book",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751Z",
+        "source_published_at": null,
+        "quote": "Her first book, 'Stories from the Sisterwives: How I Survived Dating a Sociopath' is the true story of a relationship from Emily's past that forever changed the course of her life.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_788b98c091a6aaee",
+        "source_id": "src_640214534a51ca9a",
+        "subject_text": "Emily Brown",
+        "predicate": "is interested in",
+        "object_text": "hearing stories of how people meet and form relationships",
+        "object_type": "interest",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751Z",
+        "source_published_at": null,
+        "quote": "As a single woman of a certain age, she is interested in hearing stories of how people meet and form relationships.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_897455fa42c1d427",
+        "source_id": "src_b79baa123da9f38a",
+        "subject_text": "Emily Brown",
+        "predicate": "has",
+        "object_text": "no public social media",
+        "object_type": "social media presence",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165Z",
+        "source_published_at": null,
+        "quote": "Brown has no public social media currently.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c346bd5ed7aa5bfd",
+        "source_id": "src_11bfcffab1519de1",
+        "subject_text": "Emily Brown",
+        "predicate": "is_part_of",
+        "object_text": "Center for Women and Technology (CWIT)",
+        "object_type": "Program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195Z",
+        "source_published_at": null,
+        "quote": "I lived in the CWIT Living Learning Community my freshman and sophomore years.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_cea321935faff337",
+        "source_id": "src_11bfcffab1519de1",
+        "subject_text": "Emily Brown",
+        "predicate": "is_occupation",
+        "object_text": "Software Developer",
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195Z",
+        "source_published_at": null,
+        "quote": "I’m currently the assistant group supervisor for the analytic capabilities group.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_0c96edb5dd42649c",
+        "source_id": "src_640214534a51ca9a",
+        "predicate": "uses her collection to translate",
+        "original_subject": "Emily Brown",
+        "original_object": "pieces into new tales of romance, longing and love told with humor",
+        "normalized_subject": "emily brown",
+        "normalized_object": "pieces into new tales of romance, longing and love told with humor",
+        "quote": "She uses her collection to translate pieces into new tales of romance, longing and love told with humor and with just the right amount of steam to make you want to keep reading.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "source_domain": "amazon.com",
+        "source_platform": "amazon.com",
+        "source_identifiers": [
+          "stores",
+          "author",
+          "b00hisxcqg"
+        ],
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_2a41c0534eb4fd1b",
+        "source_id": "src_640214534a51ca9a",
+        "predicate": "loves sharing",
+        "original_subject": "Emily Brown",
+        "original_object": "strange dating moments from men and women",
+        "normalized_subject": "emily brown",
+        "normalized_object": "strange dating moments from men and women",
+        "quote": "She loves sharing and hearing strange dating moments from men and women.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "source_domain": "amazon.com",
+        "source_platform": "amazon.com",
+        "source_identifiers": [
+          "stores",
+          "author",
+          "b00hisxcqg"
+        ],
+        "object_type": "interest",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_2b66ae15ad607f73",
+        "source_id": "src_11bfcffab1519de1",
+        "predicate": "has_degree",
+        "original_subject": "Emily Brown",
+        "original_object": "Bachelor's and Master's degrees in Computer Science",
+        "normalized_subject": "emily brown",
+        "normalized_object": "bachelor's and master's degrees in computer science",
+        "quote": "I graduated from my master’s degree in the winter.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "source_domain": "umbc.edu",
+        "source_platform": "umbc.edu",
+        "source_identifiers": [
+          "stories",
+          "meet-emily-brown-outstanding-alumna"
+        ],
+        "object_type": "Degrees",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_455d291583743593",
+        "source_id": "src_11bfcffab1519de1",
+        "predicate": "is_awarded",
+        "original_subject": "Emily Brown",
+        "original_object": "2025 UMBC Outstanding Alumna Award",
+        "normalized_subject": "emily brown",
+        "normalized_object": "2025 umbc outstanding alumna award",
+        "quote": "This October, Brown will receive the 2025 UMBC Outstanding Alumna Award.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "source_domain": "umbc.edu",
+        "source_platform": "umbc.edu",
+        "source_identifiers": [
+          "stories",
+          "meet-emily-brown-outstanding-alumna"
+        ],
+        "object_type": "Award",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_45ad54a157aa7cb8",
+        "source_id": "src_b79baa123da9f38a",
+        "predicate": "is",
+        "original_subject": "Emily Brown",
+        "original_object": "a part-time soccer player",
+        "normalized_subject": "emily brown",
+        "normalized_object": "a part-time soccer player",
+        "quote": "Entertainment Tonight confirmed that Brown is a copywriter and soccer player but its source did not share much more about her career.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "source_domain": "elle.com",
+        "source_platform": "elle.com",
+        "source_identifiers": [
+          "culture",
+          "celebrities",
+          "a35502032",
+          "who-is-emily-brown-rege-jean-page-girlfriend"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4ca97fdf8331a151",
+        "source_id": "src_b79baa123da9f38a",
+        "predicate": "is linked to",
+        "original_subject": "Emily Brown",
+        "original_object": "Football Beyond Borders",
+        "normalized_subject": "emily brown",
+        "normalized_object": "football beyond borders",
+        "quote": "The Daily Mail reports that Brown plays part-time for FBB, a charity organization that uses soccer to educate and enrich the lives of young people.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "source_domain": "elle.com",
+        "source_platform": "elle.com",
+        "source_identifiers": [
+          "culture",
+          "celebrities",
+          "a35502032",
+          "who-is-emily-brown-rege-jean-page-girlfriend"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_50eb6d0657174da5",
+        "source_id": "src_640214534a51ca9a",
+        "predicate": "is a",
+        "original_subject": "Emily Brown",
+        "original_object": "writer",
+        "normalized_subject": "emily brown",
+        "normalized_object": "writer",
+        "quote": "Emily Brown is a writer living in Northern California.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "source_domain": "amazon.com",
+        "source_platform": "amazon.com",
+        "source_identifiers": [
+          "stores",
+          "author",
+          "b00hisxcqg"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_5127bf268e3edf49",
+        "source_id": "src_b79baa123da9f38a",
+        "predicate": "attended",
+        "original_subject": "Emily Brown",
+        "original_object": "Manchester University",
+        "normalized_subject": "emily brown",
+        "normalized_object": "manchester university",
+        "quote": "Brown was interviewed by student newspaper The Tab while studying at Manchester University between 2009 and 2012.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "source_domain": "elle.com",
+        "source_platform": "elle.com",
+        "source_identifiers": [
+          "culture",
+          "celebrities",
+          "a35502032",
+          "who-is-emily-brown-rege-jean-page-girlfriend"
+        ],
+        "object_type": "educational institution",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_58d5066c43e2e7ea",
+        "source_id": "src_11bfcffab1519de1",
+        "predicate": "has_experience_with",
+        "original_subject": "Emily Brown",
+        "original_object": "Cybersecurity and AI work",
+        "normalized_subject": "emily brown",
+        "normalized_object": "cybersecurity and ai work",
+        "quote": "I started my career thinking I wanted to focus on cybersecurity and now I do more AI work.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "source_domain": "umbc.edu",
+        "source_platform": "umbc.edu",
+        "source_identifiers": [
+          "stories",
+          "meet-emily-brown-outstanding-alumna"
+        ],
+        "object_type": "Field of Work",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7547cca6052c8113",
+        "source_id": "src_640214534a51ca9a",
+        "predicate": "wrote",
+        "original_subject": "Emily Brown",
+        "original_object": "Stories from the Sisterwives: How I Survived Dating a Sociopath",
+        "normalized_subject": "emily brown",
+        "normalized_object": "stories from the sisterwives: how i survived dating a sociopath",
+        "quote": "Her first book, 'Stories from the Sisterwives: How I Survived Dating a Sociopath' is the true story of a relationship from Emily's past that forever changed the course of her life.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "source_domain": "amazon.com",
+        "source_platform": "amazon.com",
+        "source_identifiers": [
+          "stores",
+          "author",
+          "b00hisxcqg"
+        ],
+        "object_type": "book",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_788b98c091a6aaee",
+        "source_id": "src_640214534a51ca9a",
+        "predicate": "is interested in",
+        "original_subject": "Emily Brown",
+        "original_object": "hearing stories of how people meet and form relationships",
+        "normalized_subject": "emily brown",
+        "normalized_object": "hearing stories of how people meet and form relationships",
+        "quote": "As a single woman of a certain age, she is interested in hearing stories of how people meet and form relationships.",
+        "source_url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "source_domain": "amazon.com",
+        "source_platform": "amazon.com",
+        "source_identifiers": [
+          "stores",
+          "author",
+          "b00hisxcqg"
+        ],
+        "object_type": "interest",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:18:51.937751+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_897455fa42c1d427",
+        "source_id": "src_b79baa123da9f38a",
+        "predicate": "has",
+        "original_subject": "Emily Brown",
+        "original_object": "no public social media",
+        "normalized_subject": "emily brown",
+        "normalized_object": "no public social media",
+        "quote": "Brown has no public social media currently.",
+        "source_url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "source_domain": "elle.com",
+        "source_platform": "elle.com",
+        "source_identifiers": [
+          "culture",
+          "celebrities",
+          "a35502032",
+          "who-is-emily-brown-rege-jean-page-girlfriend"
+        ],
+        "object_type": "social media presence",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:09.676165+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c346bd5ed7aa5bfd",
+        "source_id": "src_11bfcffab1519de1",
+        "predicate": "is_part_of",
+        "original_subject": "Emily Brown",
+        "original_object": "Center for Women and Technology (CWIT)",
+        "normalized_subject": "emily brown",
+        "normalized_object": "center for women and technology (cwit)",
+        "quote": "I lived in the CWIT Living Learning Community my freshman and sophomore years.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "source_domain": "umbc.edu",
+        "source_platform": "umbc.edu",
+        "source_identifiers": [
+          "stories",
+          "meet-emily-brown-outstanding-alumna"
+        ],
+        "object_type": "Program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_cea321935faff337",
+        "source_id": "src_11bfcffab1519de1",
+        "predicate": "is_occupation",
+        "original_subject": "Emily Brown",
+        "original_object": "Software Developer",
+        "normalized_subject": "emily brown",
+        "normalized_object": "software developer",
+        "quote": "I’m currently the assistant group supervisor for the analytic capabilities group.",
+        "source_url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "source_domain": "umbc.edu",
+        "source_platform": "umbc.edu",
+        "source_identifiers": [
+          "stories",
+          "meet-emily-brown-outstanding-alumna"
+        ],
+        "object_type": "Occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:19:45.501195+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_0c96edb5dd42649c",
+        "right_observation_id": "obs_2b66ae15ad607f73",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_640214534a51ca9a",
+        "right_source_id": "src_11bfcffab1519de1",
+        "left_evidence_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee"
+        ],
+        "right_evidence_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0c96edb5dd42649c",
+        "right_observation_id": "obs_45ad54a157aa7cb8",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_640214534a51ca9a",
+        "right_source_id": "src_b79baa123da9f38a",
+        "left_evidence_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee"
+        ],
+        "right_evidence_ids": [
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ]
+      },
+      {
+        "left_observation_id": "obs_2b66ae15ad607f73",
+        "right_observation_id": "obs_45ad54a157aa7cb8",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_11bfcffab1519de1",
+        "right_source_id": "src_b79baa123da9f38a",
+        "left_evidence_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "right_evidence_ids": [
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_0c96edb5dd42649c",
+        "right_observation_id": "obs_2b66ae15ad607f73",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee",
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "left_evidence_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee"
+        ],
+        "right_evidence_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0c96edb5dd42649c",
+        "right_observation_id": "obs_45ad54a157aa7cb8",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee",
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "left_evidence_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee"
+        ],
+        "right_evidence_ids": [
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b66ae15ad607f73",
+        "right_observation_id": "obs_45ad54a157aa7cb8",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337",
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "left_evidence_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "right_evidence_ids": [
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_0c96edb5dd42649c",
+        "right_observation_id": "obs_2b66ae15ad607f73",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee",
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "left_evidence_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee"
+        ],
+        "right_evidence_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0c96edb5dd42649c",
+        "right_observation_id": "obs_45ad54a157aa7cb8",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee",
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "left_evidence_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_50eb6d0657174da5",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee"
+        ],
+        "right_evidence_ids": [
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_2b66ae15ad607f73",
+        "right_observation_id": "obs_45ad54a157aa7cb8",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337",
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "left_evidence_ids": [
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_58d5066c43e2e7ea",
+          "obs_c346bd5ed7aa5bfd",
+          "obs_cea321935faff337"
+        ],
+        "right_evidence_ids": [
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_5127bf268e3edf49",
+          "obs_897455fa42c1d427"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "inv_3de7ad3c6b8b",
+      "deterministic_verdict": "CONTRADICTED",
+      "deterministic_confidence": 0.05,
+      "deterministic_reasoning": [
+        "SEMANTIC_CONFLICT",
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "insufficient_evidence",
+      "semantic_confidence": "low",
+      "semantic_reasoning": "The evidence contains a large, well-documented narrative about a same-name person in an unrelated field, alongside only sparse evidence matching the occupation actually requested. Volume and public prominence are not identity evidence, so the profile was re-anchored on the sparse clue-matching evidence instead of the larger unrelated narrative.",
+      "semantic_caveats": [
+        "Only limited evidence matches the requested occupation — treat this result cautiously.",
+        "A more prominent, differently-occupied person with the same name was found and excluded.",
+        "Add a location, employer, or username to strengthen this search and find more evidence."
+      ],
+      "semantic_profile": {
+        "verdict": "insufficient_evidence",
+        "confidence_label": "low",
+        "likely_name": null,
+        "headline": null,
+        "profile_summary": "The requested occupation ('Software Developer') is supported only by limited evidence (is_occupation: Software Developer). Most of the retrieved evidence instead describes a different, more prominent person who shares the same name. That more prominent identity is not presented as the target because it does not match the occupation specified in the search input.",
+        "attributes": [],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The evidence contains a large, well-documented narrative about a same-name person in an unrelated field, alongside only sparse evidence matching the occupation actually requested. Volume and public prominence are not identity evidence, so the profile was re-anchored on the sparse clue-matching evidence instead of the larger unrelated narrative.",
+        "supporting_observation_ids": [
+          "obs_cea321935faff337"
+        ],
+        "conflicting_observation_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_50eb6d0657174da5",
+          "obs_5127bf268e3edf49",
+          "obs_58d5066c43e2e7ea",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee",
+          "obs_897455fa42c1d427",
+          "obs_c346bd5ed7aa5bfd"
+        ],
+        "out_of_scope_observation_ids": [
+          "obs_0c96edb5dd42649c",
+          "obs_2a41c0534eb4fd1b",
+          "obs_2b66ae15ad607f73",
+          "obs_455d291583743593",
+          "obs_45ad54a157aa7cb8",
+          "obs_4ca97fdf8331a151",
+          "obs_50eb6d0657174da5",
+          "obs_5127bf268e3edf49",
+          "obs_58d5066c43e2e7ea",
+          "obs_7547cca6052c8113",
+          "obs_788b98c091a6aaee",
+          "obs_897455fa42c1d427",
+          "obs_c346bd5ed7aa5bfd"
+        ],
+        "excluded_evidence_summary": "The majority of retrieved observations describe a person with a different, unrelated occupation than the one specified in the search clues. That evidence was treated as a likely name collision rather than merged into the target profile.",
+        "caveats": [
+          "Only limited evidence matches the requested occupation — treat this result cautiously.",
+          "A more prominent, differently-occupied person with the same name was found and excluded.",
+          "Add a location, employer, or username to strengthen this search and find more evidence."
+        ]
+      },
+      "image_candidates": [],
+      "agreement": "one_abstained",
+      "suggested_action": "Add more specific clues (a known handle, employer, or location) and re-run to narrow the search.",
+      "generated_at": "2026-08-31T17:20:06.624023+00:00"
+    }
+  }
+}

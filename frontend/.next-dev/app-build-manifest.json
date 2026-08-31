@@ -11,25 +11,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+    "/api/investigations/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/investigations/route.js"
+    ],
     "/api/investigations/[...path]/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/investigations/[...path]/route.js"
-    ],
-    "/graph/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/graph/page.js"
     ],
     "/investigations/new/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/investigations/new/page.js"
     ],
-    "/api/investigations/route": [
+    "/graph/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/investigations/route.js"
+      "static/chunks/app/graph/page.js"
     ]
   }
 }

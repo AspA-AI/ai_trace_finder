@@ -1,0 +1,604 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_3de7ad3c6b8b",
+  "run_id": "run_adb2d64e468c",
+  "started_at": "2026-08-31T17:18:30.592263+00:00",
+  "completed_at": "2026-08-31T17:19:50.576305+00:00",
+  "clues": {
+    "name": "Emily Brown",
+    "usernames": [],
+    "occupation": "Software Developer",
+    "employers": [],
+    "locations": [
+      "India"
+    ],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T17:18:30.592438+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Emily Brown\"",
+          "\"Emily Brown\" Software Developer India"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T17:18:31.036785+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_3de7ad3c6b8b",
+        "run_id": "run_adb2d64e468c"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T17:18:31.036893+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T17:18:31.037287+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Emily Brown\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T17:18:33.635599+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Emily Brown\"",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T17:18:33.635627+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Emily Brown\" Software Developer India"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T17:18:36.288329+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Emily Brown\" Software Developer India",
+        "result_count": 9,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T17:18:36.289580+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 18
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T17:18:41.278634+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Emily_Brown_(ice_hockey)",
+        "source_id": "src_c88beed95f523551",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T17:18:42.076852+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c88beed95f523551",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T17:18:47.092143+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.amazon.com/stores/author/B00HISXCQG",
+        "source_id": "src_640214534a51ca9a",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T17:18:51.938016+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_640214534a51ca9a",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T17:18:54.868180+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://myshakespeare.com/emily-brown",
+        "source_id": "src_596e17a7a80fa76f",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T17:18:55.583310+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_596e17a7a80fa76f",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T17:18:58.651398+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/emilybrownmusic",
+        "source_id": "src_1c1eb3da7583a3c0",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T17:18:59.274280+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1c1eb3da7583a3c0",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T17:19:00.835563+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.imdb.com/name/nm6345521",
+        "source_id": "src_88af38fb22b90cb6",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T17:19:01.842570+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_88af38fb22b90cb6",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T17:19:05.383619+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.elle.com/culture/celebrities/a35502032/who-is-emily-brown-rege-jean-page-girlfriend",
+        "source_id": "src_b79baa123da9f38a",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T17:19:09.676443+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b79baa123da9f38a",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T17:19:11.610705+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.famousbirthdays.com/people/emily-brown.html",
+        "source_id": "src_f0efc655241b0bcf",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T17:19:13.649619+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f0efc655241b0bcf",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T17:19:17.041284+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/emilybrown_music",
+        "source_id": "src_4c188c63b185e0eb",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T17:19:17.735671+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4c188c63b185e0eb",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T17:19:22.168636+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/emilyvbrown?hl=en",
+        "source_id": "src_d6de6b6936b7a762",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T17:19:22.726610+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d6de6b6936b7a762",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T17:19:25.685311+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://music.apple.com/us/artist/emily-brown/1128977777",
+        "source_id": "src_f0763be3fed642ed",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T17:19:26.362000+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f0763be3fed642ed",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T17:19:27.305970+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/emily-brown-a11b5389",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/emily-brown-a11b5389'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T17:19:29.298059+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://aeroleads.com/in/emily-brown-b72798260",
+        "source_id": "src_722b9530c90b0fdf",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T17:19:31.052626+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_722b9530c90b0fdf",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T17:19:33.191557+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://attend.ieee.org/wie-forum-usa-east-2020/speakers/emily-brown",
+        "source_id": "src_a25dddcf9b924e10",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T17:19:33.882778+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a25dddcf9b924e10",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T17:19:37.260297+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/emilyrbrown",
+        "source_id": "src_c653d6155faa15f7",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T17:19:38.210980+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c653d6155faa15f7",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T17:19:41.001870+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://umbc.edu/stories/meet-emily-brown-outstanding-alumna",
+        "source_id": "src_11bfcffab1519de1",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T17:19:45.501431+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_11bfcffab1519de1",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-31T17:19:46.133857+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://harrisburg.psu.edu/story/11449/2018/05/03/emily-brown-named-new-director-harrisburg-economic-development-course",
+        "error": "Client error '403 Forbidden' for url 'https://harrisburg.psu.edu/story/11449/2018/05/03/emily-brown-named-new-director-harrisburg-economic-development-course'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-31T17:19:46.428295+00:00",
+      "stage": "retrieval",
+      "action": "skipped_source",
+      "status": "failed",
+      "details": {
+        "url": "https://emilybrown.org.uk/",
+        "reason": "No provider adapter supports this URL."
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-08-31T17:19:49.534866+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/emily-y",
+        "source_id": "src_5c68ecfb4b4a1018",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-08-31T17:19:49.535249+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_5c68ecfb4b4a1018",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-08-31T17:19:50.576863+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 15,
+        "retrieved_source_count": 15,
+        "error_count": 3,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 18,
+    "retrieved_source_count": 15,
+    "observation_count": 15,
+    "error_count": 3
+  }
+}

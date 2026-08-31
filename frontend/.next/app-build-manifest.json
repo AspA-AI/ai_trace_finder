@@ -36,20 +36,6 @@
       "static/chunks/main-app-2a15593bd3002b48.js",
       "static/chunks/app/api/evaluations/[...path]/route-b3694876337d3b56.js"
     ],
-    "/graph/page": [
-      "static/chunks/webpack-db0a529a99835594.js",
-      "static/chunks/4bd1b696-187370aa6b61a83e.js",
-      "static/chunks/684-a5bbd5ba361c8370.js",
-      "static/chunks/main-app-2a15593bd3002b48.js",
-      "static/chunks/app/graph/page-6e157b19bef000b3.js"
-    ],
-    "/investigations/new/page": [
-      "static/chunks/webpack-db0a529a99835594.js",
-      "static/chunks/4bd1b696-187370aa6b61a83e.js",
-      "static/chunks/684-a5bbd5ba361c8370.js",
-      "static/chunks/main-app-2a15593bd3002b48.js",
-      "static/chunks/app/investigations/new/page-c4fe654f50ea996c.js"
-    ],
     "/evaluation/page": [
       "static/chunks/webpack-db0a529a99835594.js",
       "static/chunks/4bd1b696-187370aa6b61a83e.js",
@@ -57,12 +43,26 @@
       "static/chunks/main-app-2a15593bd3002b48.js",
       "static/chunks/app/evaluation/page-3e054114ea7a2824.js"
     ],
+    "/investigations/new/page": [
+      "static/chunks/webpack-db0a529a99835594.js",
+      "static/chunks/4bd1b696-187370aa6b61a83e.js",
+      "static/chunks/684-a5bbd5ba361c8370.js",
+      "static/chunks/main-app-2a15593bd3002b48.js",
+      "static/chunks/app/investigations/new/page-91288cd592b0eed4.js"
+    ],
     "/page": [
       "static/chunks/webpack-db0a529a99835594.js",
       "static/chunks/4bd1b696-187370aa6b61a83e.js",
       "static/chunks/684-a5bbd5ba361c8370.js",
       "static/chunks/main-app-2a15593bd3002b48.js",
-      "static/chunks/app/page-62a3beee34ee92d7.js"
+      "static/chunks/app/page-baff9af9600f0ad1.js"
+    ],
+    "/graph/page": [
+      "static/chunks/webpack-db0a529a99835594.js",
+      "static/chunks/4bd1b696-187370aa6b61a83e.js",
+      "static/chunks/684-a5bbd5ba361c8370.js",
+      "static/chunks/main-app-2a15593bd3002b48.js",
+      "static/chunks/app/graph/page-aaa33e0959ddd5bb.js"
     ],
     "/runs/[investigation_id]/page": [
       "static/chunks/webpack-db0a529a99835594.js",

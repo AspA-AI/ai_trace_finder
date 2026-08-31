@@ -1,0 +1,571 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_b7abcd041fb7",
+  "run_id": "run_21da0fc09a17",
+  "started_at": "2026-08-31T17:14:34.085756+00:00",
+  "completed_at": "2026-08-31T17:16:09.862826+00:00",
+  "clues": {
+    "name": "John Smith",
+    "usernames": [],
+    "occupation": "Product Manager",
+    "employers": [],
+    "locations": [
+      "Canada"
+    ],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T17:14:34.086107+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"John Smith\"",
+          "\"John Smith\" Product Manager Canada"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T17:14:34.545385+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_b7abcd041fb7",
+        "run_id": "run_21da0fc09a17"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T17:14:34.545508+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T17:14:34.545855+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"John Smith\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T17:14:35.823350+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"John Smith\"",
+        "result_count": 8,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T17:14:35.823373+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"John Smith\" Product Manager Canada"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T17:14:37.600726+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"John Smith\" Product Manager Canada",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T17:14:37.601293+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 18
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T17:14:38.167542+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.britannica.com/biography/John-Smith-British-explorer",
+        "error": "Client error '403 Forbidden' for url 'https://www.britannica.com/biography/John-Smith-British-explorer'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T17:14:41.036143+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.johnsmithjohnsmith.com/",
+        "source_id": "src_af7b1cc20c239ac8",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T17:14:48.116006+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_af7b1cc20c239ac8",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T17:14:51.618539+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.nps.gov/jame/learn/historyculture/life-of-john-smith.htm",
+        "source_id": "src_52fb789f0b29e148",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T17:14:52.538762+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_52fb789f0b29e148",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T17:14:55.351901+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/John_Smith_(explorer)",
+        "source_id": "src_029fe737cd468c1f",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T17:14:56.564707+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_029fe737cd468c1f",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T17:14:59.088721+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.history.com/articles/john-smith",
+        "source_id": "src_49e348bd2b1a40cb",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T17:15:00.263670+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_49e348bd2b1a40cb",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T17:15:03.483456+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_id": "src_e674c8b08710441d",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T17:15:07.681177+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e674c8b08710441d",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T17:15:08.903138+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.jyfmuseums.org/learn/research-and-collections/essays/john-smith",
+        "error": "Client error '403 Forbidden' for url 'https://www.jyfmuseums.org/learn/research-and-collections/essays/john-smith'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T17:15:11.919440+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/thejohnsmith",
+        "source_id": "src_3cd3cdbff0dc61ff",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T17:15:12.485691+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3cd3cdbff0dc61ff",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T17:15:13.727121+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://ca.linkedin.com/in/john-smith-019b97198",
+        "error": "Invalid status code '999 <none>' for url 'https://ca.linkedin.com/in/john-smith-019b97198'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T17:15:29.305570+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://bitumic.com/leadership/john-smith",
+        "source_id": "src_5dc083d841b01e14",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T17:15:30.021239+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_5dc083d841b01e14",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T17:15:35.172458+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://innovationstudio-eg.com/leadership/john-smith",
+        "source_id": "src_b4b30b083ec0ac2e",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T17:15:35.823065+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b4b30b083ec0ac2e",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T17:15:36.792754+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://rocketreach.co/john-smith-email_65903614",
+        "error": "Client error '403 Forbidden' for url 'https://rocketreach.co/john-smith-email_65903614'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T17:15:38.908857+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://johnsmith.ca/",
+        "source_id": "src_cec8b74290ecbd18",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T17:15:41.617966+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_cec8b74290ecbd18",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T17:15:46.821793+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "source_id": "src_6633871d40407893",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T17:15:50.911862+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_6633871d40407893",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T17:15:55.129733+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/john-w-smithv",
+        "source_id": "src_852986bea440878d",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T17:15:57.877462+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_852986bea440878d",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T17:16:02.876832+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://wearejohnsmith.com/portfolio-design-studio",
+        "source_id": "src_87a218730096dc94",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T17:16:03.548001+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_87a218730096dc94",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T17:16:04.178488+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.zoominfo.com/people/John/Smith",
+        "error": "Client error '403 Forbidden' for url 'https://www.zoominfo.com/people/John/Smith'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-31T17:16:07.817752+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/thejohnsmith?hl=en",
+        "source_id": "src_56242c96e87b986f",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-31T17:16:08.467545+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_56242c96e87b986f",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-08-31T17:16:09.862966+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 18,
+        "retrieved_source_count": 13,
+        "error_count": 5,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 18,
+    "retrieved_source_count": 13,
+    "observation_count": 18,
+    "error_count": 5
+  }
+}

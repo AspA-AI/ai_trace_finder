@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { removeInvestigationCache } from "../../../lib/investigation-cache";
 
 export default function NewInvestigation() {
   const [form, setForm] = useState({ name: "", occupation: "", location: "", username: "", clues: "" });
@@ -80,6 +81,7 @@ export default function NewInvestigation() {
       const saved = await fetch("/api/investigations", { cache: "no-store" });
       const savedItems = saved.ok ? await saved.json() : [];
       if (!savedItems.some((item) => item.investigation_id === result.investigation_id)) throw new Error(`The investigation was created but was not found in the saved case list (${result.investigation_id}).`);
+      removeInvestigationCache(result.investigation_id);
       window.location.href = `/?investigation_id=${encodeURIComponent(result.investigation_id)}`;
     } catch (err) { progress.forEach(clearTimeout); clearInterval(clock); setError(err.message); setBusy(false); setProgressStep(0); }
   }

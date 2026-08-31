@@ -1,0 +1,1939 @@
+{
+  "investigation_id": "inv_b7abcd041fb7",
+  "run_id": "verify_754e6fa44d9d",
+  "generated_at": "2026-08-31T17:16:30.241615+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_0fea41b8385e4c77",
+        "source_id": "src_e674c8b08710441d",
+        "subject_text": "John Smith",
+        "predicate": "produced reports about",
+        "object_text": "early Virginia",
+        "object_type": "subject",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815Z",
+        "source_published_at": null,
+        "quote": "Smith produced some of the most detailed reports about early Virginia, such as True Relation of Virginia in 1608.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_11448580bd11abc1",
+        "source_id": "src_e674c8b08710441d",
+        "subject_text": "John Smith",
+        "predicate": "became president of",
+        "object_text": "the council for the colony",
+        "object_type": "position",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815Z",
+        "source_published_at": null,
+        "quote": "On September 10, 1608, Smith became president of the council for the colony.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3a67fd5433d39f51",
+        "source_id": "src_e674c8b08710441d",
+        "subject_text": "John Smith",
+        "predicate": "was born in",
+        "object_text": "Willoughby, England",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815Z",
+        "source_published_at": null,
+        "quote": "Born in 1580 in Willoughby, England, Smith left home at age 16 after his father died.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4202ac0957d9c739",
+        "source_id": "src_af7b1cc20c239ac8",
+        "subject_text": "John Smith",
+        "predicate": "is",
+        "object_text": "a pioneering singer, songwriter and guitarist",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657Z",
+        "source_published_at": null,
+        "quote": "Pioneering singer, songwriter and guitarist John Smith has been at the forefront of British folk and roots music for twenty years.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_47004bfef05cff55",
+        "source_id": "src_852986bea440878d",
+        "subject_text": "John Smith",
+        "predicate": "is associated with",
+        "object_text": "SkillNet Solutions, Inc.",
+        "object_type": "Organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:57.877155Z",
+        "source_published_at": null,
+        "quote": "John can introduce you to 2 people at SkillNet Solutions, Inc.",
+        "source_url": "https://www.linkedin.com/in/john-w-smithv",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_59b534dbabaadd91",
+        "source_id": "src_cec8b74290ecbd18",
+        "subject_text": "John Smith",
+        "predicate": "is from",
+        "object_text": "Canada",
+        "object_type": "country",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:41.617715Z",
+        "source_published_at": null,
+        "quote": "Founded by an incredible team of Canadian doctors, Medicine Pods is a one-stop source for comprehensive internal medicine education and evidence-based medicine resources.",
+        "source_url": "https://johnsmith.ca/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_745553d67ee47ff5",
+        "source_id": "src_6633871d40407893",
+        "subject_text": "John Smith",
+        "predicate": "has connections",
+        "object_text": "500+ connections",
+        "object_type": "Social Media Metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:50.911584Z",
+        "source_published_at": null,
+        "quote": "500+ connections",
+        "source_url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7d0dc89909579a45",
+        "source_id": "src_6633871d40407893",
+        "subject_text": "John Smith",
+        "predicate": "has connections with",
+        "object_text": "10+ people at Vistra Corp.",
+        "object_type": "Professional Connection",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:50.911584Z",
+        "source_published_at": null,
+        "quote": "John can introduce you to 10+ people at Vistra Corp.",
+        "source_url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_83ce4a863f263957",
+        "source_id": "src_af7b1cc20c239ac8",
+        "subject_text": "John Smith",
+        "predicate": "celebrates",
+        "object_text": "his 20th anniversary in music",
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657Z",
+        "source_published_at": null,
+        "quote": "As he marks his 20th anniversary in music this October, John’s new release Gatherings celebrates, revisits, and reimagines songs from his first three albums.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_843a54a73aa2064e",
+        "source_id": "src_6633871d40407893",
+        "subject_text": "John Smith",
+        "predicate": "has followers",
+        "object_text": "1K followers",
+        "object_type": "Social Media Metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:50.911584Z",
+        "source_published_at": null,
+        "quote": "1K followers",
+        "source_url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a53b58625468beb3",
+        "source_id": "src_af7b1cc20c239ac8",
+        "subject_text": "John Smith",
+        "predicate": "has worked with",
+        "object_text": "a host of artists including Sarah Jarosz, the Milk Carton Kids, Patty Griffin, Joan Baez, David Gray, Tom Jones and Jackson Browne",
+        "object_type": "collaboration",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657Z",
+        "source_published_at": null,
+        "quote": "He has since worked with a host of artists including Sarah Jarosz, the Milk Carton Kids, Patty Griffin, Joan Baez, David Gray, Tom Jones and Jackson Browne.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_b1f234a67ffc049a",
+        "source_id": "src_e674c8b08710441d",
+        "subject_text": "Captain John Smith",
+        "predicate": "was vital to the survival of",
+        "object_text": "Jamestown",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815Z",
+        "source_published_at": null,
+        "quote": "Virginians know that Captain John Smith was vital to the survival of Jamestown in its early years.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c1f979c9adf3d1c4",
+        "source_id": "src_cec8b74290ecbd18",
+        "subject_text": "John Smith",
+        "predicate": "location",
+        "object_text": "Hamilton, Ontario",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:41.617715Z",
+        "source_published_at": null,
+        "quote": "Hi. I'm a web developer/artist based in Hamilton, Ontario.",
+        "source_url": "https://johnsmith.ca/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_cd1417385c335812",
+        "source_id": "src_af7b1cc20c239ac8",
+        "subject_text": "John Smith",
+        "predicate": "has",
+        "object_text": "over 125 million Spotify streams",
+        "object_type": "achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657Z",
+        "source_published_at": null,
+        "quote": "He has amassed over 125 million Spotify streams and played his songs all over the world.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_d05e6478457e39e6",
+        "source_id": "src_e674c8b08710441d",
+        "subject_text": "John Smith",
+        "predicate": "died in",
+        "object_text": "England",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815Z",
+        "source_published_at": null,
+        "quote": "Smith died in England in 1631 at age 51.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f2b2ffd52afe44d0",
+        "source_id": "src_af7b1cc20c239ac8",
+        "subject_text": "John Smith",
+        "predicate": "released",
+        "object_text": "Gatherings",
+        "object_type": "music album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657Z",
+        "source_published_at": null,
+        "quote": "John’s new release Gatherings celebrates, revisits, and reimagines songs from his first three albums.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_fcf0a522c85fdd33",
+        "source_id": "src_e674c8b08710441d",
+        "subject_text": "John Smith",
+        "predicate": "joined",
+        "object_text": "the fleet of three ships",
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815Z",
+        "source_published_at": null,
+        "quote": "Smith was on the fleet of three ships that set sail December 20, 1606.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_0fea41b8385e4c77",
+        "source_id": "src_e674c8b08710441d",
+        "predicate": "produced reports about",
+        "original_subject": "John Smith",
+        "original_object": "early Virginia",
+        "normalized_subject": "john smith",
+        "normalized_object": "early virginia",
+        "quote": "Smith produced some of the most detailed reports about early Virginia, such as True Relation of Virginia in 1608.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_domain": "historicjamestowne.org",
+        "source_platform": "historicjamestowne.org",
+        "source_identifiers": [
+          "history",
+          "pocahontas",
+          "john-smith"
+        ],
+        "object_type": "subject",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_11448580bd11abc1",
+        "source_id": "src_e674c8b08710441d",
+        "predicate": "became president of",
+        "original_subject": "John Smith",
+        "original_object": "the council for the colony",
+        "normalized_subject": "john smith",
+        "normalized_object": "the council for the colony",
+        "quote": "On September 10, 1608, Smith became president of the council for the colony.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_domain": "historicjamestowne.org",
+        "source_platform": "historicjamestowne.org",
+        "source_identifiers": [
+          "history",
+          "pocahontas",
+          "john-smith"
+        ],
+        "object_type": "position",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3a67fd5433d39f51",
+        "source_id": "src_e674c8b08710441d",
+        "predicate": "was born in",
+        "original_subject": "John Smith",
+        "original_object": "Willoughby, England",
+        "normalized_subject": "john smith",
+        "normalized_object": "willoughby, england",
+        "quote": "Born in 1580 in Willoughby, England, Smith left home at age 16 after his father died.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_domain": "historicjamestowne.org",
+        "source_platform": "historicjamestowne.org",
+        "source_identifiers": [
+          "history",
+          "pocahontas",
+          "john-smith"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4202ac0957d9c739",
+        "source_id": "src_af7b1cc20c239ac8",
+        "predicate": "is",
+        "original_subject": "John Smith",
+        "original_object": "a pioneering singer, songwriter and guitarist",
+        "normalized_subject": "john smith",
+        "normalized_object": "a pioneering singer, songwriter and guitarist",
+        "quote": "Pioneering singer, songwriter and guitarist John Smith has been at the forefront of British folk and roots music for twenty years.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "source_domain": "johnsmithjohnsmith.com",
+        "source_platform": "johnsmithjohnsmith.com",
+        "source_identifiers": [],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_47004bfef05cff55",
+        "source_id": "src_852986bea440878d",
+        "predicate": "is associated with",
+        "original_subject": "John Smith",
+        "original_object": "SkillNet Solutions, Inc.",
+        "normalized_subject": "john smith",
+        "normalized_object": "skillnet solutions, inc.",
+        "quote": "John can introduce you to 2 people at SkillNet Solutions, Inc.",
+        "source_url": "https://www.linkedin.com/in/john-w-smithv",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "john-w-smithv"
+        ],
+        "object_type": "Organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:57.877155+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_59b534dbabaadd91",
+        "source_id": "src_cec8b74290ecbd18",
+        "predicate": "is from",
+        "original_subject": "John Smith",
+        "original_object": "Canada",
+        "normalized_subject": "john smith",
+        "normalized_object": "canada",
+        "quote": "Founded by an incredible team of Canadian doctors, Medicine Pods is a one-stop source for comprehensive internal medicine education and evidence-based medicine resources.",
+        "source_url": "https://johnsmith.ca/",
+        "source_domain": "johnsmith.ca",
+        "source_platform": "johnsmith.ca",
+        "source_identifiers": [],
+        "object_type": "country",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:41.617715+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_745553d67ee47ff5",
+        "source_id": "src_6633871d40407893",
+        "predicate": "has connections",
+        "original_subject": "John Smith",
+        "original_object": "500+ connections",
+        "normalized_subject": "john smith",
+        "normalized_object": "500+ connections",
+        "quote": "500+ connections",
+        "source_url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "john-smith"
+        ],
+        "object_type": "Social Media Metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:50.911584+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7d0dc89909579a45",
+        "source_id": "src_6633871d40407893",
+        "predicate": "has connections with",
+        "original_subject": "John Smith",
+        "original_object": "10+ people at Vistra Corp.",
+        "normalized_subject": "john smith",
+        "normalized_object": "10+ people at vistra corp.",
+        "quote": "John can introduce you to 10+ people at Vistra Corp.",
+        "source_url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "john-smith"
+        ],
+        "object_type": "Professional Connection",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:50.911584+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_83ce4a863f263957",
+        "source_id": "src_af7b1cc20c239ac8",
+        "predicate": "celebrates",
+        "original_subject": "John Smith",
+        "original_object": "his 20th anniversary in music",
+        "normalized_subject": "john smith",
+        "normalized_object": "his 20th anniversary in music",
+        "quote": "As he marks his 20th anniversary in music this October, John’s new release Gatherings celebrates, revisits, and reimagines songs from his first three albums.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "source_domain": "johnsmithjohnsmith.com",
+        "source_platform": "johnsmithjohnsmith.com",
+        "source_identifiers": [],
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_843a54a73aa2064e",
+        "source_id": "src_6633871d40407893",
+        "predicate": "has followers",
+        "original_subject": "John Smith",
+        "original_object": "1K followers",
+        "normalized_subject": "john smith",
+        "normalized_object": "1k followers",
+        "quote": "1K followers",
+        "source_url": "https://www.linkedin.com/in/john-smith-93955b18",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "john-smith"
+        ],
+        "object_type": "Social Media Metric",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:50.911584+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a53b58625468beb3",
+        "source_id": "src_af7b1cc20c239ac8",
+        "predicate": "has worked with",
+        "original_subject": "John Smith",
+        "original_object": "a host of artists including Sarah Jarosz, the Milk Carton Kids, Patty Griffin, Joan Baez, David Gray, Tom Jones and Jackson Browne",
+        "normalized_subject": "john smith",
+        "normalized_object": "a host of artists including sarah jarosz, the milk carton kids, patty griffin, joan baez, david gray, tom jones and jackson browne",
+        "quote": "He has since worked with a host of artists including Sarah Jarosz, the Milk Carton Kids, Patty Griffin, Joan Baez, David Gray, Tom Jones and Jackson Browne.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "source_domain": "johnsmithjohnsmith.com",
+        "source_platform": "johnsmithjohnsmith.com",
+        "source_identifiers": [],
+        "object_type": "collaboration",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_b1f234a67ffc049a",
+        "source_id": "src_e674c8b08710441d",
+        "predicate": "was vital to the survival of",
+        "original_subject": "Captain John Smith",
+        "original_object": "Jamestown",
+        "normalized_subject": "captain john smith",
+        "normalized_object": "jamestown",
+        "quote": "Virginians know that Captain John Smith was vital to the survival of Jamestown in its early years.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_domain": "historicjamestowne.org",
+        "source_platform": "historicjamestowne.org",
+        "source_identifiers": [
+          "history",
+          "pocahontas",
+          "john-smith"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c1f979c9adf3d1c4",
+        "source_id": "src_cec8b74290ecbd18",
+        "predicate": "location",
+        "original_subject": "John Smith",
+        "original_object": "Hamilton, Ontario",
+        "normalized_subject": "john smith",
+        "normalized_object": "hamilton, ontario",
+        "quote": "Hi. I'm a web developer/artist based in Hamilton, Ontario.",
+        "source_url": "https://johnsmith.ca/",
+        "source_domain": "johnsmith.ca",
+        "source_platform": "johnsmith.ca",
+        "source_identifiers": [],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:41.617715+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_cd1417385c335812",
+        "source_id": "src_af7b1cc20c239ac8",
+        "predicate": "has",
+        "original_subject": "John Smith",
+        "original_object": "over 125 million Spotify streams",
+        "normalized_subject": "john smith",
+        "normalized_object": "over 125 million spotify streams",
+        "quote": "He has amassed over 125 million Spotify streams and played his songs all over the world.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "source_domain": "johnsmithjohnsmith.com",
+        "source_platform": "johnsmithjohnsmith.com",
+        "source_identifiers": [],
+        "object_type": "achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_d05e6478457e39e6",
+        "source_id": "src_e674c8b08710441d",
+        "predicate": "died in",
+        "original_subject": "John Smith",
+        "original_object": "England",
+        "normalized_subject": "john smith",
+        "normalized_object": "england",
+        "quote": "Smith died in England in 1631 at age 51.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_domain": "historicjamestowne.org",
+        "source_platform": "historicjamestowne.org",
+        "source_identifiers": [
+          "history",
+          "pocahontas",
+          "john-smith"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f2b2ffd52afe44d0",
+        "source_id": "src_af7b1cc20c239ac8",
+        "predicate": "released",
+        "original_subject": "John Smith",
+        "original_object": "Gatherings",
+        "normalized_subject": "john smith",
+        "normalized_object": "gatherings",
+        "quote": "John’s new release Gatherings celebrates, revisits, and reimagines songs from his first three albums.",
+        "source_url": "https://www.johnsmithjohnsmith.com/",
+        "source_domain": "johnsmithjohnsmith.com",
+        "source_platform": "johnsmithjohnsmith.com",
+        "source_identifiers": [],
+        "object_type": "music album",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:14:48.115657+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_fcf0a522c85fdd33",
+        "source_id": "src_e674c8b08710441d",
+        "predicate": "joined",
+        "original_subject": "John Smith",
+        "original_object": "the fleet of three ships",
+        "normalized_subject": "john smith",
+        "normalized_object": "the fleet of three ships",
+        "quote": "Smith was on the fleet of three ships that set sail December 20, 1606.",
+        "source_url": "https://historicjamestowne.org/history/pocahontas/john-smith",
+        "source_domain": "historicjamestowne.org",
+        "source_platform": "historicjamestowne.org",
+        "source_identifiers": [
+          "history",
+          "pocahontas",
+          "john-smith"
+        ],
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-08-31T17:15:07.680815+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_4202ac0957d9c739",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e674c8b08710441d",
+        "right_source_id": "src_af7b1cc20c239ac8",
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_47004bfef05cff55",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e674c8b08710441d",
+        "right_source_id": "src_852986bea440878d",
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e674c8b08710441d",
+        "right_source_id": "src_cec8b74290ecbd18",
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e674c8b08710441d",
+        "right_source_id": "src_6633871d40407893",
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ]
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_47004bfef05cff55",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_af7b1cc20c239ac8",
+        "right_source_id": "src_852986bea440878d",
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ]
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_af7b1cc20c239ac8",
+        "right_source_id": "src_cec8b74290ecbd18",
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_af7b1cc20c239ac8",
+        "right_source_id": "src_6633871d40407893",
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ]
+      },
+      {
+        "left_observation_id": "obs_47004bfef05cff55",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_852986bea440878d",
+        "right_source_id": "src_cec8b74290ecbd18",
+        "left_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_47004bfef05cff55",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_852986bea440878d",
+        "right_source_id": "src_6633871d40407893",
+        "left_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ]
+      },
+      {
+        "left_observation_id": "obs_59b534dbabaadd91",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_cec8b74290ecbd18",
+        "right_source_id": "src_6633871d40407893",
+        "left_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_4202ac0957d9c739",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_47004bfef05cff55",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_47004bfef05cff55"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.2,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "SEMANTIC_UNKNOWN",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_47004bfef05cff55",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0",
+          "obs_47004bfef05cff55"
+        ],
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0",
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_47004bfef05cff55",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_47004bfef05cff55",
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "left_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_47004bfef05cff55",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.165,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_47004bfef05cff55",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_59b534dbabaadd91",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_4202ac0957d9c739",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_47004bfef05cff55",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_47004bfef05cff55"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0fea41b8385e4c77",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.2,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "SEMANTIC_UNKNOWN",
+          "cross_platform_identifier_similarity",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_b1f234a67ffc049a",
+          "obs_d05e6478457e39e6",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_47004bfef05cff55",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0",
+          "obs_47004bfef05cff55"
+        ],
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0",
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_4202ac0957d9c739",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "CONTRADICTED",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "CONFLICT",
+        "confidence_score": 0.05,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_CONFLICT",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_4202ac0957d9c739",
+          "obs_83ce4a863f263957",
+          "obs_a53b58625468beb3",
+          "obs_cd1417385c335812",
+          "obs_f2b2ffd52afe44d0"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_47004bfef05cff55",
+        "right_observation_id": "obs_59b534dbabaadd91",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_47004bfef05cff55",
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "left_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "right_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_47004bfef05cff55",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.165,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_47004bfef05cff55",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_47004bfef05cff55"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_59b534dbabaadd91",
+        "right_observation_id": "obs_745553d67ee47ff5",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "left_evidence_ids": [
+          "obs_59b534dbabaadd91",
+          "obs_c1f979c9adf3d1c4"
+        ],
+        "right_evidence_ids": [
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_843a54a73aa2064e"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "inv_b7abcd041fb7",
+      "deterministic_verdict": "CONTRADICTED",
+      "deterministic_confidence": 0.05,
+      "deterministic_reasoning": [
+        "SEMANTIC_CONFLICT",
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "insufficient_evidence",
+      "semantic_confidence": "low",
+      "semantic_reasoning": "The requested occupation 'Product Manager' could not be corroborated by the extracted observations. The system therefore did not promote a same-name profile that matched different clues.",
+      "semantic_caveats": [
+        "The search may have retrieved a different person with the same name.",
+        "Add a location, employer, username, or profile URL to narrow the target."
+      ],
+      "semantic_profile": {
+        "verdict": "insufficient_evidence",
+        "confidence_label": "low",
+        "likely_name": null,
+        "headline": null,
+        "profile_summary": "The captured evidence does not contain support for the requested occupation 'Product Manager'. It may describe other people with the same name, so it is not presented as the target profile.",
+        "attributes": [],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The requested occupation 'Product Manager' could not be corroborated by the extracted observations. The system therefore did not promote a same-name profile that matched different clues.",
+        "supporting_observation_ids": [],
+        "conflicting_observation_ids": [],
+        "out_of_scope_observation_ids": [
+          "obs_0fea41b8385e4c77",
+          "obs_11448580bd11abc1",
+          "obs_3a67fd5433d39f51",
+          "obs_4202ac0957d9c739",
+          "obs_47004bfef05cff55",
+          "obs_59b534dbabaadd91",
+          "obs_745553d67ee47ff5",
+          "obs_7d0dc89909579a45",
+          "obs_83ce4a863f263957",
+          "obs_843a54a73aa2064e",
+          "obs_a53b58625468beb3",
+          "obs_b1f234a67ffc049a",
+          "obs_c1f979c9adf3d1c4",
+          "obs_cd1417385c335812",
+          "obs_d05e6478457e39e6",
+          "obs_f2b2ffd52afe44d0",
+          "obs_fcf0a522c85fdd33"
+        ],
+        "excluded_evidence_summary": "Retrieved observations were withheld from the working profile because the supplied distinguishing clue(s) were not found in the extracted evidence.",
+        "caveats": [
+          "The search may have retrieved a different person with the same name.",
+          "Add a location, employer, username, or profile URL to narrow the target."
+        ]
+      },
+      "image_candidates": [
+        {
+          "source_id": "src_029fe737cd468c1f",
+          "source_url": "https://en.wikipedia.org/wiki/John_Smith_(explorer)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Houghton_STC_22790_-_Generall_Historie_of_Virginia%2C_New_England%2C_and_the_Summer_Isles%2C_John_Smith.jpg/960px-Houghton_STC_22790_-_Generall_Historie_of_Virginia%2C_New_England%2C_and_the_Summer_Isles%2C_John_Smith.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+          "observation_ids": []
+        },
+        {
+          "source_id": "src_3cd3cdbff0dc61ff",
+          "source_url": "https://www.facebook.com/thejohnsmith",
+          "image_url": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/523420173_1304312247732748_8629821856717039872_n.jpg?stp=dst-jpg_tt6&cstp=mx938x894&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wtY54TDGGFcQ7kNvwH-IXTe&_nc_oc=AdrOgyQApk8mkD3NpdYSt4hLJjwgd_e191VaDJr_gauZLhLhdROEoS-FWkkbt8GVX1k&_nc_zt=24&_nc_ht=scontent-vie1-1.xx&_nc_gid=gt2mNfO4bnk5mxjxhBPRBQ&_nc_ss=7b20f&oh=00_AQIsKbcUyALHox-dsxomHBHSfYnhHYygweI9hPZQLEl8xA&oe=6A9B728A",
+          "observation_ids": []
+        },
+        {
+          "source_id": "src_52fb789f0b29e148",
+          "source_url": "https://www.nps.gov/jame/learn/historyculture/life-of-john-smith.htm",
+          "image_url": "https://www.nps.gov/jame/learn/historyculture/images/jsmith-apva.jpg",
+          "observation_ids": []
+        },
+        {
+          "source_id": "src_56242c96e87b986f",
+          "source_url": "https://www.instagram.com/thejohnsmith?hl=en",
+          "image_url": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-19/523328644_18511960918027536_1378529163700639946_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44OTMuQzMifQ%3D%3D&_nc_ohc=3DL2zVWS3kkQ7kNvwFzT4R3&_nc_oc=AdrdwKROm5scydfC4Z_901Y439TvB9YClo6nklbnaF8AKtm2JiSjHvp3wbcm-fKpZac&_nc_zt=24&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=-CD4K4kb3YQ8TxhubIXgyQ&_nc_ss=7b60f&oh=00_AQIDFrCUq6ei1rh_ghEyOMMcJUYhVaZR24Kfj8DXaBQA2w&oe=6A9B720D",
+          "observation_ids": []
+        },
+        {
+          "source_id": "src_b4b30b083ec0ac2e",
+          "source_url": "https://innovationstudio-eg.com/leadership/john-smith",
+          "image_url": "https://innovationstudio-eg.com/wp-content/uploads/2022/10/GettyImages-1197454690.jpg",
+          "observation_ids": []
+        }
+      ],
+      "agreement": "one_abstained",
+      "suggested_action": "Add more specific clues (a known handle, employer, or location) and re-run to narrow the search.",
+      "generated_at": "2026-08-31T17:16:30.238419+00:00"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "report_type": "baseline_agent_comparison",
-  "generated_at": "2026-08-30T12:41:54.639708+00:00",
-  "baseline_report_path": "backend/artifacts/evaluation/baseline.json",
+  "generated_at": "2026-08-31T21:10:57.304898+00:00",
+  "baseline_report_path": "/Users/rzapp/Documents/A{sp}A/ai_trace/backend/artifacts/evaluation/baseline.json",
   "hybrid_cases": [
     {
       "case_id": "clear_public_professional_identity",
@@ -1573,13 +1573,13 @@
   ],
   "challenging_case": {
     "case_id": "ambiguous_jordan_lee_seattle",
-    "what_it_revealed": "A common name plus overlapping location and software-engineering signals tempted the baseline to merge sources despite conflicting role and employer evidence. TRACE abstained, preserving separate unresolved profiles; this is safer than a confident false identity merge."
+    "what_it_revealed": "A common name plus overlapping location and software-engineering signals tempted the baseline to merge sources despite conflicting role and employer evidence. The agent abstained, preserving separate unresolved profiles; this is safer than a confident false identity merge."
   },
   "notes": [
     "The baseline is intentionally one direct LLM call over all saved observations and has no candidate, authority, confidence, or deterministic verification logic.",
     "False identity merge rate is the primary safety metric.",
     "Field accuracy, latency, and cost require field-level labels, timing instrumentation, and provider usage metadata; they are explicitly unavailable in this saved benchmark.",
-    "Fifteen labeled cases meet the hackathon target; further cases would strengthen production-calibrated metrics."
+    "Fifteen cases meet the hackathon target; the project specification's stronger 20-case target is still outstanding."
   ],
-  "report_path": "backend/artifacts/evaluation/comparison.json"
+  "report_path": "/Users/rzapp/Documents/A{sp}A/ai_trace/backend/artifacts/evaluation/comparison.json"
 }

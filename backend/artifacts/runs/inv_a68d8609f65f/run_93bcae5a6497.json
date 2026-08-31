@@ -1,0 +1,594 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_a68d8609f65f",
+  "run_id": "run_93bcae5a6497",
+  "started_at": "2026-08-31T17:21:41.407372+00:00",
+  "completed_at": "2026-08-31T17:24:11.995811+00:00",
+  "clues": {
+    "name": "Simon Willison",
+    "usernames": [
+      "simonw"
+    ],
+    "occupation": "software developer and write",
+    "employers": [],
+    "locations": [],
+    "websites": [
+      "https://simonwillison.net"
+    ],
+    "github_handle": "simonw",
+    "additional_clues": [
+      " \"Maintains the Simon Willison website and blog\",",
+      "  \"Uses the same Simon Willison identity across his website and GitHub profile\",",
+      "  \"Known for work on Django, SQLite, data journalism, and generative AI\""
+    ]
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T17:21:41.407628+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 4,
+        "queries": [
+          "\"Simon Willison\"",
+          "\"Simon Willison\" software developer and write",
+          "simonw",
+          "simonw"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T17:21:41.840039+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_a68d8609f65f",
+        "run_id": "run_93bcae5a6497"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T17:21:41.840200+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 4
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T17:21:41.840496+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Simon Willison\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T17:21:44.075253+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Simon Willison\"",
+        "result_count": 6,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T17:21:44.075272+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Simon Willison\" software developer and write"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T17:21:47.713000+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Simon Willison\" software developer and write",
+        "result_count": 9,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T17:21:47.713010+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "simonw"
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T17:21:49.337585+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "simonw",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T17:21:49.337600+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "simonw"
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T17:21:51.283629+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "simonw",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T17:21:51.285213+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 13
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T17:22:06.104164+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Simon_Willison",
+        "source_id": "src_c0f57034fb3e3dcd",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T17:22:11.483681+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c0f57034fb3e3dcd",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T17:22:14.707944+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/simonwillison",
+        "source_id": "src_cf189cbcd51383b3",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T17:22:19.422450+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_cf189cbcd51383b3",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T17:22:21.237666+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/simonw",
+        "source_id": "src_586221e882670777",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T17:22:25.936924+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_586221e882670777",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T17:22:29.764198+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/simonw?lang=en",
+        "source_id": "src_aafc46359b0231be",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T17:22:33.662760+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_aafc46359b0231be",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T17:22:37.033233+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://simonwillison.net/",
+        "source_id": "src_8b0eaafedc559312",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T17:22:40.117867+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8b0eaafedc559312",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T17:22:43.920564+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://simonw.substack.com/",
+        "source_id": "src_068a0c7b3999e88c",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T17:22:46.512159+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_068a0c7b3999e88c",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T17:22:49.515337+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://mtlynch.io/notes/simon-willison-software-misadventures",
+        "source_id": "src_220d41a989ed5666",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T17:22:55.919509+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_220d41a989ed5666",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T17:23:18.263555+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=uRuLgar5XZw",
+        "source_id": "src_22109b45cd96da3b",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T17:23:19.883423+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_22109b45cd96da3b",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T17:23:25.015490+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://simonw.substack.com/p/how-i-use-llms-to-help-me-write-code",
+        "source_id": "src_8b7a420bd64b6960",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T17:23:38.330494+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8b7a420bd64b6960",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T17:23:41.129165+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://simonwillison.net/tags/programming",
+        "source_id": "src_04694a62ab90d464",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T17:23:43.949666+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_04694a62ab90d464",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T17:23:45.842983+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://simonwillison.net/2025/Dec/18/code-proven-to-work",
+        "source_id": "src_f76cc4b77de567f6",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T17:23:49.535285+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f76cc4b77de567f6",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T17:23:51.738195+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://canto.so/leader/simon-willison",
+        "source_id": "src_6db9670476967713",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T17:24:00.678309+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_6db9670476967713",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T17:24:03.587396+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/simonw/til",
+        "source_id": "src_29bfdcfcc05314c9",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-31T17:24:08.973814+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_29bfdcfcc05314c9",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-31T17:24:11.996688+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 44,
+        "retrieved_source_count": 13,
+        "error_count": 0,
+        "decision": "completed"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "query_count": 3,
+    "discovered_source_count": 13,
+    "retrieved_source_count": 13,
+    "observation_count": 44,
+    "error_count": 0
+  }
+}

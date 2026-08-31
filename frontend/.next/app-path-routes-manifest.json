@@ -3,9 +3,9 @@
   "/api/investigations/route": "/api/investigations",
   "/api/investigations/[...path]/route": "/api/investigations/[...path]",
   "/api/evaluations/[...path]/route": "/api/evaluations/[...path]",
-  "/graph/page": "/graph",
-  "/investigations/new/page": "/investigations/new",
   "/evaluation/page": "/evaluation",
+  "/investigations/new/page": "/investigations/new",
   "/page": "/",
+  "/graph/page": "/graph",
   "/runs/[investigation_id]/page": "/runs/[investigation_id]"
 }

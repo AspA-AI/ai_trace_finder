@@ -1,0 +1,137 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_52529aefbe58",
+  "run_id": "run_ca917e96ae25",
+  "started_at": "2026-08-31T17:38:26.991401+00:00",
+  "completed_at": "2026-08-31T17:38:26.992819+00:00",
+  "clues": {
+    "name": "Jane Doe",
+    "usernames": [],
+    "occupation": null,
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T17:38:26.991811+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 1,
+        "queries": [
+          "\"Jane Doe\""
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T17:38:26.991818+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_52529aefbe58",
+        "run_id": "run_ca917e96ae25"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T17:38:26.991821+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 1
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T17:38:26.992179+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Jane Doe\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T17:38:26.992486+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Jane Doe\"",
+        "result_count": 1,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T17:38:26.992495+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 1
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T17:38:26.992672+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://example.com/profile",
+        "source_id": "src_test",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T17:38:26.992818+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_test",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T17:38:26.992821+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 0,
+        "retrieved_source_count": 1,
+        "error_count": 0,
+        "decision": "completed"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "query_count": 1,
+    "discovered_source_count": 1,
+    "retrieved_source_count": 1,
+    "observation_count": 0,
+    "error_count": 0
+  }
+}

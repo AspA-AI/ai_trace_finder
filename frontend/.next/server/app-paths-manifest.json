@@ -3,9 +3,9 @@
   "/api/investigations/route": "app/api/investigations/route.js",
   "/api/investigations/[...path]/route": "app/api/investigations/[...path]/route.js",
   "/api/evaluations/[...path]/route": "app/api/evaluations/[...path]/route.js",
-  "/graph/page": "app/graph/page.js",
-  "/investigations/new/page": "app/investigations/new/page.js",
   "/evaluation/page": "app/evaluation/page.js",
+  "/investigations/new/page": "app/investigations/new/page.js",
   "/page": "app/page.js",
+  "/graph/page": "app/graph/page.js",
   "/runs/[investigation_id]/page": "app/runs/[investigation_id]/page.js"
 }

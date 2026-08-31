@@ -1,0 +1,662 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_c45487c7070a",
+  "run_id": "run_f446191df8e4",
+  "started_at": "2026-08-31T17:25:58.533024+00:00",
+  "completed_at": "2026-08-31T17:28:22.721640+00:00",
+  "clues": {
+    "name": "Guido van Rossum",
+    "usernames": [
+      "gvanrossum"
+    ],
+    "occupation": "software engineer and creator of Python",
+    "employers": [
+      "Microsoft"
+    ],
+    "locations": [],
+    "websites": [
+      "https://gvanrossum.github.io"
+    ],
+    "github_handle": "gvanrossum",
+    "additional_clues": [
+      "\"Created the Python programming language\",",
+      "    \"Uses the Guido van Rossum identity across his personal website and GitHub\",",
+      "    \"Known for long-term work in Python programming language development\""
+    ]
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T17:25:58.533279+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 4,
+        "queries": [
+          "\"Guido van Rossum\"",
+          "\"Guido van Rossum\" software engineer and creator of Python",
+          "gvanrossum",
+          "gvanrossum"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T17:25:58.999315+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_c45487c7070a",
+        "run_id": "run_f446191df8e4"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T17:25:58.999444+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 4
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T17:25:59.005114+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Guido van Rossum\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T17:26:00.904006+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Guido van Rossum\"",
+        "result_count": 9,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T17:26:00.904037+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Guido van Rossum\" software engineer and creator of Python"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T17:26:02.450291+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Guido van Rossum\" software engineer and creator of Python",
+        "result_count": 6,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T17:26:02.450318+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "gvanrossum"
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T17:26:03.619138+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "gvanrossum",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T17:26:03.619158+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "gvanrossum"
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T17:26:04.126286+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "gvanrossum",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T17:26:04.126999+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 15
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T17:26:06.833157+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.ebsco.com/research-starters/biography/guido-van-rossum",
+        "source_id": "src_d6641feb2659964c",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T17:26:13.081034+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d6641feb2659964c",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T17:26:15.312998+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Guido_van_Rossum",
+        "source_id": "src_b28420f93560a30a",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T17:26:22.617064+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b28420f93560a30a",
+        "candidate_observation_count": 9,
+        "accepted_observation_count": 9
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T17:26:24.900582+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.allamericanspeakers.com/celebritytalentbios/Guido+van+Rossum/431649",
+        "source_id": "src_9bb55242ce39362b",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T17:26:29.406230+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9bb55242ce39362b",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T17:26:30.904894+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://gvanrossum.github.io/bio.html",
+        "source_id": "src_4a30b37fea41e92c",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T17:26:34.562093+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4a30b37fea41e92c",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T17:26:38.817733+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://computerhistory.org/profile/guido-van-rossum",
+        "source_id": "src_8ad8fde23e372115",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T17:26:44.869089+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_8ad8fde23e372115",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T17:26:46.448388+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://gvanrossum.github.io/",
+        "source_id": "src_99ddd6b6708010fb",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T17:26:50.821800+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_99ddd6b6708010fb",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T17:27:06.083129+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/gvanrossum",
+        "source_id": "src_02b72697123e8990",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T17:27:11.294651+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_02b72697123e8990",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T17:27:15.152771+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/in/guido-van-rossum-4a0756",
+        "source_id": "src_b2dd92ecae8ebae9",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T17:27:19.281936+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b2dd92ecae8ebae9",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T17:27:21.272430+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/gvanrossum",
+        "source_id": "src_2b2252dab60f6f1e",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T17:27:27.687947+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_2b2252dab60f6f1e",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T17:27:29.411420+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.reddit.com/r/learnprogramming/comments/zaakd1/guido_van_rossum_python_creator",
+        "source_id": "src_dbd768ce1b6508bd",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T17:27:32.632991+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_dbd768ce1b6508bd",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T17:27:54.999569+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/gvanrossum?hl=en",
+        "source_id": "src_d135c1a6220ccbb4",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T17:27:55.977948+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d135c1a6220ccbb4",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T17:27:58.439243+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/gvanrossum/highlights",
+        "source_id": "src_d1efa160f6749858",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T17:27:59.530928+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d1efa160f6749858",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T17:28:02.925106+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.gitpulse.dev/profile/gvanrossum",
+        "source_id": "src_fef7895f832e24b5",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-31T17:28:10.589392+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_fef7895f832e24b5",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-31T17:28:12.076735+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://gvanrossum.github.io/Resume.html",
+        "source_id": "src_7e46839014fb848a",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-08-31T17:28:17.194926+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_7e46839014fb848a",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-08-31T17:28:19.213487+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://gitresu.me/gvanrossum",
+        "source_id": "src_b034c173bfe1c06a",
+        "cache_hit": false,
+        "relevance_score": 1.0,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "target username found",
+          "target username found"
+        ]
+      }
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-08-31T17:28:20.019319+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b034c173bfe1c06a",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-08-31T17:28:22.722976+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 59,
+        "retrieved_source_count": 15,
+        "error_count": 0,
+        "decision": "completed"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "query_count": 3,
+    "discovered_source_count": 15,
+    "retrieved_source_count": 15,
+    "observation_count": 59,
+    "error_count": 0
+  }
+}

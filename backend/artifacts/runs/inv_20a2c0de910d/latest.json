@@ -1,0 +1,598 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_20a2c0de910d",
+  "run_id": "run_40f453625660",
+  "started_at": "2026-08-31T17:36:18.567855+00:00",
+  "completed_at": "2026-08-31T17:38:25.344410+00:00",
+  "clues": {
+    "name": "Sarah Jones",
+    "usernames": [],
+    "occupation": "Graphic Desinger",
+    "employers": [],
+    "locations": [
+      "USA"
+    ],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-08-31T17:36:18.568185+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Sarah Jones\"",
+          "\"Sarah Jones\" Graphic Desinger USA"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-08-31T17:36:19.043332+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_20a2c0de910d",
+        "run_id": "run_40f453625660"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-08-31T17:36:19.043380+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-08-31T17:36:19.043520+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Sarah Jones\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-08-31T17:36:21.117159+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Sarah Jones\"",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-08-31T17:36:21.117197+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Sarah Jones\" Graphic Desinger USA"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-08-31T17:36:22.437038+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Sarah Jones\" Graphic Desinger USA",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-08-31T17:36:22.437932+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 17
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-08-31T17:36:23.975133+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.imdb.com/name/nm1967673",
+        "source_id": "src_18003ab06f04a3a9",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-08-31T17:36:24.967012+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_18003ab06f04a3a9",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-08-31T17:36:27.516161+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Sarah_Jones_(screen_actress)",
+        "source_id": "src_1186ec09288b47b4",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-08-31T17:36:29.439859+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1186ec09288b47b4",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-08-31T17:36:34.572513+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://newyorklivearts.org/artists/sarah-jones",
+        "source_id": "src_785324834edda1a4",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-08-31T17:36:43.575819+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_785324834edda1a4",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-08-31T17:36:44.146615+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://people.com/sarah-jones-11719953",
+        "error": "Client error '403 Forbidden' for url 'https://people.com/sarah-jones-11719953'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-08-31T17:36:46.805602+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.ted.com/speakers/sarah_jones",
+        "source_id": "src_3a98248dee66dad3",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-08-31T17:36:50.770552+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3a98248dee66dad3",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-08-31T17:36:56.184648+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/yesimsarahjones",
+        "source_id": "src_19f7f0086536317c",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-08-31T17:36:57.065014+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_19f7f0086536317c",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-08-31T17:37:10.935270+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.sarahjonesonline.com/",
+        "source_id": "src_1f52db242ad57da7",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-08-31T17:37:12.877263+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1f52db242ad57da7",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-08-31T17:37:15.230191+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.osgf.org/sarah-jones",
+        "source_id": "src_a5048f0f44e27b93",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-08-31T17:37:19.399929+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a5048f0f44e27b93",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-08-31T17:37:24.216026+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://sfai.org/people/sarah-jones",
+        "source_id": "src_eff32e10b0931308",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-08-31T17:37:32.239567+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_eff32e10b0931308",
+        "candidate_observation_count": 10,
+        "accepted_observation_count": 10
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-08-31T17:37:38.348181+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://sozzavjones.wixsite.com/website/bio",
+        "source_id": "src_766cbdf61715f2d6",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-08-31T17:37:39.135697+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_766cbdf61715f2d6",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-08-31T17:37:42.651154+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Sarah_Jones_(artist)",
+        "source_id": "src_aacea12557d3c4a3",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-08-31T17:37:52.584760+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_aacea12557d3c4a3",
+        "candidate_observation_count": 10,
+        "accepted_observation_count": 10
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-08-31T17:37:55.643540+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.debutart.com/artist/sarah-jones?tags=illustration",
+        "source_id": "src_50d1cd3a2ccdf9d5",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-08-31T17:37:57.648342+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_50d1cd3a2ccdf9d5",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-08-31T17:38:01.793141+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.directoryofillustration.com/artist.aspx?AID=8267",
+        "source_id": "src_67acb99bd3a1b3c2",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-08-31T17:38:02.678645+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_67acb99bd3a1b3c2",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-08-31T17:38:04.624362+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/i-am-sarah-jones",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/i-am-sarah-jones'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-08-31T17:38:08.761141+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://voyagela.com/interview/meet-sarah-jones-west-adams",
+        "source_id": "src_1b4afcff8f41732f",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-08-31T17:38:13.674912+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1b4afcff8f41732f",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-08-31T17:38:18.138866+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/sarahjones_illustration?hl=en",
+        "source_id": "src_db2b7acd638cc66b",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-08-31T17:38:19.025639+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_db2b7acd638cc66b",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-08-31T17:38:21.193934+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://sarahjonesprints.com/pages/about",
+        "source_id": "src_e96bd6ddaeae8336",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-08-31T17:38:23.247151+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e96bd6ddaeae8336",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-08-31T17:38:25.345152+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 43,
+        "retrieved_source_count": 15,
+        "error_count": 2,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 17,
+    "retrieved_source_count": 15,
+    "observation_count": 43,
+    "error_count": 2
+  }
+}
