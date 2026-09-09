@@ -1,0 +1,876 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "biz_6829898f2a2e",
+  "run_id": "run_1c03e45459c9",
+  "started_at": "2026-09-08T21:50:26.010044+00:00",
+  "completed_at": "2026-09-08T21:52:39.932036+00:00",
+  "clues": {
+    "company_name": "10academy",
+    "domains": [],
+    "industry": "Tech",
+    "locations": [],
+    "founders": [
+      "Arun Sharma"
+    ],
+    "executives": [],
+    "products": [],
+    "known_repositories": [],
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-09-08T21:50:26.010157+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 3,
+        "queries": [
+          "\"10academy\"",
+          "\"10academy\" Tech",
+          "\"10academy\" \"Arun Sharma\""
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-09-08T21:50:26.386368+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "biz_6829898f2a2e",
+        "run_id": "run_1c03e45459c9"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-09-08T21:50:26.386395+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 3
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-09-08T21:50:26.386516+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"10academy\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-09-08T21:50:27.623344+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"10academy\"",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-09-08T21:50:27.623357+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"10academy\" Tech"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-09-08T21:50:30.732309+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"10academy\" Tech",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-09-08T21:50:30.732344+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"10academy\" \"Arun Sharma\""
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-09-08T21:50:32.845521+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"10academy\" \"Arun Sharma\"",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-09-08T21:50:32.846057+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 27
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-09-08T21:50:34.057407+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/school/10acad",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/school/10acad'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-09-08T21:50:36.362538+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.coursereport.com/schools/10x-academy",
+        "source_id": "src_a84e89efdc7c6375",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-09-08T21:50:45.485583+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a84e89efdc7c6375",
+        "candidate_observation_count": 9,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-09-08T21:50:48.199517+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/10acad",
+        "source_id": "src_006d431376ad5d3a",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-09-08T21:50:49.453151+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_006d431376ad5d3a",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-09-08T21:50:51.320067+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/@10_academy",
+        "source_id": "src_1e8be315fc3bc3eb",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-09-08T21:50:52.239815+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1e8be315fc3bc3eb",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-09-08T21:50:55.145674+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/10_acad",
+        "source_id": "src_6a6ff2cd21034cd8",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-09-08T21:50:56.975258+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_6a6ff2cd21034cd8",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-09-08T21:50:59.358358+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://10academy.org/",
+        "source_id": "src_b365d1a6d30d32e3",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-09-08T21:51:07.107038+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b365d1a6d30d32e3",
+        "candidate_observation_count": 10,
+        "accepted_observation_count": 10
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-09-08T21:51:09.374300+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/10acad",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-09-08T21:51:13.894373+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_7b2c5b434c3bdd75",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-09-08T21:51:15.867544+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-09-08T21:51:19.046477+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_59bbec2e9bccf5e7",
+        "candidate_observation_count": 3,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-09-08T21:51:20.831426+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "source_id": "src_c75db8b98e1505b8",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-09-08T21:51:24.234665+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c75db8b98e1505b8",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 3
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-09-08T21:51:27.742547+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_id": "src_d2339c8d192a8536",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-09-08T21:51:35.201559+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_d2339c8d192a8536",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-09-08T21:51:36.873857+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "source_id": "src_143602202433b54d",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-09-08T21:51:41.164276+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_143602202433b54d",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-09-08T21:51:42.777110+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/78gk/10academy-trp1-mcp-setup",
+        "source_id": "src_ad7a297b011a1a31",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-09-08T21:51:43.382397+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ad7a297b011a1a31",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-09-08T21:51:45.894733+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/10acad/posts/10academy-fellows-gain-practical-insights-on-career-in-a-guest-talk-by-delphina-/464171350625374",
+        "source_id": "src_3d27a81d2731235e",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-09-08T21:51:47.215998+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3d27a81d2731235e",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-09-08T21:51:48.821346+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://github.com/abdimussa87/10Academy-week4-algorand-nft-certificates",
+        "source_id": "src_90e9c9ac42efd19c",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-09-08T21:51:49.513594+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_90e9c9ac42efd19c",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-09-08T21:51:50.764679+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/ioannis-nektarios-takis-62aa51228",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/ioannis-nektarios-takis-62aa51228'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-09-08T21:51:52.017865+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/nikos-strantzalis-550a9358",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/nikos-strantzalis-550a9358'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-09-08T21:51:55.445122+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/p/DCR_FmCS4Jc?hl=en",
+        "source_id": "src_1218ef6a2d164514",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-09-08T21:51:56.197673+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1218ef6a2d164514",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-09-08T21:51:56.693623+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://rocketreach.co/arun-sharma-email_2431023",
+        "error": "Client error '403 Forbidden' for url 'https://rocketreach.co/arun-sharma-email_2431023'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-09-08T21:51:58.776055+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "source_id": "src_b3753d5845935efb",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 44,
+      "timestamp": "2026-09-08T21:52:03.215092+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b3753d5845935efb",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 45,
+      "timestamp": "2026-09-08T21:52:05.885398+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/p/Arun-Sharma-100000971868393",
+        "source_id": "src_bab9514b691e1a4d",
+        "cache_hit": false,
+        "relevance_score": 0.05,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 46,
+      "timestamp": "2026-09-08T21:52:05.885822+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_bab9514b691e1a4d",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 47,
+      "timestamp": "2026-09-08T21:52:09.335100+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.amazon.com/Arun-Sharma/e/B082GH1Y3X/ref=dp_byline_cont_pop_ebooks_1",
+        "source_id": "src_7f2ed2f3ae007096",
+        "cache_hit": false,
+        "relevance_score": 0.1,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 48,
+      "timestamp": "2026-09-08T21:52:09.335469+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_7f2ed2f3ae007096",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 49,
+      "timestamp": "2026-09-08T21:52:11.615000+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_id": "src_83ec07cb0175d94f",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 50,
+      "timestamp": "2026-09-08T21:52:17.305137+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_83ec07cb0175d94f",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 51,
+      "timestamp": "2026-09-08T21:52:19.416774+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://arunshar.github.io/portfolio",
+        "source_id": "src_a962b628edcad729",
+        "cache_hit": false,
+        "relevance_score": 0.1,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 52,
+      "timestamp": "2026-09-08T21:52:19.417191+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a962b628edcad729",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 53,
+      "timestamp": "2026-09-08T21:52:22.109593+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://courses.arunsharmaacademy.com/v2",
+        "source_id": "src_9f4e3a57509a73b3",
+        "cache_hit": false,
+        "relevance_score": 0.05,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 54,
+      "timestamp": "2026-09-08T21:52:22.110000+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9f4e3a57509a73b3",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 55,
+      "timestamp": "2026-09-08T21:52:25.241798+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://apps.apple.com/us/app/the-arun-sharma-academy/id6738952660",
+        "source_id": "src_97c71f02b1fb48c2",
+        "cache_hit": false,
+        "relevance_score": 0.05,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 56,
+      "timestamp": "2026-09-08T21:52:25.242221+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_97c71f02b1fb48c2",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 57,
+      "timestamp": "2026-09-08T21:52:27.961017+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://scholar.google.com/citations?user=yb0e0FYAAAAJ&hl=en",
+        "source_id": "src_1b64c2cacdcb4ee4",
+        "cache_hit": false,
+        "relevance_score": 0.1,
+        "is_relevant": false,
+        "relevance_reasons": [
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 58,
+      "timestamp": "2026-09-08T21:52:27.961452+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1b64c2cacdcb4ee4",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 59,
+      "timestamp": "2026-09-08T21:52:30.234766+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://10academy.org/about",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 60,
+      "timestamp": "2026-09-08T21:52:37.451963+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_144e0e1aa9af8e2b",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 61,
+      "timestamp": "2026-09-08T21:52:39.932115+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 53,
+        "retrieved_source_count": 23,
+        "error_count": 4,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 3,
+    "discovered_source_count": 27,
+    "retrieved_source_count": 23,
+    "observation_count": 53,
+    "error_count": 4
+  }
+}

@@ -10,6 +10,7 @@ from app.api.investigations import router as investigations_router
 from app.api.verification import router as verification_router
 from app.api.reporting import router as reporting_router
 from app.api.evaluation import router as evaluation_router
+from app.api.business_investigations import router as business_investigations_router
 
 configure_logging()
 log = logging.getLogger("trace.http")
@@ -44,3 +45,4 @@ app.include_router(investigations_router)
 app.include_router(verification_router)
 app.include_router(reporting_router)
 app.include_router(evaluation_router)
+app.include_router(business_investigations_router)

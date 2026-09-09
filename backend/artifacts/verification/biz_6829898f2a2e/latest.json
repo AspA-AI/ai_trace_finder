@@ -1,0 +1,4720 @@
+{
+  "investigation_id": "biz_6829898f2a2e",
+  "run_id": "verify_fe251557caef",
+  "generated_at": "2026-09-08T21:52:46.745988+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_0db2ec5d118798e8",
+        "source_id": "src_3d27a81d2731235e",
+        "subject_text": "10academy fellows",
+        "predicate": "gains insights on career",
+        "object_text": "practical insights on career",
+        "object_type": "insight",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:47.215788Z",
+        "source_published_at": null,
+        "quote": "10 Academy - #10Academy fellows gain practical insights on...",
+        "source_url": "https://www.facebook.com/10acad/posts/10academy-fellows-gain-practical-insights-on-career-in-a-guest-talk-by-delphina-/464171350625374",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_0de569e71adf73df",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "subject_text": "10 Academy",
+        "predicate": "conducts",
+        "object_text": "AI-Enabled Full-Stack Developer Program",
+        "object_type": "training program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979Z",
+        "source_published_at": null,
+        "quote": "Registration is open for the AI-Enabled Full-Stack Developer Program.",
+        "source_url": "https://x.com/10acad",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_133b92799145bc4c",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "aims_to_prepare",
+        "object_text": "1M+ African learners for AI-ready careers",
+        "object_type": "Goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "AI4E prepares 1M+ African learners for AI-ready careers at scale through the tenx platform.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_14847a472a35ab8e",
+        "source_id": "src_d2339c8d192a8536",
+        "subject_text": "10Academy",
+        "predicate": "focused_on",
+        "object_text": "training young African graduates",
+        "object_type": "goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259Z",
+        "source_published_at": null,
+        "quote": "Our focus for 10Academy is to find and train people who have the intelligence, work ethic and creativity to take up and implement some of these great ideas themselves.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_241c73d853e7100c",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_percentage_of_graduates",
+        "object_text": "37.5% of our graduates are women",
+        "object_type": "Demographic",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "37.5% of our graduates are women.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_24af434342ae755c",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "subject_text": "10 Academy",
+        "predicate": "empowers",
+        "object_text": "talented individuals from Africa with job-ready, global-level skills",
+        "object_type": "service",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:19.046201Z",
+        "source_published_at": null,
+        "quote": "We empower talented individuals from Africa with job-ready, global-level skills, enabling them to thrive in the digital economy.",
+        "source_url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_26135719166e14bb",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "subject_text": "10 Academy",
+        "predicate": "offers",
+        "object_text": "AI-Enabled Full-Stack Developer Training",
+        "object_type": "Product",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617Z",
+        "source_published_at": null,
+        "quote": "AI-Enabled Full-Stack Developer Training: Registration is closed for now and reopens at the end of September 2026.",
+        "source_url": "https://10academy.org/about",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_315c8212aa82c141",
+        "source_id": "src_006d431376ad5d3a",
+        "subject_text": "10academy",
+        "predicate": "has_name",
+        "object_text": "10 Academy",
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:50:49.452943Z",
+        "source_published_at": null,
+        "quote": "10 Academy",
+        "source_url": "https://www.facebook.com/10acad",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_34bbe6f34f6f4084",
+        "source_id": "src_83ec07cb0175d94f",
+        "subject_text": "10 Academy",
+        "predicate": "graduates earn average salary of",
+        "object_text": "$38kUS",
+        "object_type": "salary",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778Z",
+        "source_published_at": null,
+        "quote": "salaries growing to an average of $38kUS within 3 years.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_384b79e5b61303b0",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "subject_text": "10 Academy",
+        "predicate": "has evolved into",
+        "object_text": "a system capable of delivering scalable, AI-powered training to 1 million+ learners annually",
+        "object_type": "System",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617Z",
+        "source_published_at": null,
+        "quote": "tenx had evolved into a system capable of delivering scalable, AI-powered training to 1 million+ learners annually.",
+        "source_url": "https://10academy.org/about",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3d8f95d9f6e43bb3",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "subject_text": "10 Academy",
+        "predicate": "hosts",
+        "object_text": "AI Meetup",
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979Z",
+        "source_published_at": null,
+        "quote": "That’s the question we’re bringing to our next AI Meetup.",
+        "source_url": "https://x.com/10acad",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3fcea31e98c97204",
+        "source_id": "src_c75db8b98e1505b8",
+        "subject_text": "10Academy",
+        "predicate": "advertises_with",
+        "object_text": "AiQEM Tech",
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:24.234335Z",
+        "source_published_at": null,
+        "quote": "10Academy runs their ads with us and has achieved 10 times their reach!",
+        "source_url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_412f93914a9a0182",
+        "source_id": "src_83ec07cb0175d94f",
+        "subject_text": "10 Academy",
+        "predicate": "trains graduates for",
+        "object_text": "GenerativeAI, ML Engineering, Data Engineering and Web3 engineering",
+        "object_type": "fields",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778Z",
+        "source_published_at": null,
+        "quote": "Grads will be ready for GenerativeAI, ML Engineering, Data Engineering and Web3 engineering.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_41c2240ad50db6ff",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "subject_text": "10 Academy",
+        "predicate": "has a goal to",
+        "object_text": "improve the employment outcomes of high potential young Africans",
+        "object_type": "Goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617Z",
+        "source_published_at": null,
+        "quote": "10 Academy began with one simple but powerful goal: To improve the employment outcomes of high potential young Africans.",
+        "source_url": "https://10academy.org/about",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_458392ca772497d9",
+        "source_id": "src_b3753d5845935efb",
+        "subject_text": "10 Academy",
+        "predicate": "launched",
+        "object_text": "new website",
+        "object_type": "website",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006Z",
+        "source_published_at": null,
+        "quote": "We just launched our new website today at 10academy.org, showcasing more accurately what 10 Academy does and why we exist.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4763b91a95641cbb",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_salary_growth",
+        "object_text": "5X salary growth within 3 years",
+        "object_type": "Growth",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "5X salary growth within 3 years.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_47645ff9bd06d1be",
+        "source_id": "src_83ec07cb0175d94f",
+        "subject_text": "10 Academy",
+        "predicate": "seeks",
+        "object_text": "hungry, hard working and talented young people",
+        "object_type": "candidates",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778Z",
+        "source_published_at": null,
+        "quote": "We're looking for hungry, hard working and talented young people who want to join a community of others like them, and get ready for global-level AI and Web3 jobs.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4f6f2bfb4413d917",
+        "source_id": "src_d2339c8d192a8536",
+        "subject_text": "10Academy",
+        "predicate": "partnered_with",
+        "object_text": "Ashesi",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259Z",
+        "source_published_at": null,
+        "quote": "In partnership with Ashesi, IPC leveraged expertise and support from leading members of the scientific community.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_61505d003149ce0a",
+        "source_id": "src_143602202433b54d",
+        "subject_text": "10academy",
+        "predicate": "has_public_repos",
+        "object_text": "4",
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844Z",
+        "source_published_at": null,
+        "quote": "\"public_repos\": 4",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_6472eb05ec4d4c38",
+        "source_id": "src_d2339c8d192a8536",
+        "subject_text": "10Academy",
+        "predicate": "aimed_to",
+        "object_text": "develop potentially implementable solutions",
+        "object_type": "goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259Z",
+        "source_published_at": null,
+        "quote": "The goal of this phase was to give participants the opportunity to put the mix of their skills into practice, through identifying a major challenge in Africa and, in a small group, developing potentially implementable solutions.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_688b388f35367380",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "subject_text": "10 Academy",
+        "predicate": "provides",
+        "object_text": "AI-Enabled Full-Stack Developer Training",
+        "object_type": "training program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979Z",
+        "source_published_at": null,
+        "quote": "Learn to architect AI systems, build AI agents & deploy real products with 10 Academy’s AI-Enabled Full-Stack Developer Training.",
+        "source_url": "https://x.com/10acad",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_695e535a3cdda179",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "subject_text": "10 Academy",
+        "predicate": "is supported by",
+        "object_text": "fundraising chapters in the USA and Germany",
+        "object_type": "Organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617Z",
+        "source_published_at": null,
+        "quote": "10 Academy is supported by fundraising chapters in the USA and Germany.",
+        "source_url": "https://10academy.org/about",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_73585791967a1028",
+        "source_id": "src_c75db8b98e1505b8",
+        "subject_text": "AiQEM Tech",
+        "predicate": "associated_with",
+        "object_text": "10Academy",
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:24.234335Z",
+        "source_published_at": null,
+        "quote": "The knowledge gained from 10 Academy has shaped our success.",
+        "source_url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_75de3c152640fd5b",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "provides_support",
+        "object_text": "end-to-end guidance from onboarding to job search",
+        "object_type": "Support",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "End-to-end guidance from onboarding to job search, including tutor support, community engagement, and AI-powered job matching.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7af3d28ce246b75d",
+        "source_id": "src_c75db8b98e1505b8",
+        "subject_text": "AiQEM Tech",
+        "predicate": "supports",
+        "object_text": "10Academy",
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:24.234335Z",
+        "source_published_at": null,
+        "quote": "We believe in the power of technology to change lives, and we’re excited to support the great work 10Academy is doing across Africa.",
+        "source_url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7f9e17ef7c2ede30",
+        "source_id": "src_b3753d5845935efb",
+        "subject_text": "10 Academy",
+        "predicate": "shown that they can create",
+        "object_text": "expert AI users for less than $200",
+        "object_type": "capability",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006Z",
+        "source_published_at": null,
+        "quote": "We've shown that we can create expert AI users for less than $200 (job results - too soon to say).",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_84a010be5d025ce4",
+        "source_id": "src_143602202433b54d",
+        "subject_text": "10academy",
+        "predicate": "was_created_on",
+        "object_text": "2024-01-23T09:48:49Z",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844Z",
+        "source_published_at": null,
+        "quote": "\"created_at\": \"2024-01-23T09:48:49Z\"",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_87f9827f29c81760",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_graduation_outcome",
+        "object_text": "95% of graduates secure a global level job within 12 months",
+        "object_type": "Outcome",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "95% of graduates secure a global level job within 12 months.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_88e4c68939185ff7",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "is_remote",
+        "object_text": "AI-Enabled Full-Stack Developer Training Program",
+        "object_type": "Training Program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "AIFSDT is a 12-week intensive, fully remote program with live, synchronous classes and tutoring support.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_8f19723f6980e1df",
+        "source_id": "src_d2339c8d192a8536",
+        "subject_text": "22 college graduates",
+        "predicate": "completed",
+        "object_text": "pilot 10Academy program",
+        "object_type": "program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259Z",
+        "source_published_at": null,
+        "quote": "22 college graduates from 15 countries across Africa participated in the first edition of 10Academy.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_94288e867549fe05",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "subject_text": "10 Academy",
+        "predicate": "offers",
+        "object_text": "innovative training in Generative AI, Machine Learning, and Data Engineering",
+        "object_type": "product",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:19.046201Z",
+        "source_published_at": null,
+        "quote": "10 Academy is playing a role and bridging this gap by offering innovative training in Generative AI, Machine Learning, and Data Engineering.",
+        "source_url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a50dbfeaf7511d39",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_total_earnings",
+        "object_text": "$450M+ in total lifetime earnings generated by graduates",
+        "object_type": "Earnings",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "$450M+ in total lifetime earnings generated by graduates.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_b8cdef66bdaaff1e",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_platform",
+        "object_text": "tenx platform",
+        "object_type": "Platform",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "tenx, our scalable platform, delivers personalized learning at scale with real-time insights on learner progress and outcomes.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_b917a0581f9f8728",
+        "source_id": "src_143602202433b54d",
+        "subject_text": "10academy",
+        "predicate": "has_followers",
+        "object_text": "0",
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844Z",
+        "source_published_at": null,
+        "quote": "\"followers\": 0",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_bbbc2da679b4301d",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_economic_impact",
+        "object_text": "$360M in projected lifetime earnings across 1M learners",
+        "object_type": "Economic Impact",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "Economic Impact: $360M in projected lifetime earnings across 1M learners.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c20078edd2c3566f",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "subject_text": "10 Academy",
+        "predicate": "believes in",
+        "object_text": "unlocking opportunities for all",
+        "object_type": "mission",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:19.046201Z",
+        "source_published_at": null,
+        "quote": "10 Academy believes in unlocking opportunities for all, ensuring young Africans can lead the future of tech and drive positive change in their communities.",
+        "source_url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c87209b206d2ce9a",
+        "source_id": "src_83ec07cb0175d94f",
+        "subject_text": "10 Academy",
+        "predicate": "opens applications for",
+        "object_text": "intensive training",
+        "object_type": "program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778Z",
+        "source_published_at": null,
+        "quote": "We're opening up applications for our next intensive training on 1 Oct 2023, training 11 Dec 2023 to 7 June 2024.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_cc1d4465bb086cb3",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "subject_text": "10 Academy",
+        "predicate": "is headquartered in",
+        "object_text": "Addis Ababa, Ethiopia",
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617Z",
+        "source_published_at": null,
+        "quote": "10 Academy is a registered not-for-profit organization with headquarters in Addis Ababa, Ethiopia.",
+        "source_url": "https://10academy.org/about",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_cc240d6faa82e01f",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "subject_text": "10 Academy",
+        "predicate": "offers",
+        "object_text": "AIFSDT risk-free trial for 2 weeks",
+        "object_type": "trial program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979Z",
+        "source_published_at": null,
+        "quote": "Try AIFSDT risk-free for 2 weeks.",
+        "source_url": "https://x.com/10acad",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_dec66bd7f6d28a0f",
+        "source_id": "src_143602202433b54d",
+        "subject_text": "10academy",
+        "predicate": "was_updated_on",
+        "object_text": "2024-01-23T19:05:49Z",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844Z",
+        "source_published_at": null,
+        "quote": "\"updated_at\": \"2024-01-23T19:05:49Z\"",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_df3f7f61b1faef7f",
+        "source_id": "src_d2339c8d192a8536",
+        "subject_text": "10Academy",
+        "predicate": "organized_by",
+        "object_text": "Infinite Potentials Consulting (IPC)",
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259Z",
+        "source_published_at": null,
+        "quote": "Organized by Infinite Potentials Consulting (IPC), the focus of the fully funded program was to identify, train and launch high potential young African graduates into careers where they have the opportunity to create impact.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e004fe1d181a6ad7",
+        "source_id": "src_83ec07cb0175d94f",
+        "subject_text": "10 Academy",
+        "predicate": "prepares talent for",
+        "object_text": "global AI jobs",
+        "object_type": "job market",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778Z",
+        "source_published_at": null,
+        "quote": "10 Academy - Preparing talent for global AI jobs, at workforce scale.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e274197219f54825",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "subject_text": "10 Academy",
+        "predicate": "offers",
+        "object_text": "6-month intensive training in Generative AI, ML, and Data Engineering",
+        "object_type": "training program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979Z",
+        "source_published_at": null,
+        "quote": "Bridging Africa's ambitious youth and global-level AI jobs with a 6-month intensive training in Generative AI, ML, and Data Engineering.",
+        "source_url": "https://x.com/10acad",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e5dfffc8a6ab2b37",
+        "source_id": "src_143602202433b54d",
+        "subject_text": "10academy",
+        "predicate": "has_following",
+        "object_text": "0",
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844Z",
+        "source_published_at": null,
+        "quote": "\"following\": 0",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e618484cebc07251",
+        "source_id": "src_83ec07cb0175d94f",
+        "subject_text": "10 Academy",
+        "predicate": "has job placement rate of",
+        "object_text": "95%",
+        "object_type": "percentage",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778Z",
+        "source_published_at": null,
+        "quote": "Alumni have seen 95% job placement in 12 months.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_eb14586f50d24b75",
+        "source_id": "src_d2339c8d192a8536",
+        "subject_text": "10Academy program",
+        "predicate": "included",
+        "object_text": "intensive, residential course and a 6-month paid internship",
+        "object_type": "program structure",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259Z",
+        "source_published_at": null,
+        "quote": "The program was divided into two parts; the first, an intensive, residential course, hosted at Ashesi’s campus in Ghana, and the second, a 6-month paid internship in the private sector.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_eb1ea58885f41786",
+        "source_id": "src_b3753d5845935efb",
+        "subject_text": "10 Academy",
+        "predicate": "opened",
+        "object_text": "two applications",
+        "object_type": "applications",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006Z",
+        "source_published_at": null,
+        "quote": "if you know anyone who wants a great job in AI, check us out, we opened up two applications today.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_eb6b0b4d53344d29",
+        "source_id": "src_b3753d5845935efb",
+        "subject_text": "10 Academy",
+        "predicate": "shown that they can",
+        "object_text": "get people into global-level AI jobs for less than 2 months of salary",
+        "object_type": "capability",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006Z",
+        "source_published_at": null,
+        "quote": "We've shown that we can do this to global-level AI jobs for less than 2 months of salary.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f3438771d0e6c564",
+        "source_id": "src_b3753d5845935efb",
+        "subject_text": "10 Academy",
+        "predicate": "exists to",
+        "object_text": "get people into jobs commensurate with their ambition, at scale, at speed and sustainably",
+        "object_type": "mission",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006Z",
+        "source_published_at": null,
+        "quote": "We exist to get people into jobs commensurate with their ambition, at scale, at speed and sustainably.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f6fdf5a6a6e45d90",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "subject_text": "10 Academy",
+        "predicate": "has graduated",
+        "object_text": "over 700 learners",
+        "object_type": "Achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617Z",
+        "source_published_at": null,
+        "quote": "We expanded our reach even further in 2023 with the launch of University-to-Jobs (U2J) and KAIM graduating over 700 learners.",
+        "source_url": "https://10academy.org/about",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_fc9efea9f258d6e7",
+        "source_id": "src_b365d1a6d30d32e3",
+        "subject_text": "10academy",
+        "predicate": "has_program",
+        "object_text": "AI-Enabled Full-Stack Developer Training Program",
+        "object_type": "Training Program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731Z",
+        "source_published_at": null,
+        "quote": "Register for the 10 Academy AI-Enabled Full-Stack Developer Training Program.",
+        "source_url": "https://10academy.org/",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_0db2ec5d118798e8",
+        "source_id": "src_3d27a81d2731235e",
+        "predicate": "gains insights on career",
+        "original_subject": "10academy fellows",
+        "original_object": "practical insights on career",
+        "normalized_subject": "10academy fellows",
+        "normalized_object": "practical insights on career",
+        "quote": "10 Academy - #10Academy fellows gain practical insights on...",
+        "source_url": "https://www.facebook.com/10acad/posts/10academy-fellows-gain-practical-insights-on-career-in-a-guest-talk-by-delphina-/464171350625374",
+        "source_domain": "facebook.com",
+        "source_platform": "facebook.com",
+        "source_identifiers": [
+          "10acad",
+          "10academy-fellows-gain-practical-insights-on-career-in-a-guest-talk-by-delphina-",
+          "464171350625374"
+        ],
+        "object_type": "insight",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:47.215788+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_0de569e71adf73df",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "predicate": "conducts",
+        "original_subject": "10 Academy",
+        "original_object": "AI-Enabled Full-Stack Developer Program",
+        "normalized_subject": "10 academy",
+        "normalized_object": "ai-enabled full-stack developer program",
+        "quote": "Registration is open for the AI-Enabled Full-Stack Developer Program.",
+        "source_url": "https://x.com/10acad",
+        "source_domain": "x.com",
+        "source_platform": "x.com",
+        "source_identifiers": [
+          "10acad"
+        ],
+        "object_type": "training program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_133b92799145bc4c",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "aims_to_prepare",
+        "original_subject": "10academy",
+        "original_object": "1M+ African learners for AI-ready careers",
+        "normalized_subject": "10academy",
+        "normalized_object": "1m+ african learners for ai-ready careers",
+        "quote": "AI4E prepares 1M+ African learners for AI-ready careers at scale through the tenx platform.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_14847a472a35ab8e",
+        "source_id": "src_d2339c8d192a8536",
+        "predicate": "focused_on",
+        "original_subject": "10Academy",
+        "original_object": "training young African graduates",
+        "normalized_subject": "10academy",
+        "normalized_object": "training young african graduates",
+        "quote": "Our focus for 10Academy is to find and train people who have the intelligence, work ethic and creativity to take up and implement some of these great ideas themselves.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_domain": "ashesi.edu.gh",
+        "source_platform": "ashesi.edu.gh",
+        "source_identifiers": [
+          "20-college-graduates-complete-pilot-10academy-program"
+        ],
+        "object_type": "goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_241c73d853e7100c",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_percentage_of_graduates",
+        "original_subject": "10academy",
+        "original_object": "37.5% of our graduates are women",
+        "normalized_subject": "10academy",
+        "normalized_object": "37.5% of our graduates are women",
+        "quote": "37.5% of our graduates are women.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Demographic",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_24af434342ae755c",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "predicate": "empowers",
+        "original_subject": "10 Academy",
+        "original_object": "talented individuals from Africa with job-ready, global-level skills",
+        "normalized_subject": "10 academy",
+        "normalized_object": "talented individuals from africa with job-ready, global-level skills",
+        "quote": "We empower talented individuals from Africa with job-ready, global-level skills, enabling them to thrive in the digital economy.",
+        "source_url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "10acad_10academy-techopportunity-techinafrica-activity"
+        ],
+        "object_type": "service",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:19.046201+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_26135719166e14bb",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "predicate": "offers",
+        "original_subject": "10 Academy",
+        "original_object": "AI-Enabled Full-Stack Developer Training",
+        "normalized_subject": "10 academy",
+        "normalized_object": "ai-enabled full-stack developer training",
+        "quote": "AI-Enabled Full-Stack Developer Training: Registration is closed for now and reopens at the end of September 2026.",
+        "source_url": "https://10academy.org/about",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [
+          "about"
+        ],
+        "object_type": "Product",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_315c8212aa82c141",
+        "source_id": "src_006d431376ad5d3a",
+        "predicate": "has_name",
+        "original_subject": "10academy",
+        "original_object": "10 Academy",
+        "normalized_subject": "10academy",
+        "normalized_object": "10 academy",
+        "quote": "10 Academy",
+        "source_url": "https://www.facebook.com/10acad",
+        "source_domain": "facebook.com",
+        "source_platform": "facebook.com",
+        "source_identifiers": [
+          "10acad"
+        ],
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:50:49.452943+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_34bbe6f34f6f4084",
+        "source_id": "src_83ec07cb0175d94f",
+        "predicate": "graduates earn average salary of",
+        "original_subject": "10 Academy",
+        "original_object": "$38kUS",
+        "normalized_subject": "10 academy",
+        "normalized_object": "$38kus",
+        "quote": "salaries growing to an average of $38kUS within 3 years.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "salary",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_384b79e5b61303b0",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "predicate": "has evolved into",
+        "original_subject": "10 Academy",
+        "original_object": "a system capable of delivering scalable, AI-powered training to 1 million+ learners annually",
+        "normalized_subject": "10 academy",
+        "normalized_object": "a system capable of delivering scalable, ai-powered training to 1 million+ learners annually",
+        "quote": "tenx had evolved into a system capable of delivering scalable, AI-powered training to 1 million+ learners annually.",
+        "source_url": "https://10academy.org/about",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [
+          "about"
+        ],
+        "object_type": "System",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3d8f95d9f6e43bb3",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "predicate": "hosts",
+        "original_subject": "10 Academy",
+        "original_object": "AI Meetup",
+        "normalized_subject": "10 academy",
+        "normalized_object": "ai meetup",
+        "quote": "That’s the question we’re bringing to our next AI Meetup.",
+        "source_url": "https://x.com/10acad",
+        "source_domain": "x.com",
+        "source_platform": "x.com",
+        "source_identifiers": [
+          "10acad"
+        ],
+        "object_type": "event",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3fcea31e98c97204",
+        "source_id": "src_c75db8b98e1505b8",
+        "predicate": "advertises_with",
+        "original_subject": "10Academy",
+        "original_object": "AiQEM Tech",
+        "normalized_subject": "10academy",
+        "normalized_object": "aiqem tech",
+        "quote": "10Academy runs their ads with us and has achieved 10 times their reach!",
+        "source_url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "source_domain": "t.me",
+        "source_platform": "t.me",
+        "source_identifiers": [
+          "aiqemtech"
+        ],
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:24.234335+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_412f93914a9a0182",
+        "source_id": "src_83ec07cb0175d94f",
+        "predicate": "trains graduates for",
+        "original_subject": "10 Academy",
+        "original_object": "GenerativeAI, ML Engineering, Data Engineering and Web3 engineering",
+        "normalized_subject": "10 academy",
+        "normalized_object": "generativeai, ml engineering, data engineering and web3 engineering",
+        "quote": "Grads will be ready for GenerativeAI, ML Engineering, Data Engineering and Web3 engineering.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "fields",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_41c2240ad50db6ff",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "predicate": "has a goal to",
+        "original_subject": "10 Academy",
+        "original_object": "improve the employment outcomes of high potential young Africans",
+        "normalized_subject": "10 academy",
+        "normalized_object": "improve the employment outcomes of high potential young africans",
+        "quote": "10 Academy began with one simple but powerful goal: To improve the employment outcomes of high potential young Africans.",
+        "source_url": "https://10academy.org/about",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [
+          "about"
+        ],
+        "object_type": "Goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_458392ca772497d9",
+        "source_id": "src_b3753d5845935efb",
+        "predicate": "launched",
+        "original_subject": "10 Academy",
+        "original_object": "new website",
+        "normalized_subject": "10 academy",
+        "normalized_object": "new website",
+        "quote": "We just launched our new website today at 10academy.org, showcasing more accurately what 10 Academy does and why we exist.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "website",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4763b91a95641cbb",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_salary_growth",
+        "original_subject": "10academy",
+        "original_object": "5X salary growth within 3 years",
+        "normalized_subject": "10academy",
+        "normalized_object": "5x salary growth within 3 years",
+        "quote": "5X salary growth within 3 years.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Growth",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_47645ff9bd06d1be",
+        "source_id": "src_83ec07cb0175d94f",
+        "predicate": "seeks",
+        "original_subject": "10 Academy",
+        "original_object": "hungry, hard working and talented young people",
+        "normalized_subject": "10 academy",
+        "normalized_object": "hungry, hard working and talented young people",
+        "quote": "We're looking for hungry, hard working and talented young people who want to join a community of others like them, and get ready for global-level AI and Web3 jobs.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "candidates",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4f6f2bfb4413d917",
+        "source_id": "src_d2339c8d192a8536",
+        "predicate": "partnered_with",
+        "original_subject": "10Academy",
+        "original_object": "Ashesi",
+        "normalized_subject": "10academy",
+        "normalized_object": "ashesi",
+        "quote": "In partnership with Ashesi, IPC leveraged expertise and support from leading members of the scientific community.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_domain": "ashesi.edu.gh",
+        "source_platform": "ashesi.edu.gh",
+        "source_identifiers": [
+          "20-college-graduates-complete-pilot-10academy-program"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_61505d003149ce0a",
+        "source_id": "src_143602202433b54d",
+        "predicate": "has_public_repos",
+        "original_subject": "10academy",
+        "original_object": "4",
+        "normalized_subject": "10academy",
+        "normalized_object": "4",
+        "quote": "\"public_repos\": 4",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "10academy-finetuned-llm",
+          "automated-storyboard-synthesis-for-digital-advertising"
+        ],
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_6472eb05ec4d4c38",
+        "source_id": "src_d2339c8d192a8536",
+        "predicate": "aimed_to",
+        "original_subject": "10Academy",
+        "original_object": "develop potentially implementable solutions",
+        "normalized_subject": "10academy",
+        "normalized_object": "develop potentially implementable solutions",
+        "quote": "The goal of this phase was to give participants the opportunity to put the mix of their skills into practice, through identifying a major challenge in Africa and, in a small group, developing potentially implementable solutions.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_domain": "ashesi.edu.gh",
+        "source_platform": "ashesi.edu.gh",
+        "source_identifiers": [
+          "20-college-graduates-complete-pilot-10academy-program"
+        ],
+        "object_type": "goal",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_688b388f35367380",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "predicate": "provides",
+        "original_subject": "10 Academy",
+        "original_object": "AI-Enabled Full-Stack Developer Training",
+        "normalized_subject": "10 academy",
+        "normalized_object": "ai-enabled full-stack developer training",
+        "quote": "Learn to architect AI systems, build AI agents & deploy real products with 10 Academy’s AI-Enabled Full-Stack Developer Training.",
+        "source_url": "https://x.com/10acad",
+        "source_domain": "x.com",
+        "source_platform": "x.com",
+        "source_identifiers": [
+          "10acad"
+        ],
+        "object_type": "training program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_695e535a3cdda179",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "predicate": "is supported by",
+        "original_subject": "10 Academy",
+        "original_object": "fundraising chapters in the USA and Germany",
+        "normalized_subject": "10 academy",
+        "normalized_object": "fundraising chapters in the usa and germany",
+        "quote": "10 Academy is supported by fundraising chapters in the USA and Germany.",
+        "source_url": "https://10academy.org/about",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [
+          "about"
+        ],
+        "object_type": "Organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_73585791967a1028",
+        "source_id": "src_c75db8b98e1505b8",
+        "predicate": "associated_with",
+        "original_subject": "AiQEM Tech",
+        "original_object": "10Academy",
+        "normalized_subject": "aiqem tech",
+        "normalized_object": "10academy",
+        "quote": "The knowledge gained from 10 Academy has shaped our success.",
+        "source_url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "source_domain": "t.me",
+        "source_platform": "t.me",
+        "source_identifiers": [
+          "aiqemtech"
+        ],
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:24.234335+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_75de3c152640fd5b",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "provides_support",
+        "original_subject": "10academy",
+        "original_object": "end-to-end guidance from onboarding to job search",
+        "normalized_subject": "10academy",
+        "normalized_object": "end-to-end guidance from onboarding to job search",
+        "quote": "End-to-end guidance from onboarding to job search, including tutor support, community engagement, and AI-powered job matching.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Support",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7af3d28ce246b75d",
+        "source_id": "src_c75db8b98e1505b8",
+        "predicate": "supports",
+        "original_subject": "AiQEM Tech",
+        "original_object": "10Academy",
+        "normalized_subject": "aiqem tech",
+        "normalized_object": "10academy",
+        "quote": "We believe in the power of technology to change lives, and we’re excited to support the great work 10Academy is doing across Africa.",
+        "source_url": "https://t.me/s/aiqemtech?q=%23Ethiopia",
+        "source_domain": "t.me",
+        "source_platform": "t.me",
+        "source_identifiers": [
+          "aiqemtech"
+        ],
+        "object_type": "Company",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:24.234335+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7f9e17ef7c2ede30",
+        "source_id": "src_b3753d5845935efb",
+        "predicate": "shown that they can create",
+        "original_subject": "10 Academy",
+        "original_object": "expert AI users for less than $200",
+        "normalized_subject": "10 academy",
+        "normalized_object": "expert ai users for less than $200",
+        "quote": "We've shown that we can create expert AI users for less than $200 (job results - too soon to say).",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "capability",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_84a010be5d025ce4",
+        "source_id": "src_143602202433b54d",
+        "predicate": "was_created_on",
+        "original_subject": "10academy",
+        "original_object": "2024-01-23T09:48:49Z",
+        "normalized_subject": "10academy",
+        "normalized_object": "2024-01-23t09:48:49z",
+        "quote": "\"created_at\": \"2024-01-23T09:48:49Z\"",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "10academy-finetuned-llm",
+          "automated-storyboard-synthesis-for-digital-advertising"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_87f9827f29c81760",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_graduation_outcome",
+        "original_subject": "10academy",
+        "original_object": "95% of graduates secure a global level job within 12 months",
+        "normalized_subject": "10academy",
+        "normalized_object": "95% of graduates secure a global level job within 12 months",
+        "quote": "95% of graduates secure a global level job within 12 months.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Outcome",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_88e4c68939185ff7",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "is_remote",
+        "original_subject": "10academy",
+        "original_object": "AI-Enabled Full-Stack Developer Training Program",
+        "normalized_subject": "10academy",
+        "normalized_object": "ai-enabled full-stack developer training program",
+        "quote": "AIFSDT is a 12-week intensive, fully remote program with live, synchronous classes and tutoring support.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Training Program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_8f19723f6980e1df",
+        "source_id": "src_d2339c8d192a8536",
+        "predicate": "completed",
+        "original_subject": "22 college graduates",
+        "original_object": "pilot 10Academy program",
+        "normalized_subject": "22 college graduates",
+        "normalized_object": "pilot 10academy program",
+        "quote": "22 college graduates from 15 countries across Africa participated in the first edition of 10Academy.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_domain": "ashesi.edu.gh",
+        "source_platform": "ashesi.edu.gh",
+        "source_identifiers": [
+          "20-college-graduates-complete-pilot-10academy-program"
+        ],
+        "object_type": "program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_94288e867549fe05",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "predicate": "offers",
+        "original_subject": "10 Academy",
+        "original_object": "innovative training in Generative AI, Machine Learning, and Data Engineering",
+        "normalized_subject": "10 academy",
+        "normalized_object": "innovative training in generative ai, machine learning, and data engineering",
+        "quote": "10 Academy is playing a role and bridging this gap by offering innovative training in Generative AI, Machine Learning, and Data Engineering.",
+        "source_url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "10acad_10academy-techopportunity-techinafrica-activity"
+        ],
+        "object_type": "product",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:19.046201+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a50dbfeaf7511d39",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_total_earnings",
+        "original_subject": "10academy",
+        "original_object": "$450M+ in total lifetime earnings generated by graduates",
+        "normalized_subject": "10academy",
+        "normalized_object": "$450m+ in total lifetime earnings generated by graduates",
+        "quote": "$450M+ in total lifetime earnings generated by graduates.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Earnings",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_b8cdef66bdaaff1e",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_platform",
+        "original_subject": "10academy",
+        "original_object": "tenx platform",
+        "normalized_subject": "10academy",
+        "normalized_object": "tenx platform",
+        "quote": "tenx, our scalable platform, delivers personalized learning at scale with real-time insights on learner progress and outcomes.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Platform",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_b917a0581f9f8728",
+        "source_id": "src_143602202433b54d",
+        "predicate": "has_followers",
+        "original_subject": "10academy",
+        "original_object": "0",
+        "normalized_subject": "10academy",
+        "normalized_object": "0",
+        "quote": "\"followers\": 0",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "10academy-finetuned-llm",
+          "automated-storyboard-synthesis-for-digital-advertising"
+        ],
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_bbbc2da679b4301d",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_economic_impact",
+        "original_subject": "10academy",
+        "original_object": "$360M in projected lifetime earnings across 1M learners",
+        "normalized_subject": "10academy",
+        "normalized_object": "$360m in projected lifetime earnings across 1m learners",
+        "quote": "Economic Impact: $360M in projected lifetime earnings across 1M learners.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Economic Impact",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c20078edd2c3566f",
+        "source_id": "src_59bbec2e9bccf5e7",
+        "predicate": "believes in",
+        "original_subject": "10 Academy",
+        "original_object": "unlocking opportunities for all",
+        "normalized_subject": "10 academy",
+        "normalized_object": "unlocking opportunities for all",
+        "quote": "10 Academy believes in unlocking opportunities for all, ensuring young Africans can lead the future of tech and drive positive change in their communities.",
+        "source_url": "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "10acad_10academy-techopportunity-techinafrica-activity"
+        ],
+        "object_type": "mission",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:19.046201+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c87209b206d2ce9a",
+        "source_id": "src_83ec07cb0175d94f",
+        "predicate": "opens applications for",
+        "original_subject": "10 Academy",
+        "original_object": "intensive training",
+        "normalized_subject": "10 academy",
+        "normalized_object": "intensive training",
+        "quote": "We're opening up applications for our next intensive training on 1 Oct 2023, training 11 Dec 2023 to 7 June 2024.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_cc1d4465bb086cb3",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "predicate": "is headquartered in",
+        "original_subject": "10 Academy",
+        "original_object": "Addis Ababa, Ethiopia",
+        "normalized_subject": "10 academy",
+        "normalized_object": "addis ababa, ethiopia",
+        "quote": "10 Academy is a registered not-for-profit organization with headquarters in Addis Ababa, Ethiopia.",
+        "source_url": "https://10academy.org/about",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [
+          "about"
+        ],
+        "object_type": "Location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_cc240d6faa82e01f",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "predicate": "offers",
+        "original_subject": "10 Academy",
+        "original_object": "AIFSDT risk-free trial for 2 weeks",
+        "normalized_subject": "10 academy",
+        "normalized_object": "aifsdt risk-free trial for 2 weeks",
+        "quote": "Try AIFSDT risk-free for 2 weeks.",
+        "source_url": "https://x.com/10acad",
+        "source_domain": "x.com",
+        "source_platform": "x.com",
+        "source_identifiers": [
+          "10acad"
+        ],
+        "object_type": "trial program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_dec66bd7f6d28a0f",
+        "source_id": "src_143602202433b54d",
+        "predicate": "was_updated_on",
+        "original_subject": "10academy",
+        "original_object": "2024-01-23T19:05:49Z",
+        "normalized_subject": "10academy",
+        "normalized_object": "2024-01-23",
+        "quote": "\"updated_at\": \"2024-01-23T19:05:49Z\"",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "10academy-finetuned-llm",
+          "automated-storyboard-synthesis-for-digital-advertising"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_df3f7f61b1faef7f",
+        "source_id": "src_d2339c8d192a8536",
+        "predicate": "organized_by",
+        "original_subject": "10Academy",
+        "original_object": "Infinite Potentials Consulting (IPC)",
+        "normalized_subject": "10academy",
+        "normalized_object": "infinite potentials consulting (ipc)",
+        "quote": "Organized by Infinite Potentials Consulting (IPC), the focus of the fully funded program was to identify, train and launch high potential young African graduates into careers where they have the opportunity to create impact.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_domain": "ashesi.edu.gh",
+        "source_platform": "ashesi.edu.gh",
+        "source_identifiers": [
+          "20-college-graduates-complete-pilot-10academy-program"
+        ],
+        "object_type": "organization",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e004fe1d181a6ad7",
+        "source_id": "src_83ec07cb0175d94f",
+        "predicate": "prepares talent for",
+        "original_subject": "10 Academy",
+        "original_object": "global AI jobs",
+        "normalized_subject": "10 academy",
+        "normalized_object": "global ai jobs",
+        "quote": "10 Academy - Preparing talent for global AI jobs, at workforce scale.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "job market",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e274197219f54825",
+        "source_id": "src_7b2c5b434c3bdd75",
+        "predicate": "offers",
+        "original_subject": "10 Academy",
+        "original_object": "6-month intensive training in Generative AI, ML, and Data Engineering",
+        "normalized_subject": "10 academy",
+        "normalized_object": "6-month intensive training in generative ai, ml, and data engineering",
+        "quote": "Bridging Africa's ambitious youth and global-level AI jobs with a 6-month intensive training in Generative AI, ML, and Data Engineering.",
+        "source_url": "https://x.com/10acad",
+        "source_domain": "x.com",
+        "source_platform": "x.com",
+        "source_identifiers": [
+          "10acad"
+        ],
+        "object_type": "training program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:13.893979+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e5dfffc8a6ab2b37",
+        "source_id": "src_143602202433b54d",
+        "predicate": "has_following",
+        "original_subject": "10academy",
+        "original_object": "0",
+        "normalized_subject": "10academy",
+        "normalized_object": "0",
+        "quote": "\"following\": 0",
+        "source_url": "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising",
+        "source_domain": "github.com",
+        "source_platform": "github",
+        "source_identifiers": [
+          "10academy-finetuned-llm",
+          "automated-storyboard-synthesis-for-digital-advertising"
+        ],
+        "object_type": "number",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:41.163844+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e618484cebc07251",
+        "source_id": "src_83ec07cb0175d94f",
+        "predicate": "has job placement rate of",
+        "original_subject": "10 Academy",
+        "original_object": "95%",
+        "normalized_subject": "10 academy",
+        "normalized_object": "95%",
+        "quote": "Alumni have seen 95% job placement in 12 months.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "percentage",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:17.304778+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_eb14586f50d24b75",
+        "source_id": "src_d2339c8d192a8536",
+        "predicate": "included",
+        "original_subject": "10Academy program",
+        "original_object": "intensive, residential course and a 6-month paid internship",
+        "normalized_subject": "10academy program",
+        "normalized_object": "intensive, residential course and a 6-month paid internship",
+        "quote": "The program was divided into two parts; the first, an intensive, residential course, hosted at Ashesi’s campus in Ghana, and the second, a 6-month paid internship in the private sector.",
+        "source_url": "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program",
+        "source_domain": "ashesi.edu.gh",
+        "source_platform": "ashesi.edu.gh",
+        "source_identifiers": [
+          "20-college-graduates-complete-pilot-10academy-program"
+        ],
+        "object_type": "program structure",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:35.201259+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_eb1ea58885f41786",
+        "source_id": "src_b3753d5845935efb",
+        "predicate": "opened",
+        "original_subject": "10 Academy",
+        "original_object": "two applications",
+        "normalized_subject": "10 academy",
+        "normalized_object": "two applications",
+        "quote": "if you know anyone who wants a great job in AI, check us out, we opened up two applications today.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "applications",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_eb6b0b4d53344d29",
+        "source_id": "src_b3753d5845935efb",
+        "predicate": "shown that they can",
+        "original_subject": "10 Academy",
+        "original_object": "get people into global-level AI jobs for less than 2 months of salary",
+        "normalized_subject": "10 academy",
+        "normalized_object": "get people into global-level ai jobs for less than 2 months of salary",
+        "quote": "We've shown that we can do this to global-level AI jobs for less than 2 months of salary.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "capability",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f3438771d0e6c564",
+        "source_id": "src_b3753d5845935efb",
+        "predicate": "exists to",
+        "original_subject": "10 Academy",
+        "original_object": "get people into jobs commensurate with their ambition, at scale, at speed and sustainably",
+        "normalized_subject": "10 academy",
+        "normalized_object": "get people into jobs commensurate with their ambition, at scale, at speed and sustainably",
+        "quote": "We exist to get people into jobs commensurate with their ambition, at scale, at speed and sustainably.",
+        "source_url": "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs",
+        "source_domain": "linkedin.com",
+        "source_platform": "linkedin",
+        "source_identifiers": [
+          "a2sharma_10-academy-activity"
+        ],
+        "object_type": "mission",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:03.215006+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f6fdf5a6a6e45d90",
+        "source_id": "src_144e0e1aa9af8e2b",
+        "predicate": "has graduated",
+        "original_subject": "10 Academy",
+        "original_object": "over 700 learners",
+        "normalized_subject": "10 academy",
+        "normalized_object": "over 700 learners",
+        "quote": "We expanded our reach even further in 2023 with the launch of University-to-Jobs (U2J) and KAIM graduating over 700 learners.",
+        "source_url": "https://10academy.org/about",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [
+          "about"
+        ],
+        "object_type": "Achievement",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:52:37.451617+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_fc9efea9f258d6e7",
+        "source_id": "src_b365d1a6d30d32e3",
+        "predicate": "has_program",
+        "original_subject": "10academy",
+        "original_object": "AI-Enabled Full-Stack Developer Training Program",
+        "normalized_subject": "10academy",
+        "normalized_object": "ai-enabled full-stack developer training program",
+        "quote": "Register for the 10 Academy AI-Enabled Full-Stack Developer Training Program.",
+        "source_url": "https://10academy.org/",
+        "source_domain": "10academy.org",
+        "source_platform": "10academy.org",
+        "source_identifiers": [],
+        "object_type": "Training Program",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-08T21:51:07.106731+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_cc240d6faa82e01f",
+        "right_observation_id": "obs_e274197219f54825",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_7b2c5b434c3bdd75",
+        "right_source_id": "src_7b2c5b434c3bdd75",
+        "left_evidence_ids": [
+          "obs_cc240d6faa82e01f"
+        ],
+        "right_evidence_ids": [
+          "obs_e274197219f54825"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0db2ec5d118798e8",
+        "right_observation_id": "obs_0de569e71adf73df",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity"
+        ],
+        "left_source_id": "src_3d27a81d2731235e",
+        "right_source_id": "src_7b2c5b434c3bdd75",
+        "left_evidence_ids": [
+          "obs_0db2ec5d118798e8"
+        ],
+        "right_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0db2ec5d118798e8",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "matching_source_identifier"
+        ],
+        "left_source_id": "src_3d27a81d2731235e",
+        "right_source_id": "src_006d431376ad5d3a",
+        "left_evidence_ids": [
+          "obs_0db2ec5d118798e8"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_24af434342ae755c",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7b2c5b434c3bdd75",
+        "right_source_id": "src_59bbec2e9bccf5e7",
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_26135719166e14bb",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7b2c5b434c3bdd75",
+        "right_source_id": "src_144e0e1aa9af8e2b",
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "cross_platform_identifier_similarity"
+        ],
+        "left_source_id": "src_7b2c5b434c3bdd75",
+        "right_source_id": "src_006d431376ad5d3a",
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_34bbe6f34f6f4084",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7b2c5b434c3bdd75",
+        "right_source_id": "src_83ec07cb0175d94f",
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ]
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_7b2c5b434c3bdd75",
+        "right_source_id": "src_b3753d5845935efb",
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ]
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_14847a472a35ab8e",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b365d1a6d30d32e3",
+        "right_source_id": "src_d2339c8d192a8536",
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ]
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b365d1a6d30d32e3",
+        "right_source_id": "src_006d431376ad5d3a",
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ]
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_3fcea31e98c97204",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b365d1a6d30d32e3",
+        "right_source_id": "src_c75db8b98e1505b8",
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ]
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b365d1a6d30d32e3",
+        "right_source_id": "src_143602202433b54d",
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ]
+      },
+      {
+        "left_observation_id": "obs_14847a472a35ab8e",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_d2339c8d192a8536",
+        "right_source_id": "src_006d431376ad5d3a",
+        "left_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ]
+      },
+      {
+        "left_observation_id": "obs_14847a472a35ab8e",
+        "right_observation_id": "obs_3fcea31e98c97204",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_d2339c8d192a8536",
+        "right_source_id": "src_c75db8b98e1505b8",
+        "left_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "right_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ]
+      },
+      {
+        "left_observation_id": "obs_14847a472a35ab8e",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_d2339c8d192a8536",
+        "right_source_id": "src_143602202433b54d",
+        "left_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ]
+      },
+      {
+        "left_observation_id": "obs_24af434342ae755c",
+        "right_observation_id": "obs_26135719166e14bb",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_59bbec2e9bccf5e7",
+        "right_source_id": "src_144e0e1aa9af8e2b",
+        "left_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "right_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ]
+      },
+      {
+        "left_observation_id": "obs_24af434342ae755c",
+        "right_observation_id": "obs_34bbe6f34f6f4084",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_59bbec2e9bccf5e7",
+        "right_source_id": "src_83ec07cb0175d94f",
+        "left_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "right_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ]
+      },
+      {
+        "left_observation_id": "obs_24af434342ae755c",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_59bbec2e9bccf5e7",
+        "right_source_id": "src_b3753d5845935efb",
+        "left_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ]
+      },
+      {
+        "left_observation_id": "obs_26135719166e14bb",
+        "right_observation_id": "obs_34bbe6f34f6f4084",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_144e0e1aa9af8e2b",
+        "right_source_id": "src_83ec07cb0175d94f",
+        "left_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "right_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ]
+      },
+      {
+        "left_observation_id": "obs_26135719166e14bb",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_144e0e1aa9af8e2b",
+        "right_source_id": "src_b3753d5845935efb",
+        "left_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ]
+      },
+      {
+        "left_observation_id": "obs_315c8212aa82c141",
+        "right_observation_id": "obs_3fcea31e98c97204",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_006d431376ad5d3a",
+        "right_source_id": "src_c75db8b98e1505b8",
+        "left_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "right_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ]
+      },
+      {
+        "left_observation_id": "obs_315c8212aa82c141",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_006d431376ad5d3a",
+        "right_source_id": "src_143602202433b54d",
+        "left_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ]
+      },
+      {
+        "left_observation_id": "obs_34bbe6f34f6f4084",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "matching_source_identifier",
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_83ec07cb0175d94f",
+        "right_source_id": "src_b3753d5845935efb",
+        "left_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ]
+      },
+      {
+        "left_observation_id": "obs_3fcea31e98c97204",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_c75db8b98e1505b8",
+        "right_source_id": "src_143602202433b54d",
+        "left_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_cc240d6faa82e01f",
+        "right_observation_id": "obs_e274197219f54825",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "left_evidence_ids": [
+          "obs_cc240d6faa82e01f"
+        ],
+        "right_evidence_ids": [
+          "obs_e274197219f54825"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0db2ec5d118798e8",
+        "right_observation_id": "obs_0de569e71adf73df",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.135,
+        "feature_values": {
+          "same_normalized_subject": false,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity"
+        ],
+        "supporting_observation_ids": [
+          "obs_0db2ec5d118798e8",
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "left_evidence_ids": [
+          "obs_0db2ec5d118798e8"
+        ],
+        "right_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0db2ec5d118798e8",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.235,
+        "feature_values": {
+          "same_normalized_subject": false,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "matching_source_identifier"
+        ],
+        "supporting_observation_ids": [
+          "obs_0db2ec5d118798e8",
+          "obs_315c8212aa82c141"
+        ],
+        "left_evidence_ids": [
+          "obs_0db2ec5d118798e8"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_24af434342ae755c",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.005,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825",
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_26135719166e14bb",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.015,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825",
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.135,
+        "feature_values": {
+          "same_normalized_subject": false,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": true,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+          "cross_platform_identifier_similarity"
+        ],
+        "supporting_observation_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825",
+          "obs_315c8212aa82c141"
+        ],
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_34bbe6f34f6f4084",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825",
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_0de569e71adf73df",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825",
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "left_evidence_ids": [
+          "obs_0de569e71adf73df",
+          "obs_3d8f95d9f6e43bb3",
+          "obs_688b388f35367380",
+          "obs_cc240d6faa82e01f",
+          "obs_e274197219f54825"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_14847a472a35ab8e",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7",
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7",
+          "obs_315c8212aa82c141"
+        ],
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_3fcea31e98c97204",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7",
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_133b92799145bc4c",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.145,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7",
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "left_evidence_ids": [
+          "obs_133b92799145bc4c",
+          "obs_241c73d853e7100c",
+          "obs_4763b91a95641cbb",
+          "obs_75de3c152640fd5b",
+          "obs_87f9827f29c81760",
+          "obs_88e4c68939185ff7",
+          "obs_a50dbfeaf7511d39",
+          "obs_b8cdef66bdaaff1e",
+          "obs_bbbc2da679b4301d",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_14847a472a35ab8e",
+        "right_observation_id": "obs_315c8212aa82c141",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75",
+          "obs_315c8212aa82c141"
+        ],
+        "left_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "right_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_14847a472a35ab8e",
+        "right_observation_id": "obs_3fcea31e98c97204",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75",
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "left_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "right_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_14847a472a35ab8e",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.145,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75",
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "left_evidence_ids": [
+          "obs_14847a472a35ab8e",
+          "obs_4f6f2bfb4413d917",
+          "obs_6472eb05ec4d4c38",
+          "obs_8f19723f6980e1df",
+          "obs_df3f7f61b1faef7f",
+          "obs_eb14586f50d24b75"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_24af434342ae755c",
+        "right_observation_id": "obs_26135719166e14bb",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.005,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f",
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "left_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "right_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_24af434342ae755c",
+        "right_observation_id": "obs_34bbe6f34f6f4084",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.165,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f",
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "left_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "right_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_24af434342ae755c",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.165,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SAME_SOURCE_DOMAIN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f",
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "left_evidence_ids": [
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_c20078edd2c3566f"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_26135719166e14bb",
+        "right_observation_id": "obs_34bbe6f34f6f4084",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90",
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "left_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "right_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_26135719166e14bb",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.125,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90",
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "left_evidence_ids": [
+          "obs_26135719166e14bb",
+          "obs_384b79e5b61303b0",
+          "obs_41c2240ad50db6ff",
+          "obs_695e535a3cdda179",
+          "obs_cc1d4465bb086cb3",
+          "obs_f6fdf5a6a6e45d90"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_315c8212aa82c141",
+        "right_observation_id": "obs_3fcea31e98c97204",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_315c8212aa82c141",
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "left_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "right_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_315c8212aa82c141",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.145,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_315c8212aa82c141",
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "left_evidence_ids": [
+          "obs_315c8212aa82c141"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_34bbe6f34f6f4084",
+        "right_observation_id": "obs_458392ca772497d9",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.34,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "matching_source_identifier",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251",
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "left_evidence_ids": [
+          "obs_34bbe6f34f6f4084",
+          "obs_412f93914a9a0182",
+          "obs_47645ff9bd06d1be",
+          "obs_c87209b206d2ce9a",
+          "obs_e004fe1d181a6ad7",
+          "obs_e618484cebc07251"
+        ],
+        "right_evidence_ids": [
+          "obs_458392ca772497d9",
+          "obs_7f9e17ef7c2ede30",
+          "obs_eb1ea58885f41786",
+          "obs_eb6b0b4d53344d29",
+          "obs_f3438771d0e6c564"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_3fcea31e98c97204",
+        "right_observation_id": "obs_61505d003149ce0a",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": null,
+        "confidence_score": 0.145,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d",
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "left_evidence_ids": [
+          "obs_3fcea31e98c97204",
+          "obs_73585791967a1028",
+          "obs_7af3d28ce246b75d"
+        ],
+        "right_evidence_ids": [
+          "obs_61505d003149ce0a",
+          "obs_84a010be5d025ce4",
+          "obs_b917a0581f9f8728",
+          "obs_dec66bd7f6d28a0f",
+          "obs_e5dfffc8a6ab2b37"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "profile": {
+      "investigation_id": "biz_6829898f2a2e",
+      "status": "unresolved",
+      "profile": null,
+      "candidate_profiles": [
+        {
+          "candidate_id": "candidate_src_3d27a81d2731235e",
+          "source_ids": [
+            "src_3d27a81d2731235e"
+          ],
+          "source_urls": [
+            "https://www.facebook.com/10acad/posts/10academy-fellows-gain-practical-insights-on-career-in-a-guest-talk-by-delphina-/464171350625374"
+          ],
+          "observation_count": 1,
+          "claims": [
+            {
+              "predicate": "gains insights on career",
+              "object": "practical insights on career",
+              "object_type": "insight",
+              "evidence_ids": [
+                "obs_0db2ec5d118798e8"
+              ],
+              "quotes": [
+                "10 Academy - #10Academy fellows gain practical insights on..."
+              ],
+              "source_urls": [
+                "https://www.facebook.com/10acad/posts/10academy-fellows-gain-practical-insights-on-career-in-a-guest-talk-by-delphina-/464171350625374"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_7b2c5b434c3bdd75",
+          "source_ids": [
+            "src_7b2c5b434c3bdd75"
+          ],
+          "source_urls": [
+            "https://x.com/10acad"
+          ],
+          "observation_count": 5,
+          "claims": [
+            {
+              "predicate": "conducts",
+              "object": "AI-Enabled Full-Stack Developer Program",
+              "object_type": "training program",
+              "evidence_ids": [
+                "obs_0de569e71adf73df"
+              ],
+              "quotes": [
+                "Registration is open for the AI-Enabled Full-Stack Developer Program."
+              ],
+              "source_urls": [
+                "https://x.com/10acad"
+              ]
+            },
+            {
+              "predicate": "hosts",
+              "object": "AI Meetup",
+              "object_type": "event",
+              "evidence_ids": [
+                "obs_3d8f95d9f6e43bb3"
+              ],
+              "quotes": [
+                "That’s the question we’re bringing to our next AI Meetup."
+              ],
+              "source_urls": [
+                "https://x.com/10acad"
+              ]
+            },
+            {
+              "predicate": "provides",
+              "object": "AI-Enabled Full-Stack Developer Training",
+              "object_type": "training program",
+              "evidence_ids": [
+                "obs_688b388f35367380"
+              ],
+              "quotes": [
+                "Learn to architect AI systems, build AI agents & deploy real products with 10 Academy’s AI-Enabled Full-Stack Developer Training."
+              ],
+              "source_urls": [
+                "https://x.com/10acad"
+              ]
+            },
+            {
+              "predicate": "offers",
+              "object": "AIFSDT risk-free trial for 2 weeks",
+              "object_type": "trial program",
+              "evidence_ids": [
+                "obs_cc240d6faa82e01f"
+              ],
+              "quotes": [
+                "Try AIFSDT risk-free for 2 weeks."
+              ],
+              "source_urls": [
+                "https://x.com/10acad"
+              ]
+            },
+            {
+              "predicate": "offers",
+              "object": "6-month intensive training in Generative AI, ML, and Data Engineering",
+              "object_type": "training program",
+              "evidence_ids": [
+                "obs_e274197219f54825"
+              ],
+              "quotes": [
+                "Bridging Africa's ambitious youth and global-level AI jobs with a 6-month intensive training in Generative AI, ML, and Data Engineering."
+              ],
+              "source_urls": [
+                "https://x.com/10acad"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_b365d1a6d30d32e3",
+          "source_ids": [
+            "src_b365d1a6d30d32e3"
+          ],
+          "source_urls": [
+            "https://10academy.org/"
+          ],
+          "observation_count": 10,
+          "claims": [
+            {
+              "predicate": "aims_to_prepare",
+              "object": "1M+ African learners for AI-ready careers",
+              "object_type": "Goal",
+              "evidence_ids": [
+                "obs_133b92799145bc4c"
+              ],
+              "quotes": [
+                "AI4E prepares 1M+ African learners for AI-ready careers at scale through the tenx platform."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_percentage_of_graduates",
+              "object": "37.5% of our graduates are women",
+              "object_type": "Demographic",
+              "evidence_ids": [
+                "obs_241c73d853e7100c"
+              ],
+              "quotes": [
+                "37.5% of our graduates are women."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_salary_growth",
+              "object": "5X salary growth within 3 years",
+              "object_type": "Growth",
+              "evidence_ids": [
+                "obs_4763b91a95641cbb"
+              ],
+              "quotes": [
+                "5X salary growth within 3 years."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "provides_support",
+              "object": "end-to-end guidance from onboarding to job search",
+              "object_type": "Support",
+              "evidence_ids": [
+                "obs_75de3c152640fd5b"
+              ],
+              "quotes": [
+                "End-to-end guidance from onboarding to job search, including tutor support, community engagement, and AI-powered job matching."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_graduation_outcome",
+              "object": "95% of graduates secure a global level job within 12 months",
+              "object_type": "Outcome",
+              "evidence_ids": [
+                "obs_87f9827f29c81760"
+              ],
+              "quotes": [
+                "95% of graduates secure a global level job within 12 months."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "is_remote",
+              "object": "AI-Enabled Full-Stack Developer Training Program",
+              "object_type": "Training Program",
+              "evidence_ids": [
+                "obs_88e4c68939185ff7"
+              ],
+              "quotes": [
+                "AIFSDT is a 12-week intensive, fully remote program with live, synchronous classes and tutoring support."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_total_earnings",
+              "object": "$450M+ in total lifetime earnings generated by graduates",
+              "object_type": "Earnings",
+              "evidence_ids": [
+                "obs_a50dbfeaf7511d39"
+              ],
+              "quotes": [
+                "$450M+ in total lifetime earnings generated by graduates."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_platform",
+              "object": "tenx platform",
+              "object_type": "Platform",
+              "evidence_ids": [
+                "obs_b8cdef66bdaaff1e"
+              ],
+              "quotes": [
+                "tenx, our scalable platform, delivers personalized learning at scale with real-time insights on learner progress and outcomes."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_economic_impact",
+              "object": "$360M in projected lifetime earnings across 1M learners",
+              "object_type": "Economic Impact",
+              "evidence_ids": [
+                "obs_bbbc2da679b4301d"
+              ],
+              "quotes": [
+                "Economic Impact: $360M in projected lifetime earnings across 1M learners."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            },
+            {
+              "predicate": "has_program",
+              "object": "AI-Enabled Full-Stack Developer Training Program",
+              "object_type": "Training Program",
+              "evidence_ids": [
+                "obs_fc9efea9f258d6e7"
+              ],
+              "quotes": [
+                "Register for the 10 Academy AI-Enabled Full-Stack Developer Training Program."
+              ],
+              "source_urls": [
+                "https://10academy.org/"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_d2339c8d192a8536",
+          "source_ids": [
+            "src_d2339c8d192a8536"
+          ],
+          "source_urls": [
+            "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+          ],
+          "observation_count": 6,
+          "claims": [
+            {
+              "predicate": "focused_on",
+              "object": "training young African graduates",
+              "object_type": "goal",
+              "evidence_ids": [
+                "obs_14847a472a35ab8e"
+              ],
+              "quotes": [
+                "Our focus for 10Academy is to find and train people who have the intelligence, work ethic and creativity to take up and implement some of these great ideas themselves."
+              ],
+              "source_urls": [
+                "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+              ]
+            },
+            {
+              "predicate": "partnered_with",
+              "object": "Ashesi",
+              "object_type": "organization",
+              "evidence_ids": [
+                "obs_4f6f2bfb4413d917"
+              ],
+              "quotes": [
+                "In partnership with Ashesi, IPC leveraged expertise and support from leading members of the scientific community."
+              ],
+              "source_urls": [
+                "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+              ]
+            },
+            {
+              "predicate": "aimed_to",
+              "object": "develop potentially implementable solutions",
+              "object_type": "goal",
+              "evidence_ids": [
+                "obs_6472eb05ec4d4c38"
+              ],
+              "quotes": [
+                "The goal of this phase was to give participants the opportunity to put the mix of their skills into practice, through identifying a major challenge in Africa and, in a small group, developing potentially implementable solutions."
+              ],
+              "source_urls": [
+                "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+              ]
+            },
+            {
+              "predicate": "completed",
+              "object": "pilot 10Academy program",
+              "object_type": "program",
+              "evidence_ids": [
+                "obs_8f19723f6980e1df"
+              ],
+              "quotes": [
+                "22 college graduates from 15 countries across Africa participated in the first edition of 10Academy."
+              ],
+              "source_urls": [
+                "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+              ]
+            },
+            {
+              "predicate": "organized_by",
+              "object": "Infinite Potentials Consulting (IPC)",
+              "object_type": "organization",
+              "evidence_ids": [
+                "obs_df3f7f61b1faef7f"
+              ],
+              "quotes": [
+                "Organized by Infinite Potentials Consulting (IPC), the focus of the fully funded program was to identify, train and launch high potential young African graduates into careers where they have the opportunity to create impact."
+              ],
+              "source_urls": [
+                "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+              ]
+            },
+            {
+              "predicate": "included",
+              "object": "intensive, residential course and a 6-month paid internship",
+              "object_type": "program structure",
+              "evidence_ids": [
+                "obs_eb14586f50d24b75"
+              ],
+              "quotes": [
+                "The program was divided into two parts; the first, an intensive, residential course, hosted at Ashesi’s campus in Ghana, and the second, a 6-month paid internship in the private sector."
+              ],
+              "source_urls": [
+                "https://ashesi.edu.gh/20-college-graduates-complete-pilot-10academy-program"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_59bbec2e9bccf5e7",
+          "source_ids": [
+            "src_59bbec2e9bccf5e7"
+          ],
+          "source_urls": [
+            "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK"
+          ],
+          "observation_count": 3,
+          "claims": [
+            {
+              "predicate": "empowers",
+              "object": "talented individuals from Africa with job-ready, global-level skills",
+              "object_type": "service",
+              "evidence_ids": [
+                "obs_24af434342ae755c"
+              ],
+              "quotes": [
+                "We empower talented individuals from Africa with job-ready, global-level skills, enabling them to thrive in the digital economy."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK"
+              ]
+            },
+            {
+              "predicate": "offers",
+              "object": "innovative training in Generative AI, Machine Learning, and Data Engineering",
+              "object_type": "product",
+              "evidence_ids": [
+                "obs_94288e867549fe05"
+              ],
+              "quotes": [
+                "10 Academy is playing a role and bridging this gap by offering innovative training in Generative AI, Machine Learning, and Data Engineering."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK"
+              ]
+            },
+            {
+              "predicate": "believes in",
+              "object": "unlocking opportunities for all",
+              "object_type": "mission",
+              "evidence_ids": [
+                "obs_c20078edd2c3566f"
+              ],
+              "quotes": [
+                "10 Academy believes in unlocking opportunities for all, ensuring young Africans can lead the future of tech and drive positive change in their communities."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/10acad_10academy-techopportunity-techinafrica-activity-7242920877992931328-JlEK"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_144e0e1aa9af8e2b",
+          "source_ids": [
+            "src_144e0e1aa9af8e2b"
+          ],
+          "source_urls": [
+            "https://10academy.org/about"
+          ],
+          "observation_count": 6,
+          "claims": [
+            {
+              "predicate": "offers",
+              "object": "AI-Enabled Full-Stack Developer Training",
+              "object_type": "Product",
+              "evidence_ids": [
+                "obs_26135719166e14bb"
+              ],
+              "quotes": [
+                "AI-Enabled Full-Stack Developer Training: Registration is closed for now and reopens at the end of September 2026."
+              ],
+              "source_urls": [
+                "https://10academy.org/about"
+              ]
+            },
+            {
+              "predicate": "has evolved into",
+              "object": "a system capable of delivering scalable, AI-powered training to 1 million+ learners annually",
+              "object_type": "System",
+              "evidence_ids": [
+                "obs_384b79e5b61303b0"
+              ],
+              "quotes": [
+                "tenx had evolved into a system capable of delivering scalable, AI-powered training to 1 million+ learners annually."
+              ],
+              "source_urls": [
+                "https://10academy.org/about"
+              ]
+            },
+            {
+              "predicate": "has a goal to",
+              "object": "improve the employment outcomes of high potential young Africans",
+              "object_type": "Goal",
+              "evidence_ids": [
+                "obs_41c2240ad50db6ff"
+              ],
+              "quotes": [
+                "10 Academy began with one simple but powerful goal: To improve the employment outcomes of high potential young Africans."
+              ],
+              "source_urls": [
+                "https://10academy.org/about"
+              ]
+            },
+            {
+              "predicate": "is supported by",
+              "object": "fundraising chapters in the USA and Germany",
+              "object_type": "Organization",
+              "evidence_ids": [
+                "obs_695e535a3cdda179"
+              ],
+              "quotes": [
+                "10 Academy is supported by fundraising chapters in the USA and Germany."
+              ],
+              "source_urls": [
+                "https://10academy.org/about"
+              ]
+            },
+            {
+              "predicate": "is headquartered in",
+              "object": "Addis Ababa, Ethiopia",
+              "object_type": "Location",
+              "evidence_ids": [
+                "obs_cc1d4465bb086cb3"
+              ],
+              "quotes": [
+                "10 Academy is a registered not-for-profit organization with headquarters in Addis Ababa, Ethiopia."
+              ],
+              "source_urls": [
+                "https://10academy.org/about"
+              ]
+            },
+            {
+              "predicate": "has graduated",
+              "object": "over 700 learners",
+              "object_type": "Achievement",
+              "evidence_ids": [
+                "obs_f6fdf5a6a6e45d90"
+              ],
+              "quotes": [
+                "We expanded our reach even further in 2023 with the launch of University-to-Jobs (U2J) and KAIM graduating over 700 learners."
+              ],
+              "source_urls": [
+                "https://10academy.org/about"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_006d431376ad5d3a",
+          "source_ids": [
+            "src_006d431376ad5d3a"
+          ],
+          "source_urls": [
+            "https://www.facebook.com/10acad"
+          ],
+          "observation_count": 1,
+          "claims": [
+            {
+              "predicate": "has_name",
+              "object": "10 Academy",
+              "object_type": "Company",
+              "evidence_ids": [
+                "obs_315c8212aa82c141"
+              ],
+              "quotes": [
+                "10 Academy"
+              ],
+              "source_urls": [
+                "https://www.facebook.com/10acad"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_83ec07cb0175d94f",
+          "source_ids": [
+            "src_83ec07cb0175d94f"
+          ],
+          "source_urls": [
+            "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+          ],
+          "observation_count": 6,
+          "claims": [
+            {
+              "predicate": "graduates earn average salary of",
+              "object": "$38kUS",
+              "object_type": "salary",
+              "evidence_ids": [
+                "obs_34bbe6f34f6f4084"
+              ],
+              "quotes": [
+                "salaries growing to an average of $38kUS within 3 years."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+              ]
+            },
+            {
+              "predicate": "trains graduates for",
+              "object": "GenerativeAI, ML Engineering, Data Engineering and Web3 engineering",
+              "object_type": "fields",
+              "evidence_ids": [
+                "obs_412f93914a9a0182"
+              ],
+              "quotes": [
+                "Grads will be ready for GenerativeAI, ML Engineering, Data Engineering and Web3 engineering."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+              ]
+            },
+            {
+              "predicate": "seeks",
+              "object": "hungry, hard working and talented young people",
+              "object_type": "candidates",
+              "evidence_ids": [
+                "obs_47645ff9bd06d1be"
+              ],
+              "quotes": [
+                "We're looking for hungry, hard working and talented young people who want to join a community of others like them, and get ready for global-level AI and Web3 jobs."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+              ]
+            },
+            {
+              "predicate": "opens applications for",
+              "object": "intensive training",
+              "object_type": "program",
+              "evidence_ids": [
+                "obs_c87209b206d2ce9a"
+              ],
+              "quotes": [
+                "We're opening up applications for our next intensive training on 1 Oct 2023, training 11 Dec 2023 to 7 June 2024."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+              ]
+            },
+            {
+              "predicate": "prepares talent for",
+              "object": "global AI jobs",
+              "object_type": "job market",
+              "evidence_ids": [
+                "obs_e004fe1d181a6ad7"
+              ],
+              "quotes": [
+                "10 Academy - Preparing talent for global AI jobs, at workforce scale."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+              ]
+            },
+            {
+              "predicate": "has job placement rate of",
+              "object": "95%",
+              "object_type": "percentage",
+              "evidence_ids": [
+                "obs_e618484cebc07251"
+              ],
+              "quotes": [
+                "Alumni have seen 95% job placement in 12 months."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7112430610547109888-JkbV"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_c75db8b98e1505b8",
+          "source_ids": [
+            "src_c75db8b98e1505b8"
+          ],
+          "source_urls": [
+            "https://t.me/s/aiqemtech?q=%23Ethiopia"
+          ],
+          "observation_count": 3,
+          "claims": [
+            {
+              "predicate": "advertises_with",
+              "object": "AiQEM Tech",
+              "object_type": "Company",
+              "evidence_ids": [
+                "obs_3fcea31e98c97204"
+              ],
+              "quotes": [
+                "10Academy runs their ads with us and has achieved 10 times their reach!"
+              ],
+              "source_urls": [
+                "https://t.me/s/aiqemtech?q=%23Ethiopia"
+              ]
+            },
+            {
+              "predicate": "associated_with",
+              "object": "10Academy",
+              "object_type": "Company",
+              "evidence_ids": [
+                "obs_73585791967a1028"
+              ],
+              "quotes": [
+                "The knowledge gained from 10 Academy has shaped our success."
+              ],
+              "source_urls": [
+                "https://t.me/s/aiqemtech?q=%23Ethiopia"
+              ]
+            },
+            {
+              "predicate": "supports",
+              "object": "10Academy",
+              "object_type": "Company",
+              "evidence_ids": [
+                "obs_7af3d28ce246b75d"
+              ],
+              "quotes": [
+                "We believe in the power of technology to change lives, and we’re excited to support the great work 10Academy is doing across Africa."
+              ],
+              "source_urls": [
+                "https://t.me/s/aiqemtech?q=%23Ethiopia"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_b3753d5845935efb",
+          "source_ids": [
+            "src_b3753d5845935efb"
+          ],
+          "source_urls": [
+            "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs"
+          ],
+          "observation_count": 5,
+          "claims": [
+            {
+              "predicate": "launched",
+              "object": "new website",
+              "object_type": "website",
+              "evidence_ids": [
+                "obs_458392ca772497d9"
+              ],
+              "quotes": [
+                "We just launched our new website today at 10academy.org, showcasing more accurately what 10 Academy does and why we exist."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs"
+              ]
+            },
+            {
+              "predicate": "shown that they can create",
+              "object": "expert AI users for less than $200",
+              "object_type": "capability",
+              "evidence_ids": [
+                "obs_7f9e17ef7c2ede30"
+              ],
+              "quotes": [
+                "We've shown that we can create expert AI users for less than $200 (job results - too soon to say)."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs"
+              ]
+            },
+            {
+              "predicate": "opened",
+              "object": "two applications",
+              "object_type": "applications",
+              "evidence_ids": [
+                "obs_eb1ea58885f41786"
+              ],
+              "quotes": [
+                "if you know anyone who wants a great job in AI, check us out, we opened up two applications today."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs"
+              ]
+            },
+            {
+              "predicate": "shown that they can",
+              "object": "get people into global-level AI jobs for less than 2 months of salary",
+              "object_type": "capability",
+              "evidence_ids": [
+                "obs_eb6b0b4d53344d29"
+              ],
+              "quotes": [
+                "We've shown that we can do this to global-level AI jobs for less than 2 months of salary."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs"
+              ]
+            },
+            {
+              "predicate": "exists to",
+              "object": "get people into jobs commensurate with their ambition, at scale, at speed and sustainably",
+              "object_type": "mission",
+              "evidence_ids": [
+                "obs_f3438771d0e6c564"
+              ],
+              "quotes": [
+                "We exist to get people into jobs commensurate with their ambition, at scale, at speed and sustainably."
+              ],
+              "source_urls": [
+                "https://www.linkedin.com/posts/a2sharma_10-academy-activity-7213534415577116673-jXrs"
+              ]
+            }
+          ],
+          "resolved": false
+        },
+        {
+          "candidate_id": "candidate_src_143602202433b54d",
+          "source_ids": [
+            "src_143602202433b54d"
+          ],
+          "source_urls": [
+            "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising"
+          ],
+          "observation_count": 5,
+          "claims": [
+            {
+              "predicate": "has_public_repos",
+              "object": "4",
+              "object_type": "number",
+              "evidence_ids": [
+                "obs_61505d003149ce0a"
+              ],
+              "quotes": [
+                "\"public_repos\": 4"
+              ],
+              "source_urls": [
+                "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising"
+              ]
+            },
+            {
+              "predicate": "was_created_on",
+              "object": "2024-01-23T09:48:49Z",
+              "object_type": "date",
+              "evidence_ids": [
+                "obs_84a010be5d025ce4"
+              ],
+              "quotes": [
+                "\"created_at\": \"2024-01-23T09:48:49Z\""
+              ],
+              "source_urls": [
+                "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising"
+              ]
+            },
+            {
+              "predicate": "has_followers",
+              "object": "0",
+              "object_type": "number",
+              "evidence_ids": [
+                "obs_b917a0581f9f8728"
+              ],
+              "quotes": [
+                "\"followers\": 0"
+              ],
+              "source_urls": [
+                "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising"
+              ]
+            },
+            {
+              "predicate": "was_updated_on",
+              "object": "2024-01-23T19:05:49Z",
+              "object_type": "date",
+              "evidence_ids": [
+                "obs_dec66bd7f6d28a0f"
+              ],
+              "quotes": [
+                "\"updated_at\": \"2024-01-23T19:05:49Z\""
+              ],
+              "source_urls": [
+                "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising"
+              ]
+            },
+            {
+              "predicate": "has_following",
+              "object": "0",
+              "object_type": "number",
+              "evidence_ids": [
+                "obs_e5dfffc8a6ab2b37"
+              ],
+              "quotes": [
+                "\"following\": 0"
+              ],
+              "source_urls": [
+                "https://github.com/10Academy-FineTuned-LLM/Automated-Storyboard-Synthesis-for-Digital-Advertising"
+              ]
+            }
+          ],
+          "resolved": false
+        }
+      ],
+      "identity_link_count": 0,
+      "unresolved_link_count": 23,
+      "contradiction_count": 0,
+      "source_count": 11,
+      "observation_count": 51,
+      "decision_explanation": {
+        "summary": "Unresolved: the investigation produced evidence, but no accepted identity relationship connected enough source nodes to form one profile.",
+        "reasons": [
+          "Relevant source content is not the same as proof that two sources describe the same person.",
+          "The available comparisons did not provide an identity anchor strong enough to merge sources.",
+          "23 identity comparison(s) remained UNKNOWN because the evidence was insufficient."
+        ],
+        "next_steps": [
+          "Enrich the investigation input with a platform username, an employer or organization, a city or country to narrow the target.",
+          "Review UNKNOWN and CONTRADICTED comparisons before deciding whether another permitted search is justified."
+        ],
+        "comparison_counts": {
+          "VERIFIED": 0,
+          "PROBABLE": 0,
+          "UNKNOWN": 23,
+          "CONTRADICTED": 0,
+          "REJECTED": 0
+        },
+        "accepted_identity_links": 0,
+        "connected_profile_count": 0
+      },
+      "investigation_input": {
+        "domains": [],
+        "founders": [
+          "Arun Sharma"
+        ],
+        "industry": "Tech",
+        "products": [],
+        "locations": [],
+        "executives": [],
+        "company_name": "10academy",
+        "additional_clues": [],
+        "known_repositories": []
+      }
+    },
+    "dual_track": {
+      "investigation_id": "biz_6829898f2a2e",
+      "deterministic_verdict": "UNKNOWN",
+      "deterministic_confidence": 0.34,
+      "deterministic_reasoning": [
+        "CROSS_PLATFORM_IDENTIFIER_SIMILARITY",
+        "MATCHING_SOURCE_IDENTIFIER",
+        "SAME_SOURCE_DOMAIN",
+        "UNKNOWN_PREDICATE_CARDINALITY",
+        "cross_platform_identifier_similarity",
+        "matching_source_identifier",
+        "same_normalized_subject"
+      ],
+      "semantic_verdict": "likely_same_business",
+      "semantic_confidence": "high",
+      "semantic_reasoning": "The observations provide strong evidence that all refer to the same organization, 10 Academy, which is focused on training young African graduates for careers in technology, particularly in AI. The consistent mention of the founder, Arun Sharma, the location in Addis Ababa, Ethiopia, and the specific training programs offered, such as the AI-Enabled Full-Stack Developer Training, support the conclusion that these observations describe a single entity rather than multiple businesses or insufficient evidence.",
+      "semantic_caveats": [],
+      "semantic_profile": {
+        "verdict": "likely_same_business",
+        "confidence_label": "high",
+        "likely_name": "10academy",
+        "headline": "10 Academy - Empowering African Talent for Global AI Careers",
+        "profile_summary": "10 Academy is a registered not-for-profit organization headquartered in Addis Ababa, Ethiopia, focused on preparing young African graduates for careers in AI and technology through innovative training programs.",
+        "attributes": [
+          {
+            "field": "founders",
+            "value": "Arun Sharma",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_0db2ec5d118798e8",
+              "obs_0de569e71adf73df",
+              "obs_133b92799145bc4c"
+            ],
+            "caveat": "Founder information is based on multiple observations."
+          },
+          {
+            "field": "industry",
+            "value": "Tech",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_0de569e71adf73df",
+              "obs_24af434342ae755c",
+              "obs_94288e867549fe05"
+            ],
+            "caveat": "Industry classification is consistent across multiple sources."
+          },
+          {
+            "field": "location",
+            "value": "Addis Ababa, Ethiopia",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_cc1d4465bb086cb3"
+            ],
+            "caveat": "Location is explicitly stated in an official source."
+          },
+          {
+            "field": "products",
+            "value": "AI-Enabled Full-Stack Developer Training",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_0de569e71adf73df",
+              "obs_26135719166e14bb",
+              "obs_fc9efea9f258d6e7"
+            ],
+            "caveat": "Product offerings are detailed in multiple observations."
+          }
+        ],
+        "reasoning": "The observations provide strong evidence that all refer to the same organization, 10 Academy, which is focused on training young African graduates for careers in technology, particularly in AI. The consistent mention of the founder, Arun Sharma, the location in Addis Ababa, Ethiopia, and the specific training programs offered, such as the AI-Enabled Full-Stack Developer Training, support the conclusion that these observations describe a single entity rather than multiple businesses or insufficient evidence.",
+        "supporting_observation_ids": [
+          "obs_0db2ec5d118798e8",
+          "obs_0de569e71adf73df",
+          "obs_133b92799145bc4c",
+          "obs_cc1d4465bb086cb3",
+          "obs_24af434342ae755c",
+          "obs_94288e867549fe05",
+          "obs_fc9efea9f258d6e7"
+        ],
+        "conflicting_observation_ids": [],
+        "out_of_scope_observation_ids": [],
+        "excluded_evidence_summary": null,
+        "caveats": []
+      },
+      "agreement": "one_abstained",
+      "suggested_action": "Review the cited observations and add an official domain, repository, founder, or product clue before treating this as one business.",
+      "generated_at": "2026-09-08T21:52:46.745205+00:00"
+    }
+  }
+}

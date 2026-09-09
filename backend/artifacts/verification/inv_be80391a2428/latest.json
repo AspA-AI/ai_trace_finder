@@ -1,0 +1,2536 @@
+{
+  "investigation_id": "inv_be80391a2428",
+  "run_id": "verify_447b33edda20",
+  "generated_at": "2026-09-09T08:31:23.824877+00:00",
+  "stages": {
+    "observations": [
+      {
+        "observation_id": "obs_022823131edf8f1f",
+        "source_id": "src_e99a11c82dc73da9",
+        "subject_text": "Daniel gizmo",
+        "predicate": "has a channel called",
+        "object_text": "spy ninja",
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:29:54.951005Z",
+        "source_published_at": null,
+        "quote": "He is a you tuber and has its own channel called spy ninja",
+        "source_url": "https://www.youtube.com/@danielgizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_135d5e579943d39d",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is a member of",
+        "object_text": "Spy Ninjas",
+        "object_type": "group",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "He has been a member of the Spy Ninjas content group.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_1f433cd18bd819bf",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "has a YouTube channel",
+        "object_text": "over 7 million subscribers",
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "Gizmo's YouTube channel currently has over 7 million subscribers with more than 100 videos and over 1.7 billion views.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_2676dfbe89d1552c",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is a",
+        "object_text": "musician",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "Apart from being a part of Spy Ninjas and recording mostly comedic content, Ferri is also a musician.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3726ec678bfe1cd0",
+        "source_id": "src_e410c6f4ac17adcc",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "was born on",
+        "object_text": "October 15, 1993",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026Z",
+        "source_published_at": null,
+        "quote": "Daniel Gizmo was born on October 15, 1993.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_3f5b774cf15d6d8e",
+        "source_id": "src_e410c6f4ac17adcc",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is associated with",
+        "object_text": "the YouTube group Spy Ninjas",
+        "object_type": "group",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026Z",
+        "source_published_at": null,
+        "quote": "Gizmo was among the associates behind the YouTube group Spy Ninjas.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_4b1d7a8faa6e273a",
+        "source_id": "src_e410c6f4ac17adcc",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is a",
+        "object_text": "musical artist / YouTuber",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026Z",
+        "source_published_at": null,
+        "quote": "He is a celebrated social media personality famous for his self-titled YouTube channel.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_5ccaa06fafb0857d",
+        "source_id": "src_e410c6f4ac17adcc",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is dating",
+        "object_text": "Regina Ginera",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026Z",
+        "source_published_at": null,
+        "quote": "He has been linked to Regina Ginera, and it is believed that the two are romantically involved.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7853ca8cee355816",
+        "source_id": "src_e410c6f4ac17adcc",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is currently based in",
+        "object_text": "Las Vegas, Nevada",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026Z",
+        "source_published_at": null,
+        "quote": "He moved to Las Vegas, Nevada, and this is where he is currently based.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_7a47655ad95ad671",
+        "source_id": "src_e410c6f4ac17adcc",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "project",
+        "object_text": "his second YouTube channel",
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026Z",
+        "source_published_at": null,
+        "quote": "Gizmo creates his second YouTube channel, which he titles Daniel Gizmo, and it becomes his celebrity channel.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_818c38daefd85c24",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "first gained a following by posting",
+        "object_text": "cover songs to YouTube",
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "He first gained a following by posting cover songs to YouTube.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_89cff707120b1ac8",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is single",
+        "object_text": "in terms of relationship status",
+        "object_type": "relationship status",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "It is not clear whether he is dating anyone at the moment.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_99a99c237049043e",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "was born on",
+        "object_text": "October 15, 1993",
+        "object_type": "date of birth",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "Daniel Gizmo was born in 1993 in Morristown, New Jersey, United States.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_a2fe99f10debc6ec",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "dated",
+        "object_text": "Regina Ginera",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "He then dated Regina Ginera but the couple announced their breakup in August 2022.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_b07da0a7a539a3a6",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "has a younger sister named",
+        "object_text": "Kimberlee Ferri",
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "He has a younger sister named Kimberlee Ferri.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_be88b2afc03390e7",
+        "source_id": "src_04a8193184f97201",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "has a channel called",
+        "object_text": "Spy Ninja",
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:29:20.530524Z",
+        "source_published_at": null,
+        "quote": "We are the Spy Ninjas, a team of YouTubers on a mission to save the internet from the evil hacker organization, Project Zorgo.",
+        "source_url": "https://spyninjas.net/team-legacy-daniel.php",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_c5720ae9a37befa1",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "location",
+        "object_text": "Las Vegas, Nevada",
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "he's been based in Las Vegas, Nevada.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_db5845d27810d6eb",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "has a YouTube channel",
+        "object_text": "Daniel Gizmo YouTube channel",
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "YouTuber who posts challenges and gaming content amongst other videos to his Daniel Gizmo YouTube channel, which has earned over 2.2 million subscribers.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_dcae070c21b07144",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is known for",
+        "object_text": "posting challenges, pranks and gaming videos",
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "He is known for posting challenges, pranks and gaming videos together with his members of Spy Ninjas.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_dff858a67ed0e47d",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "launched his first YouTube channel",
+        "object_text": "April 2013",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "He launched his first YouTube channel in April 2013.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e61a633cd9bd7afd",
+        "source_id": "src_b504bd357e2fabc0",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "was born on",
+        "object_text": "October 15, 1993",
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256Z",
+        "source_published_at": null,
+        "quote": "Born on October 15, 1993",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_e7afd41e84ef94c5",
+        "source_id": "src_04a8193184f97201",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is a",
+        "object_text": "musical artist / youtuber",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:29:20.530524Z",
+        "source_published_at": null,
+        "quote": "Daniel Gizmo is a former member of Project Zorgo, who quit the organization to join forces with the Spy Ninjas.",
+        "source_url": "https://spyninjas.net/team-legacy-daniel.php",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_f3f698d081517d4f",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "has a separate channel",
+        "object_text": "where he posts covers of various popular songs",
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "He has a separate channel, where he posts covers of various popular songs from such artists as Coldplay, Muse, Olivia Rodrigo and more.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      },
+      {
+        "observation_id": "obs_fd4e43330f03f7c4",
+        "source_id": "src_9640d27ce59c7eab",
+        "subject_text": "Daniel Gizmo",
+        "predicate": "is a",
+        "object_text": "YouTube personality and social media influencer",
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037Z",
+        "source_published_at": null,
+        "quote": "Daniel Gizmo is a YouTube personality and social media influencer from the United States.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "extraction_model": "gpt-4o-mini",
+        "extraction_version": "1.0"
+      }
+    ],
+    "normalized_observations": [
+      {
+        "observation_id": "obs_022823131edf8f1f",
+        "source_id": "src_e99a11c82dc73da9",
+        "predicate": "has a channel called",
+        "original_subject": "Daniel gizmo",
+        "original_object": "spy ninja",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "spy ninja",
+        "quote": "He is a you tuber and has its own channel called spy ninja",
+        "source_url": "https://www.youtube.com/@danielgizmo",
+        "source_domain": "youtube.com",
+        "source_platform": "youtube.com",
+        "source_identifiers": [
+          "@danielgizmo"
+        ],
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:29:54.951005+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_135d5e579943d39d",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "is a member of",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Spy Ninjas",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "spy ninjas",
+        "quote": "He has been a member of the Spy Ninjas content group.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "group",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_1f433cd18bd819bf",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "has a YouTube channel",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "over 7 million subscribers",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "over 7 million subscribers",
+        "quote": "Gizmo's YouTube channel currently has over 7 million subscribers with more than 100 videos and over 1.7 billion views.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_2676dfbe89d1552c",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "is a",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "musician",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "musician",
+        "quote": "Apart from being a part of Spy Ninjas and recording mostly comedic content, Ferri is also a musician.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3726ec678bfe1cd0",
+        "source_id": "src_e410c6f4ac17adcc",
+        "predicate": "was born on",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "October 15, 1993",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "october 15, 1993",
+        "quote": "Daniel Gizmo was born on October 15, 1993.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_domain": "nationaltoday.com",
+        "source_platform": "nationaltoday.com",
+        "source_identifiers": [
+          "birthday",
+          "daniel-gizmo"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_3f5b774cf15d6d8e",
+        "source_id": "src_e410c6f4ac17adcc",
+        "predicate": "is associated with",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "the YouTube group Spy Ninjas",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "the youtube group spy ninjas",
+        "quote": "Gizmo was among the associates behind the YouTube group Spy Ninjas.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_domain": "nationaltoday.com",
+        "source_platform": "nationaltoday.com",
+        "source_identifiers": [
+          "birthday",
+          "daniel-gizmo"
+        ],
+        "object_type": "group",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_4b1d7a8faa6e273a",
+        "source_id": "src_e410c6f4ac17adcc",
+        "predicate": "is a",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "musical artist / YouTuber",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "musical artist / youtuber",
+        "quote": "He is a celebrated social media personality famous for his self-titled YouTube channel.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_domain": "nationaltoday.com",
+        "source_platform": "nationaltoday.com",
+        "source_identifiers": [
+          "birthday",
+          "daniel-gizmo"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_5ccaa06fafb0857d",
+        "source_id": "src_e410c6f4ac17adcc",
+        "predicate": "is dating",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Regina Ginera",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "regina ginera",
+        "quote": "He has been linked to Regina Ginera, and it is believed that the two are romantically involved.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_domain": "nationaltoday.com",
+        "source_platform": "nationaltoday.com",
+        "source_identifiers": [
+          "birthday",
+          "daniel-gizmo"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7853ca8cee355816",
+        "source_id": "src_e410c6f4ac17adcc",
+        "predicate": "is currently based in",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Las Vegas, Nevada",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "las vegas, nevada",
+        "quote": "He moved to Las Vegas, Nevada, and this is where he is currently based.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_domain": "nationaltoday.com",
+        "source_platform": "nationaltoday.com",
+        "source_identifiers": [
+          "birthday",
+          "daniel-gizmo"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_7a47655ad95ad671",
+        "source_id": "src_e410c6f4ac17adcc",
+        "predicate": "project",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "his second YouTube channel",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "his second youtube channel",
+        "quote": "Gizmo creates his second YouTube channel, which he titles Daniel Gizmo, and it becomes his celebrity channel.",
+        "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_domain": "nationaltoday.com",
+        "source_platform": "nationaltoday.com",
+        "source_identifiers": [
+          "birthday",
+          "daniel-gizmo"
+        ],
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:40.504026+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_818c38daefd85c24",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "first gained a following by posting",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "cover songs to YouTube",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "cover songs to youtube",
+        "quote": "He first gained a following by posting cover songs to YouTube.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_89cff707120b1ac8",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "is single",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "in terms of relationship status",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "in terms of relationship status",
+        "quote": "It is not clear whether he is dating anyone at the moment.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "relationship status",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_99a99c237049043e",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "was born on",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "October 15, 1993",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "october 15, 1993",
+        "quote": "Daniel Gizmo was born in 1993 in Morristown, New Jersey, United States.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "date of birth",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_a2fe99f10debc6ec",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "dated",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Regina Ginera",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "Regina Ginera",
+        "quote": "He then dated Regina Ginera but the couple announced their breakup in August 2022.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_b07da0a7a539a3a6",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "has a younger sister named",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Kimberlee Ferri",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "kimberlee ferri",
+        "quote": "He has a younger sister named Kimberlee Ferri.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "person",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_be88b2afc03390e7",
+        "source_id": "src_04a8193184f97201",
+        "predicate": "has a channel called",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Spy Ninja",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "spy ninja",
+        "quote": "We are the Spy Ninjas, a team of YouTubers on a mission to save the internet from the evil hacker organization, Project Zorgo.",
+        "source_url": "https://spyninjas.net/team-legacy-daniel.php",
+        "source_domain": "spyninjas.net",
+        "source_platform": "spyninjas.net",
+        "source_identifiers": [
+          "team-legacy-daniel.php"
+        ],
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:29:20.530524+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_c5720ae9a37befa1",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "location",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Las Vegas, Nevada",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "las vegas, nevada",
+        "quote": "he's been based in Las Vegas, Nevada.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "location",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_db5845d27810d6eb",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "has a YouTube channel",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "Daniel Gizmo YouTube channel",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "daniel gizmo youtube channel",
+        "quote": "YouTuber who posts challenges and gaming content amongst other videos to his Daniel Gizmo YouTube channel, which has earned over 2.2 million subscribers.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_dcae070c21b07144",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "is known for",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "posting challenges, pranks and gaming videos",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "posting challenges, pranks and gaming videos",
+        "quote": "He is known for posting challenges, pranks and gaming videos together with his members of Spy Ninjas.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "activity",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_dff858a67ed0e47d",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "launched his first YouTube channel",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "April 2013",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "april 2013",
+        "quote": "He launched his first YouTube channel in April 2013.",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e61a633cd9bd7afd",
+        "source_id": "src_b504bd357e2fabc0",
+        "predicate": "was born on",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "October 15, 1993",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "october 15, 1993",
+        "quote": "Born on October 15, 1993",
+        "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_domain": "famousbirthdays.com",
+        "source_platform": "famousbirthdays.com",
+        "source_identifiers": [
+          "daniel-ferri.html"
+        ],
+        "object_type": "date",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:10.914256+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_e7afd41e84ef94c5",
+        "source_id": "src_04a8193184f97201",
+        "predicate": "is a",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "musical artist / youtuber",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "musical artist / youtuber",
+        "quote": "Daniel Gizmo is a former member of Project Zorgo, who quit the organization to join forces with the Spy Ninjas.",
+        "source_url": "https://spyninjas.net/team-legacy-daniel.php",
+        "source_domain": "spyninjas.net",
+        "source_platform": "spyninjas.net",
+        "source_identifiers": [
+          "team-legacy-daniel.php"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:29:20.530524+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_f3f698d081517d4f",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "has a separate channel",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "where he posts covers of various popular songs",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "where he posts covers of various popular songs",
+        "quote": "He has a separate channel, where he posts covers of various popular songs from such artists as Coldplay, Muse, Olivia Rodrigo and more.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "YouTube channel",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      },
+      {
+        "observation_id": "obs_fd4e43330f03f7c4",
+        "source_id": "src_9640d27ce59c7eab",
+        "predicate": "is a",
+        "original_subject": "Daniel Gizmo",
+        "original_object": "YouTube personality and social media influencer",
+        "normalized_subject": "daniel gizmo",
+        "normalized_object": "youtube personality and social media influencer",
+        "quote": "Daniel Gizmo is a YouTube personality and social media influencer from the United States.",
+        "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_domain": "legit.ng",
+        "source_platform": "legit.ng",
+        "source_identifiers": [
+          "1437354-daniel-gizmos-biography-age-height-real-girlfriend.html"
+        ],
+        "object_type": "occupation",
+        "valid_from": null,
+        "valid_until": null,
+        "observed_at": "2026-09-09T08:30:52.538037+00:00",
+        "source_published_at": null
+      }
+    ],
+    "candidates": [
+      {
+        "left_observation_id": "obs_2676dfbe89d1552c",
+        "right_observation_id": "obs_fd4e43330f03f7c4",
+        "comparison_type": "fact_consistency",
+        "reasons": [
+          "same_source",
+          "same_predicate_different_object"
+        ],
+        "left_source_id": "src_9640d27ce59c7eab",
+        "right_source_id": "src_9640d27ce59c7eab",
+        "left_evidence_ids": [
+          "obs_2676dfbe89d1552c"
+        ],
+        "right_evidence_ids": [
+          "obs_fd4e43330f03f7c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_135d5e579943d39d",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e99a11c82dc73da9",
+        "right_source_id": "src_b504bd357e2fabc0",
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ]
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_1f433cd18bd819bf",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e99a11c82dc73da9",
+        "right_source_id": "src_9640d27ce59c7eab",
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_e99a11c82dc73da9",
+        "right_source_id": "src_e410c6f4ac17adcc",
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ]
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "left_source_id": "src_e99a11c82dc73da9",
+        "right_source_id": "src_04a8193184f97201",
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ]
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_1f433cd18bd819bf",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "left_source_id": "src_b504bd357e2fabc0",
+        "right_source_id": "src_9640d27ce59c7eab",
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ]
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "left_source_id": "src_b504bd357e2fabc0",
+        "right_source_id": "src_e410c6f4ac17adcc",
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ]
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_b504bd357e2fabc0",
+        "right_source_id": "src_04a8193184f97201",
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ]
+      },
+      {
+        "left_observation_id": "obs_1f433cd18bd819bf",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "left_source_id": "src_9640d27ce59c7eab",
+        "right_source_id": "src_e410c6f4ac17adcc",
+        "left_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ]
+      },
+      {
+        "left_observation_id": "obs_1f433cd18bd819bf",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_subject"
+        ],
+        "left_source_id": "src_9640d27ce59c7eab",
+        "right_source_id": "src_04a8193184f97201",
+        "left_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ]
+      },
+      {
+        "left_observation_id": "obs_3726ec678bfe1cd0",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "reasons": [
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "left_source_id": "src_e410c6f4ac17adcc",
+        "right_source_id": "src_04a8193184f97201",
+        "left_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ]
+      }
+    ],
+    "deterministic_results": [
+      {
+        "left_observation_id": "obs_2676dfbe89d1552c",
+        "right_observation_id": "obs_fd4e43330f03f7c4",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_2676dfbe89d1552c",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "left_evidence_ids": [
+          "obs_2676dfbe89d1552c"
+        ],
+        "right_evidence_ids": [
+          "obs_fd4e43330f03f7c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_135d5e579943d39d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_1f433cd18bd819bf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.46,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_1f433cd18bd819bf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd",
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.46,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd",
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_1f433cd18bd819bf",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.34,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4",
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "left_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_1f433cd18bd819bf",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.2,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_3726ec678bfe1cd0",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.46,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "final_results": [
+      {
+        "left_observation_id": "obs_2676dfbe89d1552c",
+        "right_observation_id": "obs_fd4e43330f03f7c4",
+        "comparison_type": "fact_consistency",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": null,
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": true,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": true,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": false,
+          "independent_sources": false
+        },
+        "reason_codes": [
+          "MATCHING_SOURCE_IDENTIFIER",
+          "SAME_SOURCE_DOMAIN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_predicate_different_object",
+          "same_source"
+        ],
+        "supporting_observation_ids": [
+          "obs_2676dfbe89d1552c",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "left_evidence_ids": [
+          "obs_2676dfbe89d1552c"
+        ],
+        "right_evidence_ids": [
+          "obs_fd4e43330f03f7c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_135d5e579943d39d",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_1f433cd18bd819bf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.285,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_022823131edf8f1f",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.46,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_022823131edf8f1f"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_1f433cd18bd819bf",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.14,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd",
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.46,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd",
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_135d5e579943d39d",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "UNKNOWN",
+        "confidence_score": 0.085,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_UNKNOWN",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_135d5e579943d39d",
+          "obs_818c38daefd85c24",
+          "obs_a2fe99f10debc6ec",
+          "obs_b07da0a7a539a3a6",
+          "obs_c5720ae9a37befa1",
+          "obs_db5845d27810d6eb",
+          "obs_dff858a67ed0e47d",
+          "obs_e61a633cd9bd7afd"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_1f433cd18bd819bf",
+        "right_observation_id": "obs_3726ec678bfe1cd0",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.34,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4",
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "left_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "right_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_1f433cd18bd819bf",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "TEMPORAL",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.2,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": false,
+          "same_claim": false,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": true,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "UNKNOWN_PREDICATE_CARDINALITY",
+          "same_normalized_subject"
+        ],
+        "supporting_observation_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_89cff707120b1ac8",
+          "obs_99a99c237049043e",
+          "obs_dcae070c21b07144",
+          "obs_f3f698d081517d4f",
+          "obs_fd4e43330f03f7c4"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      },
+      {
+        "left_observation_id": "obs_3726ec678bfe1cd0",
+        "right_observation_id": "obs_be88b2afc03390e7",
+        "comparison_type": "identity_link",
+        "state": "UNKNOWN",
+        "deterministic_decision": "UNKNOWN",
+        "semantic_decision": "MATCH",
+        "confidence_score": 0.46,
+        "feature_values": {
+          "same_normalized_subject": true,
+          "same_identifier": false,
+          "matching_source_identifier": false,
+          "cross_platform_identifier_similarity": false,
+          "same_normalized_object": true,
+          "same_claim": true,
+          "same_source_domain": false,
+          "explicit_crosslink": false,
+          "different_object_same_predicate": false,
+          "predicate_cardinality": "unknown",
+          "validity_overlap": null,
+          "conflicting_claim": false,
+          "different_source": true,
+          "independent_sources": true
+        },
+        "reason_codes": [
+          "SEMANTIC_MATCH",
+          "same_normalized_object",
+          "same_normalized_subject",
+          "same_predicate_and_object"
+        ],
+        "supporting_observation_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671",
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "left_evidence_ids": [
+          "obs_3726ec678bfe1cd0",
+          "obs_3f5b774cf15d6d8e",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_7a47655ad95ad671"
+        ],
+        "right_evidence_ids": [
+          "obs_be88b2afc03390e7",
+          "obs_e7afd41e84ef94c5"
+        ],
+        "verifier_version": "hybrid-3.1"
+      }
+    ],
+    "dual_track": {
+      "investigation_id": "inv_be80391a2428",
+      "deterministic_verdict": "UNKNOWN",
+      "deterministic_confidence": 0.46,
+      "deterministic_reasoning": [
+        "SEMANTIC_MATCH",
+        "SEMANTIC_UNKNOWN",
+        "UNKNOWN_PREDICATE_CARDINALITY",
+        "same_normalized_object",
+        "same_normalized_subject",
+        "same_predicate_and_object"
+      ],
+      "semantic_verdict": "likely_same_person",
+      "semantic_confidence": "high",
+      "semantic_reasoning": "The observations consistently describe a single individual named Daniel Gizmo, who is a YouTuber and musician associated with the Spy Ninjas group. Key details such as his YouTube channel, occupation, and date of birth corroborate across multiple sources. There are no conflicting details that suggest multiple individuals, and the evidence strongly supports the identity of one person.",
+      "semantic_caveats": [],
+      "semantic_profile": {
+        "verdict": "likely_same_person",
+        "confidence_label": "high",
+        "likely_name": "Daniel Gizmo",
+        "headline": "Musical Artist / YouTuber",
+        "profile_summary": "Daniel Gizmo is a YouTuber and musician known for his channel 'Spy Ninja', where he creates comedic content and music. He has over 7 million subscribers and is associated with the Spy Ninjas content group. Born on October 15, 1993, he is currently based in Las Vegas, Nevada.",
+        "attributes": [
+          {
+            "field": "occupation",
+            "value": "musical artist / youtuber",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_2676dfbe89d1552c",
+              "obs_4b1d7a8faa6e273a",
+              "obs_e7afd41e84ef94c5"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "location",
+            "value": "Las Vegas, Nevada",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_7853ca8cee355816",
+              "obs_c5720ae9a37befa1"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "YouTube channel",
+            "value": "Spy Ninja",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_022823131edf8f1f",
+              "obs_135d5e579943d39d"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "date of birth",
+            "value": "October 15, 1993",
+            "confidence_label": "high",
+            "supporting_observation_ids": [
+              "obs_3726ec678bfe1cd0",
+              "obs_99a99c237049043e",
+              "obs_e61a633cd9bd7afd"
+            ],
+            "caveat": null
+          },
+          {
+            "field": "relationship status",
+            "value": "linked to Regina Ginera",
+            "confidence_label": "medium",
+            "supporting_observation_ids": [
+              "obs_5ccaa06fafb0857d",
+              "obs_a2fe99f10debc6ec"
+            ],
+            "caveat": "Conflicting reports about current relationship status."
+          }
+        ],
+        "photo_url": null,
+        "photo_source_observation_id": null,
+        "reasoning": "The observations consistently describe a single individual named Daniel Gizmo, who is a YouTuber and musician associated with the Spy Ninjas group. Key details such as his YouTube channel, occupation, and date of birth corroborate across multiple sources. There are no conflicting details that suggest multiple individuals, and the evidence strongly supports the identity of one person.",
+        "supporting_observation_ids": [
+          "obs_022823131edf8f1f",
+          "obs_135d5e579943d39d",
+          "obs_1f433cd18bd819bf",
+          "obs_2676dfbe89d1552c",
+          "obs_3726ec678bfe1cd0",
+          "obs_4b1d7a8faa6e273a",
+          "obs_5ccaa06fafb0857d",
+          "obs_7853ca8cee355816",
+          "obs_99a99c237049043e",
+          "obs_c5720ae9a37befa1"
+        ],
+        "conflicting_observation_ids": [
+          "obs_89cff707120b1ac8"
+        ],
+        "out_of_scope_observation_ids": [],
+        "excluded_evidence_summary": null,
+        "caveats": []
+      },
+      "image_candidates": [
+        {
+          "source_id": "src_9640d27ce59c7eab",
+          "source_url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+          "image_url": "https://cdn.legit.ng/images/1200x675/bf022923f5de1348.jpeg?v=1",
+          "observation_ids": [
+            "obs_1f433cd18bd819bf",
+            "obs_2676dfbe89d1552c",
+            "obs_89cff707120b1ac8",
+            "obs_99a99c237049043e",
+            "obs_dcae070c21b07144",
+            "obs_f3f698d081517d4f",
+            "obs_fd4e43330f03f7c4"
+          ]
+        },
+        {
+          "source_id": "src_b504bd357e2fabc0",
+          "source_url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+          "image_url": "https://www.famousbirthdays.com/faces/gizmo-daniel-image.jpg",
+          "observation_ids": [
+            "obs_135d5e579943d39d",
+            "obs_818c38daefd85c24",
+            "obs_a2fe99f10debc6ec",
+            "obs_b07da0a7a539a3a6",
+            "obs_c5720ae9a37befa1",
+            "obs_db5845d27810d6eb",
+            "obs_dff858a67ed0e47d",
+            "obs_e61a633cd9bd7afd"
+          ]
+        },
+        {
+          "source_id": "src_e410c6f4ac17adcc",
+          "source_url": "https://nationaltoday.com/birthday/daniel-gizmo",
+          "image_url": "https://nationaltoday.com/wp-content/uploads/2022/09/24-Daniel-Gizmo.jpg",
+          "observation_ids": [
+            "obs_3726ec678bfe1cd0",
+            "obs_3f5b774cf15d6d8e",
+            "obs_4b1d7a8faa6e273a",
+            "obs_5ccaa06fafb0857d",
+            "obs_7853ca8cee355816",
+            "obs_7a47655ad95ad671"
+          ]
+        }
+      ],
+      "agreement": "one_abstained",
+      "suggested_action": "No hard identity anchor (matching identifier, explicit cross-link) was found, even though the independent analysis leans toward one person. Adding a known GitHub handle, LinkedIn URL, or email to your search clues would let the deterministic check confirm this directly.",
+      "generated_at": "2026-09-09T08:31:23.820665+00:00"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 "use client";
 
-import InvestigationWorkspace from "./investigation-workspace";
+import InvestigationShell from "./investigation-shell";
 
 export default function Page() {
-  return <InvestigationWorkspace />;
+  return <InvestigationShell />;
 }

@@ -20,6 +20,14 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/api/business-investigations/[[...path]]",
+      "regex": "^/api/business\\-investigations(?:/(.+?))?(?:/)?$",
+      "routeKeys": {
+        "nxtPpath": "nxtPpath"
+      },
+      "namedRegex": "^/api/business\\-investigations(?:/(?<nxtPpath>.+?))?(?:/)?$"
+    },
+    {
       "page": "/api/evaluations/[...path]",
       "regex": "^/api/evaluations/(.+?)(?:/)?$",
       "routeKeys": {
@@ -34,6 +42,14 @@
         "nxtPpath": "nxtPpath"
       },
       "namedRegex": "^/api/investigations/(?<nxtPpath>.+?)(?:/)?$"
+    },
+    {
+      "page": "/business-investigations/[investigation_id]",
+      "regex": "^/business\\-investigations/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPinvestigation_id": "nxtPinvestigation_id"
+      },
+      "namedRegex": "^/business\\-investigations/(?<nxtPinvestigation_id>[^/]+?)(?:/)?$"
     },
     {
       "page": "/runs/[investigation_id]",
@@ -56,6 +72,18 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/business-investigations",
+      "regex": "^/business\\-investigations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/business\\-investigations(?:/)?$"
+    },
+    {
+      "page": "/business-investigations/new",
+      "regex": "^/business\\-investigations/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/business\\-investigations/new(?:/)?$"
     },
     {
       "page": "/evaluation",

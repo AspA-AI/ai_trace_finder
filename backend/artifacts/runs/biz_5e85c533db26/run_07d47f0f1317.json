@@ -1,0 +1,657 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "biz_5e85c533db26",
+  "run_id": "run_07d47f0f1317",
+  "started_at": "2026-09-03T17:04:25.995188+00:00",
+  "completed_at": "2026-09-03T17:08:13.222523+00:00",
+  "clues": {
+    "company_name": "Basecamp",
+    "domains": [
+      "basecamp.com"
+    ],
+    "industry": "project management software",
+    "locations": [
+      "Chicago"
+    ],
+    "founders": [],
+    "executives": [],
+    "products": [
+      "Basecamp"
+    ],
+    "known_repositories": [],
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-09-03T17:04:25.995682+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 3,
+        "queries": [
+          "\"Basecamp\"",
+          "\"Basecamp\" project management software Chicago Basecamp",
+          "basecamp.com"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-09-03T17:04:26.842384+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "biz_5e85c533db26",
+        "run_id": "run_07d47f0f1317"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-09-03T17:04:26.842473+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 3
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-09-03T17:04:26.842801+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Basecamp\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-09-03T17:04:29.465839+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Basecamp\"",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-09-03T17:04:29.465847+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Basecamp\" project management software Chicago Basecamp"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-09-03T17:04:31.625709+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Basecamp\" project management software Chicago Basecamp",
+        "result_count": 10,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-09-03T17:04:31.625726+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "basecamp.com"
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-09-03T17:04:33.103264+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "basecamp.com",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-09-03T17:04:33.103845+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 18
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-09-03T17:04:40.125005+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://apps.apple.com/us/app/basecamp-project-management/id1015603248",
+        "source_id": "src_5fd21cb96a742568",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-09-03T17:04:47.949597+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_5fd21cb96a742568",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-09-03T17:04:55.928256+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.linkedin.com/products/37signals-basecamp",
+        "source_id": "src_ce989ec33e16e713",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-09-03T17:04:59.410786+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_ce989ec33e16e713",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-09-03T17:05:05.596196+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://basecamp.com/",
+        "source_id": "src_23c7898f8bd428f3",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-09-03T17:05:12.206071+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_23c7898f8bd428f3",
+        "candidate_observation_count": 11,
+        "accepted_observation_count": 11
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-09-03T17:05:14.773219+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.g2.com/products/basecamp/reviews",
+        "error": "Client error '403 Forbidden' for url 'https://www.g2.com/products/basecamp/reviews'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-09-03T17:05:24.948705+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://play.google.com/store/apps/details?id=com.basecamp.bc3&hl=en_US",
+        "source_id": "src_3d6d3594b67cc5d9",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-09-03T17:05:29.763396+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_3d6d3594b67cc5d9",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-09-03T17:05:40.406491+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/basecamp?lang=en",
+        "source_id": "src_0beba8d3e0dfba71",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-09-03T17:05:45.190392+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_0beba8d3e0dfba71",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-09-03T17:05:53.885804+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.garmin.com/en-US/software/basecamp",
+        "source_id": "src_29b44372a8b715f9",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-09-03T17:05:54.883207+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_29b44372a8b715f9",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-09-03T17:06:02.188694+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/basecamphq",
+        "source_id": "src_fb2239a58ac5f7fc",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-09-03T17:06:05.087091+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_fb2239a58ac5f7fc",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-09-03T17:06:17.728385+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.smarttask.io/blog/basecamp-project-management",
+        "source_id": "src_adb40b87366cae8c",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-09-03T17:06:25.160328+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_adb40b87366cae8c",
+        "candidate_observation_count": 13,
+        "accepted_observation_count": 13
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-09-03T17:06:38.063858+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://thedigitalprojectmanager.com/tools/basecamp-review",
+        "source_id": "src_997150ecda028bd9",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-09-03T17:06:44.053662+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_997150ecda028bd9",
+        "candidate_observation_count": 9,
+        "accepted_observation_count": 9
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-09-03T17:07:00.450932+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/watch?v=VrnTmv0hz3U",
+        "source_id": "src_4b8c7224c0776e41",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-09-03T17:07:01.143991+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4b8c7224c0776e41",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-09-03T17:07:05.539947+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.reddit.com/r/software/comments/1d5jc8b/basecamp_project_management_software_review",
+        "source_id": "src_c245c8e2353a8625",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-09-03T17:07:07.419128+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c245c8e2353a8625",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-09-03T17:07:13.013635+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://basecamp.com/pricing",
+        "source_id": "src_20d579e278d6dad7",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-09-03T17:07:20.287758+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_20d579e278d6dad7",
+        "candidate_observation_count": 9,
+        "accepted_observation_count": 9
+      }
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-09-03T17:07:28.250636+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://experiencebasecamp.org/pages/login",
+        "source_id": "src_66685724cdd7360d",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-09-03T17:07:28.998076+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_66685724cdd7360d",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-09-03T17:07:35.234452+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.wearetheoutdoorindustry.com/",
+        "source_id": "src_4e345ba3faae1c3f",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-09-03T17:07:39.760669+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_4e345ba3faae1c3f",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-09-03T17:07:41.997310+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.trustpilot.com/review/basecamp.com",
+        "error": "Client error '403 Forbidden' for url 'https://www.trustpilot.com/review/basecamp.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-09-03T17:07:49.760380+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://play.google.com/store/apps/details?id=com.basecamp.bc3",
+        "source_id": "src_2a29d8fe6dcfe774",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-09-03T17:07:53.869482+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_2a29d8fe6dcfe774",
+        "candidate_observation_count": 4,
+        "accepted_observation_count": 4
+      }
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-09-03T17:07:59.497605+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://x.com/basecamp",
+        "source_id": "src_f1220213f4e852a9",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 44,
+      "timestamp": "2026-09-03T17:08:03.486969+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_f1220213f4e852a9",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 45,
+      "timestamp": "2026-09-03T17:08:13.222610+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 81,
+        "retrieved_source_count": 16,
+        "error_count": 2,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 3,
+    "discovered_source_count": 18,
+    "retrieved_source_count": 16,
+    "observation_count": 81,
+    "error_count": 2
+  }
+}

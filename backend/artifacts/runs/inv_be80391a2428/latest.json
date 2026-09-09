@@ -1,0 +1,439 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "inv_be80391a2428",
+  "run_id": "run_55857bd75396",
+  "started_at": "2026-09-09T08:29:03.099566+00:00",
+  "completed_at": "2026-09-09T08:31:02.375210+00:00",
+  "clues": {
+    "name": "Daniel gizmo",
+    "usernames": [],
+    "occupation": "musical artist / youtuber",
+    "employers": [],
+    "locations": [],
+    "websites": [],
+    "github_handle": null,
+    "additional_clues": [
+      "He is a you tuber and has its own channel called spy ninja,  Look for his phone number"
+    ]
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-09-09T08:29:03.099701+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Daniel gizmo\"",
+          "\"Daniel gizmo\" musical artist / youtuber"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-09-09T08:29:04.152202+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "inv_be80391a2428",
+        "run_id": "run_55857bd75396"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-09-09T08:29:04.152224+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-09-09T08:29:04.152301+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Daniel gizmo\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-09-09T08:29:06.124615+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Daniel gizmo\"",
+        "result_count": 8,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-09-09T08:29:06.124626+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Daniel gizmo\" musical artist / youtuber"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-09-09T08:29:08.039259+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Daniel gizmo\" musical artist / youtuber",
+        "result_count": 7,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-09-09T08:29:08.039510+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 13
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-09-09T08:29:09.876525+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://spyninjas.fandom.com/wiki/Daniel",
+        "error": "Client error '403 Forbidden' for url 'https://spyninjas.fandom.com/wiki/Daniel'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-09-09T08:29:17.009871+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://spyninjas.net/team-legacy-daniel.php",
+        "source_id": "src_04a8193184f97201",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-09-09T08:29:20.530670+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_04a8193184f97201",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-09-09T08:29:21.655889+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://villains.fandom.com/wiki/Daniel_Gizmo",
+        "error": "Client error '403 Forbidden' for url 'https://villains.fandom.com/wiki/Daniel_Gizmo'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-09-09T08:29:45.770666+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/p/Daniel-Gizmo-100070368215291",
+        "source_id": "src_9918e2df24beecb0",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-09-09T08:29:47.001614+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9918e2df24beecb0",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-09-09T08:29:52.542913+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/@danielgizmo",
+        "source_id": "src_e99a11c82dc73da9",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-09-09T08:29:54.951121+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e99a11c82dc73da9",
+        "candidate_observation_count": 2,
+        "accepted_observation_count": 2
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-09-09T08:29:58.798390+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/channel/UCmFzvquJYoSDFhd9W0JhZKw/videos?app=desktop",
+        "source_id": "src_b69941b4dc8ee5cd",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-09-09T08:29:59.950507+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b69941b4dc8ee5cd",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-09-09T08:30:05.400989+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.famousbirthdays.com/people/daniel-ferri.html",
+        "source_id": "src_b504bd357e2fabc0",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-09-09T08:30:10.914455+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_b504bd357e2fabc0",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-09-09T08:30:30.469328+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/cwcdaniel?hl=en",
+        "source_id": "src_a43b614f9d4d7644",
+        "cache_hit": false,
+        "relevance_score": 0.0,
+        "is_relevant": false,
+        "relevance_reasons": []
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-09-09T08:30:30.469503+00:00",
+      "stage": "extraction",
+      "action": "skipped_source",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a43b614f9d4d7644",
+        "reason": "Relevance gate rejected the source."
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-09-09T08:30:35.574520+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://nationaltoday.com/birthday/daniel-gizmo",
+        "source_id": "src_e410c6f4ac17adcc",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-09-09T08:30:40.504214+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e410c6f4ac17adcc",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-09-09T08:30:41.558141+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://youtube.fandom.com/wiki/Daniel_Gizmo",
+        "error": "Client error '403 Forbidden' for url 'https://youtube.fandom.com/wiki/Daniel_Gizmo'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-09-09T08:30:48.023608+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.legit.ng/1437354-daniel-gizmos-biography-age-height-real-girlfriend.html",
+        "source_id": "src_9640d27ce59c7eab",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-09-09T08:30:52.538239+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9640d27ce59c7eab",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-09-09T08:30:56.513915+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.youtube.com/@danielgizmo/shorts",
+        "source_id": "src_1451de4ef7cc87bd",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-09-09T08:30:57.607207+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_1451de4ef7cc87bd",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-09-09T08:30:59.446788+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.linkedin.com/in/danielferricreator",
+        "error": "Invalid status code '999 <none>' for url 'https://www.linkedin.com/in/danielferricreator'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/999"
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-09-09T08:31:02.375228+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 25,
+        "retrieved_source_count": 9,
+        "error_count": 4,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 13,
+    "retrieved_source_count": 9,
+    "observation_count": 25,
+    "error_count": 4
+  }
+}

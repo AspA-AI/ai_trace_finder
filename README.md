@@ -64,3 +64,14 @@ Investigation API behavior is intentionally simple: `POST /investigations`
 creates and runs a new case, while `PUT /investigations/{id}` replaces the
 clues and reruns that existing case under the same ID. Verification is then
 run through the existing `POST /investigations/{id}/verification` endpoint.
+
+The isolated business-investigation extension lives under
+`backend/app/business_investigation/` and is exposed through
+`POST /business-investigations`. It accepts company name, domains, industry,
+locations, founders, executives, products, repositories, and additional
+clues. After retrieval, its verification endpoint runs two independent tracks:
+deterministic source comparison and a business-specific semantic model over the
+complete observation set. The tracks, their reasoning, and any disagreement are
+returned separately; neither silently overrides the other. This V2 route reuses
+retrieval infrastructure but does not alter the people-investigation contracts
+or endpoints.
