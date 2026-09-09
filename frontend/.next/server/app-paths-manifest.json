@@ -2,10 +2,14 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/api/investigations/route": "app/api/investigations/route.js",
   "/api/investigations/[...path]/route": "app/api/investigations/[...path]/route.js",
+  "/api/business-investigations/[[...path]]/route": "app/api/business-investigations/[[...path]]/route.js",
   "/api/evaluations/[...path]/route": "app/api/evaluations/[...path]/route.js",
+  "/business-investigations/new/page": "app/business-investigations/new/page.js",
   "/evaluation/page": "app/evaluation/page.js",
-  "/investigations/new/page": "app/investigations/new/page.js",
-  "/page": "app/page.js",
   "/graph/page": "app/graph/page.js",
-  "/runs/[investigation_id]/page": "app/runs/[investigation_id]/page.js"
+  "/page": "app/page.js",
+  "/business-investigations/[investigation_id]/page": "app/business-investigations/[investigation_id]/page.js",
+  "/investigations/new/page": "app/investigations/new/page.js",
+  "/runs/[investigation_id]/page": "app/runs/[investigation_id]/page.js",
+  "/business-investigations/page": "app/business-investigations/page.js"
 }

@@ -16,20 +16,50 @@
       "static/chunks/main-app.js",
       "static/chunks/app/api/investigations/route.js"
     ],
+    "/business-investigations/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/business-investigations/page.js"
+    ],
+    "/api/business-investigations/[[...path]]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/business-investigations/[[...path]]/route.js"
+    ],
+    "/business-investigations/new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/business-investigations/new/page.js"
+    ],
     "/api/investigations/[...path]/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/investigations/[...path]/route.js"
+    ],
+    "/business-investigations/[investigation_id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/business-investigations/[investigation_id]/page.js"
+    ],
+    "/graph/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/graph/page.js"
     ],
     "/investigations/new/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/investigations/new/page.js"
     ],
-    "/graph/page": [
+    "/evaluation/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/graph/page.js"
+      "static/chunks/app/evaluation/page.js"
+    ],
+    "/api/evaluations/[...path]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/evaluations/[...path]/route.js"
     ]
   }
 }

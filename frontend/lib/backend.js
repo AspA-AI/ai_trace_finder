@@ -6,6 +6,7 @@ export async function proxyRequest(request, path) {
   const hasBody = !["GET", "HEAD"].includes(request.method);
   const upstream = await fetch(url, {
     method: request.method,
+    cache: "no-store",
     headers: filterHeaders(request.headers),
     body: hasBody ? await request.arrayBuffer() : undefined,
     duplex: hasBody ? "half" : undefined,

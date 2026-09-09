@@ -1,0 +1,486 @@
+{
+  "artifact_type": "investigation_trajectory",
+  "schema_version": "1.0",
+  "investigation_id": "biz_f0d2958a9024",
+  "run_id": "run_4bfe726de9f3",
+  "started_at": "2026-09-08T21:20:26.440863+00:00",
+  "completed_at": "2026-09-08T21:21:56.685239+00:00",
+  "clues": {
+    "company_name": "Apple",
+    "domains": [],
+    "industry": "Tech",
+    "locations": [
+      "usa"
+    ],
+    "founders": [],
+    "executives": [],
+    "products": [],
+    "known_repositories": [],
+    "additional_clues": []
+  },
+  "trajectory": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-09-08T21:20:26.441564+00:00",
+      "stage": "planning",
+      "action": "planned_search",
+      "status": "completed",
+      "details": {
+        "query_count": 2,
+        "queries": [
+          "\"Apple\"",
+          "\"Apple\" Tech usa"
+        ],
+        "reason": "Expand the supplied clues into bounded search formulations."
+      }
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-09-08T21:20:26.823658+00:00",
+      "stage": "orchestration",
+      "action": "created_run",
+      "status": "completed",
+      "details": {
+        "investigation_id": "biz_f0d2958a9024",
+        "run_id": "run_4bfe726de9f3"
+      }
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-09-08T21:20:26.823816+00:00",
+      "stage": "discovery",
+      "action": "started_round",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query_count": 2
+      }
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-09-08T21:20:26.823890+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Apple\""
+      }
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-09-08T21:20:28.305884+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Apple\"",
+        "result_count": 6,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-09-08T21:20:28.305907+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "started",
+      "details": {
+        "round": 1,
+        "query": "\"Apple\" Tech usa"
+      }
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-09-08T21:20:30.182530+00:00",
+      "stage": "discovery",
+      "action": "search_query",
+      "status": "completed",
+      "details": {
+        "query": "\"Apple\" Tech usa",
+        "result_count": 9,
+        "retry_limit": 2
+      }
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-09-08T21:20:30.182722+00:00",
+      "stage": "discovery",
+      "action": "stopped",
+      "status": "completed",
+      "details": {
+        "reason": "Search produced discoverable URLs or the search budget was exhausted.",
+        "unique_url_count": 13
+      }
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-09-08T21:20:30.844756+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "error": "response exceeds size limit"
+      }
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-09-08T21:20:49.395407+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "failed",
+      "details": {
+        "url": "https://www.bestbuy.com/site/brands/apple/pcmcat128500050005.c?id=pcmcat128500050005",
+        "error": ""
+      }
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-09-08T21:20:52.336861+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.facebook.com/apple",
+        "source_id": "src_dbb0b3f25b5ec1b7",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-09-08T21:20:54.103684+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_dbb0b3f25b5ec1b7",
+        "candidate_observation_count": 0,
+        "accepted_observation_count": 0
+      }
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-09-08T21:20:56.000596+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.apple.com/",
+        "source_id": "src_9e49cf4943550ed1",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-09-08T21:20:59.768123+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_9e49cf4943550ed1",
+        "candidate_observation_count": 8,
+        "accepted_observation_count": 8
+      }
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-09-08T21:21:02.668069+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.instagram.com/apple",
+        "source_id": "src_c0143a1bc5ea7491",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-09-08T21:21:04.336706+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_c0143a1bc5ea7491",
+        "candidate_observation_count": 1,
+        "accepted_observation_count": 1
+      }
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-09-08T21:21:06.763801+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://appleinsider.com/",
+        "source_id": "src_01a5439df8faa362",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-09-08T21:21:11.647046+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_01a5439df8faa362",
+        "candidate_observation_count": 10,
+        "accepted_observation_count": 10
+      }
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-09-08T21:21:14.563817+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+        "source_id": "src_471537ee092e13e0",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-09-08T21:21:19.118340+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_471537ee092e13e0",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-09-08T21:21:21.021118+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://support.apple.com/en-us/106932",
+        "source_id": "src_726f586c7920cb01",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-09-08T21:21:23.763793+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_726f586c7920cb01",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-09-08T21:21:25.520444+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.apple.com/contact",
+        "source_id": "src_524441d326949507",
+        "cache_hit": false,
+        "relevance_score": 0.75,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-09-08T21:21:31.179389+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_524441d326949507",
+        "candidate_observation_count": 7,
+        "accepted_observation_count": 7
+      }
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-09-08T21:21:32.794529+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://support.apple.com/",
+        "source_id": "src_a702de52424f9be3",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-09-08T21:21:36.609273+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_a702de52424f9be3",
+        "candidate_observation_count": 6,
+        "accepted_observation_count": 6
+      }
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-09-08T21:21:38.487968+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://support.apple.com/repair",
+        "source_id": "src_0abdd5fcf9015784",
+        "cache_hit": false,
+        "relevance_score": 0.7000000000000001,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found",
+          "supplied context found"
+        ]
+      }
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-09-08T21:21:41.206755+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_0abdd5fcf9015784",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-09-08T21:21:43.086857+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.apple.com/careers/us",
+        "source_id": "src_e619a5393173db12",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-09-08T21:21:46.217706+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_e619a5393173db12",
+        "candidate_observation_count": 5,
+        "accepted_observation_count": 5
+      }
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-09-08T21:21:47.926758+00:00",
+      "stage": "retrieval",
+      "action": "evaluated_source",
+      "status": "completed",
+      "details": {
+        "url": "https://www.apple.com/newsroom",
+        "source_id": "src_46ad058200cf94b6",
+        "cache_hit": false,
+        "relevance_score": 0.65,
+        "is_relevant": true,
+        "relevance_reasons": [
+          "target name found"
+        ]
+      }
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-09-08T21:21:53.322704+00:00",
+      "stage": "extraction",
+      "action": "extracted_observations",
+      "status": "completed",
+      "details": {
+        "source_id": "src_46ad058200cf94b6",
+        "candidate_observation_count": 15,
+        "accepted_observation_count": 15
+      }
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-09-08T21:21:56.685320+00:00",
+      "stage": "orchestration",
+      "action": "completed_run",
+      "status": "completed",
+      "details": {
+        "observation_count": 70,
+        "retrieved_source_count": 11,
+        "error_count": 2,
+        "decision": "completed_with_errors"
+      }
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "query_count": 2,
+    "discovered_source_count": 13,
+    "retrieved_source_count": 11,
+    "observation_count": 70,
+    "error_count": 2
+  }
+}

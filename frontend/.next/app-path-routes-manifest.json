@@ -2,10 +2,14 @@
   "/_not-found/page": "/_not-found",
   "/api/investigations/route": "/api/investigations",
   "/api/investigations/[...path]/route": "/api/investigations/[...path]",
+  "/api/business-investigations/[[...path]]/route": "/api/business-investigations/[[...path]]",
   "/api/evaluations/[...path]/route": "/api/evaluations/[...path]",
+  "/business-investigations/new/page": "/business-investigations/new",
   "/evaluation/page": "/evaluation",
-  "/investigations/new/page": "/investigations/new",
-  "/page": "/",
   "/graph/page": "/graph",
-  "/runs/[investigation_id]/page": "/runs/[investigation_id]"
+  "/page": "/",
+  "/business-investigations/[investigation_id]/page": "/business-investigations/[investigation_id]",
+  "/investigations/new/page": "/investigations/new",
+  "/runs/[investigation_id]/page": "/runs/[investigation_id]",
+  "/business-investigations/page": "/business-investigations"
 }

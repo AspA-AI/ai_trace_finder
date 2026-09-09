@@ -79,6 +79,8 @@ def list_investigations(settings: Settings = Depends(get_settings)) -> list[dict
     for item in repository.list_investigations():
         clues = item["clues"]
         investigation_id = item["investigation_id"]
+        if not investigation_id.startswith("inv_"):
+            continue
         verification = (
             repository.get_verification(investigation_id)
             if hasattr(repository, "get_verification")

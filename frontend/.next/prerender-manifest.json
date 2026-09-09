@@ -1,7 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/investigations/new": {
+    "/evaluation": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,8 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/investigations/new",
-      "dataRoute": "/investigations/new.rsc",
+      "srcRoute": "/evaluation",
+      "dataRoute": "/evaluation.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -49,6 +49,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/business-investigations": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/business-investigations",
+      "dataRoute": "/business-investigations.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/investigations/new": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/investigations/new",
+      "dataRoute": "/investigations/new.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -73,7 +121,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/evaluation": {
+    "/business-investigations/new": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -86,8 +134,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/evaluation",
-      "dataRoute": "/evaluation.rsc",
+      "srcRoute": "/business-investigations/new",
+      "dataRoute": "/business-investigations/new.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
